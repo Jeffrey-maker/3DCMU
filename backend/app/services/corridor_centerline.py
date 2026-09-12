@@ -197,6 +197,32 @@ def _close(mask: set[Cell], radius: int) -> set[Cell]:
     return _erode(_dilate(mask, radius), radius)
 
 
+def walkable_mask(
+    type_pdf_path: str,
+    draft: FloorDraft,
+    transform: Transform,
+    corridor: set[Cell] | None = None,
+) -> set[Cell]:
+    """Every cell a person can stand in: public corridor plus any space
+    configured as walked-through. Shared with door detection, which needs the
+    same notion of "outside this room is somewhere you can walk"."""
+    if corridor is None:
+        color = corridor_color(type_pdf_path)
+        if color is None:
+            return set()
+        corridor = _corridor_mask(type_pdf_path, color)
+    mask = set(corridor)
+    if settings.walkable_space_labels and draft.room_polygons:
+        mask |= walkable_room_cells(
+            type_pdf_path,
+            settings.walkable_space_labels,
+            draft.room_polygons,
+            transform,
+            draft,
+        )
+    return _close(mask, CLOSE_RADIUS)
+
+
 def _components_touching(mask: set[Cell], seeds: set[Cell]) -> set[Cell]:
     """The parts of `mask` reachable from any seed cell, 4-connected."""
     frontier = [cell for cell in seeds if cell in mask]
@@ -387,32 +413,28 @@ def compute(base_pdf_path: str, type_pdf_path: str, draft: FloorDraft) -> list[l
     corridor = _corridor_mask(type_pdf_path, color)
     if not corridor:
         return None
-    mask = set(corridor)
-    if settings.walkable_space_labels and draft.room_polygons:
-        mask |= walkable_room_cells(
-            type_pdf_path,
-            settings.walkable_space_labels,
-            draft.room_polygons,
-            transform,
-            draft,
-        )
-    mask = _close(mask, CLOSE_RADIUS)
+    mask = walkable_mask(type_pdf_path, draft, transform, corridor)
     # Subtracting furniture can strand pockets of an open room behind the
     # tables that surround them. Keep only what is actually reachable from
     # the public corridor system: an isolated pocket is not somewhere a route
     # can start or finish, and tracing it would split the network into pieces
     # that cannot reach each other.
     mask = _components_touching(mask, corridor)
+    return _skeletonize(mask, transform, draft)
+
+
+def _skeletonize(
+    mask: set[Cell], transform: Transform, draft: FloorDraft
+) -> list[list[Point]] | None:
+    """Thin a walkable mask down to centerlines in base-plan coordinates."""
     if not mask:
         return None
-    skeleton = _thin(mask)
-    runs = _trace(skeleton)
-
+    runs = _trace(_thin(mask))
     exterior = corridor_heuristic.exterior_space_polygon(draft.raw_geometry)
     centerlines: list[list[Point]] = []
     for run in runs:
         points = [transform.apply((x * CELL_PT, y * CELL_PT)) for x, y in run]
-        # The report prints its own legend swatch in the corridor color;
+        # The report prints its own legend swatch in the corridor colour;
         # anything outside the building outline is that, not a passage.
         if exterior is not None:
             inside = sum(1 for p in points if corridor_heuristic._point_in_polygon(p, exterior))
@@ -422,6 +444,31 @@ def compute(base_pdf_path: str, type_pdf_path: str, draft: FloorDraft) -> list[l
         if len(simplified) >= 2:
             centerlines.append(simplified)
     return centerlines or None
+
+
+IDENTITY = Transform(1.0, 0.0, 1.0, 0.0)
+
+
+def compute_from_polygons(
+    draft: FloorDraft, corridor_polygons: list[list[Point]]
+) -> list[list[Point]] | None:
+    """Centerlines for a floor with no space-type report, where the corridor
+    outlines were identified some other way (see space_classifier).
+
+    Everything after the question "which outlines are circulation" is the
+    same deterministic morphology the report-driven path uses, so a wrong
+    answer costs one mislabelled space rather than a mistraced floor.
+    """
+    if not corridor_polygons:
+        return None
+    mask: set[Cell] = set()
+    for polygon in corridor_polygons:
+        mask |= _polygon_cells(polygon, IDENTITY)
+    if not mask:
+        return None
+    mask -= _dilate(_barrier_cells(draft, IDENTITY), OBSTACLE_CLEARANCE)
+    mask = _close(mask, CLOSE_RADIUS)
+    return _skeletonize(mask, IDENTITY, draft)
 
 
 def as_suggestions(centerlines: list[list[Point]], page_width: float, page_height: float) -> dict:

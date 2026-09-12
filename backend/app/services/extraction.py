@@ -294,9 +294,61 @@ def enrich_with_overlay(
     return room_nodes
 
 
+SNAP_SEARCH_RADIUS = 60.0  # pt -- how far a leader line plausibly pulls a label
+
+
+def snap_nodes_into_outlines(
+    room_nodes: list[Node], polygons: list[list[tuple[float, float]]]
+) -> list[Node]:
+    """Pull a node that landed outside every room outline into its own room.
+
+    Small spaces -- stairwells especially -- have their number set outside
+    the room on a leader line, and the leader-line correction can still leave
+    the node just outside the outline (or in the corridor). A node stranded
+    there has no room to own a door, so it never connects. Each unplaced node
+    takes the nearest outline that no other node already occupies, which is
+    the room the leader was pointing at.
+    """
+    if not polygons:
+        return room_nodes
+
+    def centroid(polygon: list[tuple[float, float]]) -> tuple[float, float]:
+        return (
+            sum(p[0] for p in polygon) / len(polygon),
+            sum(p[1] for p in polygon) / len(polygon),
+        )
+
+    from app.services.corridor_heuristic import _point_in_polygon
+
+    taken: set[int] = set()
+    stranded: list[Node] = []
+    for node in room_nodes:
+        index = next(
+            (i for i, p in enumerate(polygons) if _point_in_polygon((node.x, node.y), p)), None
+        )
+        if index is None:
+            stranded.append(node)
+        else:
+            taken.add(index)
+
+    for node in stranded:
+        candidates = [
+            (((node.x - (c := centroid(p))[0]) ** 2 + (node.y - c[1]) ** 2) ** 0.5, i, c)
+            for i, p in enumerate(polygons)
+            if i not in taken
+        ]
+        if not candidates:
+            continue
+        distance, index, target = min(candidates)
+        if distance <= SNAP_SEARCH_RADIUS:
+            node.x, node.y = round(target[0], 1), round(target[1], 1)
+            taken.add(index)
+    return room_nodes
+
+
 VERTICAL_MATCH_RADIUS = 40.0  # pt -- a category label sits within its own space
 VERTICAL_CONFIRM_RADIUS = 40.0  # pt -- how close the drawn stair/lift must be
-VERTICAL_LAYER_SUFFIXES = {"stair": "A-FLOR-STRS", "elevator": "A-FLOR-EVTR"}
+VERTICAL_LAYER_SUFFIXES = {"A-FLOR-STRS": "stair", "A-FLOR-EVTR": "elevator"}
 
 
 def _has_layer_geometry_near(
@@ -309,6 +361,76 @@ def _has_layer_geometry_near(
         if any((px - x) ** 2 + (py - y) ** 2 <= radius_sq for px, py in seg.points):
             return True
     return False
+
+
+VERTICAL_CLUSTER_RADIUS = 45.0  # pt -- one stair's treads/rails spread about this far
+MIN_VERTICAL_SEGMENTS = 6  # ignore a stray tread or arrow on the layer
+
+
+def _layer_clusters(
+    raw_geometry: list[WallSegment], layer_suffix: str
+) -> list[tuple[float, float]]:
+    points = [
+        p
+        for seg in raw_geometry
+        if seg.layer and seg.layer.split("|")[-1] == layer_suffix
+        for p in seg.points
+    ]
+    clusters: list[list[tuple[float, float]]] = []
+    for point in points:
+        for cluster in clusters:
+            if (point[0] - cluster[0][0]) ** 2 + (point[1] - cluster[0][1]) ** 2 <= (
+                VERTICAL_CLUSTER_RADIUS**2
+            ):
+                cluster.append(point)
+                break
+        else:
+            clusters.append([point])
+    return [
+        (sum(p[0] for p in c) / len(c), sum(p[1] for p in c) / len(c))
+        for c in clusters
+        if len(c) >= MIN_VERTICAL_SEGMENTS
+    ]
+
+
+# Calibrated against floor 4, where the report names every stair and lift so
+# the right answer is known. The lift layer is clean: 3 of 4 found with zero
+# false positives at any threshold tried. The stair layer is not -- it also
+# carries ramps and handrails, and at best managed 3 of 6 while inventing 7,
+# which would put fake floor changes in the middle of ordinary rooms. So only
+# lifts are taken from layers.
+LAYER_FALLBACK_TYPES = {"elevator"}
+
+
+def apply_vertical_circulation_from_layers(
+    room_nodes: list[Node], raw_geometry: list[WallSegment]
+) -> list[Node]:
+    """Mark lift rooms from the base plan's own CAD layers.
+
+    This is the primary source because it needs nothing but the base PDF and
+    is language-independent. The space-type report cannot be relied on for
+    it: floor 4's report prints "Stairway"/"Elevator" at each one, but floor
+    5's prints neither -- it calls them "Shaft" -- so a text-driven rule
+    found six stairs and four lifts on one floor and none at all on the next.
+    """
+    claimed: set[str] = set()
+    for layer_suffix, node_type in VERTICAL_LAYER_SUFFIXES.items():
+        if node_type not in LAYER_FALLBACK_TYPES:
+            continue
+        for x, y in _layer_clusters(raw_geometry, layer_suffix):
+            candidates = [
+                n
+                for n in room_nodes
+                if n.id not in claimed
+                and n.type == "room"
+                and (n.x - x) ** 2 + (n.y - y) ** 2 <= VERTICAL_CLUSTER_RADIUS**2
+            ]
+            if not candidates:
+                continue
+            nearest = min(candidates, key=lambda n: (n.x - x) ** 2 + (n.y - y) ** 2)
+            nearest.type = node_type
+            claimed.add(nearest.id)
+    return room_nodes
 
 
 def apply_vertical_circulation(
@@ -337,7 +459,7 @@ def apply_vertical_circulation(
         return room_nodes
     claimed: set[str] = set()
     for node_type, positions in found.items():
-        layer_suffix = VERTICAL_LAYER_SUFFIXES[node_type]
+        layer_suffix = next(k for k, v in VERTICAL_LAYER_SUFFIXES.items() if v == node_type)
         for x, y in positions:
             candidates = [
                 node
@@ -376,10 +498,24 @@ def extract_floor_draft(
         room_nodes = apply_vertical_circulation(
             room_nodes, raw_geometry, base_pdf_path, type_pdf_path
         )
-    return FloorDraft(
+    if not any(n.type in {"stair", "elevator"} for n in room_nodes):
+        # The report named none of them -- floor 5's calls them "Shaft", not
+        # "Stairway"/"Elevator" -- so fall back to the CAD layers, which is
+        # lifts only for the accuracy reasons noted there.
+        room_nodes = apply_vertical_circulation_from_layers(room_nodes, raw_geometry)
+    polygons = extract_room_polygons(base_pdf_path)
+    room_nodes = snap_nodes_into_outlines(room_nodes, polygons)
+    draft = FloorDraft(
         building=building,
         floor=floor,
         nodes=room_nodes,
         raw_geometry=raw_geometry,
-        room_polygons=extract_room_polygons(base_pdf_path),
+        room_polygons=polygons,
     )
+    if type_pdf_path:
+        # Imported here rather than at module scope: door detection reaches
+        # back into this module through space_type_overlay.
+        from app.services import space_doors
+
+        draft.space_doors = space_doors.detect(draft, base_pdf_path, type_pdf_path)
+    return draft

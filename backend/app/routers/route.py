@@ -2,7 +2,14 @@ from fastapi import APIRouter, HTTPException, Query
 
 from app.llm.client import get_reasoning_client
 from app.models.graph import FloorGraph
-from app.services import corridor_heuristic, directions, graph_store, passage_graph, pathfinding
+from app.services import (
+    corridor_heuristic,
+    directions,
+    graph_store,
+    multi_floor,
+    passage_graph,
+    pathfinding,
+)
 from app.services.geometry import WallIndex
 
 router = APIRouter(tags=["route"])
@@ -35,15 +42,15 @@ def get_route(from_: str = Query(..., alias="from"), to: str = Query(...)):
             status_code=404, detail=f"Destination node '{to}' not found in any saved graph"
         )
     if from_fp != to_fp:
-        raise HTTPException(
-            status_code=400,
-            detail=(
-                "Cross-floorplan routing isn't implemented yet (milestone 5) — "
-                f"'{from_}' is on {from_fp}, '{to}' is on {to_fp}"
-            ),
-        )
-
-    routing_graph = passage_graph.materialize_for_routing(from_graph)
+        # Different floors: route over every floor at once so the search can
+        # weigh taking the stairs beside you against the lift down the hall.
+        routing_graph, _ = multi_floor.build_routing_graph(graph_store.list_floorplans())
+        if not any(n.id == to for n in routing_graph.nodes):
+            raise HTTPException(
+                status_code=404, detail=f"Destination node '{to}' is not reachable from any linked floor"
+            )
+    else:
+        routing_graph = passage_graph.materialize_for_routing(from_graph)
     result = pathfinding.shortest_path(routing_graph, from_, to)
     if result is None:
         raise HTTPException(
@@ -59,7 +66,12 @@ def get_route(from_: str = Query(..., alias="from"), to: str = Query(...)):
     # it into directions -- see pathfinding.simplify_route for why a
     # per-edge view can't catch this on its own.
     try:
-        if from_graph.routing_source == "gemini_pathways":
+        if from_fp != to_fp:
+            # A multi-floor route must not be globally straightened: the two
+            # floors' drawings share no coordinate frame, so a "shortcut"
+            # between points on different sheets is meaningless.
+            steps = result.steps
+        elif from_graph.routing_source in passage_graph.PASSAGE_ROUTING_SOURCES:
             # Keep the exact line network and door transitions. A global RDP
             # shortcut would leave the passage line even without crossing walls.
             steps = result.steps

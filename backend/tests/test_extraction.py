@@ -35,7 +35,9 @@ def test_room_nodes_are_well_formed():
         assert node.id == f"WEH-1-{node.label}"
         assert node.building == "WEH"
         assert node.floor == 1
-        assert node.type == "room"
+        # Lift shafts are typed from the CAD layer, so not every extracted
+        # space is a plain room any more.
+        assert node.type in {"room", "stair", "elevator"}
         assert isinstance(node.x, float)
         assert isinstance(node.y, float)
 

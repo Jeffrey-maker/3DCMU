@@ -77,8 +77,10 @@ def test_upload_stores_only_room_and_door_anchors_until_gemini_passages_exist(tm
     graph = graph_body["graph"]
     assert graph["auto_generated"] is True
     assert graph["routing_source"] == "anchors_only"
-    room_nodes = [n for n in graph["nodes"] if n["type"] == "room"]
-    assert len(room_nodes) == 52
+    # Every extracted space, whichever way it ended up typed: lift shafts
+    # come back as "elevator" so routing can change floors through them.
+    space_nodes = [n for n in graph["nodes"] if n["type"] in {"room", "stair", "elevator"}]
+    assert len(space_nodes) == 52
     assert len(graph["edges"]) > 0
     assert not any(n["type"] == "corridor" for n in graph["nodes"])
     door_ids = {n["id"] for n in graph["nodes"] if n["type"] == "door"}
@@ -88,7 +90,7 @@ def test_upload_stores_only_room_and_door_anchors_until_gemini_passages_exist(tm
 
     # Room-to-room routing intentionally remains unavailable until Gemini's
     # passage lines have been reviewed, validated, and stored.
-    by_x = sorted(room_nodes, key=lambda n: n["x"])
+    by_x = sorted(space_nodes, key=lambda n: n["x"])
     from_id, to_id = by_x[0]["id"], by_x[-1]["id"]
 
     r = client.get("/api/route", params={"from": from_id, "to": to_id})

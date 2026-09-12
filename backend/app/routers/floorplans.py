@@ -12,6 +12,8 @@ from app.config import settings
 from app.models.graph import FloorDraft, FloorGraph
 from app.services import (
     corridor_centerline,
+    network_repair,
+    space_classifier,
     corridor_heuristic,
     extraction,
     gemini_vision,
@@ -113,6 +115,7 @@ def _build_passages_on_upload(
         centerlines = corridor_centerline.compute(base_pdf_path, type_pdf_path, draft)
         if not centerlines:
             return None
+        centerlines, _ = network_repair.finalize(centerlines, draft)
         with fitz.open(base_pdf_path) as pdf:
             width, height = pdf[0].rect.width, pdf[0].rect.height
         result = passage_graph.build_passage_graph(
@@ -346,6 +349,15 @@ async def generate_pathways(floorplan_id: str, request: BuildPassagesRequest):
         )
         stored = graph_store.load_graph(floorplan_id) if graph_store.graph_exists(floorplan_id) else None
         existing = request.graph or stored or FloorGraph(building=draft.building, floor=draft.floor, nodes=draft.nodes)
+        if existing.auto_generated and request.graph is None and draft.space_doors:
+            # Door nodes in an auto-generated graph are build artifacts, not
+            # authored work. Carrying them over would stack a fresh set of
+            # detected doorways on top of the previous run's every time this
+            # is re-run; rebuild from the draft instead. Only safe when the
+            # draft can supply doors itself -- otherwise the previous run's
+            # doors are the only ones there are. A human-saved graph
+            # (auto_generated cleared by PUT) is never discarded this way.
+            existing = existing.model_copy(update={"nodes": [n.model_copy() for n in draft.nodes]})
         if existing.building != draft.building or existing.floor != draft.floor:
             raise HTTPException(status_code=422, detail="Graph does not belong to this floor.")
 
@@ -362,6 +374,33 @@ async def generate_pathways(floorplan_id: str, request: BuildPassagesRequest):
             if space_type_pdf is not None
             else None
         )
+        repair_report: dict = {}
+        if centerlines:
+            centerlines, repair_report = await run_in_threadpool(
+                network_repair.finalize, centerlines, draft
+            )
+        classified_source = None
+        if centerlines is None:
+            # No space-type report for this floor. Ask the model the one
+            # question it is reliable at -- which numbered spaces are
+            # circulation -- then derive the network from those outlines with
+            # the same geometry. Refused if the answer doesn't hold up.
+            categories = await space_classifier.classify(raster.read_bytes(), draft)
+            if categories:
+                polygons = space_classifier.corridor_polygons(draft, categories)
+                centerlines = await run_in_threadpool(
+                    corridor_centerline.compute_from_polygons, draft, polygons
+                )
+                if centerlines:
+                    def in_corridor(point, _polys=polygons):
+                        return any(
+                            corridor_heuristic._point_in_polygon(point, p) for p in _polys
+                        )
+
+                    centerlines, repair_report = await run_in_threadpool(
+                        network_repair.finalize, centerlines, draft, in_corridor
+                    )
+                    classified_source = "classified_spaces"
         analysis = graph_store.load_gemini_analysis(floorplan_id) if graph_store.gemini_analysis_exists(floorplan_id) else None
         cached = False
         if centerlines:
@@ -369,7 +408,7 @@ async def generate_pathways(floorplan_id: str, request: BuildPassagesRequest):
                 "schema_version": 2,
                 "task": "passage_centerlines",
                 "status": "deterministic",
-                "routing_source": "space_type_centerlines",
+                "routing_source": classified_source or "space_type_centerlines",
                 "floorplan": {"building": draft.building, "floor": draft.floor},
                 "model": None,
                 "created_at": datetime.now(timezone.utc).isoformat(),
@@ -435,4 +474,5 @@ async def generate_pathways(floorplan_id: str, request: BuildPassagesRequest):
             "model": analysis["model"], "created_at": analysis["created_at"],
             "used_cached_analysis": cached, "usage": analysis.get("usage", {}),
             "passage_source": analysis.get("routing_source", "gemini_pathways"),
+            "network_repair": repair_report,
         }

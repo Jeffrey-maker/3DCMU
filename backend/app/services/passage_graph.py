@@ -27,6 +27,9 @@ JUNCTION_TOLERANCE = 3.0  # PDF points, only joined with clear line of sight
 LINE_REPAIR_MARGIN = 12.0
 MAX_DOOR_ATTACHMENT = 80.0
 DOOR_ON_BOUNDARY = 14.0  # pt -- how close a door sits to the wall it pierces
+# Must stay below the spacing of real neighbouring doors (measured at ~14pt
+# for adjacent offices on this floor), or two rooms' doors collapse into one.
+DOOR_MERGE_RADIUS = 8.0  # pt
 
 
 class PassageGraphError(ValueError):
@@ -208,11 +211,49 @@ def build_passage_graph(
     if not anchors:
         anchors = [n.model_copy() for n in draft.nodes]
     doors = [n for n in anchors if n.type == "door"]
+    door_owner: dict[str, set[str]] = {}
     if not doors:
-        doors = [Node(id=f"{draft.building}-{draft.floor}-door-{i}",
-                      building=draft.building, floor=draft.floor, type="door", x=p[0], y=p[1])
-                 for i, p in enumerate(heuristic._cluster_door_points(draft.raw_geometry))]
+        arcs = heuristic._cluster_door_points(draft.raw_geometry)
+
+        def place(point: Point, room_id: str | None, prefix: str) -> None:
+            """Add a door, or fold this position into the one already there.
+
+            A drawn swing arc and the opening detected in the same wall are
+            the same physical door a few points apart, so adding both leaves
+            a visible cluster of duplicate nodes on every room. Merging
+            within less than the spacing of genuinely separate neighbouring
+            doors keeps one node per doorway while still letting two rooms
+            that share a wall each keep their own.
+            """
+            nearest = min(doors, key=lambda d: distance((d.x, d.y), point), default=None)
+            if nearest is not None and distance((nearest.x, nearest.y), point) <= DOOR_MERGE_RADIUS:
+                if room_id is not None:
+                    door_owner.setdefault(nearest.id, set()).add(room_id)
+                return
+            node = Node(
+                id=f"{draft.building}-{draft.floor}-{prefix}-{len(doors)}",
+                building=draft.building, floor=draft.floor, type="door",
+                x=point[0], y=point[1],
+            )
+            doors.append(node)
+            if room_id is not None:
+                door_owner.setdefault(node.id, set()).add(room_id)
+
+        # Detected doorways go in first: unlike the arcs they carry the
+        # identity of the space they serve, and they exist for spaces the
+        # arcs miss completely (an elevator shaft has no swing to detect).
+        for room_id, doorways in draft.space_doors.items():
+            for point in doorways:
+                place(point, room_id, "doorway")
+        for point in arcs:
+            place(point, None, "door")
         anchors.extend(doors)
+    else:
+        for room_id, doorways in draft.space_doors.items():
+            for point in doorways:
+                nearest = min(doors, key=lambda d: distance((d.x, d.y), point), default=None)
+                if nearest is not None and distance((nearest.x, nearest.y), point) <= DOOR_MERGE_RADIUS:
+                    door_owner.setdefault(nearest.id, set()).add(room_id)
     # Each room's search may only pass through ITS OWN candidate door's
     # opening, never a different door's. A wall index that cut every door
     # open at once (the previous approach) let a room "leak" a straight
@@ -307,13 +348,19 @@ def build_passage_graph(
         # proximity where the CAD file has no polygon for the room (or none
         # of its own doors reached the passage network), so floors without an
         # A-AREA layer keep working exactly as before.
-        own_polygon = room_polygon.get(room.id)
-        owned = (
-            [d for d in usable_doors if own_polygon in door_polygons.get(d.id, ())]
-            if own_polygon is not None
-            else []
-        )
-        pool = owned or usable_doors
+        # Strongest signal first: a doorway detected on this space's own
+        # outline belongs to it by construction. Only fall back to inferring
+        # ownership from polygon boundaries, and finally to bare proximity,
+        # for spaces that detection couldn't resolve.
+        own = [d for d in usable_doors if room.id in door_owner.get(d.id, ())]
+        if not own:
+            own_polygon = room_polygon.get(room.id)
+            own = (
+                [d for d in usable_doors if own_polygon in door_polygons.get(d.id, ())]
+                if own_polygon is not None
+                else []
+            )
+        pool = own or usable_doors
         candidates = sorted(pool, key=lambda d: distance(p, (d.x, d.y)))[:8]
         best = None
         for door in candidates:

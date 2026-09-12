@@ -1,7 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
-import { getFloorplanGraph, getRoute, rasterUrl } from "../api/client";
-import type { RouteResponse } from "../api/client";
-import type { FloorGraph } from "../types/graph";
+import { getFloorplanGraph, getRoute, listFloorplans, rasterUrl } from "../api/client";
+import type { RoutePathNode, RouteResponse } from "../api/client";
+import type { FloorGraph, GraphNode } from "../types/graph";
+
+// Stairs and lifts are worth picking too -- "take me to the lift".
+const SELECTABLE_TYPES = new Set(["room", "stair", "elevator"]);
 import { usesPassageLines } from "../types/graph";
 import { FloorPlanCanvas } from "../components/FloorPlanCanvas";
 import { RoomPicker } from "../components/RoomPicker";
@@ -9,6 +12,18 @@ import { DirectionsPanel } from "../components/DirectionsPanel";
 
 interface RoutePageProps {
   floorplanId: string;
+}
+
+interface LoadedFloor {
+  graph: FloorGraph;
+  raster: string;
+}
+
+interface RouteLeg {
+  floor: number;
+  plan: LoadedFloor;
+  points: RoutePathNode[];
+  nodes: GraphNode[];
 }
 
 export function RoutePage({ floorplanId }: RoutePageProps) {
@@ -21,7 +36,10 @@ export function RoutePage({ floorplanId }: RoutePageProps) {
   const [currentStepIndex, setCurrentStepIndex] = useState(0);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
-  const [showNodes, setShowNodes] = useState(true);
+  // A route can leave this floor, so every floor's plan and graph are kept:
+  // the pickers need their spaces, and a cross-floor route needs to draw
+  // each leg on the floor it actually happens on.
+  const [floors, setFloors] = useState<LoadedFloor[]>([]);
 
   useEffect(() => {
     getFloorplanGraph(floorplanId).then((res) => {
@@ -31,7 +49,36 @@ export function RoutePage({ floorplanId }: RoutePageProps) {
     });
   }, [floorplanId]);
 
-  const rooms = useMemo(() => (graph ? graph.nodes.filter((n) => n.type === "room") : []), [graph]);
+  useEffect(() => {
+    let cancelled = false;
+    listFloorplans()
+      .then(async (floorplans) => {
+        const loaded = await Promise.all(
+          floorplans.map(async (f) => {
+            const res = await getFloorplanGraph(f.floorplan_id).catch(() => null);
+            return res ? { graph: res.graph, raster: res.raster_path } : null;
+          }),
+        );
+        if (cancelled) return;
+        setFloors(loaded.filter((f): f is LoadedFloor => f !== null && f.raster !== null));
+      })
+      .catch(() => undefined);
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  // Fall back to the open floor until the full list arrives.
+  const rooms = useMemo(
+    () =>
+      floors.length > 0
+        ? floors.flatMap((f) => f.graph.nodes.filter((n) => SELECTABLE_TYPES.has(n.type)))
+        : graph
+          ? graph.nodes.filter((n) => SELECTABLE_TYPES.has(n.type))
+          : [],
+    [floors, graph],
+  );
+  const multiFloor = useMemo(() => new Set(rooms.map((r) => r.floor)).size > 1, [rooms]);
 
   async function handleFindRoute() {
     if (!fromId || !toId) return;
@@ -49,9 +96,45 @@ export function RoutePage({ floorplanId }: RoutePageProps) {
     }
   }
 
+  /**
+   * Split the route where it changes floor, keeping walking order.
+   *
+   * Each leg is drawn on its own floor's plan because the two drawings
+   * share no coordinate frame -- a single canvas would put the upstairs
+   * half at meaningless positions, and a line joining the two would cross
+   * nothing real. Declared before the loading guard so hook order is stable.
+   */
+  const legs = useMemo<RouteLeg[]>(() => {
+    if (!route) return [];
+    const byFloor = new Map(floors.map((f) => [f.graph.floor, f]));
+    const runs: { floor: number; points: RoutePathNode[] }[] = [];
+    for (const point of route.path) {
+      const last = runs[runs.length - 1];
+      if (!last || last.floor !== point.floor) runs.push({ floor: point.floor, points: [point] });
+      else last.points.push(point);
+    }
+    const marked = new Set(["room", "stair", "elevator"]);
+    return runs.flatMap((run) => {
+      const floor = byFloor.get(run.floor) ?? (graph?.floor === run.floor && raster
+        ? { graph, raster }
+        : null);
+      if (!floor) return [];
+      const ids = new Set(run.points.filter((p) => marked.has(p.type)).map((p) => p.node_id));
+      return [{
+        floor: run.floor,
+        plan: floor,
+        points: run.points,
+        nodes: floor.graph.nodes.filter((n) => ids.has(n.id)),
+      }];
+    });
+  }, [route, floors, graph, raster]);
+
   if (!graph || !raster) return <p>Loading floor plan...</p>;
 
   const highlightedPath = route?.path.map((p) => p.node_id) ?? [];
+  const routeFloors = [...new Set(route?.path.map((p) => p.floor) ?? [])];
+  const transfers =
+    route?.path.filter((p) => p.type === "stair" || p.type === "elevator").map((p) => p.label) ?? [];
   const currentStepNodeId = route?.deterministic_directions[currentStepIndex]?.node_id ?? null;
 
   const noGraphSaved = graphSource === "draft";
@@ -79,18 +162,22 @@ export function RoutePage({ floorplanId }: RoutePageProps) {
         </p>
       )}
       <div className="route-controls">
-        <RoomPicker label="From" rooms={rooms} selectedNodeId={fromId} onSelect={setFromId} />
-        <RoomPicker label="To" rooms={rooms} selectedNodeId={toId} onSelect={setToId} />
+        <RoomPicker
+          label="From"
+          rooms={rooms}
+          selectedNodeId={fromId}
+          onSelect={setFromId}
+          showFloor={multiFloor}
+        />
+        <RoomPicker
+          label="To"
+          rooms={rooms}
+          selectedNodeId={toId}
+          onSelect={setToId}
+          showFloor={multiFloor}
+        />
         <button type="button" onClick={handleFindRoute} disabled={!fromId || !toId || loading || routingBlocked}>
           {loading ? "Finding route..." : "Find route"}
-        </button>
-        <button
-          type="button"
-          className={showNodes ? "active" : ""}
-          aria-pressed={showNodes}
-          onClick={() => setShowNodes((visible) => !visible)}
-        >
-          {showNodes ? "Hide nodes" : "Show nodes"}
         </button>
         {route && (
           <p className="route-summary">
@@ -98,26 +185,67 @@ export function RoutePage({ floorplanId }: RoutePageProps) {
             {route.directions_source}
           </p>
         )}
+        {route && routeFloors.length > 1 && (
+          <p className="route-info">
+            Crosses floors {routeFloors.join(" \u2192 ")}
+            {transfers.length > 0 && <> via {transfers.join(", ")}</>} — each floor is drawn below
+            in walking order.
+          </p>
+        )}
         {error && <p className="error-text">{error}</p>}
       </div>
 
       <div className="route-body">
-        <FloorPlanCanvas
-          rasterUrl={rasterUrl(raster)}
-          nodes={graph.nodes}
-          edges={graph.edges}
-          editable={false}
-          showNodes={showNodes}
-          showCorridorNodes={false}
-          passageLines={usesPassageLines(graph.routing_source)}
-          viewBoxWidth={graph.page_width}
-          viewBoxHeight={graph.page_height}
-          passageways={graph.passageways}
-          doorAttachments={graph.door_attachments}
-          highlightedPoints={route?.path}
-          highlightedPath={highlightedPath}
-          currentStepNodeId={currentStepNodeId}
-        />
+        {/* Until a route exists this is just the floor plan: no anchors, no
+            passage lines, nothing to read past. Once one is found, each floor
+            it passes through is drawn in walking order -- start floor first. */}
+        <div className="route-floors">
+          {legs.length === 0 ? (
+            <FloorPlanCanvas
+              rasterUrl={rasterUrl(raster)}
+              nodes={[]}
+              edges={[]}
+              editable={false}
+              showNodes={false}
+              showCorridorNodes={false}
+              passageLines={false}
+              viewBoxWidth={graph.page_width}
+              viewBoxHeight={graph.page_height}
+              passageways={[]}
+              doorAttachments={[]}
+            />
+          ) : (
+            legs.map((leg, index) => (
+              <figure className="route-floor" key={`${leg.floor}-${index}`}>
+                {legs.length > 1 && (
+                  <figcaption>
+                    {index === 0
+                      ? `Floor ${leg.floor} — start`
+                      : index === legs.length - 1
+                        ? `Floor ${leg.floor} — destination`
+                        : `Floor ${leg.floor}`}
+                  </figcaption>
+                )}
+                <FloorPlanCanvas
+                  rasterUrl={rasterUrl(leg.plan.raster)}
+                  nodes={leg.nodes}
+                  edges={[]}
+                  editable={false}
+                  showNodes={leg.nodes.length > 0}
+                  showCorridorNodes={false}
+                  passageLines={false}
+                  viewBoxWidth={leg.plan.graph.page_width}
+                  viewBoxHeight={leg.plan.graph.page_height}
+                  passageways={[]}
+                  doorAttachments={[]}
+                  highlightedPoints={leg.points}
+                  highlightedPath={highlightedPath}
+                  currentStepNodeId={currentStepNodeId}
+                />
+              </figure>
+            ))
+          )}
+        </div>
         {route && (
           <DirectionsPanel
             steps={route.deterministic_directions}

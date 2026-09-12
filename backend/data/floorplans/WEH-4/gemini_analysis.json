@@ -8,7 +8,7 @@
     "floor": 4
   },
   "model": null,
-  "created_at": "2026-09-12T14:53:10.961620+00:00",
+  "created_at": "2026-09-12T16:37:21.963161+00:00",
   "raster_sha256": "3c2ecd744930fdcbb1278155c44532b4982ae7b141bc35e5b89c1ecdf18e3238",
   "space_type_sha256": "99016fbc228bc30a1584ccc52838778b2b35fcb3dc70518dcfe7cbc63c9dd84f",
   "coordinate_system": {
@@ -21,26 +21,26 @@
     ]
   },
   "suggestions": {
-    "summary": "357 public-corridor centerlines derived geometrically from the space-type report.",
+    "summary": "358 public-corridor centerlines derived geometrically from the space-type report.",
     "pathways": [
       {
         "id": "corridor-0",
         "points": [
           {
             "x_normalized": 479.67983734820325,
-            "y_normalized": 201.33060285923156
+            "y_normalized": 201.33060285923176
           },
           {
             "x_normalized": 480.9581668914564,
-            "y_normalized": 142.06390754468686
+            "y_normalized": 142.06390754468717
           },
           {
             "x_normalized": 483.51482597796263,
-            "y_normalized": 138.11279452371724
+            "y_normalized": 138.1127945237175
           },
           {
             "x_normalized": 720.0057914797933,
-            "y_normalized": 136.1372380132324
+            "y_normalized": 136.13723801323272
           }
         ],
         "confidence": 1.0,
@@ -51,11 +51,11 @@
         "points": [
           {
             "x_normalized": 479.67983734820325,
-            "y_normalized": 201.33060285923156
+            "y_normalized": 201.33060285923176
           },
           {
             "x_normalized": 479.67983734820325,
-            "y_normalized": 203.30615936971637
+            "y_normalized": 203.30615936971657
           }
         ],
         "confidence": 1.0,
@@ -66,11 +66,11 @@
         "points": [
           {
             "x_normalized": 479.67983734820325,
-            "y_normalized": 201.33060285923156
+            "y_normalized": 201.33060285923176
           },
           {
             "x_normalized": 478.40150780495,
-            "y_normalized": 203.30615936971637
+            "y_normalized": 203.30615936971657
           }
         ],
         "confidence": 1.0,
@@ -85,7 +85,7 @@
           },
           {
             "x_normalized": 667.5942802064146,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           }
         ],
         "confidence": 1.0,
@@ -100,7 +100,7 @@
           },
           {
             "x_normalized": 663.7592915766553,
-            "y_normalized": 311.96176744638166
+            "y_normalized": 311.9617674463817
           }
         ],
         "confidence": 1.0,
@@ -130,7 +130,7 @@
           },
           {
             "x_normalized": 663.7592915766553,
-            "y_normalized": 308.010654425412
+            "y_normalized": 308.01065442541204
           }
         ],
         "confidence": 1.0,
@@ -141,11 +141,11 @@
         "points": [
           {
             "x_normalized": 470.73153054543116,
-            "y_normalized": 659.6597132917104
+            "y_normalized": 659.6597132917099
           },
           {
             "x_normalized": 472.0098600886844,
-            "y_normalized": 657.6841567812256
+            "y_normalized": 657.6841567812254
           }
         ],
         "confidence": 1.0,
@@ -156,11 +156,11 @@
         "points": [
           {
             "x_normalized": 470.73153054543116,
-            "y_normalized": 659.6597132917104
+            "y_normalized": 659.6597132917099
           },
           {
             "x_normalized": 472.0098600886844,
-            "y_normalized": 657.6841567812256
+            "y_normalized": 657.6841567812254
           }
         ],
         "confidence": 1.0,
@@ -171,11 +171,11 @@
         "points": [
           {
             "x_normalized": 470.73153054543116,
-            "y_normalized": 659.6597132917104
+            "y_normalized": 659.6597132917099
           },
           {
             "x_normalized": 469.45320100217816,
-            "y_normalized": 707.0730695433462
+            "y_normalized": 707.0730695433456
           }
         ],
         "confidence": 1.0,
@@ -186,7 +186,7 @@
         "points": [
           {
             "x_normalized": 621.5744166493016,
-            "y_normalized": 323.81510650929056
+            "y_normalized": 323.8151065092906
           },
           {
             "x_normalized": 621.5744166493016,
@@ -201,7 +201,7 @@
         "points": [
           {
             "x_normalized": 621.5744166493016,
-            "y_normalized": 323.81510650929056
+            "y_normalized": 323.8151065092906
           },
           {
             "x_normalized": 622.8527461925548,
@@ -216,11 +216,11 @@
         "points": [
           {
             "x_normalized": 621.5744166493016,
-            "y_normalized": 323.81510650929056
+            "y_normalized": 323.8151065092906
           },
           {
             "x_normalized": 608.7911212167702,
-            "y_normalized": 329.741776040745
+            "y_normalized": 329.7417760407451
           },
           {
             "x_normalized": 585.7811894382138,
@@ -239,7 +239,7 @@
           },
           {
             "x_normalized": 622.8527461925548,
-            "y_normalized": 319.8639934883209
+            "y_normalized": 319.86399348832094
           }
         ],
         "confidence": 1.0,
@@ -254,7 +254,7 @@
           },
           {
             "x_normalized": 624.1310757358078,
-            "y_normalized": 319.8639934883209
+            "y_normalized": 319.86399348832094
           }
         ],
         "confidence": 1.0,
@@ -284,7 +284,7 @@
           },
           {
             "x_normalized": 698.2741892444898,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           }
         ],
         "confidence": 1.0,
@@ -299,7 +299,7 @@
           },
           {
             "x_normalized": 694.4392006147305,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           }
         ],
         "confidence": 1.0,
@@ -325,11 +325,11 @@
         "points": [
           {
             "x_normalized": 483.51482597796263,
-            "y_normalized": 288.25508932056374
+            "y_normalized": 288.25508932056385
           },
           {
             "x_normalized": 484.7931555212158,
-            "y_normalized": 286.2795328100789
+            "y_normalized": 286.279532810079
           }
         ],
         "confidence": 1.0,
@@ -340,11 +340,11 @@
         "points": [
           {
             "x_normalized": 483.51482597796263,
-            "y_normalized": 288.25508932056374
+            "y_normalized": 288.25508932056385
           },
           {
             "x_normalized": 484.7931555212158,
-            "y_normalized": 288.25508932056374
+            "y_normalized": 288.25508932056385
           }
         ],
         "confidence": 1.0,
@@ -355,11 +355,11 @@
         "points": [
           {
             "x_normalized": 483.51482597796263,
-            "y_normalized": 288.25508932056374
+            "y_normalized": 288.25508932056385
           },
           {
             "x_normalized": 483.51482597796263,
-            "y_normalized": 290.23064583104855
+            "y_normalized": 290.23064583104866
           }
         ],
         "confidence": 1.0,
@@ -370,11 +370,11 @@
         "points": [
           {
             "x_normalized": 483.51482597796263,
-            "y_normalized": 288.25508932056374
+            "y_normalized": 288.25508932056385
           },
           {
             "x_normalized": 482.23649643470947,
-            "y_normalized": 290.23064583104855
+            "y_normalized": 290.23064583104866
           }
         ],
         "confidence": 1.0,
@@ -389,7 +389,7 @@
           },
           {
             "x_normalized": 583.2245303517074,
-            "y_normalized": 329.741776040745
+            "y_normalized": 329.7417760407451
           }
         ],
         "confidence": 1.0,
@@ -419,7 +419,7 @@
           },
           {
             "x_normalized": 581.9462008084544,
-            "y_normalized": 325.7906630197753
+            "y_normalized": 325.7906630197754
           }
         ],
         "confidence": 1.0,
@@ -430,11 +430,11 @@
         "points": [
           {
             "x_normalized": 441.329951050609,
-            "y_normalized": 517.4196445368033
+            "y_normalized": 517.419644536803
           },
           {
             "x_normalized": 442.6082805938622,
-            "y_normalized": 517.4196445368033
+            "y_normalized": 517.419644536803
           }
         ],
         "confidence": 1.0,
@@ -445,11 +445,11 @@
         "points": [
           {
             "x_normalized": 441.329951050609,
-            "y_normalized": 517.4196445368033
+            "y_normalized": 517.419644536803
           },
           {
             "x_normalized": 441.329951050609,
-            "y_normalized": 519.395201047288
+            "y_normalized": 519.3952010472877
           }
         ],
         "confidence": 1.0,
@@ -460,11 +460,11 @@
         "points": [
           {
             "x_normalized": 441.329951050609,
-            "y_normalized": 517.4196445368033
+            "y_normalized": 517.419644536803
           },
           {
             "x_normalized": 440.0516215073559,
-            "y_normalized": 517.4196445368033
+            "y_normalized": 517.419644536803
           }
         ],
         "confidence": 1.0,
@@ -475,11 +475,11 @@
         "points": [
           {
             "x_normalized": 392.75342840698977,
-            "y_normalized": 205.2817158802012
+            "y_normalized": 205.2817158802014
           },
           {
             "x_normalized": 394.031757950243,
-            "y_normalized": 205.2817158802012
+            "y_normalized": 205.2817158802014
           }
         ],
         "confidence": 1.0,
@@ -490,11 +490,11 @@
         "points": [
           {
             "x_normalized": 392.75342840698977,
-            "y_normalized": 205.2817158802012
+            "y_normalized": 205.2817158802014
           },
           {
             "x_normalized": 392.75342840698977,
-            "y_normalized": 207.25727239068604
+            "y_normalized": 207.25727239068624
           }
         ],
         "confidence": 1.0,
@@ -505,11 +505,11 @@
         "points": [
           {
             "x_normalized": 392.75342840698977,
-            "y_normalized": 205.2817158802012
+            "y_normalized": 205.2817158802014
           },
           {
             "x_normalized": 391.47509886373666,
-            "y_normalized": 205.2817158802012
+            "y_normalized": 205.2817158802014
           }
         ],
         "confidence": 1.0,
@@ -520,11 +520,11 @@
         "points": [
           {
             "x_normalized": 662.480962033402,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           },
           {
             "x_normalized": 662.480962033402,
-            "y_normalized": 311.96176744638166
+            "y_normalized": 311.9617674463817
           }
         ],
         "confidence": 1.0,
@@ -535,11 +535,11 @@
         "points": [
           {
             "x_normalized": 662.480962033402,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           },
           {
             "x_normalized": 663.7592915766553,
-            "y_normalized": 311.96176744638166
+            "y_normalized": 311.9617674463817
           }
         ],
         "confidence": 1.0,
@@ -550,11 +550,11 @@
         "points": [
           {
             "x_normalized": 662.480962033402,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           },
           {
             "x_normalized": 661.2026324901487,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           }
         ],
         "confidence": 1.0,
@@ -565,11 +565,11 @@
         "points": [
           {
             "x_normalized": 386.3617806907241,
-            "y_normalized": 266.5239677052307
+            "y_normalized": 266.5239677052308
           },
           {
             "x_normalized": 386.3617806907241,
-            "y_normalized": 264.5484111947459
+            "y_normalized": 264.54841119474605
           }
         ],
         "confidence": 1.0,
@@ -580,11 +580,11 @@
         "points": [
           {
             "x_normalized": 386.3617806907241,
-            "y_normalized": 266.5239677052307
+            "y_normalized": 266.5239677052308
           },
           {
             "x_normalized": 385.08345114747095,
-            "y_normalized": 268.49952421571555
+            "y_normalized": 268.49952421571567
           }
         ],
         "confidence": 1.0,
@@ -595,11 +595,11 @@
         "points": [
           {
             "x_normalized": 386.3617806907241,
-            "y_normalized": 266.5239677052307
+            "y_normalized": 266.5239677052308
           },
           {
             "x_normalized": 385.08345114747095,
-            "y_normalized": 266.5239677052307
+            "y_normalized": 266.5239677052308
           }
         ],
         "confidence": 1.0,
@@ -610,11 +610,11 @@
         "points": [
           {
             "x_normalized": 679.0992460956928,
-            "y_normalized": 319.8639934883209
+            "y_normalized": 319.86399348832094
           },
           {
             "x_normalized": 680.3775756389458,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           }
         ],
         "confidence": 1.0,
@@ -625,11 +625,11 @@
         "points": [
           {
             "x_normalized": 679.0992460956928,
-            "y_normalized": 319.8639934883209
+            "y_normalized": 319.86399348832094
           },
           {
             "x_normalized": 680.3775756389458,
-            "y_normalized": 319.8639934883209
+            "y_normalized": 319.86399348832094
           }
         ],
         "confidence": 1.0,
@@ -640,11 +640,11 @@
         "points": [
           {
             "x_normalized": 679.0992460956928,
-            "y_normalized": 319.8639934883209
+            "y_normalized": 319.86399348832094
           },
           {
             "x_normalized": 672.707598379427,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           }
         ],
         "confidence": 1.0,
@@ -655,11 +655,11 @@
         "points": [
           {
             "x_normalized": 680.3775756389458,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           },
           {
             "x_normalized": 681.6559051821991,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           }
         ],
         "confidence": 1.0,
@@ -670,11 +670,11 @@
         "points": [
           {
             "x_normalized": 680.3775756389458,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           },
           {
             "x_normalized": 680.3775756389458,
-            "y_normalized": 319.8639934883209
+            "y_normalized": 319.86399348832094
           }
         ],
         "confidence": 1.0,
@@ -685,11 +685,11 @@
         "points": [
           {
             "x_normalized": 841.4470980888414,
-            "y_normalized": 292.20620234153336
+            "y_normalized": 292.2062023415334
           },
           {
             "x_normalized": 792.8705754452221,
-            "y_normalized": 290.23064583104855
+            "y_normalized": 290.23064583104866
           }
         ],
         "confidence": 1.0,
@@ -700,11 +700,11 @@
         "points": [
           {
             "x_normalized": 480.9581668914564,
-            "y_normalized": 292.20620234153336
+            "y_normalized": 292.2062023415334
           },
           {
             "x_normalized": 482.23649643470947,
-            "y_normalized": 290.23064583104855
+            "y_normalized": 290.23064583104866
           }
         ],
         "confidence": 1.0,
@@ -715,11 +715,11 @@
         "points": [
           {
             "x_normalized": 480.9581668914564,
-            "y_normalized": 292.20620234153336
+            "y_normalized": 292.2062023415334
           },
           {
             "x_normalized": 482.23649643470947,
-            "y_normalized": 292.20620234153336
+            "y_normalized": 292.2062023415334
           }
         ],
         "confidence": 1.0,
@@ -730,15 +730,15 @@
         "points": [
           {
             "x_normalized": 480.9581668914564,
-            "y_normalized": 292.20620234153336
+            "y_normalized": 292.2062023415334
           },
           {
             "x_normalized": 478.40150780495,
-            "y_normalized": 296.1573153625031
+            "y_normalized": 296.15731536250314
           },
           {
             "x_normalized": 459.226564656153,
-            "y_normalized": 296.1573153625031
+            "y_normalized": 296.15731536250314
           }
         ],
         "confidence": 1.0,
@@ -749,11 +749,11 @@
         "points": [
           {
             "x_normalized": 255.97216727890398,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           },
           {
             "x_normalized": 255.97216727890398,
-            "y_normalized": 296.1573153625031
+            "y_normalized": 296.15731536250314
           }
         ],
         "confidence": 1.0,
@@ -764,27 +764,27 @@
         "points": [
           {
             "x_normalized": 255.97216727890398,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           },
           {
             "x_normalized": 267.4771331681822,
-            "y_normalized": 306.0350979149272
+            "y_normalized": 306.03509791492723
           },
           {
             "x_normalized": 317.33198535505466,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           },
           {
             "x_normalized": 323.72363307132036,
-            "y_normalized": 300.10842838347276
+            "y_normalized": 300.1084283834728
           },
           {
             "x_normalized": 341.62024667686427,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           },
           {
             "x_normalized": 383.80512160421785,
-            "y_normalized": 302.0839848939575
+            "y_normalized": 302.0839848939576
           }
         ],
         "confidence": 1.0,
@@ -795,11 +795,11 @@
         "points": [
           {
             "x_normalized": 255.97216727890398,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           },
           {
             "x_normalized": 254.69383773565085,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           }
         ],
         "confidence": 1.0,
@@ -810,11 +810,11 @@
         "points": [
           {
             "x_normalized": 746.850711888109,
-            "y_normalized": 302.0839848939575
+            "y_normalized": 302.0839848939576
           },
           {
             "x_normalized": 751.9640300611217,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           }
         ],
         "confidence": 1.0,
@@ -825,11 +825,11 @@
         "points": [
           {
             "x_normalized": 746.850711888109,
-            "y_normalized": 302.0839848939575
+            "y_normalized": 302.0839848939576
           },
           {
             "x_normalized": 745.572382344856,
-            "y_normalized": 302.0839848939575
+            "y_normalized": 302.0839848939576
           }
         ],
         "confidence": 1.0,
@@ -840,11 +840,11 @@
         "points": [
           {
             "x_normalized": 746.850711888109,
-            "y_normalized": 302.0839848939575
+            "y_normalized": 302.0839848939576
           },
           {
             "x_normalized": 745.572382344856,
-            "y_normalized": 300.10842838347276
+            "y_normalized": 300.1084283834728
           }
         ],
         "confidence": 1.0,
@@ -859,7 +859,7 @@
           },
           {
             "x_normalized": 548.7096326838728,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           }
         ],
         "confidence": 1.0,
@@ -874,7 +874,7 @@
           },
           {
             "x_normalized": 549.9879622271258,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           }
         ],
         "confidence": 1.0,
@@ -889,7 +889,7 @@
           },
           {
             "x_normalized": 547.4313031406197,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           }
         ],
         "confidence": 1.0,
@@ -915,11 +915,11 @@
         "points": [
           {
             "x_normalized": 479.67983734820325,
-            "y_normalized": 205.2817158802012
+            "y_normalized": 205.2817158802014
           },
           {
             "x_normalized": 479.67983734820325,
-            "y_normalized": 203.30615936971637
+            "y_normalized": 203.30615936971657
           }
         ],
         "confidence": 1.0,
@@ -930,15 +930,15 @@
         "points": [
           {
             "x_normalized": 479.67983734820325,
-            "y_normalized": 205.2817158802012
+            "y_normalized": 205.2817158802014
           },
           {
             "x_normalized": 480.9581668914564,
-            "y_normalized": 270.47508072620036
+            "y_normalized": 270.4750807262005
           },
           {
             "x_normalized": 486.07148506446885,
-            "y_normalized": 282.32841978910926
+            "y_normalized": 282.3284197891094
           }
         ],
         "confidence": 1.0,
@@ -949,11 +949,11 @@
         "points": [
           {
             "x_normalized": 479.67983734820325,
-            "y_normalized": 205.2817158802012
+            "y_normalized": 205.2817158802014
           },
           {
             "x_normalized": 478.40150780495,
-            "y_normalized": 203.30615936971637
+            "y_normalized": 203.30615936971657
           }
         ],
         "confidence": 1.0,
@@ -964,11 +964,11 @@
         "points": [
           {
             "x_normalized": 418.3200192720526,
-            "y_normalized": 203.30615936971637
+            "y_normalized": 203.30615936971657
           },
           {
             "x_normalized": 418.3200192720526,
-            "y_normalized": 201.33060285923156
+            "y_normalized": 201.33060285923176
           }
         ],
         "confidence": 1.0,
@@ -979,11 +979,11 @@
         "points": [
           {
             "x_normalized": 418.3200192720526,
-            "y_normalized": 203.30615936971637
+            "y_normalized": 203.30615936971657
           },
           {
             "x_normalized": 419.59834881530566,
-            "y_normalized": 203.30615936971637
+            "y_normalized": 203.30615936971657
           }
         ],
         "confidence": 1.0,
@@ -994,11 +994,11 @@
         "points": [
           {
             "x_normalized": 418.3200192720526,
-            "y_normalized": 203.30615936971637
+            "y_normalized": 203.30615936971657
           },
           {
             "x_normalized": 419.59834881530566,
-            "y_normalized": 205.2817158802012
+            "y_normalized": 205.2817158802014
           }
         ],
         "confidence": 1.0,
@@ -1009,11 +1009,11 @@
         "points": [
           {
             "x_normalized": 418.3200192720526,
-            "y_normalized": 203.30615936971637
+            "y_normalized": 203.30615936971657
           },
           {
             "x_normalized": 417.0416897287994,
-            "y_normalized": 203.30615936971637
+            "y_normalized": 203.30615936971657
           }
         ],
         "confidence": 1.0,
@@ -1024,11 +1024,11 @@
         "points": [
           {
             "x_normalized": 402.9800647530149,
-            "y_normalized": 308.010654425412
+            "y_normalized": 308.01065442541204
           },
           {
             "x_normalized": 404.258394296268,
-            "y_normalized": 306.0350979149272
+            "y_normalized": 306.03509791492723
           }
         ],
         "confidence": 1.0,
@@ -1039,11 +1039,11 @@
         "points": [
           {
             "x_normalized": 402.9800647530149,
-            "y_normalized": 308.010654425412
+            "y_normalized": 308.01065442541204
           },
           {
             "x_normalized": 404.258394296268,
-            "y_normalized": 308.010654425412
+            "y_normalized": 308.01065442541204
           }
         ],
         "confidence": 1.0,
@@ -1054,7 +1054,7 @@
         "points": [
           {
             "x_normalized": 402.9800647530149,
-            "y_normalized": 308.010654425412
+            "y_normalized": 308.01065442541204
           },
           {
             "x_normalized": 402.9800647530149,
@@ -1069,11 +1069,11 @@
         "points": [
           {
             "x_normalized": 402.9800647530149,
-            "y_normalized": 308.010654425412
+            "y_normalized": 308.01065442541204
           },
           {
             "x_normalized": 401.70173520976175,
-            "y_normalized": 308.010654425412
+            "y_normalized": 308.01065442541204
           }
         ],
         "confidence": 1.0,
@@ -1084,11 +1084,11 @@
         "points": [
           {
             "x_normalized": 404.258394296268,
-            "y_normalized": 306.0350979149272
+            "y_normalized": 306.03509791492723
           },
           {
             "x_normalized": 405.5367238395212,
-            "y_normalized": 306.0350979149272
+            "y_normalized": 306.03509791492723
           }
         ],
         "confidence": 1.0,
@@ -1099,11 +1099,11 @@
         "points": [
           {
             "x_normalized": 404.258394296268,
-            "y_normalized": 306.0350979149272
+            "y_normalized": 306.03509791492723
           },
           {
             "x_normalized": 404.258394296268,
-            "y_normalized": 308.010654425412
+            "y_normalized": 308.01065442541204
           }
         ],
         "confidence": 1.0,
@@ -1114,7 +1114,7 @@
         "points": [
           {
             "x_normalized": 684.2125642687054,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           },
           {
             "x_normalized": 685.4908938119585,
@@ -1129,7 +1129,7 @@
         "points": [
           {
             "x_normalized": 684.2125642687054,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           },
           {
             "x_normalized": 684.2125642687054,
@@ -1144,11 +1144,11 @@
         "points": [
           {
             "x_normalized": 575.5545530921885,
-            "y_normalized": 306.0350979149272
+            "y_normalized": 306.03509791492723
           },
           {
             "x_normalized": 575.5545530921885,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           }
         ],
         "confidence": 1.0,
@@ -1159,11 +1159,11 @@
         "points": [
           {
             "x_normalized": 575.5545530921885,
-            "y_normalized": 306.0350979149272
+            "y_normalized": 306.03509791492723
           },
           {
             "x_normalized": 576.8328826354417,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           }
         ],
         "confidence": 1.0,
@@ -1174,11 +1174,11 @@
         "points": [
           {
             "x_normalized": 575.5545530921885,
-            "y_normalized": 306.0350979149272
+            "y_normalized": 306.03509791492723
           },
           {
             "x_normalized": 574.2762235489355,
-            "y_normalized": 308.010654425412
+            "y_normalized": 308.01065442541204
           }
         ],
         "confidence": 1.0,
@@ -1189,11 +1189,11 @@
         "points": [
           {
             "x_normalized": 575.5545530921885,
-            "y_normalized": 306.0350979149272
+            "y_normalized": 306.03509791492723
           },
           {
             "x_normalized": 574.2762235489355,
-            "y_normalized": 306.0350979149272
+            "y_normalized": 306.03509791492723
           }
         ],
         "confidence": 1.0,
@@ -1204,7 +1204,7 @@
         "points": [
           {
             "x_normalized": 547.4313031406197,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           },
           {
             "x_normalized": 547.4313031406197,
@@ -1219,11 +1219,11 @@
         "points": [
           {
             "x_normalized": 547.4313031406197,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           },
           {
             "x_normalized": 546.1529735973663,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           }
         ],
         "confidence": 1.0,
@@ -1234,11 +1234,11 @@
         "points": [
           {
             "x_normalized": 549.9879622271258,
-            "y_normalized": 311.96176744638166
+            "y_normalized": 311.9617674463817
           },
           {
             "x_normalized": 551.266291770379,
-            "y_normalized": 311.96176744638166
+            "y_normalized": 311.9617674463817
           }
         ],
         "confidence": 1.0,
@@ -1249,11 +1249,11 @@
         "points": [
           {
             "x_normalized": 549.9879622271258,
-            "y_normalized": 311.96176744638166
+            "y_normalized": 311.9617674463817
           },
           {
             "x_normalized": 549.9879622271258,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           }
         ],
         "confidence": 1.0,
@@ -1264,11 +1264,11 @@
         "points": [
           {
             "x_normalized": 549.9879622271258,
-            "y_normalized": 311.96176744638166
+            "y_normalized": 311.9617674463817
           },
           {
             "x_normalized": 548.7096326838728,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           }
         ],
         "confidence": 1.0,
@@ -1283,7 +1283,7 @@
           },
           {
             "x_normalized": 709.7791551337681,
-            "y_normalized": 308.010654425412
+            "y_normalized": 308.01065442541204
           }
         ],
         "confidence": 1.0,
@@ -1313,7 +1313,7 @@
           },
           {
             "x_normalized": 708.5008255905151,
-            "y_normalized": 311.96176744638166
+            "y_normalized": 311.9617674463817
           }
         ],
         "confidence": 1.0,
@@ -1328,7 +1328,7 @@
           },
           {
             "x_normalized": 514.194735016038,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           }
         ],
         "confidence": 1.0,
@@ -1343,7 +1343,7 @@
           },
           {
             "x_normalized": 515.4730645592911,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           }
         ],
         "confidence": 1.0,
@@ -1369,11 +1369,11 @@
         "points": [
           {
             "x_normalized": 391.47509886373666,
-            "y_normalized": 234.91506353747351
+            "y_normalized": 234.9150635374737
           },
           {
             "x_normalized": 392.75342840698977,
-            "y_normalized": 207.25727239068604
+            "y_normalized": 207.25727239068624
           }
         ],
         "confidence": 1.0,
@@ -1384,11 +1384,11 @@
         "points": [
           {
             "x_normalized": 391.47509886373666,
-            "y_normalized": 234.91506353747351
+            "y_normalized": 234.9150635374737
           },
           {
             "x_normalized": 391.47509886373666,
-            "y_normalized": 236.89062004795835
+            "y_normalized": 236.8906200479585
           }
         ],
         "confidence": 1.0,
@@ -1399,11 +1399,11 @@
         "points": [
           {
             "x_normalized": 391.47509886373666,
-            "y_normalized": 234.91506353747351
+            "y_normalized": 234.9150635374737
           },
           {
             "x_normalized": 390.19676932048355,
-            "y_normalized": 236.89062004795835
+            "y_normalized": 236.8906200479585
           }
         ],
         "confidence": 1.0,
@@ -1418,7 +1418,7 @@
           },
           {
             "x_normalized": 668.8726097496676,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           }
         ],
         "confidence": 1.0,
@@ -1448,7 +1448,7 @@
           },
           {
             "x_normalized": 667.5942802064146,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           }
         ],
         "confidence": 1.0,
@@ -1459,11 +1459,11 @@
         "points": [
           {
             "x_normalized": 574.2762235489355,
-            "y_normalized": 308.010654425412
+            "y_normalized": 308.01065442541204
           },
           {
             "x_normalized": 574.2762235489355,
-            "y_normalized": 306.0350979149272
+            "y_normalized": 306.03509791492723
           }
         ],
         "confidence": 1.0,
@@ -1474,7 +1474,7 @@
         "points": [
           {
             "x_normalized": 574.2762235489355,
-            "y_normalized": 308.010654425412
+            "y_normalized": 308.01065442541204
           },
           {
             "x_normalized": 574.2762235489355,
@@ -1489,11 +1489,11 @@
         "points": [
           {
             "x_normalized": 574.2762235489355,
-            "y_normalized": 308.010654425412
+            "y_normalized": 308.01065442541204
           },
           {
             "x_normalized": 572.9978940056824,
-            "y_normalized": 308.010654425412
+            "y_normalized": 308.01065442541204
           }
         ],
         "confidence": 1.0,
@@ -1564,11 +1564,11 @@
         "points": [
           {
             "x_normalized": 487.349814607722,
-            "y_normalized": 511.49297500534874
+            "y_normalized": 511.4929750053485
           },
           {
             "x_normalized": 488.6281441509752,
-            "y_normalized": 513.4685315158335
+            "y_normalized": 513.4685315158333
           }
         ],
         "confidence": 1.0,
@@ -1579,11 +1579,11 @@
         "points": [
           {
             "x_normalized": 487.349814607722,
-            "y_normalized": 511.49297500534874
+            "y_normalized": 511.4929750053485
           },
           {
             "x_normalized": 488.6281441509752,
-            "y_normalized": 513.4685315158335
+            "y_normalized": 513.4685315158333
           }
         ],
         "confidence": 1.0,
@@ -1594,11 +1594,11 @@
         "points": [
           {
             "x_normalized": 487.349814607722,
-            "y_normalized": 511.49297500534874
+            "y_normalized": 511.4929750053485
           },
           {
             "x_normalized": 459.226564656153,
-            "y_normalized": 507.5418619843791
+            "y_normalized": 507.5418619843789
           }
         ],
         "confidence": 1.0,
@@ -1609,7 +1609,7 @@
         "points": [
           {
             "x_normalized": 663.7592915766553,
-            "y_normalized": 308.010654425412
+            "y_normalized": 308.01065442541204
           },
           {
             "x_normalized": 663.7592915766553,
@@ -1624,15 +1624,15 @@
         "points": [
           {
             "x_normalized": 663.7592915766553,
-            "y_normalized": 308.010654425412
+            "y_normalized": 308.01065442541204
           },
           {
             "x_normalized": 658.6459734036426,
-            "y_normalized": 278.37730676813965
+            "y_normalized": 278.3773067681397
           },
           {
             "x_normalized": 658.6459734036426,
-            "y_normalized": 254.67062864232176
+            "y_normalized": 254.67062864232187
           }
         ],
         "confidence": 1.0,
@@ -1643,11 +1643,11 @@
         "points": [
           {
             "x_normalized": 721.2841210230463,
-            "y_normalized": 136.1372380132324
+            "y_normalized": 136.13723801323272
           },
           {
             "x_normalized": 721.2841210230463,
-            "y_normalized": 134.16168150274757
+            "y_normalized": 134.16168150274788
           }
         ],
         "confidence": 1.0,
@@ -1658,11 +1658,11 @@
         "points": [
           {
             "x_normalized": 721.2841210230463,
-            "y_normalized": 136.1372380132324
+            "y_normalized": 136.13723801323272
           },
           {
             "x_normalized": 722.5624505662995,
-            "y_normalized": 136.1372380132324
+            "y_normalized": 136.13723801323272
           }
         ],
         "confidence": 1.0,
@@ -1673,11 +1673,11 @@
         "points": [
           {
             "x_normalized": 721.2841210230463,
-            "y_normalized": 136.1372380132324
+            "y_normalized": 136.13723801323272
           },
           {
             "x_normalized": 720.0057914797933,
-            "y_normalized": 136.1372380132324
+            "y_normalized": 136.13723801323272
           }
         ],
         "confidence": 1.0,
@@ -1688,11 +1688,11 @@
         "points": [
           {
             "x_normalized": 727.6757687393122,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           },
           {
             "x_normalized": 745.572382344856,
-            "y_normalized": 302.0839848939575
+            "y_normalized": 302.0839848939576
           }
         ],
         "confidence": 1.0,
@@ -1703,11 +1703,11 @@
         "points": [
           {
             "x_normalized": 727.6757687393122,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           },
           {
             "x_normalized": 726.3974391960589,
-            "y_normalized": 306.0350979149272
+            "y_normalized": 306.03509791492723
           }
         ],
         "confidence": 1.0,
@@ -1718,11 +1718,11 @@
         "points": [
           {
             "x_normalized": 727.6757687393122,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           },
           {
             "x_normalized": 726.3974391960589,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           }
         ],
         "confidence": 1.0,
@@ -1733,11 +1733,11 @@
         "points": [
           {
             "x_normalized": 727.6757687393122,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           },
           {
             "x_normalized": 726.3974391960589,
-            "y_normalized": 302.0839848939575
+            "y_normalized": 302.0839848939576
           }
         ],
         "confidence": 1.0,
@@ -1748,7 +1748,7 @@
         "points": [
           {
             "x_normalized": 580.6678712652011,
-            "y_normalized": 323.81510650929056
+            "y_normalized": 323.8151065092906
           },
           {
             "x_normalized": 579.389541721948,
@@ -1763,11 +1763,11 @@
         "points": [
           {
             "x_normalized": 580.6678712652011,
-            "y_normalized": 323.81510650929056
+            "y_normalized": 323.8151065092906
           },
           {
             "x_normalized": 581.9462008084544,
-            "y_normalized": 325.7906630197753
+            "y_normalized": 325.7906630197754
           }
         ],
         "confidence": 1.0,
@@ -1778,7 +1778,7 @@
         "points": [
           {
             "x_normalized": 580.6678712652011,
-            "y_normalized": 323.81510650929056
+            "y_normalized": 323.8151065092906
           },
           {
             "x_normalized": 579.389541721948,
@@ -1793,11 +1793,11 @@
         "points": [
           {
             "x_normalized": 390.19676932048355,
-            "y_normalized": 236.89062004795835
+            "y_normalized": 236.8906200479585
           },
           {
             "x_normalized": 391.47509886373666,
-            "y_normalized": 236.89062004795835
+            "y_normalized": 236.8906200479585
           }
         ],
         "confidence": 1.0,
@@ -1808,11 +1808,11 @@
         "points": [
           {
             "x_normalized": 390.19676932048355,
-            "y_normalized": 236.89062004795835
+            "y_normalized": 236.8906200479585
           },
           {
             "x_normalized": 390.19676932048355,
-            "y_normalized": 238.8661765584432
+            "y_normalized": 238.86617655844333
           }
         ],
         "confidence": 1.0,
@@ -1823,11 +1823,11 @@
         "points": [
           {
             "x_normalized": 390.19676932048355,
-            "y_normalized": 236.89062004795835
+            "y_normalized": 236.8906200479585
           },
           {
             "x_normalized": 388.9184397772304,
-            "y_normalized": 238.8661765584432
+            "y_normalized": 238.86617655844333
           }
         ],
         "confidence": 1.0,
@@ -1842,7 +1842,7 @@
           },
           {
             "x_normalized": 672.707598379427,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           }
         ],
         "confidence": 1.0,
@@ -1857,7 +1857,7 @@
           },
           {
             "x_normalized": 671.4292688361741,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           }
         ],
         "confidence": 1.0,
@@ -1887,7 +1887,7 @@
           },
           {
             "x_normalized": 693.1608710714773,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           }
         ],
         "confidence": 1.0,
@@ -1913,7 +1913,7 @@
         "points": [
           {
             "x_normalized": 579.389541721948,
-            "y_normalized": 302.0839848939575
+            "y_normalized": 302.0839848939576
           },
           {
             "x_normalized": 612.6261098465295,
@@ -1921,7 +1921,7 @@
           },
           {
             "x_normalized": 621.5744166493016,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           }
         ],
         "confidence": 1.0,
@@ -1932,11 +1932,11 @@
         "points": [
           {
             "x_normalized": 579.389541721948,
-            "y_normalized": 302.0839848939575
+            "y_normalized": 302.0839848939576
           },
           {
             "x_normalized": 578.111212178695,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           }
         ],
         "confidence": 1.0,
@@ -1947,11 +1947,11 @@
         "points": [
           {
             "x_normalized": 579.389541721948,
-            "y_normalized": 302.0839848939575
+            "y_normalized": 302.0839848939576
           },
           {
             "x_normalized": 578.111212178695,
-            "y_normalized": 302.0839848939575
+            "y_normalized": 302.0839848939576
           }
         ],
         "confidence": 1.0,
@@ -1962,11 +1962,11 @@
         "points": [
           {
             "x_normalized": 708.5008255905151,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           },
           {
             "x_normalized": 708.5008255905151,
-            "y_normalized": 311.96176744638166
+            "y_normalized": 311.9617674463817
           }
         ],
         "confidence": 1.0,
@@ -1977,7 +1977,7 @@
         "points": [
           {
             "x_normalized": 708.5008255905151,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           },
           {
             "x_normalized": 708.5008255905151,
@@ -1992,11 +1992,11 @@
         "points": [
           {
             "x_normalized": 708.5008255905151,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           },
           {
             "x_normalized": 707.2224960472619,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           }
         ],
         "confidence": 1.0,
@@ -2007,11 +2007,11 @@
         "points": [
           {
             "x_normalized": 457.9482351128999,
-            "y_normalized": 296.1573153625031
+            "y_normalized": 296.15731536250314
           },
           {
             "x_normalized": 459.226564656153,
-            "y_normalized": 296.1573153625031
+            "y_normalized": 296.15731536250314
           }
         ],
         "confidence": 1.0,
@@ -2022,11 +2022,11 @@
         "points": [
           {
             "x_normalized": 457.9482351128999,
-            "y_normalized": 296.1573153625031
+            "y_normalized": 296.15731536250314
           },
           {
             "x_normalized": 457.9482351128999,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           }
         ],
         "confidence": 1.0,
@@ -2037,11 +2037,11 @@
         "points": [
           {
             "x_normalized": 457.9482351128999,
-            "y_normalized": 296.1573153625031
+            "y_normalized": 296.15731536250314
           },
           {
             "x_normalized": 456.6699055696467,
-            "y_normalized": 296.1573153625031
+            "y_normalized": 296.15731536250314
           }
         ],
         "confidence": 1.0,
@@ -2052,11 +2052,11 @@
         "points": [
           {
             "x_normalized": 456.6699055696467,
-            "y_normalized": 509.5174184948639
+            "y_normalized": 509.51741849486376
           },
           {
             "x_normalized": 457.9482351128999,
-            "y_normalized": 507.5418619843791
+            "y_normalized": 507.5418619843789
           }
         ],
         "confidence": 1.0,
@@ -2067,11 +2067,11 @@
         "points": [
           {
             "x_normalized": 456.6699055696467,
-            "y_normalized": 509.5174184948639
+            "y_normalized": 509.51741849486376
           },
           {
             "x_normalized": 455.3915760263936,
-            "y_normalized": 511.49297500534874
+            "y_normalized": 511.4929750053485
           }
         ],
         "confidence": 1.0,
@@ -2082,11 +2082,11 @@
         "points": [
           {
             "x_normalized": 456.6699055696467,
-            "y_normalized": 509.5174184948639
+            "y_normalized": 509.51741849486376
           },
           {
             "x_normalized": 455.3915760263936,
-            "y_normalized": 509.5174184948639
+            "y_normalized": 509.51741849486376
           }
         ],
         "confidence": 1.0,
@@ -2097,11 +2097,11 @@
         "points": [
           {
             "x_normalized": 622.8527461925548,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           },
           {
             "x_normalized": 624.1310757358078,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           }
         ],
         "confidence": 1.0,
@@ -2112,11 +2112,11 @@
         "points": [
           {
             "x_normalized": 622.8527461925548,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           },
           {
             "x_normalized": 622.8527461925548,
-            "y_normalized": 300.10842838347276
+            "y_normalized": 300.1084283834728
           }
         ],
         "confidence": 1.0,
@@ -2127,11 +2127,11 @@
         "points": [
           {
             "x_normalized": 622.8527461925548,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           },
           {
             "x_normalized": 621.5744166493016,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           }
         ],
         "confidence": 1.0,
@@ -2142,11 +2142,11 @@
         "points": [
           {
             "x_normalized": 484.7931555212158,
-            "y_normalized": 286.2795328100789
+            "y_normalized": 286.279532810079
           },
           {
             "x_normalized": 486.07148506446885,
-            "y_normalized": 284.3039762995941
+            "y_normalized": 284.3039762995942
           }
         ],
         "confidence": 1.0,
@@ -2157,11 +2157,11 @@
         "points": [
           {
             "x_normalized": 484.7931555212158,
-            "y_normalized": 286.2795328100789
+            "y_normalized": 286.279532810079
           },
           {
             "x_normalized": 486.07148506446885,
-            "y_normalized": 286.2795328100789
+            "y_normalized": 286.279532810079
           }
         ],
         "confidence": 1.0,
@@ -2172,11 +2172,11 @@
         "points": [
           {
             "x_normalized": 484.7931555212158,
-            "y_normalized": 286.2795328100789
+            "y_normalized": 286.279532810079
           },
           {
             "x_normalized": 484.7931555212158,
-            "y_normalized": 288.25508932056374
+            "y_normalized": 288.25508932056385
           }
         ],
         "confidence": 1.0,
@@ -2187,11 +2187,11 @@
         "points": [
           {
             "x_normalized": 758.3556777773873,
-            "y_normalized": 134.16168150274757
+            "y_normalized": 134.16168150274788
           },
           {
             "x_normalized": 759.6340073206405,
-            "y_normalized": 134.16168150274757
+            "y_normalized": 134.16168150274788
           }
         ],
         "confidence": 1.0,
@@ -2202,11 +2202,11 @@
         "points": [
           {
             "x_normalized": 758.3556777773873,
-            "y_normalized": 134.16168150274757
+            "y_normalized": 134.16168150274788
           },
           {
             "x_normalized": 758.3556777773873,
-            "y_normalized": 136.1372380132324
+            "y_normalized": 136.13723801323272
           }
         ],
         "confidence": 1.0,
@@ -2217,11 +2217,11 @@
         "points": [
           {
             "x_normalized": 758.3556777773873,
-            "y_normalized": 134.16168150274757
+            "y_normalized": 134.16168150274788
           },
           {
             "x_normalized": 757.0773482341343,
-            "y_normalized": 136.1372380132324
+            "y_normalized": 136.13723801323272
           }
         ],
         "confidence": 1.0,
@@ -2232,11 +2232,11 @@
         "points": [
           {
             "x_normalized": 388.9184397772304,
-            "y_normalized": 238.8661765584432
+            "y_normalized": 238.86617655844333
           },
           {
             "x_normalized": 390.19676932048355,
-            "y_normalized": 238.8661765584432
+            "y_normalized": 238.86617655844333
           }
         ],
         "confidence": 1.0,
@@ -2247,11 +2247,11 @@
         "points": [
           {
             "x_normalized": 388.9184397772304,
-            "y_normalized": 238.8661765584432
+            "y_normalized": 238.86617655844333
           },
           {
             "x_normalized": 388.9184397772304,
-            "y_normalized": 240.84173306892802
+            "y_normalized": 240.84173306892816
           }
         ],
         "confidence": 1.0,
@@ -2262,11 +2262,11 @@
         "points": [
           {
             "x_normalized": 388.9184397772304,
-            "y_normalized": 238.8661765584432
+            "y_normalized": 238.86617655844333
           },
           {
             "x_normalized": 387.6401102339772,
-            "y_normalized": 240.84173306892802
+            "y_normalized": 240.84173306892816
           }
         ],
         "confidence": 1.0,
@@ -2277,11 +2277,11 @@
         "points": [
           {
             "x_normalized": 385.08345114747095,
-            "y_normalized": 300.10842838347276
+            "y_normalized": 300.1084283834728
           },
           {
             "x_normalized": 385.08345114747095,
-            "y_normalized": 268.49952421571555
+            "y_normalized": 268.49952421571567
           }
         ],
         "confidence": 1.0,
@@ -2292,11 +2292,11 @@
         "points": [
           {
             "x_normalized": 385.08345114747095,
-            "y_normalized": 300.10842838347276
+            "y_normalized": 300.1084283834728
           },
           {
             "x_normalized": 386.3617806907241,
-            "y_normalized": 302.0839848939575
+            "y_normalized": 302.0839848939576
           }
         ],
         "confidence": 1.0,
@@ -2307,11 +2307,11 @@
         "points": [
           {
             "x_normalized": 385.08345114747095,
-            "y_normalized": 300.10842838347276
+            "y_normalized": 300.1084283834728
           },
           {
             "x_normalized": 385.08345114747095,
-            "y_normalized": 302.0839848939575
+            "y_normalized": 302.0839848939576
           }
         ],
         "confidence": 1.0,
@@ -2322,11 +2322,11 @@
         "points": [
           {
             "x_normalized": 385.08345114747095,
-            "y_normalized": 300.10842838347276
+            "y_normalized": 300.1084283834728
           },
           {
             "x_normalized": 383.80512160421785,
-            "y_normalized": 302.0839848939575
+            "y_normalized": 302.0839848939576
           }
         ],
         "confidence": 1.0,
@@ -2337,11 +2337,11 @@
         "points": [
           {
             "x_normalized": 478.40150780495,
-            "y_normalized": 203.30615936971637
+            "y_normalized": 203.30615936971657
           },
           {
             "x_normalized": 479.67983734820325,
-            "y_normalized": 203.30615936971637
+            "y_normalized": 203.30615936971657
           }
         ],
         "confidence": 1.0,
@@ -2352,11 +2352,11 @@
         "points": [
           {
             "x_normalized": 478.40150780495,
-            "y_normalized": 203.30615936971637
+            "y_normalized": 203.30615936971657
           },
           {
             "x_normalized": 420.87667835855893,
-            "y_normalized": 205.2817158802012
+            "y_normalized": 205.2817158802014
           }
         ],
         "confidence": 1.0,
@@ -2367,7 +2367,7 @@
         "points": [
           {
             "x_normalized": 663.7592915766553,
-            "y_normalized": 311.96176744638166
+            "y_normalized": 311.9617674463817
           },
           {
             "x_normalized": 663.7592915766553,
@@ -2382,11 +2382,11 @@
         "points": [
           {
             "x_normalized": 663.7592915766553,
-            "y_normalized": 311.96176744638166
+            "y_normalized": 311.9617674463817
           },
           {
             "x_normalized": 662.480962033402,
-            "y_normalized": 311.96176744638166
+            "y_normalized": 311.9617674463817
           }
         ],
         "confidence": 1.0,
@@ -2401,7 +2401,7 @@
           },
           {
             "x_normalized": 709.7791551337681,
-            "y_normalized": 308.010654425412
+            "y_normalized": 308.01065442541204
           }
         ],
         "confidence": 1.0,
@@ -2416,7 +2416,7 @@
           },
           {
             "x_normalized": 708.5008255905151,
-            "y_normalized": 311.96176744638166
+            "y_normalized": 311.9617674463817
           }
         ],
         "confidence": 1.0,
@@ -2427,11 +2427,11 @@
         "points": [
           {
             "x_normalized": 455.3915760263936,
-            "y_normalized": 511.49297500534874
+            "y_normalized": 511.4929750053485
           },
           {
             "x_normalized": 455.3915760263936,
-            "y_normalized": 509.5174184948639
+            "y_normalized": 509.51741849486376
           }
         ],
         "confidence": 1.0,
@@ -2442,11 +2442,11 @@
         "points": [
           {
             "x_normalized": 455.3915760263936,
-            "y_normalized": 511.49297500534874
+            "y_normalized": 511.4929750053485
           },
           {
             "x_normalized": 454.1132464831405,
-            "y_normalized": 511.49297500534874
+            "y_normalized": 511.4929750053485
           }
         ],
         "confidence": 1.0,
@@ -2491,7 +2491,7 @@
           },
           {
             "x_normalized": 580.6678712652011,
-            "y_normalized": 347.5217846351084
+            "y_normalized": 347.5217846351085
           }
         ],
         "confidence": 1.0,
@@ -2506,7 +2506,7 @@
           },
           {
             "x_normalized": 579.389541721948,
-            "y_normalized": 347.5217846351084
+            "y_normalized": 347.5217846351085
           }
         ],
         "confidence": 1.0,
@@ -2536,7 +2536,7 @@
           },
           {
             "x_normalized": 581.9462008084544,
-            "y_normalized": 341.59511510365394
+            "y_normalized": 341.59511510365405
           }
         ],
         "confidence": 1.0,
@@ -2562,11 +2562,11 @@
         "points": [
           {
             "x_normalized": 482.23649643470947,
-            "y_normalized": 290.23064583104855
+            "y_normalized": 290.23064583104866
           },
           {
             "x_normalized": 483.51482597796263,
-            "y_normalized": 290.23064583104855
+            "y_normalized": 290.23064583104866
           }
         ],
         "confidence": 1.0,
@@ -2577,11 +2577,11 @@
         "points": [
           {
             "x_normalized": 482.23649643470947,
-            "y_normalized": 290.23064583104855
+            "y_normalized": 290.23064583104866
           },
           {
             "x_normalized": 482.23649643470947,
-            "y_normalized": 292.20620234153336
+            "y_normalized": 292.2062023415334
           }
         ],
         "confidence": 1.0,
@@ -2592,11 +2592,11 @@
         "points": [
           {
             "x_normalized": 751.9640300611217,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           },
           {
             "x_normalized": 753.2423596043749,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           }
         ],
         "confidence": 1.0,
@@ -2607,11 +2607,11 @@
         "points": [
           {
             "x_normalized": 751.9640300611217,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           },
           {
             "x_normalized": 753.2423596043749,
-            "y_normalized": 306.0350979149272
+            "y_normalized": 306.03509791492723
           }
         ],
         "confidence": 1.0,
@@ -2622,11 +2622,11 @@
         "points": [
           {
             "x_normalized": 486.07148506446885,
-            "y_normalized": 282.32841978910926
+            "y_normalized": 282.3284197891094
           },
           {
             "x_normalized": 487.349814607722,
-            "y_normalized": 284.3039762995941
+            "y_normalized": 284.3039762995942
           }
         ],
         "confidence": 1.0,
@@ -2637,11 +2637,11 @@
         "points": [
           {
             "x_normalized": 486.07148506446885,
-            "y_normalized": 282.32841978910926
+            "y_normalized": 282.3284197891094
           },
           {
             "x_normalized": 486.07148506446885,
-            "y_normalized": 284.3039762995941
+            "y_normalized": 284.3039762995942
           }
         ],
         "confidence": 1.0,
@@ -2652,11 +2652,11 @@
         "points": [
           {
             "x_normalized": 442.6082805938622,
-            "y_normalized": 712.9997390748007
+            "y_normalized": 712.9997390748002
           },
           {
             "x_normalized": 442.6082805938622,
-            "y_normalized": 711.0241825643158
+            "y_normalized": 711.0241825643153
           }
         ],
         "confidence": 1.0,
@@ -2667,11 +2667,11 @@
         "points": [
           {
             "x_normalized": 442.6082805938622,
-            "y_normalized": 712.9997390748007
+            "y_normalized": 712.9997390748002
           },
           {
             "x_normalized": 443.8866101371153,
-            "y_normalized": 711.0241825643158
+            "y_normalized": 711.0241825643153
           }
         ],
         "confidence": 1.0,
@@ -2682,15 +2682,15 @@
         "points": [
           {
             "x_normalized": 442.6082805938622,
-            "y_normalized": 712.9997390748007
+            "y_normalized": 712.9997390748002
           },
           {
             "x_normalized": 442.6082805938622,
-            "y_normalized": 821.6553471514659
+            "y_normalized": 821.6553471514653
           },
           {
             "x_normalized": 450.27825785338104,
-            "y_normalized": 825.6064601724355
+            "y_normalized": 825.6064601724348
           }
         ],
         "confidence": 1.0,
@@ -2701,7 +2701,7 @@
         "points": [
           {
             "x_normalized": 722.5624505662995,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           },
           {
             "x_normalized": 723.8407801095527,
@@ -2716,11 +2716,11 @@
         "points": [
           {
             "x_normalized": 722.5624505662995,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           },
           {
             "x_normalized": 723.8407801095527,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           }
         ],
         "confidence": 1.0,
@@ -2731,11 +2731,11 @@
         "points": [
           {
             "x_normalized": 722.5624505662995,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           },
           {
             "x_normalized": 722.5624505662995,
-            "y_normalized": 319.8639934883209
+            "y_normalized": 319.86399348832094
           }
         ],
         "confidence": 1.0,
@@ -2746,11 +2746,11 @@
         "points": [
           {
             "x_normalized": 722.5624505662995,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           },
           {
             "x_normalized": 721.2841210230463,
-            "y_normalized": 319.8639934883209
+            "y_normalized": 319.86399348832094
           }
         ],
         "confidence": 1.0,
@@ -2761,11 +2761,11 @@
         "points": [
           {
             "x_normalized": 753.2423596043749,
-            "y_normalized": 306.0350979149272
+            "y_normalized": 306.03509791492723
           },
           {
             "x_normalized": 753.2423596043749,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           }
         ],
         "confidence": 1.0,
@@ -2776,11 +2776,11 @@
         "points": [
           {
             "x_normalized": 753.2423596043749,
-            "y_normalized": 306.0350979149272
+            "y_normalized": 306.03509791492723
           },
           {
             "x_normalized": 754.5206891476279,
-            "y_normalized": 306.0350979149272
+            "y_normalized": 306.03509791492723
           }
         ],
         "confidence": 1.0,
@@ -2791,11 +2791,11 @@
         "points": [
           {
             "x_normalized": 252.1371786491446,
-            "y_normalized": 300.10842838347276
+            "y_normalized": 300.1084283834728
           },
           {
             "x_normalized": 253.4155081923977,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           }
         ],
         "confidence": 1.0,
@@ -2806,11 +2806,11 @@
         "points": [
           {
             "x_normalized": 252.1371786491446,
-            "y_normalized": 300.10842838347276
+            "y_normalized": 300.1084283834728
           },
           {
             "x_normalized": 253.4155081923977,
-            "y_normalized": 300.10842838347276
+            "y_normalized": 300.1084283834728
           }
         ],
         "confidence": 1.0,
@@ -2821,15 +2821,15 @@
         "points": [
           {
             "x_normalized": 252.1371786491446,
-            "y_normalized": 300.10842838347276
+            "y_normalized": 300.1084283834728
           },
           {
             "x_normalized": 245.74553093287884,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           },
           {
             "x_normalized": 160.09745153491858,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           }
         ],
         "confidence": 1.0,
@@ -2840,11 +2840,11 @@
         "points": [
           {
             "x_normalized": 253.4155081923977,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           },
           {
             "x_normalized": 254.69383773565085,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           }
         ],
         "confidence": 1.0,
@@ -2855,11 +2855,11 @@
         "points": [
           {
             "x_normalized": 253.4155081923977,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           },
           {
             "x_normalized": 253.4155081923977,
-            "y_normalized": 300.10842838347276
+            "y_normalized": 300.1084283834728
           }
         ],
         "confidence": 1.0,
@@ -2870,11 +2870,11 @@
         "points": [
           {
             "x_normalized": 385.08345114747095,
-            "y_normalized": 268.49952421571555
+            "y_normalized": 268.49952421571567
           },
           {
             "x_normalized": 385.08345114747095,
-            "y_normalized": 266.5239677052307
+            "y_normalized": 266.5239677052308
           }
         ],
         "confidence": 1.0,
@@ -2889,7 +2889,7 @@
           },
           {
             "x_normalized": 579.389541721948,
-            "y_normalized": 347.5217846351084
+            "y_normalized": 347.5217846351085
           }
         ],
         "confidence": 1.0,
@@ -2915,11 +2915,11 @@
         "points": [
           {
             "x_normalized": 579.389541721948,
-            "y_normalized": 347.5217846351084
+            "y_normalized": 347.5217846351085
           },
           {
             "x_normalized": 580.6678712652011,
-            "y_normalized": 347.5217846351084
+            "y_normalized": 347.5217846351085
           }
         ],
         "confidence": 1.0,
@@ -2930,7 +2930,7 @@
         "points": [
           {
             "x_normalized": 579.389541721948,
-            "y_normalized": 347.5217846351084
+            "y_normalized": 347.5217846351085
           },
           {
             "x_normalized": 579.389541721948,
@@ -2945,11 +2945,11 @@
         "points": [
           {
             "x_normalized": 456.6699055696467,
-            "y_normalized": 874.9953729345561
+            "y_normalized": 874.9953729345555
           },
           {
             "x_normalized": 456.6699055696467,
-            "y_normalized": 873.0198164240712
+            "y_normalized": 873.0198164240705
           }
         ],
         "confidence": 1.0,
@@ -2960,11 +2960,11 @@
         "points": [
           {
             "x_normalized": 456.6699055696467,
-            "y_normalized": 874.9953729345561
+            "y_normalized": 874.9953729345555
           },
           {
             "x_normalized": 457.9482351128999,
-            "y_normalized": 874.9953729345561
+            "y_normalized": 874.9953729345555
           }
         ],
         "confidence": 1.0,
@@ -2975,11 +2975,11 @@
         "points": [
           {
             "x_normalized": 456.6699055696467,
-            "y_normalized": 874.9953729345561
+            "y_normalized": 874.9953729345555
           },
           {
             "x_normalized": 455.3915760263936,
-            "y_normalized": 874.9953729345561
+            "y_normalized": 874.9953729345555
           }
         ],
         "confidence": 1.0,
@@ -2990,11 +2990,11 @@
         "points": [
           {
             "x_normalized": 625.4094052790609,
-            "y_normalized": 296.1573153625031
+            "y_normalized": 296.15731536250314
           },
           {
             "x_normalized": 624.1310757358078,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           }
         ],
         "confidence": 1.0,
@@ -3005,11 +3005,11 @@
         "points": [
           {
             "x_normalized": 625.4094052790609,
-            "y_normalized": 296.1573153625031
+            "y_normalized": 296.15731536250314
           },
           {
             "x_normalized": 624.1310757358078,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           }
         ],
         "confidence": 1.0,
@@ -3019,12 +3019,8 @@
         "id": "corridor-196",
         "points": [
           {
-            "x_normalized": 487.349814607722,
-            "y_normalized": 284.3039762995941
-          },
-          {
             "x_normalized": 503.9680986700128,
-            "y_normalized": 284.3039762995941
+            "y_normalized": 284.3039762995942
           },
           {
             "x_normalized": 510.3597463862786,
@@ -3032,7 +3028,7 @@
           },
           {
             "x_normalized": 515.4730645592911,
-            "y_normalized": 311.96176744638166
+            "y_normalized": 311.9617674463817
           }
         ],
         "confidence": 1.0,
@@ -3043,11 +3039,11 @@
         "points": [
           {
             "x_normalized": 487.349814607722,
-            "y_normalized": 284.3039762995941
+            "y_normalized": 284.3039762995942
           },
           {
             "x_normalized": 486.07148506446885,
-            "y_normalized": 286.2795328100789
+            "y_normalized": 286.279532810079
           }
         ],
         "confidence": 1.0,
@@ -3058,11 +3054,11 @@
         "points": [
           {
             "x_normalized": 487.349814607722,
-            "y_normalized": 284.3039762995941
+            "y_normalized": 284.3039762995942
           },
           {
             "x_normalized": 486.07148506446885,
-            "y_normalized": 284.3039762995941
+            "y_normalized": 284.3039762995942
           }
         ],
         "confidence": 1.0,
@@ -3073,11 +3069,11 @@
         "points": [
           {
             "x_normalized": 622.8527461925548,
-            "y_normalized": 319.8639934883209
+            "y_normalized": 319.86399348832094
           },
           {
             "x_normalized": 624.1310757358078,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           }
         ],
         "confidence": 1.0,
@@ -3088,11 +3084,11 @@
         "points": [
           {
             "x_normalized": 622.8527461925548,
-            "y_normalized": 319.8639934883209
+            "y_normalized": 319.86399348832094
           },
           {
             "x_normalized": 624.1310757358078,
-            "y_normalized": 319.8639934883209
+            "y_normalized": 319.86399348832094
           }
         ],
         "confidence": 1.0,
@@ -3103,7 +3099,7 @@
         "points": [
           {
             "x_normalized": 622.8527461925548,
-            "y_normalized": 319.8639934883209
+            "y_normalized": 319.86399348832094
           },
           {
             "x_normalized": 621.5744166493016,
@@ -3118,11 +3114,11 @@
         "points": [
           {
             "x_normalized": 386.3617806907241,
-            "y_normalized": 302.0839848939575
+            "y_normalized": 302.0839848939576
           },
           {
             "x_normalized": 401.70173520976175,
-            "y_normalized": 308.010654425412
+            "y_normalized": 308.01065442541204
           }
         ],
         "confidence": 1.0,
@@ -3133,11 +3129,11 @@
         "points": [
           {
             "x_normalized": 386.3617806907241,
-            "y_normalized": 302.0839848939575
+            "y_normalized": 302.0839848939576
           },
           {
             "x_normalized": 385.08345114747095,
-            "y_normalized": 302.0839848939575
+            "y_normalized": 302.0839848939576
           }
         ],
         "confidence": 1.0,
@@ -3148,11 +3144,11 @@
         "points": [
           {
             "x_normalized": 459.226564656153,
-            "y_normalized": 296.1573153625031
+            "y_normalized": 296.15731536250314
           },
           {
             "x_normalized": 457.9482351128999,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           }
         ],
         "confidence": 1.0,
@@ -3167,7 +3163,7 @@
           },
           {
             "x_normalized": 581.9462008084544,
-            "y_normalized": 325.7906630197753
+            "y_normalized": 325.7906630197754
           }
         ],
         "confidence": 1.0,
@@ -3182,7 +3178,7 @@
           },
           {
             "x_normalized": 583.2245303517074,
-            "y_normalized": 329.741776040745
+            "y_normalized": 329.7417760407451
           }
         ],
         "confidence": 1.0,
@@ -3193,11 +3189,11 @@
         "points": [
           {
             "x_normalized": 726.3974391960589,
-            "y_normalized": 302.0839848939575
+            "y_normalized": 302.0839848939576
           },
           {
             "x_normalized": 726.3974391960589,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           }
         ],
         "confidence": 1.0,
@@ -3208,11 +3204,11 @@
         "points": [
           {
             "x_normalized": 515.4730645592911,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           },
           {
             "x_normalized": 515.4730645592911,
-            "y_normalized": 311.96176744638166
+            "y_normalized": 311.9617674463817
           }
         ],
         "confidence": 1.0,
@@ -3223,11 +3219,11 @@
         "points": [
           {
             "x_normalized": 515.4730645592911,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           },
           {
             "x_normalized": 516.7513941025443,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           }
         ],
         "confidence": 1.0,
@@ -3238,11 +3234,11 @@
         "points": [
           {
             "x_normalized": 515.4730645592911,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           },
           {
             "x_normalized": 514.194735016038,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           }
         ],
         "confidence": 1.0,
@@ -3253,11 +3249,11 @@
         "points": [
           {
             "x_normalized": 486.07148506446885,
-            "y_normalized": 286.2795328100789
+            "y_normalized": 286.279532810079
           },
           {
             "x_normalized": 486.07148506446885,
-            "y_normalized": 284.3039762995941
+            "y_normalized": 284.3039762995942
           }
         ],
         "confidence": 1.0,
@@ -3268,11 +3264,11 @@
         "points": [
           {
             "x_normalized": 486.07148506446885,
-            "y_normalized": 286.2795328100789
+            "y_normalized": 286.279532810079
           },
           {
             "x_normalized": 484.7931555212158,
-            "y_normalized": 288.25508932056374
+            "y_normalized": 288.25508932056385
           }
         ],
         "confidence": 1.0,
@@ -3287,7 +3283,7 @@
           },
           {
             "x_normalized": 694.4392006147305,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           }
         ],
         "confidence": 1.0,
@@ -3302,7 +3298,7 @@
           },
           {
             "x_normalized": 693.1608710714773,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           }
         ],
         "confidence": 1.0,
@@ -3313,11 +3309,11 @@
         "points": [
           {
             "x_normalized": 698.2741892444898,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           },
           {
             "x_normalized": 698.2741892444898,
-            "y_normalized": 311.96176744638166
+            "y_normalized": 311.9617674463817
           }
         ],
         "confidence": 1.0,
@@ -3328,11 +3324,11 @@
         "points": [
           {
             "x_normalized": 698.2741892444898,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           },
           {
             "x_normalized": 699.552518787743,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           }
         ],
         "confidence": 1.0,
@@ -3343,15 +3339,15 @@
         "points": [
           {
             "x_normalized": 261.0854854519165,
-            "y_normalized": 207.25727239068604
+            "y_normalized": 207.25727239068624
           },
           {
             "x_normalized": 305.8270194657764,
-            "y_normalized": 203.30615936971637
+            "y_normalized": 203.30615936971657
           },
           {
             "x_normalized": 391.47509886373666,
-            "y_normalized": 205.2817158802012
+            "y_normalized": 205.2817158802014
           }
         ],
         "confidence": 1.0,
@@ -3362,11 +3358,11 @@
         "points": [
           {
             "x_normalized": 261.0854854519165,
-            "y_normalized": 207.25727239068604
+            "y_normalized": 207.25727239068624
           },
           {
             "x_normalized": 259.80715590866345,
-            "y_normalized": 209.23282890117085
+            "y_normalized": 209.23282890117105
           }
         ],
         "confidence": 1.0,
@@ -3377,11 +3373,11 @@
         "points": [
           {
             "x_normalized": 261.0854854519165,
-            "y_normalized": 207.25727239068604
+            "y_normalized": 207.25727239068624
           },
           {
             "x_normalized": 259.80715590866345,
-            "y_normalized": 207.25727239068604
+            "y_normalized": 207.25727239068624
           }
         ],
         "confidence": 1.0,
@@ -3392,11 +3388,11 @@
         "points": [
           {
             "x_normalized": 452.83491693988725,
-            "y_normalized": 827.5820166829204
+            "y_normalized": 827.5820166829196
           },
           {
             "x_normalized": 454.1132464831405,
-            "y_normalized": 827.5820166829204
+            "y_normalized": 827.5820166829196
           }
         ],
         "confidence": 1.0,
@@ -3407,11 +3403,11 @@
         "points": [
           {
             "x_normalized": 452.83491693988725,
-            "y_normalized": 827.5820166829204
+            "y_normalized": 827.5820166829196
           },
           {
             "x_normalized": 451.5565873966342,
-            "y_normalized": 827.5820166829204
+            "y_normalized": 827.5820166829196
           }
         ],
         "confidence": 1.0,
@@ -3422,11 +3418,11 @@
         "points": [
           {
             "x_normalized": 452.83491693988725,
-            "y_normalized": 827.5820166829204
+            "y_normalized": 827.5820166829196
           },
           {
             "x_normalized": 451.5565873966342,
-            "y_normalized": 825.6064601724355
+            "y_normalized": 825.6064601724348
           }
         ],
         "confidence": 1.0,
@@ -3437,11 +3433,11 @@
         "points": [
           {
             "x_normalized": 440.0516215073559,
-            "y_normalized": 517.4196445368033
+            "y_normalized": 517.419644536803
           },
           {
             "x_normalized": 441.329951050609,
-            "y_normalized": 519.395201047288
+            "y_normalized": 519.3952010472877
           }
         ],
         "confidence": 1.0,
@@ -3452,11 +3448,11 @@
         "points": [
           {
             "x_normalized": 255.97216727890398,
-            "y_normalized": 296.1573153625031
+            "y_normalized": 296.15731536250314
           },
           {
             "x_normalized": 258.5288263654102,
-            "y_normalized": 211.20838541165568
+            "y_normalized": 211.20838541165588
           }
         ],
         "confidence": 1.0,
@@ -3467,11 +3463,11 @@
         "points": [
           {
             "x_normalized": 255.97216727890398,
-            "y_normalized": 296.1573153625031
+            "y_normalized": 296.15731536250314
           },
           {
             "x_normalized": 254.69383773565085,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           }
         ],
         "confidence": 1.0,
@@ -3482,11 +3478,11 @@
         "points": [
           {
             "x_normalized": 418.3200192720526,
-            "y_normalized": 201.33060285923156
+            "y_normalized": 201.33060285923176
           },
           {
             "x_normalized": 419.59834881530566,
-            "y_normalized": 203.30615936971637
+            "y_normalized": 203.30615936971657
           }
         ],
         "confidence": 1.0,
@@ -3497,11 +3493,11 @@
         "points": [
           {
             "x_normalized": 418.3200192720526,
-            "y_normalized": 201.33060285923156
+            "y_normalized": 201.33060285923176
           },
           {
             "x_normalized": 417.0416897287994,
-            "y_normalized": 203.30615936971637
+            "y_normalized": 203.30615936971657
           }
         ],
         "confidence": 1.0,
@@ -3512,11 +3508,11 @@
         "points": [
           {
             "x_normalized": 469.45320100217816,
-            "y_normalized": 707.0730695433462
+            "y_normalized": 707.0730695433456
           },
           {
             "x_normalized": 468.17487145892494,
-            "y_normalized": 709.048626053831
+            "y_normalized": 709.0486260538305
           }
         ],
         "confidence": 1.0,
@@ -3527,11 +3523,11 @@
         "points": [
           {
             "x_normalized": 469.45320100217816,
-            "y_normalized": 707.0730695433462
+            "y_normalized": 707.0730695433456
           },
           {
             "x_normalized": 468.17487145892494,
-            "y_normalized": 709.048626053831
+            "y_normalized": 709.0486260538305
           }
         ],
         "confidence": 1.0,
@@ -3542,7 +3538,7 @@
         "points": [
           {
             "x_normalized": 681.6559051821991,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           },
           {
             "x_normalized": 684.2125642687054,
@@ -3557,11 +3553,11 @@
         "points": [
           {
             "x_normalized": 681.6559051821991,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           },
           {
             "x_normalized": 680.3775756389458,
-            "y_normalized": 319.8639934883209
+            "y_normalized": 319.86399348832094
           }
         ],
         "confidence": 1.0,
@@ -3572,7 +3568,7 @@
         "points": [
           {
             "x_normalized": 583.2245303517074,
-            "y_normalized": 329.741776040745
+            "y_normalized": 329.7417760407451
           },
           {
             "x_normalized": 584.5028598949606,
@@ -3587,11 +3583,11 @@
         "points": [
           {
             "x_normalized": 726.3974391960589,
-            "y_normalized": 306.0350979149272
+            "y_normalized": 306.03509791492723
           },
           {
             "x_normalized": 726.3974391960589,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           }
         ],
         "confidence": 1.0,
@@ -3602,7 +3598,7 @@
         "points": [
           {
             "x_normalized": 726.3974391960589,
-            "y_normalized": 306.0350979149272
+            "y_normalized": 306.03509791492723
           },
           {
             "x_normalized": 723.8407801095527,
@@ -3617,11 +3613,11 @@
         "points": [
           {
             "x_normalized": 441.329951050609,
-            "y_normalized": 519.395201047288
+            "y_normalized": 519.3952010472877
           },
           {
             "x_normalized": 442.6082805938622,
-            "y_normalized": 517.4196445368033
+            "y_normalized": 517.419644536803
           }
         ],
         "confidence": 1.0,
@@ -3632,11 +3628,11 @@
         "points": [
           {
             "x_normalized": 441.329951050609,
-            "y_normalized": 519.395201047288
+            "y_normalized": 519.3952010472877
           },
           {
             "x_normalized": 442.6082805938622,
-            "y_normalized": 711.0241825643158
+            "y_normalized": 711.0241825643153
           }
         ],
         "confidence": 1.0,
@@ -3647,11 +3643,11 @@
         "points": [
           {
             "x_normalized": 259.80715590866345,
-            "y_normalized": 209.23282890117085
+            "y_normalized": 209.23282890117105
           },
           {
             "x_normalized": 259.80715590866345,
-            "y_normalized": 207.25727239068604
+            "y_normalized": 207.25727239068624
           }
         ],
         "confidence": 1.0,
@@ -3662,11 +3658,11 @@
         "points": [
           {
             "x_normalized": 259.80715590866345,
-            "y_normalized": 209.23282890117085
+            "y_normalized": 209.23282890117105
           },
           {
             "x_normalized": 258.5288263654102,
-            "y_normalized": 211.20838541165568
+            "y_normalized": 211.20838541165588
           }
         ],
         "confidence": 1.0,
@@ -3677,11 +3673,11 @@
         "points": [
           {
             "x_normalized": 259.80715590866345,
-            "y_normalized": 209.23282890117085
+            "y_normalized": 209.23282890117105
           },
           {
             "x_normalized": 258.5288263654102,
-            "y_normalized": 209.23282890117085
+            "y_normalized": 209.23282890117105
           }
         ],
         "confidence": 1.0,
@@ -3696,7 +3692,7 @@
           },
           {
             "x_normalized": 548.7096326838728,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           }
         ],
         "confidence": 1.0,
@@ -3711,7 +3707,7 @@
           },
           {
             "x_normalized": 546.1529735973663,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           }
         ],
         "confidence": 1.0,
@@ -3722,11 +3718,11 @@
         "points": [
           {
             "x_normalized": 417.0416897287994,
-            "y_normalized": 203.30615936971637
+            "y_normalized": 203.30615936971657
           },
           {
             "x_normalized": 394.031757950243,
-            "y_normalized": 205.2817158802012
+            "y_normalized": 205.2817158802014
           }
         ],
         "confidence": 1.0,
@@ -3737,11 +3733,11 @@
         "points": [
           {
             "x_normalized": 405.5367238395212,
-            "y_normalized": 306.0350979149272
+            "y_normalized": 306.03509791492723
           },
           {
             "x_normalized": 419.59834881530566,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           }
         ],
         "confidence": 1.0,
@@ -3752,11 +3748,11 @@
         "points": [
           {
             "x_normalized": 405.5367238395212,
-            "y_normalized": 306.0350979149272
+            "y_normalized": 306.03509791492723
           },
           {
             "x_normalized": 404.258394296268,
-            "y_normalized": 308.010654425412
+            "y_normalized": 308.01065442541204
           }
         ],
         "confidence": 1.0,
@@ -3767,11 +3763,11 @@
         "points": [
           {
             "x_normalized": 792.8705754452221,
-            "y_normalized": 290.23064583104855
+            "y_normalized": 290.23064583104866
           },
           {
             "x_normalized": 790.3139163587158,
-            "y_normalized": 302.0839848939575
+            "y_normalized": 302.0839848939576
           }
         ],
         "confidence": 1.0,
@@ -3782,23 +3778,23 @@
         "points": [
           {
             "x_normalized": 792.8705754452221,
-            "y_normalized": 290.23064583104855
+            "y_normalized": 290.23064583104866
           },
           {
             "x_normalized": 791.5922459019689,
-            "y_normalized": 146.01502056565653
+            "y_normalized": 146.01502056565678
           },
           {
             "x_normalized": 789.0355868154627,
-            "y_normalized": 138.11279452371724
+            "y_normalized": 138.1127945237175
           },
           {
             "x_normalized": 766.0256550369061,
-            "y_normalized": 138.11279452371724
+            "y_normalized": 138.1127945237175
           },
           {
             "x_normalized": 759.6340073206405,
-            "y_normalized": 134.16168150274757
+            "y_normalized": 134.16168150274788
           }
         ],
         "confidence": 1.0,
@@ -3809,11 +3805,11 @@
         "points": [
           {
             "x_normalized": 457.9482351128999,
-            "y_normalized": 507.5418619843791
+            "y_normalized": 507.5418619843789
           },
           {
             "x_normalized": 457.9482351128999,
-            "y_normalized": 505.56630547389426
+            "y_normalized": 505.56630547389403
           }
         ],
         "confidence": 1.0,
@@ -3824,11 +3820,11 @@
         "points": [
           {
             "x_normalized": 457.9482351128999,
-            "y_normalized": 507.5418619843791
+            "y_normalized": 507.5418619843789
           },
           {
             "x_normalized": 459.226564656153,
-            "y_normalized": 507.5418619843791
+            "y_normalized": 507.5418619843789
           }
         ],
         "confidence": 1.0,
@@ -3839,11 +3835,11 @@
         "points": [
           {
             "x_normalized": 578.111212178695,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           },
           {
             "x_normalized": 578.111212178695,
-            "y_normalized": 302.0839848939575
+            "y_normalized": 302.0839848939576
           }
         ],
         "confidence": 1.0,
@@ -3854,11 +3850,11 @@
         "points": [
           {
             "x_normalized": 578.111212178695,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           },
           {
             "x_normalized": 576.8328826354417,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           }
         ],
         "confidence": 1.0,
@@ -3869,11 +3865,11 @@
         "points": [
           {
             "x_normalized": 468.17487145892494,
-            "y_normalized": 709.048626053831
+            "y_normalized": 709.0486260538305
           },
           {
             "x_normalized": 443.8866101371153,
-            "y_normalized": 711.0241825643158
+            "y_normalized": 711.0241825643153
           }
         ],
         "confidence": 1.0,
@@ -3884,7 +3880,7 @@
         "points": [
           {
             "x_normalized": 401.70173520976175,
-            "y_normalized": 308.010654425412
+            "y_normalized": 308.01065442541204
           },
           {
             "x_normalized": 402.9800647530149,
@@ -3899,7 +3895,7 @@
         "points": [
           {
             "x_normalized": 668.8726097496676,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           },
           {
             "x_normalized": 670.1509392929208,
@@ -3914,11 +3910,11 @@
         "points": [
           {
             "x_normalized": 668.8726097496676,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           },
           {
             "x_normalized": 667.5942802064146,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           }
         ],
         "confidence": 1.0,
@@ -3929,11 +3925,11 @@
         "points": [
           {
             "x_normalized": 574.2762235489355,
-            "y_normalized": 306.0350979149272
+            "y_normalized": 306.03509791492723
           },
           {
             "x_normalized": 575.5545530921885,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           }
         ],
         "confidence": 1.0,
@@ -3944,11 +3940,11 @@
         "points": [
           {
             "x_normalized": 574.2762235489355,
-            "y_normalized": 306.0350979149272
+            "y_normalized": 306.03509791492723
           },
           {
             "x_normalized": 572.9978940056824,
-            "y_normalized": 308.010654425412
+            "y_normalized": 308.01065442541204
           }
         ],
         "confidence": 1.0,
@@ -3959,11 +3955,11 @@
         "points": [
           {
             "x_normalized": 258.5288263654102,
-            "y_normalized": 211.20838541165568
+            "y_normalized": 211.20838541165588
           },
           {
             "x_normalized": 258.5288263654102,
-            "y_normalized": 209.23282890117085
+            "y_normalized": 209.23282890117105
           }
         ],
         "confidence": 1.0,
@@ -3974,7 +3970,7 @@
         "points": [
           {
             "x_normalized": 546.1529735973663,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           },
           {
             "x_normalized": 542.317984967607,
@@ -3986,7 +3982,7 @@
           },
           {
             "x_normalized": 516.7513941025443,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           }
         ],
         "confidence": 1.0,
@@ -3997,11 +3993,11 @@
         "points": [
           {
             "x_normalized": 419.59834881530566,
-            "y_normalized": 203.30615936971637
+            "y_normalized": 203.30615936971657
           },
           {
             "x_normalized": 420.87667835855893,
-            "y_normalized": 205.2817158802012
+            "y_normalized": 205.2817158802014
           }
         ],
         "confidence": 1.0,
@@ -4012,11 +4008,11 @@
         "points": [
           {
             "x_normalized": 419.59834881530566,
-            "y_normalized": 203.30615936971637
+            "y_normalized": 203.30615936971657
           },
           {
             "x_normalized": 419.59834881530566,
-            "y_normalized": 205.2817158802012
+            "y_normalized": 205.2817158802014
           }
         ],
         "confidence": 1.0,
@@ -4027,11 +4023,11 @@
         "points": [
           {
             "x_normalized": 721.2841210230463,
-            "y_normalized": 134.16168150274757
+            "y_normalized": 134.16168150274788
           },
           {
             "x_normalized": 722.5624505662995,
-            "y_normalized": 136.1372380132324
+            "y_normalized": 136.13723801323272
           }
         ],
         "confidence": 1.0,
@@ -4042,11 +4038,11 @@
         "points": [
           {
             "x_normalized": 721.2841210230463,
-            "y_normalized": 134.16168150274757
+            "y_normalized": 134.16168150274788
           },
           {
             "x_normalized": 720.0057914797933,
-            "y_normalized": 136.1372380132324
+            "y_normalized": 136.13723801323272
           }
         ],
         "confidence": 1.0,
@@ -4061,7 +4057,7 @@
           },
           {
             "x_normalized": 514.194735016038,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           }
         ],
         "confidence": 1.0,
@@ -4072,11 +4068,11 @@
         "points": [
           {
             "x_normalized": 745.572382344856,
-            "y_normalized": 300.10842838347276
+            "y_normalized": 300.1084283834728
           },
           {
             "x_normalized": 745.572382344856,
-            "y_normalized": 302.0839848939575
+            "y_normalized": 302.0839848939576
           }
         ],
         "confidence": 1.0,
@@ -4087,11 +4083,11 @@
         "points": [
           {
             "x_normalized": 387.6401102339772,
-            "y_normalized": 240.84173306892802
+            "y_normalized": 240.84173306892816
           },
           {
             "x_normalized": 388.9184397772304,
-            "y_normalized": 240.84173306892802
+            "y_normalized": 240.84173306892816
           }
         ],
         "confidence": 1.0,
@@ -4102,11 +4098,11 @@
         "points": [
           {
             "x_normalized": 387.6401102339772,
-            "y_normalized": 240.84173306892802
+            "y_normalized": 240.84173306892816
           },
           {
             "x_normalized": 387.6401102339772,
-            "y_normalized": 242.8172895794128
+            "y_normalized": 242.81728957941294
           }
         ],
         "confidence": 1.0,
@@ -4117,7 +4113,7 @@
         "points": [
           {
             "x_normalized": 420.87667835855893,
-            "y_normalized": 296.1573153625031
+            "y_normalized": 296.15731536250314
           },
           {
             "x_normalized": 422.1550079018119,
@@ -4132,11 +4128,11 @@
         "points": [
           {
             "x_normalized": 420.87667835855893,
-            "y_normalized": 296.1573153625031
+            "y_normalized": 296.15731536250314
           },
           {
             "x_normalized": 422.1550079018119,
-            "y_normalized": 296.1573153625031
+            "y_normalized": 296.15731536250314
           }
         ],
         "confidence": 1.0,
@@ -4147,11 +4143,11 @@
         "points": [
           {
             "x_normalized": 420.87667835855893,
-            "y_normalized": 296.1573153625031
+            "y_normalized": 296.15731536250314
           },
           {
             "x_normalized": 420.87667835855893,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           }
         ],
         "confidence": 1.0,
@@ -4162,11 +4158,11 @@
         "points": [
           {
             "x_normalized": 420.87667835855893,
-            "y_normalized": 296.1573153625031
+            "y_normalized": 296.15731536250314
           },
           {
             "x_normalized": 419.59834881530566,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           }
         ],
         "confidence": 1.0,
@@ -4181,7 +4177,7 @@
           },
           {
             "x_normalized": 723.8407801095527,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           }
         ],
         "confidence": 1.0,
@@ -4192,11 +4188,11 @@
         "points": [
           {
             "x_normalized": 757.0773482341343,
-            "y_normalized": 136.1372380132324
+            "y_normalized": 136.13723801323272
           },
           {
             "x_normalized": 758.3556777773873,
-            "y_normalized": 136.1372380132324
+            "y_normalized": 136.13723801323272
           }
         ],
         "confidence": 1.0,
@@ -4207,11 +4203,11 @@
         "points": [
           {
             "x_normalized": 757.0773482341343,
-            "y_normalized": 136.1372380132324
+            "y_normalized": 136.13723801323272
           },
           {
             "x_normalized": 722.5624505662995,
-            "y_normalized": 136.1372380132324
+            "y_normalized": 136.13723801323272
           }
         ],
         "confidence": 1.0,
@@ -4222,11 +4218,11 @@
         "points": [
           {
             "x_normalized": 420.87667835855893,
-            "y_normalized": 205.2817158802012
+            "y_normalized": 205.2817158802014
           },
           {
             "x_normalized": 419.59834881530566,
-            "y_normalized": 207.25727239068604
+            "y_normalized": 207.25727239068624
           }
         ],
         "confidence": 1.0,
@@ -4237,11 +4233,11 @@
         "points": [
           {
             "x_normalized": 420.87667835855893,
-            "y_normalized": 205.2817158802012
+            "y_normalized": 205.2817158802014
           },
           {
             "x_normalized": 419.59834881530566,
-            "y_normalized": 205.2817158802012
+            "y_normalized": 205.2817158802014
           }
         ],
         "confidence": 1.0,
@@ -4252,7 +4248,7 @@
         "points": [
           {
             "x_normalized": 581.9462008084544,
-            "y_normalized": 341.59511510365394
+            "y_normalized": 341.59511510365405
           },
           {
             "x_normalized": 581.9462008084544,
@@ -4267,7 +4263,7 @@
         "points": [
           {
             "x_normalized": 581.9462008084544,
-            "y_normalized": 341.59511510365394
+            "y_normalized": 341.59511510365405
           },
           {
             "x_normalized": 581.9462008084544,
@@ -4282,7 +4278,7 @@
         "points": [
           {
             "x_normalized": 581.9462008084544,
-            "y_normalized": 341.59511510365394
+            "y_normalized": 341.59511510365405
           },
           {
             "x_normalized": 580.6678712652011,
@@ -4297,11 +4293,11 @@
         "points": [
           {
             "x_normalized": 391.47509886373666,
-            "y_normalized": 236.89062004795835
+            "y_normalized": 236.8906200479585
           },
           {
             "x_normalized": 390.19676932048355,
-            "y_normalized": 238.8661765584432
+            "y_normalized": 238.86617655844333
           }
         ],
         "confidence": 1.0,
@@ -4312,11 +4308,11 @@
         "points": [
           {
             "x_normalized": 721.2841210230463,
-            "y_normalized": 319.8639934883209
+            "y_normalized": 319.86399348832094
           },
           {
             "x_normalized": 722.5624505662995,
-            "y_normalized": 319.8639934883209
+            "y_normalized": 319.86399348832094
           }
         ],
         "confidence": 1.0,
@@ -4327,7 +4323,7 @@
         "points": [
           {
             "x_normalized": 721.2841210230463,
-            "y_normalized": 319.8639934883209
+            "y_normalized": 319.86399348832094
           },
           {
             "x_normalized": 722.5624505662995,
@@ -4342,7 +4338,7 @@
         "points": [
           {
             "x_normalized": 721.2841210230463,
-            "y_normalized": 319.8639934883209
+            "y_normalized": 319.86399348832094
           },
           {
             "x_normalized": 708.5008255905151,
@@ -4361,7 +4357,7 @@
           },
           {
             "x_normalized": 671.4292688361741,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           }
         ],
         "confidence": 1.0,
@@ -4372,11 +4368,11 @@
         "points": [
           {
             "x_normalized": 419.59834881530566,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           },
           {
             "x_normalized": 420.87667835855893,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           }
         ],
         "confidence": 1.0,
@@ -4387,7 +4383,7 @@
         "points": [
           {
             "x_normalized": 624.1310757358078,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           },
           {
             "x_normalized": 624.1310757358078,
@@ -4402,11 +4398,11 @@
         "points": [
           {
             "x_normalized": 624.1310757358078,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           },
           {
             "x_normalized": 625.4094052790609,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           }
         ],
         "confidence": 1.0,
@@ -4417,11 +4413,11 @@
         "points": [
           {
             "x_normalized": 624.1310757358078,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           },
           {
             "x_normalized": 624.1310757358078,
-            "y_normalized": 319.8639934883209
+            "y_normalized": 319.86399348832094
           }
         ],
         "confidence": 1.0,
@@ -4432,11 +4428,11 @@
         "points": [
           {
             "x_normalized": 451.5565873966342,
-            "y_normalized": 825.6064601724355
+            "y_normalized": 825.6064601724348
           },
           {
             "x_normalized": 451.5565873966342,
-            "y_normalized": 827.5820166829204
+            "y_normalized": 827.5820166829196
           }
         ],
         "confidence": 1.0,
@@ -4447,11 +4443,11 @@
         "points": [
           {
             "x_normalized": 451.5565873966342,
-            "y_normalized": 825.6064601724355
+            "y_normalized": 825.6064601724348
           },
           {
             "x_normalized": 450.27825785338104,
-            "y_normalized": 825.6064601724355
+            "y_normalized": 825.6064601724348
           }
         ],
         "confidence": 1.0,
@@ -4462,11 +4458,11 @@
         "points": [
           {
             "x_normalized": 419.59834881530566,
-            "y_normalized": 207.25727239068604
+            "y_normalized": 207.25727239068624
           },
           {
             "x_normalized": 419.59834881530566,
-            "y_normalized": 205.2817158802012
+            "y_normalized": 205.2817158802014
           }
         ],
         "confidence": 1.0,
@@ -4477,11 +4473,11 @@
         "points": [
           {
             "x_normalized": 419.59834881530566,
-            "y_normalized": 207.25727239068604
+            "y_normalized": 207.25727239068624
           },
           {
             "x_normalized": 418.3200192720526,
-            "y_normalized": 280.35286327862445
+            "y_normalized": 280.35286327862457
           },
           {
             "x_normalized": 422.1550079018119,
@@ -4496,11 +4492,11 @@
         "points": [
           {
             "x_normalized": 459.226564656153,
-            "y_normalized": 507.5418619843791
+            "y_normalized": 507.5418619843789
           },
           {
             "x_normalized": 457.9482351128999,
-            "y_normalized": 505.56630547389426
+            "y_normalized": 505.56630547389403
           }
         ],
         "confidence": 1.0,
@@ -4511,11 +4507,11 @@
         "points": [
           {
             "x_normalized": 383.80512160421785,
-            "y_normalized": 302.0839848939575
+            "y_normalized": 302.0839848939576
           },
           {
             "x_normalized": 385.08345114747095,
-            "y_normalized": 302.0839848939575
+            "y_normalized": 302.0839848939576
           }
         ],
         "confidence": 1.0,
@@ -4526,11 +4522,11 @@
         "points": [
           {
             "x_normalized": 707.2224960472619,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           },
           {
             "x_normalized": 708.5008255905151,
-            "y_normalized": 311.96176744638166
+            "y_normalized": 311.9617674463817
           }
         ],
         "confidence": 1.0,
@@ -4541,7 +4537,7 @@
         "points": [
           {
             "x_normalized": 707.2224960472619,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           },
           {
             "x_normalized": 708.5008255905151,
@@ -4556,11 +4552,11 @@
         "points": [
           {
             "x_normalized": 707.2224960472619,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           },
           {
             "x_normalized": 699.552518787743,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           }
         ],
         "confidence": 1.0,
@@ -4575,7 +4571,7 @@
           },
           {
             "x_normalized": 662.480962033402,
-            "y_normalized": 311.96176744638166
+            "y_normalized": 311.9617674463817
           }
         ],
         "confidence": 1.0,
@@ -4586,11 +4582,11 @@
         "points": [
           {
             "x_normalized": 456.6699055696467,
-            "y_normalized": 296.1573153625031
+            "y_normalized": 296.15731536250314
           },
           {
             "x_normalized": 457.9482351128999,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           }
         ],
         "confidence": 1.0,
@@ -4601,7 +4597,7 @@
         "points": [
           {
             "x_normalized": 456.6699055696467,
-            "y_normalized": 296.1573153625031
+            "y_normalized": 296.15731536250314
           },
           {
             "x_normalized": 423.4333374450651,
@@ -4616,11 +4612,11 @@
         "points": [
           {
             "x_normalized": 390.19676932048355,
-            "y_normalized": 238.8661765584432
+            "y_normalized": 238.86617655844333
           },
           {
             "x_normalized": 388.9184397772304,
-            "y_normalized": 240.84173306892802
+            "y_normalized": 240.84173306892816
           }
         ],
         "confidence": 1.0,
@@ -4631,11 +4627,11 @@
         "points": [
           {
             "x_normalized": 455.3915760263936,
-            "y_normalized": 509.5174184948639
+            "y_normalized": 509.51741849486376
           },
           {
             "x_normalized": 454.1132464831405,
-            "y_normalized": 511.49297500534874
+            "y_normalized": 511.4929750053485
           }
         ],
         "confidence": 1.0,
@@ -4665,7 +4661,7 @@
           },
           {
             "x_normalized": 422.1550079018119,
-            "y_normalized": 296.1573153625031
+            "y_normalized": 296.15731536250314
           }
         ],
         "confidence": 1.0,
@@ -4691,11 +4687,11 @@
         "points": [
           {
             "x_normalized": 759.6340073206405,
-            "y_normalized": 134.16168150274757
+            "y_normalized": 134.16168150274788
           },
           {
             "x_normalized": 758.3556777773873,
-            "y_normalized": 136.1372380132324
+            "y_normalized": 136.13723801323272
           }
         ],
         "confidence": 1.0,
@@ -4706,11 +4702,11 @@
         "points": [
           {
             "x_normalized": 391.47509886373666,
-            "y_normalized": 205.2817158802012
+            "y_normalized": 205.2817158802014
           },
           {
             "x_normalized": 392.75342840698977,
-            "y_normalized": 207.25727239068604
+            "y_normalized": 207.25727239068624
           }
         ],
         "confidence": 1.0,
@@ -4721,11 +4717,11 @@
         "points": [
           {
             "x_normalized": 442.6082805938622,
-            "y_normalized": 711.0241825643158
+            "y_normalized": 711.0241825643153
           },
           {
             "x_normalized": 443.8866101371153,
-            "y_normalized": 711.0241825643158
+            "y_normalized": 711.0241825643153
           }
         ],
         "confidence": 1.0,
@@ -4736,11 +4732,11 @@
         "points": [
           {
             "x_normalized": 457.9482351128999,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           },
           {
             "x_normalized": 457.9482351128999,
-            "y_normalized": 505.56630547389426
+            "y_normalized": 505.56630547389403
           }
         ],
         "confidence": 1.0,
@@ -4751,11 +4747,11 @@
         "points": [
           {
             "x_normalized": 662.480962033402,
-            "y_normalized": 311.96176744638166
+            "y_normalized": 311.9617674463817
           },
           {
             "x_normalized": 661.2026324901487,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           }
         ],
         "confidence": 1.0,
@@ -4766,11 +4762,11 @@
         "points": [
           {
             "x_normalized": 753.2423596043749,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           },
           {
             "x_normalized": 754.5206891476279,
-            "y_normalized": 306.0350979149272
+            "y_normalized": 306.03509791492723
           }
         ],
         "confidence": 1.0,
@@ -4781,11 +4777,11 @@
         "points": [
           {
             "x_normalized": 385.08345114747095,
-            "y_normalized": 266.5239677052307
+            "y_normalized": 266.5239677052308
           },
           {
             "x_normalized": 386.3617806907241,
-            "y_normalized": 264.5484111947459
+            "y_normalized": 264.54841119474605
           }
         ],
         "confidence": 1.0,
@@ -4800,7 +4796,7 @@
           },
           {
             "x_normalized": 722.5624505662995,
-            "y_normalized": 319.8639934883209
+            "y_normalized": 319.86399348832094
           }
         ],
         "confidence": 1.0,
@@ -4811,7 +4807,7 @@
         "points": [
           {
             "x_normalized": 422.1550079018119,
-            "y_normalized": 296.1573153625031
+            "y_normalized": 296.15731536250314
           },
           {
             "x_normalized": 422.1550079018119,
@@ -4826,11 +4822,11 @@
         "points": [
           {
             "x_normalized": 422.1550079018119,
-            "y_normalized": 296.1573153625031
+            "y_normalized": 296.15731536250314
           },
           {
             "x_normalized": 420.87667835855893,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           }
         ],
         "confidence": 1.0,
@@ -4841,11 +4837,11 @@
         "points": [
           {
             "x_normalized": 386.3617806907241,
-            "y_normalized": 264.5484111947459
+            "y_normalized": 264.54841119474605
           },
           {
             "x_normalized": 387.6401102339772,
-            "y_normalized": 242.8172895794128
+            "y_normalized": 242.81728957941294
           }
         ],
         "confidence": 1.0,
@@ -4856,11 +4852,11 @@
         "points": [
           {
             "x_normalized": 484.7931555212158,
-            "y_normalized": 288.25508932056374
+            "y_normalized": 288.25508932056385
           },
           {
             "x_normalized": 483.51482597796263,
-            "y_normalized": 290.23064583104855
+            "y_normalized": 290.23064583104866
           }
         ],
         "confidence": 1.0,
@@ -4871,11 +4867,11 @@
         "points": [
           {
             "x_normalized": 394.031757950243,
-            "y_normalized": 205.2817158802012
+            "y_normalized": 205.2817158802014
           },
           {
             "x_normalized": 392.75342840698977,
-            "y_normalized": 207.25727239068604
+            "y_normalized": 207.25727239068624
           }
         ],
         "confidence": 1.0,
@@ -4886,11 +4882,11 @@
         "points": [
           {
             "x_normalized": 442.6082805938622,
-            "y_normalized": 517.4196445368033
+            "y_normalized": 517.419644536803
           },
           {
             "x_normalized": 454.1132464831405,
-            "y_normalized": 511.49297500534874
+            "y_normalized": 511.4929750053485
           }
         ],
         "confidence": 1.0,
@@ -4901,11 +4897,11 @@
         "points": [
           {
             "x_normalized": 548.7096326838728,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           },
           {
             "x_normalized": 549.9879622271258,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           }
         ],
         "confidence": 1.0,
@@ -4916,11 +4912,11 @@
         "points": [
           {
             "x_normalized": 790.3139163587158,
-            "y_normalized": 302.0839848939575
+            "y_normalized": 302.0839848939576
           },
           {
             "x_normalized": 789.0355868154627,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           }
         ],
         "confidence": 1.0,
@@ -4931,11 +4927,11 @@
         "points": [
           {
             "x_normalized": 790.3139163587158,
-            "y_normalized": 302.0839848939575
+            "y_normalized": 302.0839848939576
           },
           {
             "x_normalized": 789.0355868154627,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           }
         ],
         "confidence": 1.0,
@@ -4946,11 +4942,11 @@
         "points": [
           {
             "x_normalized": 515.4730645592911,
-            "y_normalized": 311.96176744638166
+            "y_normalized": 311.9617674463817
           },
           {
             "x_normalized": 516.7513941025443,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           }
         ],
         "confidence": 1.0,
@@ -4961,11 +4957,11 @@
         "points": [
           {
             "x_normalized": 515.4730645592911,
-            "y_normalized": 311.96176744638166
+            "y_normalized": 311.9617674463817
           },
           {
             "x_normalized": 514.194735016038,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           }
         ],
         "confidence": 1.0,
@@ -4976,11 +4972,11 @@
         "points": [
           {
             "x_normalized": 625.4094052790609,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           },
           {
             "x_normalized": 624.1310757358078,
-            "y_normalized": 319.8639934883209
+            "y_normalized": 319.86399348832094
           }
         ],
         "confidence": 1.0,
@@ -4991,7 +4987,7 @@
         "points": [
           {
             "x_normalized": 625.4094052790609,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           },
           {
             "x_normalized": 624.1310757358078,
@@ -5006,11 +5002,11 @@
         "points": [
           {
             "x_normalized": 455.3915760263936,
-            "y_normalized": 874.9953729345561
+            "y_normalized": 874.9953729345555
           },
           {
             "x_normalized": 456.6699055696467,
-            "y_normalized": 873.0198164240712
+            "y_normalized": 873.0198164240705
           }
         ],
         "confidence": 1.0,
@@ -5021,11 +5017,11 @@
         "points": [
           {
             "x_normalized": 575.5545530921885,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           },
           {
             "x_normalized": 576.8328826354417,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           }
         ],
         "confidence": 1.0,
@@ -5036,11 +5032,11 @@
         "points": [
           {
             "x_normalized": 482.23649643470947,
-            "y_normalized": 292.20620234153336
+            "y_normalized": 292.2062023415334
           },
           {
             "x_normalized": 483.51482597796263,
-            "y_normalized": 290.23064583104855
+            "y_normalized": 290.23064583104866
           }
         ],
         "confidence": 1.0,
@@ -5055,7 +5051,7 @@
           },
           {
             "x_normalized": 580.6678712652011,
-            "y_normalized": 347.5217846351084
+            "y_normalized": 347.5217846351085
           }
         ],
         "confidence": 1.0,
@@ -5066,11 +5062,11 @@
         "points": [
           {
             "x_normalized": 699.552518787743,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           },
           {
             "x_normalized": 698.2741892444898,
-            "y_normalized": 311.96176744638166
+            "y_normalized": 311.9617674463817
           }
         ],
         "confidence": 1.0,
@@ -5081,7 +5077,7 @@
         "points": [
           {
             "x_normalized": 572.9978940056824,
-            "y_normalized": 308.010654425412
+            "y_normalized": 308.01065442541204
           },
           {
             "x_normalized": 574.2762235489355,
@@ -5096,11 +5092,11 @@
         "points": [
           {
             "x_normalized": 572.9978940056824,
-            "y_normalized": 308.010654425412
+            "y_normalized": 308.01065442541204
           },
           {
             "x_normalized": 551.266291770379,
-            "y_normalized": 311.96176744638166
+            "y_normalized": 311.9617674463817
           }
         ],
         "confidence": 1.0,
@@ -5111,11 +5107,11 @@
         "points": [
           {
             "x_normalized": 454.1132464831405,
-            "y_normalized": 827.5820166829204
+            "y_normalized": 827.5820166829196
           },
           {
             "x_normalized": 455.3915760263936,
-            "y_normalized": 829.5575731934051
+            "y_normalized": 829.5575731934046
           }
         ],
         "confidence": 1.0,
@@ -5126,11 +5122,11 @@
         "points": [
           {
             "x_normalized": 454.1132464831405,
-            "y_normalized": 827.5820166829204
+            "y_normalized": 827.5820166829196
           },
           {
             "x_normalized": 455.3915760263936,
-            "y_normalized": 829.5575731934051
+            "y_normalized": 829.5575731934046
           }
         ],
         "confidence": 1.0,
@@ -5141,11 +5137,11 @@
         "points": [
           {
             "x_normalized": 551.266291770379,
-            "y_normalized": 311.96176744638166
+            "y_normalized": 311.9617674463817
           },
           {
             "x_normalized": 549.9879622271258,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           }
         ],
         "confidence": 1.0,
@@ -5156,11 +5152,11 @@
         "points": [
           {
             "x_normalized": 259.80715590866345,
-            "y_normalized": 207.25727239068604
+            "y_normalized": 207.25727239068624
           },
           {
             "x_normalized": 258.5288263654102,
-            "y_normalized": 209.23282890117085
+            "y_normalized": 209.23282890117105
           }
         ],
         "confidence": 1.0,
@@ -5175,7 +5171,7 @@
           },
           {
             "x_normalized": 404.258394296268,
-            "y_normalized": 308.010654425412
+            "y_normalized": 308.01065442541204
           }
         ],
         "confidence": 1.0,
@@ -5186,11 +5182,11 @@
         "points": [
           {
             "x_normalized": 578.111212178695,
-            "y_normalized": 302.0839848939575
+            "y_normalized": 302.0839848939576
           },
           {
             "x_normalized": 576.8328826354417,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           }
         ],
         "confidence": 1.0,
@@ -5201,11 +5197,11 @@
         "points": [
           {
             "x_normalized": 694.4392006147305,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           },
           {
             "x_normalized": 693.1608710714773,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           }
         ],
         "confidence": 1.0,
@@ -5231,11 +5227,11 @@
         "points": [
           {
             "x_normalized": 621.5744166493016,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           },
           {
             "x_normalized": 622.8527461925548,
-            "y_normalized": 300.10842838347276
+            "y_normalized": 300.1084283834728
           }
         ],
         "confidence": 1.0,
@@ -5246,11 +5242,11 @@
         "points": [
           {
             "x_normalized": 455.3915760263936,
-            "y_normalized": 829.5575731934051
+            "y_normalized": 829.5575731934046
           },
           {
             "x_normalized": 456.6699055696467,
-            "y_normalized": 873.0198164240712
+            "y_normalized": 873.0198164240705
           }
         ],
         "confidence": 1.0,
@@ -5276,11 +5272,11 @@
         "points": [
           {
             "x_normalized": 671.4292688361741,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           },
           {
             "x_normalized": 672.707598379427,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           }
         ],
         "confidence": 1.0,
@@ -5291,11 +5287,11 @@
         "points": [
           {
             "x_normalized": 624.1310757358078,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           },
           {
             "x_normalized": 622.8527461925548,
-            "y_normalized": 300.10842838347276
+            "y_normalized": 300.1084283834728
           }
         ],
         "confidence": 1.0,
@@ -5310,7 +5306,7 @@
           },
           {
             "x_normalized": 622.8527461925548,
-            "y_normalized": 300.10842838347276
+            "y_normalized": 300.1084283834728
           }
         ],
         "confidence": 1.0,
@@ -5321,11 +5317,11 @@
         "points": [
           {
             "x_normalized": 456.6699055696467,
-            "y_normalized": 873.0198164240712
+            "y_normalized": 873.0198164240705
           },
           {
             "x_normalized": 457.9482351128999,
-            "y_normalized": 874.9953729345561
+            "y_normalized": 874.9953729345555
           }
         ],
         "confidence": 1.0,
@@ -5336,11 +5332,11 @@
         "points": [
           {
             "x_normalized": 387.6401102339772,
-            "y_normalized": 242.8172895794128
+            "y_normalized": 242.81728957941294
           },
           {
             "x_normalized": 388.9184397772304,
-            "y_normalized": 240.84173306892802
+            "y_normalized": 240.84173306892816
           }
         ],
         "confidence": 1.0,
@@ -5351,11 +5347,11 @@
         "points": [
           {
             "x_normalized": 723.8407801095527,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           },
           {
             "x_normalized": 722.5624505662995,
-            "y_normalized": 319.8639934883209
+            "y_normalized": 319.86399348832094
           }
         ],
         "confidence": 1.0,
@@ -5366,11 +5362,11 @@
         "points": [
           {
             "x_normalized": 754.5206891476279,
-            "y_normalized": 306.0350979149272
+            "y_normalized": 306.03509791492723
           },
           {
             "x_normalized": 789.0355868154627,
-            "y_normalized": 304.0595414044423
+            "y_normalized": 304.05954140444237
           }
         ],
         "confidence": 1.0,
@@ -5381,11 +5377,11 @@
         "points": [
           {
             "x_normalized": 450.27825785338104,
-            "y_normalized": 825.6064601724355
+            "y_normalized": 825.6064601724348
           },
           {
             "x_normalized": 451.5565873966342,
-            "y_normalized": 827.5820166829204
+            "y_normalized": 827.5820166829196
           }
         ],
         "confidence": 1.0,
@@ -5396,11 +5392,11 @@
         "points": [
           {
             "x_normalized": 254.69383773565085,
-            "y_normalized": 298.1328718729879
+            "y_normalized": 298.13287187298795
           },
           {
             "x_normalized": 253.4155081923977,
-            "y_normalized": 300.10842838347276
+            "y_normalized": 300.1084283834728
           }
         ],
         "confidence": 1.0,
@@ -5415,7 +5411,7 @@
           },
           {
             "x_normalized": 661.2026324901487,
-            "y_normalized": 313.9373239568664
+            "y_normalized": 313.9373239568665
           }
         ],
         "confidence": 1.0,
@@ -5430,7 +5426,7 @@
           },
           {
             "x_normalized": 658.6459734036426,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           }
         ],
         "confidence": 1.0,
@@ -5445,7 +5441,7 @@
           },
           {
             "x_normalized": 658.6459734036426,
-            "y_normalized": 317.8884369778361
+            "y_normalized": 317.88843697783614
           }
         ],
         "confidence": 1.0,
@@ -5456,15 +5452,34 @@
         "points": [
           {
             "x_normalized": 472.0098600886844,
-            "y_normalized": 657.6841567812256
+            "y_normalized": 657.6841567812254
           },
           {
             "x_normalized": 489.9064736942283,
-            "y_normalized": 651.7574872497711
+            "y_normalized": 651.7574872497706
           },
           {
             "x_normalized": 488.6281441509752,
-            "y_normalized": 513.4685315158335
+            "y_normalized": 513.4685315158333
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-357",
+        "points": [
+          {
+            "x_normalized": 487.349814607722,
+            "y_normalized": 284.3039762995942
+          },
+          {
+            "x_normalized": 490.19607843137254,
+            "y_normalized": 280.30303030303025
+          },
+          {
+            "x_normalized": 503.9680986700128,
+            "y_normalized": 284.3039762995942
           }
         ],
         "confidence": 1.0,

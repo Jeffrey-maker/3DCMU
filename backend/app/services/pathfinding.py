@@ -44,10 +44,28 @@ def _adjacency(graph: FloorGraph) -> dict[str, list[tuple[str, Edge]]]:
     return adj
 
 
+# A room is somewhere you go, not somewhere you pass through. Without this
+# a room with two doors becomes a shortcut between them, and routes get sent
+# through other people's offices to save a few feet. Stairs and lifts are
+# deliberately not listed: passing through those is the whole point of them.
+TERMINAL_NODE_TYPES = {"room"}
+
+
 def shortest_path(graph: FloorGraph, start_id: str, end_id: str) -> Optional[RouteResult]:
     nodes_by_id = {n.id: n for n in graph.nodes}
     if start_id not in nodes_by_id or end_id not in nodes_by_id:
         return None
+
+    # Only meaningful when there is circulation to route along instead. A
+    # degenerate graph of nothing but rooms (the no-doors-detected fallback)
+    # has to be walked room to room or it cannot be walked at all.
+    enforce_terminal = any(n.type not in TERMINAL_NODE_TYPES for n in graph.nodes)
+
+    def passable(node_id: str) -> bool:
+        node = nodes_by_id.get(node_id)
+        if node is None or node.type not in TERMINAL_NODE_TYPES or not enforce_terminal:
+            return True
+        return node_id in (start_id, end_id)
 
     adjacency = _adjacency(graph)
     dist: dict[str, float] = {start_id: 0.0}
@@ -63,6 +81,8 @@ def shortest_path(graph: FloorGraph, start_id: str, end_id: str) -> Optional[Rou
         if node_id == end_id:
             break
         for neighbor_id, edge in adjacency.get(node_id, []):
+            if not passable(neighbor_id):
+                continue
             candidate = d + edge.weight
             if candidate < dist.get(neighbor_id, float("inf")):
                 dist[neighbor_id] = candidate

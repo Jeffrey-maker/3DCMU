@@ -76,4 +76,9 @@ class FloorDraft(BaseModel):
     # the grouping is the useful part: it answers which room a point is in,
     # and therefore which room a door actually belongs to.
     room_polygons: list[list[tuple[float, float]]] = []
+    # Node id -> the doorways of that space, found from where its outline
+    # opens onto walkable floor (see services/space_doors.py). Attributed to
+    # the space by construction, so a door is never claimed by the room on
+    # the other side of the wall.
+    space_doors: dict[str, list[tuple[float, float]]] = {}
     raster_path: Optional[str] = None

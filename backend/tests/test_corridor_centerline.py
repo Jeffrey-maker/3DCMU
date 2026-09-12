@@ -154,3 +154,111 @@ def test_split_subpaths_keeps_one_continuous_loop_together():
     polygons = extraction.split_subpaths(edges)
 
     assert len(polygons) == 1
+
+
+def _box(x0, y0, x1, y1):
+    return [(float(x0), float(y0)), (float(x1), float(y0)), (float(x1), float(y1)), (float(x0), float(y1))]
+
+
+def test_classifier_result_is_refused_when_corridors_do_not_join_up():
+    """The model is only trusted when its answer holds up geometrically: real
+    circulation is walkable end to end, so scattered unconnected spaces mean
+    it labelled rooms, not corridors."""
+    from app.models.graph import FloorDraft
+    from app.services import space_classifier
+
+    polygons = [_box(0, 0, 20, 20), _box(500, 500, 520, 520), _box(900, 100, 920, 120)]
+    nodes = [
+        _room("1", 10, 10), _room("2", 510, 510), _room("3", 910, 110),
+    ]
+    draft = FloorDraft(building="WEH", floor=4, nodes=nodes, room_polygons=polygons)
+    categories = {"1": "corridor", "2": "corridor", "3": "corridor"}
+
+    space_classifier.MAX_CORRIDOR_COMPONENTS = 2
+    try:
+        assert space_classifier.corridor_polygons(draft, categories) == []
+    finally:
+        space_classifier.MAX_CORRIDOR_COMPONENTS = 4
+
+
+def test_bridging_pulls_in_the_connector_the_model_skipped():
+    """Two corridor wings with an unlabelled link between them: the link is
+    the only outline touching both, so it must be adopted."""
+    from app.models.graph import FloorDraft
+    from app.services import space_classifier
+
+    left = _box(0, 0, 100, 20)
+    link = _box(100, 0, 130, 20)
+    right = _box(130, 0, 230, 20)
+    far = _box(600, 600, 620, 620)
+    polygons = [left, link, right, far]
+    nodes = [_room("L", 50, 10), _room("K", 115, 10), _room("R", 180, 10), _room("F", 610, 610)]
+    draft = FloorDraft(building="WEH", floor=4, nodes=nodes, room_polygons=polygons)
+
+    chosen = space_classifier.corridor_polygons(draft, {"L": "corridor", "R": "corridor"})
+
+    assert link in chosen, "the connector between two wings should be adopted"
+    assert far not in chosen, "an unrelated distant outline must not be"
+
+
+def test_compute_from_polygons_returns_none_without_corridors():
+    from app.models.graph import FloorDraft
+
+    draft = FloorDraft(building="WEH", floor=4)
+    assert centerline.compute_from_polygons(draft, []) is None
+
+
+def _wall(x0, y0, x1, y1):
+    return WallSegment(type="line", points=[(float(x0), float(y0)), (float(x1), float(y1))],
+                       layer="ARCH|A-WALL")
+
+
+def test_prune_splits_a_line_where_it_clips_a_wall():
+    """A coarse mask can leave a spine grazing an obstacle. Left in, that
+    segment is rejected later and takes the network's connectivity with it,
+    so it is cut here instead."""
+    from app.models.graph import FloorDraft
+    from app.services import network_repair
+
+    draft = FloorDraft(building="WEH", floor=4, raw_geometry=[_wall(50, -10, 50, 10)])
+    line = [(0.0, 0.0), (40.0, 0.0), (60.0, 0.0), (100.0, 0.0)]
+
+    kept = network_repair.prune([line], draft)
+
+    flattened = [p for run in kept for p in run]
+    assert (40.0, 0.0) in flattened and (60.0, 0.0) in flattened
+    assert all(
+        not (a == (40.0, 0.0) and b == (60.0, 0.0))
+        for run in kept for a, b in zip(run, run[1:])
+    ), "the segment crossing the wall must not survive"
+
+
+def test_bridge_joins_two_pieces_through_a_real_gap():
+    """Two corridor stubs either side of a doorway-width gap in a wall: the
+    grid can walk it, so the network should come back as one piece."""
+    from app.models.graph import FloorDraft
+    from app.services import network_repair
+
+    # A wall along x=50 with an opening between y=-6 and y=6.
+    draft = FloorDraft(building="WEH", floor=4, raw_geometry=[
+        _wall(50, 6, 50, 120), _wall(50, -120, 50, -6),
+    ])
+    left = [(0.0, 0.0), (40.0, 0.0)]
+    right = [(60.0, 0.0), (100.0, 0.0)]
+
+    assert len(network_repair._components([left, right])) == 2
+    joined, added = network_repair.bridge([left, right], draft)
+
+    assert added == 1
+    assert len(network_repair._components(joined)) == 1
+
+
+def test_bridge_refuses_to_invent_a_link_through_a_solid_wall():
+    from app.models.graph import FloorDraft
+    from app.services import network_repair
+
+    draft = FloorDraft(building="WEH", floor=4, raw_geometry=[_wall(50, -400, 50, 400)])
+    joined, added = network_repair.bridge([[(0.0, 0.0), (40.0, 0.0)], [(60.0, 0.0), (100.0, 0.0)]], draft)
+
+    assert added == 0
+    assert len(network_repair._components(joined)) == 2
