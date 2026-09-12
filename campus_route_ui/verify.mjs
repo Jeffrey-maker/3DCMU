@@ -65,10 +65,11 @@ for(const [name,viewport] of Object.entries({phone:{width:390,height:844},deskto
   const pixels=await page.locator("canvas").evaluate(canvas=>{
     const gl=canvas.getContext("webgl2")||canvas.getContext("webgl");
     const data=new Uint8Array(canvas.width*canvas.height*4);gl.readPixels(0,0,canvas.width,canvas.height,gl.RGBA,gl.UNSIGNED_BYTE,data);
-    const colors=new Set();for(let i=0;i<data.length;i+=400)colors.add(`${data[i]},${data[i+1]},${data[i+2]}`);
-    return {sampledColors:colors.size,nonzero:data.some(value=>value!==0)};
+    const colors=new Set();let routePixels=0;for(let i=0;i<data.length;i+=4){if(i%400===0)colors.add(`${data[i]},${data[i+1]},${data[i+2]}`);if(data[i]>210&&data[i+1]<100&&data[i+2]<100)routePixels++}
+    return {sampledColors:colors.size,nonzero:data.some(value=>value!==0),routePixels};
   });
   if(!pixels.nonzero||pixels.sampledColors<4)throw new Error(`Blank 3D canvas at ${name} viewport`);
+  if(pixels.routePixels<50)throw new Error(`Expected a visible thick red route at ${name} viewport, found ${pixels.routePixels} red pixels`);
   await page.screenshot({path:`/tmp/campus-route-${name}-verified.png`,fullPage:true});
   console.log(JSON.stringify({name,canvas,roomCount,wallCount,spaceCount,referencePassageCount,heading,standardMode,accessibleMode,pixels,errors}));
 }
