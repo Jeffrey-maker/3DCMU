@@ -26,9 +26,7 @@
       <section class="viewer" aria-label="Interactive 3D map">
         <div id="scene"></div>
         <div class="viewer-top">
-          <div class="segmented" aria-label="Visible floors">
-            <button class="active" data-floor="all">All</button><button data-floor="4">L4</button><button data-floor="5">L5</button>
-          </div>
+          <div class="map-filter"><div class="segmented" aria-label="Visible building"><button class="active" data-building="all">All</button><button data-building="SH">Scott</button><button data-building="WEH">Wean</button></div><select id="floor-filter" aria-label="Visible floor"><option value="all">All floors</option></select></div>
           <button class="icon-button glass" id="rotate" title="Toggle automatic rotation" aria-label="Toggle automatic rotation">↻</button>
         </div>
         <div class="legend"><span><i class="start-dot"></i>Start</span><span><i class="end-dot"></i>Destination</span><span><i class="route-key"></i>Route</span></div>
@@ -36,12 +34,13 @@
       </section>
 
       <section class="planner">
-        <div class="field"><label for="from">From</label><select id="from"></select></div>
+        <div class="field"><label for="from">From</label><input id="from" list="room-options" type="search" autocomplete="off" placeholder="Search 1,262 rooms"></div>
         <button class="swap" id="swap" title="Swap start and destination" aria-label="Swap start and destination">⇅</button>
-        <div class="field"><label for="to">To</label><select id="to"></select></div>
+        <div class="field"><label for="to">To</label><input id="to" list="room-options" type="search" autocomplete="off" placeholder="Search room number"></div>
+        <datalist id="room-options"></datalist>
         <label class="toggle"><input id="accessible" type="checkbox"><span>Accessible route</span></label>
         <button class="primary" id="go">Show 3D route</button>
-        <div class="examples"><button data-from="WEH-5222" data-to="WEH-5343">Wean L5</button><button data-from="SH-4N103" data-to="WEH-4325">Scott → Wean</button><button data-from="WEH-5130" data-to="WEH-4325">Level 5 → 4</button></div>
+        <div class="examples"><button data-from="WEH-5222" data-to="WEH-5434">Wean L5</button><button data-from="SH-4N103" data-to="WEH-4325">Scott → Wean</button><button data-from="WEH-5130" data-to="WEH-4325">Level 5 → 4</button></div>
       </section>
 
       <section id="result" class="directions" aria-live="polite"></section>
