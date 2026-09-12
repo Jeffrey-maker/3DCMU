@@ -23,6 +23,17 @@ for(const [name,viewport] of Object.entries({phone:{width:390,height:844},deskto
   const canvas=await page.locator("canvas").boundingBox();
   const roomCount=await page.locator("#room-options option").count();
   if(roomCount!==1262)throw new Error(`Expected 1262 mapped spaces, found ${roomCount}`);
+  const initialStatus=await page.locator("#scene-status").textContent(),wallCount=Number(initialStatus.match(/([\d,]+) wall segments/)?.[1].replaceAll(",","")||0);
+  if(wallCount<100)throw new Error(`Expected recognized 3D walls, found ${wallCount}`);
+  if(name==="desktop"){
+    await page.screenshot({path:"/tmp/campus-route-recognized-walls.png"});
+    await page.selectOption("#floor-filter","WEH-4");
+    const inspectionStyle=await page.addStyleTag({content:".room-label{display:none!important}"});
+    await page.waitForTimeout(150);
+    await page.screenshot({path:"/tmp/campus-route-recognized-walls-floor.png"});
+    await inspectionStyle.evaluate(element=>element.remove());
+    await page.selectOption("#floor-filter","all");
+  }
   async function route(start,end,isAccessible=false){await page.fill("#from",start);await page.fill("#to",end);await page.setChecked("#accessible",isAccessible);await page.click("#go");await page.waitForFunction(()=>!document.querySelector("#go").disabled);return page.locator(".directions").textContent()}
   const sameFloor=await route("Wean 5130","Wean 5434");
   if(!sameFloor.includes("Map walkspace"))throw new Error("Same-floor path did not use the plan raster");
@@ -49,7 +60,7 @@ for(const [name,viewport] of Object.entries({phone:{width:390,height:844},deskto
   });
   if(!pixels.nonzero||pixels.sampledColors<4)throw new Error(`Blank 3D canvas at ${name} viewport`);
   await page.screenshot({path:`/tmp/campus-route-${name}-verified.png`,fullPage:true});
-  console.log(JSON.stringify({name,canvas,roomCount,heading,standardMode,accessibleMode,pixels,errors}));
+  console.log(JSON.stringify({name,canvas,roomCount,wallCount,heading,standardMode,accessibleMode,pixels,errors}));
 }
 await browser.close();
 if(server)await new Promise(resolve=>server.close(resolve));
