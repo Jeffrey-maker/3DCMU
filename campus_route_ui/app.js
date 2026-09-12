@@ -83,7 +83,6 @@ async function addFloor(floor){
   floor.wallCount=addRecognizedWalls(floor,group);
   addSemanticSpaces(floor,group);
   addYbcReference(floor,group);
-  const roomGeometry=new THREE.BoxGeometry(.22,.3,.22),roomMaterial=new THREE.MeshStandardMaterial({color:floor.building==="SH"?0x087f82:0xb77d18,roughness:.6,metalness:.05});const roomBlocks=new THREE.InstancedMesh(roomGeometry,roomMaterial,floor.rooms.length);roomBlocks.castShadow=true;roomBlocks.receiveShadow=true;const matrix=new THREE.Matrix4();floor.rooms.forEach((room,index)=>{matrix.setPosition(worldPoint(floor,room.x,room.z,.25));roomBlocks.setMatrixAt(index,matrix)});roomBlocks.instanceMatrix.needsUpdate=true;group.add(roomBlocks);
   const roomLabels=new THREE.Group();roomLabels.visible=false;for(const room of floor.rooms){const label=roomLabel(room);label.position.copy(worldPoint(floor,room.x,room.z,.3));roomLabels.add(label)}group.add(roomLabels);
   const label=htmlLabel(`${floor.buildingName} · ${floor.levelLabel}`);label.position.copy(worldPoint(floor,.5,.08,.45));group.add(label);scene.add(group);floorObjects.push({floor,group,roomLabels});
 }
