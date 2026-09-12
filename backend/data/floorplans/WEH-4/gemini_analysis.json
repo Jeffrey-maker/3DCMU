@@ -1,0 +1,5477 @@
+{
+  "schema_version": 2,
+  "task": "passage_centerlines",
+  "status": "deterministic",
+  "routing_source": "space_type_centerlines",
+  "floorplan": {
+    "building": "WEH",
+    "floor": 4
+  },
+  "model": null,
+  "created_at": "2026-09-12T14:53:10.961620+00:00",
+  "raster_sha256": "3c2ecd744930fdcbb1278155c44532b4982ae7b141bc35e5b89c1ecdf18e3238",
+  "space_type_sha256": "99016fbc228bc30a1584ccc52838778b2b35fcb3dc70518dcfe7cbc63c9dd84f",
+  "coordinate_system": {
+    "type": "pdf_points",
+    "pdf_bounds": [
+      0,
+      0,
+      1224.0,
+      792.0
+    ]
+  },
+  "suggestions": {
+    "summary": "357 public-corridor centerlines derived geometrically from the space-type report.",
+    "pathways": [
+      {
+        "id": "corridor-0",
+        "points": [
+          {
+            "x_normalized": 479.67983734820325,
+            "y_normalized": 201.33060285923156
+          },
+          {
+            "x_normalized": 480.9581668914564,
+            "y_normalized": 142.06390754468686
+          },
+          {
+            "x_normalized": 483.51482597796263,
+            "y_normalized": 138.11279452371724
+          },
+          {
+            "x_normalized": 720.0057914797933,
+            "y_normalized": 136.1372380132324
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-1",
+        "points": [
+          {
+            "x_normalized": 479.67983734820325,
+            "y_normalized": 201.33060285923156
+          },
+          {
+            "x_normalized": 479.67983734820325,
+            "y_normalized": 203.30615936971637
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-2",
+        "points": [
+          {
+            "x_normalized": 479.67983734820325,
+            "y_normalized": 201.33060285923156
+          },
+          {
+            "x_normalized": 478.40150780495,
+            "y_normalized": 203.30615936971637
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-3",
+        "points": [
+          {
+            "x_normalized": 665.0376211199083,
+            "y_normalized": 309.98621093589685
+          },
+          {
+            "x_normalized": 667.5942802064146,
+            "y_normalized": 313.9373239568664
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-4",
+        "points": [
+          {
+            "x_normalized": 665.0376211199083,
+            "y_normalized": 309.98621093589685
+          },
+          {
+            "x_normalized": 663.7592915766553,
+            "y_normalized": 311.96176744638166
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-5",
+        "points": [
+          {
+            "x_normalized": 665.0376211199083,
+            "y_normalized": 309.98621093589685
+          },
+          {
+            "x_normalized": 663.7592915766553,
+            "y_normalized": 309.98621093589685
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-6",
+        "points": [
+          {
+            "x_normalized": 665.0376211199083,
+            "y_normalized": 309.98621093589685
+          },
+          {
+            "x_normalized": 663.7592915766553,
+            "y_normalized": 308.010654425412
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-7",
+        "points": [
+          {
+            "x_normalized": 470.73153054543116,
+            "y_normalized": 659.6597132917104
+          },
+          {
+            "x_normalized": 472.0098600886844,
+            "y_normalized": 657.6841567812256
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-8",
+        "points": [
+          {
+            "x_normalized": 470.73153054543116,
+            "y_normalized": 659.6597132917104
+          },
+          {
+            "x_normalized": 472.0098600886844,
+            "y_normalized": 657.6841567812256
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-9",
+        "points": [
+          {
+            "x_normalized": 470.73153054543116,
+            "y_normalized": 659.6597132917104
+          },
+          {
+            "x_normalized": 469.45320100217816,
+            "y_normalized": 707.0730695433462
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-10",
+        "points": [
+          {
+            "x_normalized": 621.5744166493016,
+            "y_normalized": 323.81510650929056
+          },
+          {
+            "x_normalized": 621.5744166493016,
+            "y_normalized": 321.83954999880575
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-11",
+        "points": [
+          {
+            "x_normalized": 621.5744166493016,
+            "y_normalized": 323.81510650929056
+          },
+          {
+            "x_normalized": 622.8527461925548,
+            "y_normalized": 321.83954999880575
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-12",
+        "points": [
+          {
+            "x_normalized": 621.5744166493016,
+            "y_normalized": 323.81510650929056
+          },
+          {
+            "x_normalized": 608.7911212167702,
+            "y_normalized": 329.741776040745
+          },
+          {
+            "x_normalized": 585.7811894382138,
+            "y_normalized": 331.71733255122984
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-13",
+        "points": [
+          {
+            "x_normalized": 622.8527461925548,
+            "y_normalized": 321.83954999880575
+          },
+          {
+            "x_normalized": 622.8527461925548,
+            "y_normalized": 319.8639934883209
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-14",
+        "points": [
+          {
+            "x_normalized": 622.8527461925548,
+            "y_normalized": 321.83954999880575
+          },
+          {
+            "x_normalized": 624.1310757358078,
+            "y_normalized": 319.8639934883209
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-15",
+        "points": [
+          {
+            "x_normalized": 622.8527461925548,
+            "y_normalized": 321.83954999880575
+          },
+          {
+            "x_normalized": 621.5744166493016,
+            "y_normalized": 321.83954999880575
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-16",
+        "points": [
+          {
+            "x_normalized": 695.7175301579836,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 698.2741892444898,
+            "y_normalized": 313.9373239568664
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-17",
+        "points": [
+          {
+            "x_normalized": 695.7175301579836,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 694.4392006147305,
+            "y_normalized": 317.8884369778361
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-18",
+        "points": [
+          {
+            "x_normalized": 695.7175301579836,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 694.4392006147305,
+            "y_normalized": 315.9128804673513
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-19",
+        "points": [
+          {
+            "x_normalized": 483.51482597796263,
+            "y_normalized": 288.25508932056374
+          },
+          {
+            "x_normalized": 484.7931555212158,
+            "y_normalized": 286.2795328100789
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-20",
+        "points": [
+          {
+            "x_normalized": 483.51482597796263,
+            "y_normalized": 288.25508932056374
+          },
+          {
+            "x_normalized": 484.7931555212158,
+            "y_normalized": 288.25508932056374
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-21",
+        "points": [
+          {
+            "x_normalized": 483.51482597796263,
+            "y_normalized": 288.25508932056374
+          },
+          {
+            "x_normalized": 483.51482597796263,
+            "y_normalized": 290.23064583104855
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-22",
+        "points": [
+          {
+            "x_normalized": 483.51482597796263,
+            "y_normalized": 288.25508932056374
+          },
+          {
+            "x_normalized": 482.23649643470947,
+            "y_normalized": 290.23064583104855
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-23",
+        "points": [
+          {
+            "x_normalized": 583.2245303517074,
+            "y_normalized": 327.7662195302602
+          },
+          {
+            "x_normalized": 583.2245303517074,
+            "y_normalized": 329.741776040745
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-24",
+        "points": [
+          {
+            "x_normalized": 583.2245303517074,
+            "y_normalized": 327.7662195302602
+          },
+          {
+            "x_normalized": 581.9462008084544,
+            "y_normalized": 327.7662195302602
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-25",
+        "points": [
+          {
+            "x_normalized": 583.2245303517074,
+            "y_normalized": 327.7662195302602
+          },
+          {
+            "x_normalized": 581.9462008084544,
+            "y_normalized": 325.7906630197753
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-26",
+        "points": [
+          {
+            "x_normalized": 441.329951050609,
+            "y_normalized": 517.4196445368033
+          },
+          {
+            "x_normalized": 442.6082805938622,
+            "y_normalized": 517.4196445368033
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-27",
+        "points": [
+          {
+            "x_normalized": 441.329951050609,
+            "y_normalized": 517.4196445368033
+          },
+          {
+            "x_normalized": 441.329951050609,
+            "y_normalized": 519.395201047288
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-28",
+        "points": [
+          {
+            "x_normalized": 441.329951050609,
+            "y_normalized": 517.4196445368033
+          },
+          {
+            "x_normalized": 440.0516215073559,
+            "y_normalized": 517.4196445368033
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-29",
+        "points": [
+          {
+            "x_normalized": 392.75342840698977,
+            "y_normalized": 205.2817158802012
+          },
+          {
+            "x_normalized": 394.031757950243,
+            "y_normalized": 205.2817158802012
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-30",
+        "points": [
+          {
+            "x_normalized": 392.75342840698977,
+            "y_normalized": 205.2817158802012
+          },
+          {
+            "x_normalized": 392.75342840698977,
+            "y_normalized": 207.25727239068604
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-31",
+        "points": [
+          {
+            "x_normalized": 392.75342840698977,
+            "y_normalized": 205.2817158802012
+          },
+          {
+            "x_normalized": 391.47509886373666,
+            "y_normalized": 205.2817158802012
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-32",
+        "points": [
+          {
+            "x_normalized": 662.480962033402,
+            "y_normalized": 313.9373239568664
+          },
+          {
+            "x_normalized": 662.480962033402,
+            "y_normalized": 311.96176744638166
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-33",
+        "points": [
+          {
+            "x_normalized": 662.480962033402,
+            "y_normalized": 313.9373239568664
+          },
+          {
+            "x_normalized": 663.7592915766553,
+            "y_normalized": 311.96176744638166
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-34",
+        "points": [
+          {
+            "x_normalized": 662.480962033402,
+            "y_normalized": 313.9373239568664
+          },
+          {
+            "x_normalized": 661.2026324901487,
+            "y_normalized": 313.9373239568664
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-35",
+        "points": [
+          {
+            "x_normalized": 386.3617806907241,
+            "y_normalized": 266.5239677052307
+          },
+          {
+            "x_normalized": 386.3617806907241,
+            "y_normalized": 264.5484111947459
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-36",
+        "points": [
+          {
+            "x_normalized": 386.3617806907241,
+            "y_normalized": 266.5239677052307
+          },
+          {
+            "x_normalized": 385.08345114747095,
+            "y_normalized": 268.49952421571555
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-37",
+        "points": [
+          {
+            "x_normalized": 386.3617806907241,
+            "y_normalized": 266.5239677052307
+          },
+          {
+            "x_normalized": 385.08345114747095,
+            "y_normalized": 266.5239677052307
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-38",
+        "points": [
+          {
+            "x_normalized": 679.0992460956928,
+            "y_normalized": 319.8639934883209
+          },
+          {
+            "x_normalized": 680.3775756389458,
+            "y_normalized": 317.8884369778361
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-39",
+        "points": [
+          {
+            "x_normalized": 679.0992460956928,
+            "y_normalized": 319.8639934883209
+          },
+          {
+            "x_normalized": 680.3775756389458,
+            "y_normalized": 319.8639934883209
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-40",
+        "points": [
+          {
+            "x_normalized": 679.0992460956928,
+            "y_normalized": 319.8639934883209
+          },
+          {
+            "x_normalized": 672.707598379427,
+            "y_normalized": 317.8884369778361
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-41",
+        "points": [
+          {
+            "x_normalized": 680.3775756389458,
+            "y_normalized": 317.8884369778361
+          },
+          {
+            "x_normalized": 681.6559051821991,
+            "y_normalized": 317.8884369778361
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-42",
+        "points": [
+          {
+            "x_normalized": 680.3775756389458,
+            "y_normalized": 317.8884369778361
+          },
+          {
+            "x_normalized": 680.3775756389458,
+            "y_normalized": 319.8639934883209
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-43",
+        "points": [
+          {
+            "x_normalized": 841.4470980888414,
+            "y_normalized": 292.20620234153336
+          },
+          {
+            "x_normalized": 792.8705754452221,
+            "y_normalized": 290.23064583104855
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-44",
+        "points": [
+          {
+            "x_normalized": 480.9581668914564,
+            "y_normalized": 292.20620234153336
+          },
+          {
+            "x_normalized": 482.23649643470947,
+            "y_normalized": 290.23064583104855
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-45",
+        "points": [
+          {
+            "x_normalized": 480.9581668914564,
+            "y_normalized": 292.20620234153336
+          },
+          {
+            "x_normalized": 482.23649643470947,
+            "y_normalized": 292.20620234153336
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-46",
+        "points": [
+          {
+            "x_normalized": 480.9581668914564,
+            "y_normalized": 292.20620234153336
+          },
+          {
+            "x_normalized": 478.40150780495,
+            "y_normalized": 296.1573153625031
+          },
+          {
+            "x_normalized": 459.226564656153,
+            "y_normalized": 296.1573153625031
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-47",
+        "points": [
+          {
+            "x_normalized": 255.97216727890398,
+            "y_normalized": 298.1328718729879
+          },
+          {
+            "x_normalized": 255.97216727890398,
+            "y_normalized": 296.1573153625031
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-48",
+        "points": [
+          {
+            "x_normalized": 255.97216727890398,
+            "y_normalized": 298.1328718729879
+          },
+          {
+            "x_normalized": 267.4771331681822,
+            "y_normalized": 306.0350979149272
+          },
+          {
+            "x_normalized": 317.33198535505466,
+            "y_normalized": 304.0595414044423
+          },
+          {
+            "x_normalized": 323.72363307132036,
+            "y_normalized": 300.10842838347276
+          },
+          {
+            "x_normalized": 341.62024667686427,
+            "y_normalized": 304.0595414044423
+          },
+          {
+            "x_normalized": 383.80512160421785,
+            "y_normalized": 302.0839848939575
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-49",
+        "points": [
+          {
+            "x_normalized": 255.97216727890398,
+            "y_normalized": 298.1328718729879
+          },
+          {
+            "x_normalized": 254.69383773565085,
+            "y_normalized": 298.1328718729879
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-50",
+        "points": [
+          {
+            "x_normalized": 746.850711888109,
+            "y_normalized": 302.0839848939575
+          },
+          {
+            "x_normalized": 751.9640300611217,
+            "y_normalized": 304.0595414044423
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-51",
+        "points": [
+          {
+            "x_normalized": 746.850711888109,
+            "y_normalized": 302.0839848939575
+          },
+          {
+            "x_normalized": 745.572382344856,
+            "y_normalized": 302.0839848939575
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-52",
+        "points": [
+          {
+            "x_normalized": 746.850711888109,
+            "y_normalized": 302.0839848939575
+          },
+          {
+            "x_normalized": 745.572382344856,
+            "y_normalized": 300.10842838347276
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-53",
+        "points": [
+          {
+            "x_normalized": 548.7096326838728,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 548.7096326838728,
+            "y_normalized": 313.9373239568664
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-54",
+        "points": [
+          {
+            "x_normalized": 548.7096326838728,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 549.9879622271258,
+            "y_normalized": 313.9373239568664
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-55",
+        "points": [
+          {
+            "x_normalized": 548.7096326838728,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 547.4313031406197,
+            "y_normalized": 317.8884369778361
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-56",
+        "points": [
+          {
+            "x_normalized": 548.7096326838728,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 547.4313031406197,
+            "y_normalized": 315.9128804673513
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-57",
+        "points": [
+          {
+            "x_normalized": 479.67983734820325,
+            "y_normalized": 205.2817158802012
+          },
+          {
+            "x_normalized": 479.67983734820325,
+            "y_normalized": 203.30615936971637
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-58",
+        "points": [
+          {
+            "x_normalized": 479.67983734820325,
+            "y_normalized": 205.2817158802012
+          },
+          {
+            "x_normalized": 480.9581668914564,
+            "y_normalized": 270.47508072620036
+          },
+          {
+            "x_normalized": 486.07148506446885,
+            "y_normalized": 282.32841978910926
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-59",
+        "points": [
+          {
+            "x_normalized": 479.67983734820325,
+            "y_normalized": 205.2817158802012
+          },
+          {
+            "x_normalized": 478.40150780495,
+            "y_normalized": 203.30615936971637
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-60",
+        "points": [
+          {
+            "x_normalized": 418.3200192720526,
+            "y_normalized": 203.30615936971637
+          },
+          {
+            "x_normalized": 418.3200192720526,
+            "y_normalized": 201.33060285923156
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-61",
+        "points": [
+          {
+            "x_normalized": 418.3200192720526,
+            "y_normalized": 203.30615936971637
+          },
+          {
+            "x_normalized": 419.59834881530566,
+            "y_normalized": 203.30615936971637
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-62",
+        "points": [
+          {
+            "x_normalized": 418.3200192720526,
+            "y_normalized": 203.30615936971637
+          },
+          {
+            "x_normalized": 419.59834881530566,
+            "y_normalized": 205.2817158802012
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-63",
+        "points": [
+          {
+            "x_normalized": 418.3200192720526,
+            "y_normalized": 203.30615936971637
+          },
+          {
+            "x_normalized": 417.0416897287994,
+            "y_normalized": 203.30615936971637
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-64",
+        "points": [
+          {
+            "x_normalized": 402.9800647530149,
+            "y_normalized": 308.010654425412
+          },
+          {
+            "x_normalized": 404.258394296268,
+            "y_normalized": 306.0350979149272
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-65",
+        "points": [
+          {
+            "x_normalized": 402.9800647530149,
+            "y_normalized": 308.010654425412
+          },
+          {
+            "x_normalized": 404.258394296268,
+            "y_normalized": 308.010654425412
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-66",
+        "points": [
+          {
+            "x_normalized": 402.9800647530149,
+            "y_normalized": 308.010654425412
+          },
+          {
+            "x_normalized": 402.9800647530149,
+            "y_normalized": 309.98621093589685
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-67",
+        "points": [
+          {
+            "x_normalized": 402.9800647530149,
+            "y_normalized": 308.010654425412
+          },
+          {
+            "x_normalized": 401.70173520976175,
+            "y_normalized": 308.010654425412
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-68",
+        "points": [
+          {
+            "x_normalized": 404.258394296268,
+            "y_normalized": 306.0350979149272
+          },
+          {
+            "x_normalized": 405.5367238395212,
+            "y_normalized": 306.0350979149272
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-69",
+        "points": [
+          {
+            "x_normalized": 404.258394296268,
+            "y_normalized": 306.0350979149272
+          },
+          {
+            "x_normalized": 404.258394296268,
+            "y_normalized": 308.010654425412
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-70",
+        "points": [
+          {
+            "x_normalized": 684.2125642687054,
+            "y_normalized": 313.9373239568664
+          },
+          {
+            "x_normalized": 685.4908938119585,
+            "y_normalized": 315.9128804673513
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-71",
+        "points": [
+          {
+            "x_normalized": 684.2125642687054,
+            "y_normalized": 313.9373239568664
+          },
+          {
+            "x_normalized": 684.2125642687054,
+            "y_normalized": 315.9128804673513
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-72",
+        "points": [
+          {
+            "x_normalized": 575.5545530921885,
+            "y_normalized": 306.0350979149272
+          },
+          {
+            "x_normalized": 575.5545530921885,
+            "y_normalized": 304.0595414044423
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-73",
+        "points": [
+          {
+            "x_normalized": 575.5545530921885,
+            "y_normalized": 306.0350979149272
+          },
+          {
+            "x_normalized": 576.8328826354417,
+            "y_normalized": 304.0595414044423
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-74",
+        "points": [
+          {
+            "x_normalized": 575.5545530921885,
+            "y_normalized": 306.0350979149272
+          },
+          {
+            "x_normalized": 574.2762235489355,
+            "y_normalized": 308.010654425412
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-75",
+        "points": [
+          {
+            "x_normalized": 575.5545530921885,
+            "y_normalized": 306.0350979149272
+          },
+          {
+            "x_normalized": 574.2762235489355,
+            "y_normalized": 306.0350979149272
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-76",
+        "points": [
+          {
+            "x_normalized": 547.4313031406197,
+            "y_normalized": 317.8884369778361
+          },
+          {
+            "x_normalized": 547.4313031406197,
+            "y_normalized": 315.9128804673513
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-77",
+        "points": [
+          {
+            "x_normalized": 547.4313031406197,
+            "y_normalized": 317.8884369778361
+          },
+          {
+            "x_normalized": 546.1529735973663,
+            "y_normalized": 317.8884369778361
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-78",
+        "points": [
+          {
+            "x_normalized": 549.9879622271258,
+            "y_normalized": 311.96176744638166
+          },
+          {
+            "x_normalized": 551.266291770379,
+            "y_normalized": 311.96176744638166
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-79",
+        "points": [
+          {
+            "x_normalized": 549.9879622271258,
+            "y_normalized": 311.96176744638166
+          },
+          {
+            "x_normalized": 549.9879622271258,
+            "y_normalized": 313.9373239568664
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-80",
+        "points": [
+          {
+            "x_normalized": 549.9879622271258,
+            "y_normalized": 311.96176744638166
+          },
+          {
+            "x_normalized": 548.7096326838728,
+            "y_normalized": 313.9373239568664
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-81",
+        "points": [
+          {
+            "x_normalized": 708.5008255905151,
+            "y_normalized": 309.98621093589685
+          },
+          {
+            "x_normalized": 709.7791551337681,
+            "y_normalized": 308.010654425412
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-82",
+        "points": [
+          {
+            "x_normalized": 708.5008255905151,
+            "y_normalized": 309.98621093589685
+          },
+          {
+            "x_normalized": 709.7791551337681,
+            "y_normalized": 309.98621093589685
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-83",
+        "points": [
+          {
+            "x_normalized": 708.5008255905151,
+            "y_normalized": 309.98621093589685
+          },
+          {
+            "x_normalized": 708.5008255905151,
+            "y_normalized": 311.96176744638166
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-84",
+        "points": [
+          {
+            "x_normalized": 514.194735016038,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 514.194735016038,
+            "y_normalized": 313.9373239568664
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-85",
+        "points": [
+          {
+            "x_normalized": 514.194735016038,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 515.4730645592911,
+            "y_normalized": 313.9373239568664
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-86",
+        "points": [
+          {
+            "x_normalized": 514.194735016038,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 512.9164054727848,
+            "y_normalized": 315.9128804673513
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-87",
+        "points": [
+          {
+            "x_normalized": 391.47509886373666,
+            "y_normalized": 234.91506353747351
+          },
+          {
+            "x_normalized": 392.75342840698977,
+            "y_normalized": 207.25727239068604
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-88",
+        "points": [
+          {
+            "x_normalized": 391.47509886373666,
+            "y_normalized": 234.91506353747351
+          },
+          {
+            "x_normalized": 391.47509886373666,
+            "y_normalized": 236.89062004795835
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-89",
+        "points": [
+          {
+            "x_normalized": 391.47509886373666,
+            "y_normalized": 234.91506353747351
+          },
+          {
+            "x_normalized": 390.19676932048355,
+            "y_normalized": 236.89062004795835
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-90",
+        "points": [
+          {
+            "x_normalized": 668.8726097496676,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 668.8726097496676,
+            "y_normalized": 313.9373239568664
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-91",
+        "points": [
+          {
+            "x_normalized": 668.8726097496676,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 670.1509392929208,
+            "y_normalized": 315.9128804673513
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-92",
+        "points": [
+          {
+            "x_normalized": 668.8726097496676,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 667.5942802064146,
+            "y_normalized": 313.9373239568664
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-93",
+        "points": [
+          {
+            "x_normalized": 574.2762235489355,
+            "y_normalized": 308.010654425412
+          },
+          {
+            "x_normalized": 574.2762235489355,
+            "y_normalized": 306.0350979149272
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-94",
+        "points": [
+          {
+            "x_normalized": 574.2762235489355,
+            "y_normalized": 308.010654425412
+          },
+          {
+            "x_normalized": 574.2762235489355,
+            "y_normalized": 309.98621093589685
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-95",
+        "points": [
+          {
+            "x_normalized": 574.2762235489355,
+            "y_normalized": 308.010654425412
+          },
+          {
+            "x_normalized": 572.9978940056824,
+            "y_normalized": 308.010654425412
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-96",
+        "points": [
+          {
+            "x_normalized": 584.5028598949606,
+            "y_normalized": 333.6928890617147
+          },
+          {
+            "x_normalized": 584.5028598949606,
+            "y_normalized": 331.71733255122984
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-97",
+        "points": [
+          {
+            "x_normalized": 584.5028598949606,
+            "y_normalized": 333.6928890617147
+          },
+          {
+            "x_normalized": 585.7811894382138,
+            "y_normalized": 331.71733255122984
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-98",
+        "points": [
+          {
+            "x_normalized": 584.5028598949606,
+            "y_normalized": 333.6928890617147
+          },
+          {
+            "x_normalized": 583.2245303517074,
+            "y_normalized": 337.6440020826844
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-99",
+        "points": [
+          {
+            "x_normalized": 585.7811894382138,
+            "y_normalized": 331.71733255122984
+          },
+          {
+            "x_normalized": 584.5028598949606,
+            "y_normalized": 331.71733255122984
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-100",
+        "points": [
+          {
+            "x_normalized": 487.349814607722,
+            "y_normalized": 511.49297500534874
+          },
+          {
+            "x_normalized": 488.6281441509752,
+            "y_normalized": 513.4685315158335
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-101",
+        "points": [
+          {
+            "x_normalized": 487.349814607722,
+            "y_normalized": 511.49297500534874
+          },
+          {
+            "x_normalized": 488.6281441509752,
+            "y_normalized": 513.4685315158335
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-102",
+        "points": [
+          {
+            "x_normalized": 487.349814607722,
+            "y_normalized": 511.49297500534874
+          },
+          {
+            "x_normalized": 459.226564656153,
+            "y_normalized": 507.5418619843791
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-103",
+        "points": [
+          {
+            "x_normalized": 663.7592915766553,
+            "y_normalized": 308.010654425412
+          },
+          {
+            "x_normalized": 663.7592915766553,
+            "y_normalized": 309.98621093589685
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-104",
+        "points": [
+          {
+            "x_normalized": 663.7592915766553,
+            "y_normalized": 308.010654425412
+          },
+          {
+            "x_normalized": 658.6459734036426,
+            "y_normalized": 278.37730676813965
+          },
+          {
+            "x_normalized": 658.6459734036426,
+            "y_normalized": 254.67062864232176
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-105",
+        "points": [
+          {
+            "x_normalized": 721.2841210230463,
+            "y_normalized": 136.1372380132324
+          },
+          {
+            "x_normalized": 721.2841210230463,
+            "y_normalized": 134.16168150274757
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-106",
+        "points": [
+          {
+            "x_normalized": 721.2841210230463,
+            "y_normalized": 136.1372380132324
+          },
+          {
+            "x_normalized": 722.5624505662995,
+            "y_normalized": 136.1372380132324
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-107",
+        "points": [
+          {
+            "x_normalized": 721.2841210230463,
+            "y_normalized": 136.1372380132324
+          },
+          {
+            "x_normalized": 720.0057914797933,
+            "y_normalized": 136.1372380132324
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-108",
+        "points": [
+          {
+            "x_normalized": 727.6757687393122,
+            "y_normalized": 304.0595414044423
+          },
+          {
+            "x_normalized": 745.572382344856,
+            "y_normalized": 302.0839848939575
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-109",
+        "points": [
+          {
+            "x_normalized": 727.6757687393122,
+            "y_normalized": 304.0595414044423
+          },
+          {
+            "x_normalized": 726.3974391960589,
+            "y_normalized": 306.0350979149272
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-110",
+        "points": [
+          {
+            "x_normalized": 727.6757687393122,
+            "y_normalized": 304.0595414044423
+          },
+          {
+            "x_normalized": 726.3974391960589,
+            "y_normalized": 304.0595414044423
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-111",
+        "points": [
+          {
+            "x_normalized": 727.6757687393122,
+            "y_normalized": 304.0595414044423
+          },
+          {
+            "x_normalized": 726.3974391960589,
+            "y_normalized": 302.0839848939575
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-112",
+        "points": [
+          {
+            "x_normalized": 580.6678712652011,
+            "y_normalized": 323.81510650929056
+          },
+          {
+            "x_normalized": 579.389541721948,
+            "y_normalized": 321.83954999880575
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-113",
+        "points": [
+          {
+            "x_normalized": 580.6678712652011,
+            "y_normalized": 323.81510650929056
+          },
+          {
+            "x_normalized": 581.9462008084544,
+            "y_normalized": 325.7906630197753
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-114",
+        "points": [
+          {
+            "x_normalized": 580.6678712652011,
+            "y_normalized": 323.81510650929056
+          },
+          {
+            "x_normalized": 579.389541721948,
+            "y_normalized": 321.83954999880575
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-115",
+        "points": [
+          {
+            "x_normalized": 390.19676932048355,
+            "y_normalized": 236.89062004795835
+          },
+          {
+            "x_normalized": 391.47509886373666,
+            "y_normalized": 236.89062004795835
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-116",
+        "points": [
+          {
+            "x_normalized": 390.19676932048355,
+            "y_normalized": 236.89062004795835
+          },
+          {
+            "x_normalized": 390.19676932048355,
+            "y_normalized": 238.8661765584432
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-117",
+        "points": [
+          {
+            "x_normalized": 390.19676932048355,
+            "y_normalized": 236.89062004795835
+          },
+          {
+            "x_normalized": 388.9184397772304,
+            "y_normalized": 238.8661765584432
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-118",
+        "points": [
+          {
+            "x_normalized": 671.4292688361741,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 672.707598379427,
+            "y_normalized": 317.8884369778361
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-119",
+        "points": [
+          {
+            "x_normalized": 671.4292688361741,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 671.4292688361741,
+            "y_normalized": 317.8884369778361
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-120",
+        "points": [
+          {
+            "x_normalized": 671.4292688361741,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 670.1509392929208,
+            "y_normalized": 315.9128804673513
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-121",
+        "points": [
+          {
+            "x_normalized": 685.4908938119585,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 693.1608710714773,
+            "y_normalized": 317.8884369778361
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-122",
+        "points": [
+          {
+            "x_normalized": 685.4908938119585,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 684.2125642687054,
+            "y_normalized": 315.9128804673513
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-123",
+        "points": [
+          {
+            "x_normalized": 579.389541721948,
+            "y_normalized": 302.0839848939575
+          },
+          {
+            "x_normalized": 612.6261098465295,
+            "y_normalized": 294.1817588520183
+          },
+          {
+            "x_normalized": 621.5744166493016,
+            "y_normalized": 298.1328718729879
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-124",
+        "points": [
+          {
+            "x_normalized": 579.389541721948,
+            "y_normalized": 302.0839848939575
+          },
+          {
+            "x_normalized": 578.111212178695,
+            "y_normalized": 304.0595414044423
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-125",
+        "points": [
+          {
+            "x_normalized": 579.389541721948,
+            "y_normalized": 302.0839848939575
+          },
+          {
+            "x_normalized": 578.111212178695,
+            "y_normalized": 302.0839848939575
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-126",
+        "points": [
+          {
+            "x_normalized": 708.5008255905151,
+            "y_normalized": 313.9373239568664
+          },
+          {
+            "x_normalized": 708.5008255905151,
+            "y_normalized": 311.96176744638166
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-127",
+        "points": [
+          {
+            "x_normalized": 708.5008255905151,
+            "y_normalized": 313.9373239568664
+          },
+          {
+            "x_normalized": 708.5008255905151,
+            "y_normalized": 315.9128804673513
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-128",
+        "points": [
+          {
+            "x_normalized": 708.5008255905151,
+            "y_normalized": 313.9373239568664
+          },
+          {
+            "x_normalized": 707.2224960472619,
+            "y_normalized": 313.9373239568664
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-129",
+        "points": [
+          {
+            "x_normalized": 457.9482351128999,
+            "y_normalized": 296.1573153625031
+          },
+          {
+            "x_normalized": 459.226564656153,
+            "y_normalized": 296.1573153625031
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-130",
+        "points": [
+          {
+            "x_normalized": 457.9482351128999,
+            "y_normalized": 296.1573153625031
+          },
+          {
+            "x_normalized": 457.9482351128999,
+            "y_normalized": 298.1328718729879
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-131",
+        "points": [
+          {
+            "x_normalized": 457.9482351128999,
+            "y_normalized": 296.1573153625031
+          },
+          {
+            "x_normalized": 456.6699055696467,
+            "y_normalized": 296.1573153625031
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-132",
+        "points": [
+          {
+            "x_normalized": 456.6699055696467,
+            "y_normalized": 509.5174184948639
+          },
+          {
+            "x_normalized": 457.9482351128999,
+            "y_normalized": 507.5418619843791
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-133",
+        "points": [
+          {
+            "x_normalized": 456.6699055696467,
+            "y_normalized": 509.5174184948639
+          },
+          {
+            "x_normalized": 455.3915760263936,
+            "y_normalized": 511.49297500534874
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-134",
+        "points": [
+          {
+            "x_normalized": 456.6699055696467,
+            "y_normalized": 509.5174184948639
+          },
+          {
+            "x_normalized": 455.3915760263936,
+            "y_normalized": 509.5174184948639
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-135",
+        "points": [
+          {
+            "x_normalized": 622.8527461925548,
+            "y_normalized": 298.1328718729879
+          },
+          {
+            "x_normalized": 624.1310757358078,
+            "y_normalized": 298.1328718729879
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-136",
+        "points": [
+          {
+            "x_normalized": 622.8527461925548,
+            "y_normalized": 298.1328718729879
+          },
+          {
+            "x_normalized": 622.8527461925548,
+            "y_normalized": 300.10842838347276
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-137",
+        "points": [
+          {
+            "x_normalized": 622.8527461925548,
+            "y_normalized": 298.1328718729879
+          },
+          {
+            "x_normalized": 621.5744166493016,
+            "y_normalized": 298.1328718729879
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-138",
+        "points": [
+          {
+            "x_normalized": 484.7931555212158,
+            "y_normalized": 286.2795328100789
+          },
+          {
+            "x_normalized": 486.07148506446885,
+            "y_normalized": 284.3039762995941
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-139",
+        "points": [
+          {
+            "x_normalized": 484.7931555212158,
+            "y_normalized": 286.2795328100789
+          },
+          {
+            "x_normalized": 486.07148506446885,
+            "y_normalized": 286.2795328100789
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-140",
+        "points": [
+          {
+            "x_normalized": 484.7931555212158,
+            "y_normalized": 286.2795328100789
+          },
+          {
+            "x_normalized": 484.7931555212158,
+            "y_normalized": 288.25508932056374
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-141",
+        "points": [
+          {
+            "x_normalized": 758.3556777773873,
+            "y_normalized": 134.16168150274757
+          },
+          {
+            "x_normalized": 759.6340073206405,
+            "y_normalized": 134.16168150274757
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-142",
+        "points": [
+          {
+            "x_normalized": 758.3556777773873,
+            "y_normalized": 134.16168150274757
+          },
+          {
+            "x_normalized": 758.3556777773873,
+            "y_normalized": 136.1372380132324
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-143",
+        "points": [
+          {
+            "x_normalized": 758.3556777773873,
+            "y_normalized": 134.16168150274757
+          },
+          {
+            "x_normalized": 757.0773482341343,
+            "y_normalized": 136.1372380132324
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-144",
+        "points": [
+          {
+            "x_normalized": 388.9184397772304,
+            "y_normalized": 238.8661765584432
+          },
+          {
+            "x_normalized": 390.19676932048355,
+            "y_normalized": 238.8661765584432
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-145",
+        "points": [
+          {
+            "x_normalized": 388.9184397772304,
+            "y_normalized": 238.8661765584432
+          },
+          {
+            "x_normalized": 388.9184397772304,
+            "y_normalized": 240.84173306892802
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-146",
+        "points": [
+          {
+            "x_normalized": 388.9184397772304,
+            "y_normalized": 238.8661765584432
+          },
+          {
+            "x_normalized": 387.6401102339772,
+            "y_normalized": 240.84173306892802
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-147",
+        "points": [
+          {
+            "x_normalized": 385.08345114747095,
+            "y_normalized": 300.10842838347276
+          },
+          {
+            "x_normalized": 385.08345114747095,
+            "y_normalized": 268.49952421571555
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-148",
+        "points": [
+          {
+            "x_normalized": 385.08345114747095,
+            "y_normalized": 300.10842838347276
+          },
+          {
+            "x_normalized": 386.3617806907241,
+            "y_normalized": 302.0839848939575
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-149",
+        "points": [
+          {
+            "x_normalized": 385.08345114747095,
+            "y_normalized": 300.10842838347276
+          },
+          {
+            "x_normalized": 385.08345114747095,
+            "y_normalized": 302.0839848939575
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-150",
+        "points": [
+          {
+            "x_normalized": 385.08345114747095,
+            "y_normalized": 300.10842838347276
+          },
+          {
+            "x_normalized": 383.80512160421785,
+            "y_normalized": 302.0839848939575
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-151",
+        "points": [
+          {
+            "x_normalized": 478.40150780495,
+            "y_normalized": 203.30615936971637
+          },
+          {
+            "x_normalized": 479.67983734820325,
+            "y_normalized": 203.30615936971637
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-152",
+        "points": [
+          {
+            "x_normalized": 478.40150780495,
+            "y_normalized": 203.30615936971637
+          },
+          {
+            "x_normalized": 420.87667835855893,
+            "y_normalized": 205.2817158802012
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-153",
+        "points": [
+          {
+            "x_normalized": 663.7592915766553,
+            "y_normalized": 311.96176744638166
+          },
+          {
+            "x_normalized": 663.7592915766553,
+            "y_normalized": 309.98621093589685
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-154",
+        "points": [
+          {
+            "x_normalized": 663.7592915766553,
+            "y_normalized": 311.96176744638166
+          },
+          {
+            "x_normalized": 662.480962033402,
+            "y_normalized": 311.96176744638166
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-155",
+        "points": [
+          {
+            "x_normalized": 709.7791551337681,
+            "y_normalized": 309.98621093589685
+          },
+          {
+            "x_normalized": 709.7791551337681,
+            "y_normalized": 308.010654425412
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-156",
+        "points": [
+          {
+            "x_normalized": 709.7791551337681,
+            "y_normalized": 309.98621093589685
+          },
+          {
+            "x_normalized": 708.5008255905151,
+            "y_normalized": 311.96176744638166
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-157",
+        "points": [
+          {
+            "x_normalized": 455.3915760263936,
+            "y_normalized": 511.49297500534874
+          },
+          {
+            "x_normalized": 455.3915760263936,
+            "y_normalized": 509.5174184948639
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-158",
+        "points": [
+          {
+            "x_normalized": 455.3915760263936,
+            "y_normalized": 511.49297500534874
+          },
+          {
+            "x_normalized": 454.1132464831405,
+            "y_normalized": 511.49297500534874
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-159",
+        "points": [
+          {
+            "x_normalized": 580.6678712652011,
+            "y_normalized": 345.5462281246236
+          },
+          {
+            "x_normalized": 580.6678712652011,
+            "y_normalized": 343.5706716141388
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-160",
+        "points": [
+          {
+            "x_normalized": 580.6678712652011,
+            "y_normalized": 345.5462281246236
+          },
+          {
+            "x_normalized": 581.9462008084544,
+            "y_normalized": 343.5706716141388
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-161",
+        "points": [
+          {
+            "x_normalized": 580.6678712652011,
+            "y_normalized": 345.5462281246236
+          },
+          {
+            "x_normalized": 580.6678712652011,
+            "y_normalized": 347.5217846351084
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-162",
+        "points": [
+          {
+            "x_normalized": 580.6678712652011,
+            "y_normalized": 345.5462281246236
+          },
+          {
+            "x_normalized": 579.389541721948,
+            "y_normalized": 347.5217846351084
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-163",
+        "points": [
+          {
+            "x_normalized": 583.2245303517074,
+            "y_normalized": 339.6195585931692
+          },
+          {
+            "x_normalized": 583.2245303517074,
+            "y_normalized": 337.6440020826844
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-164",
+        "points": [
+          {
+            "x_normalized": 583.2245303517074,
+            "y_normalized": 339.6195585931692
+          },
+          {
+            "x_normalized": 581.9462008084544,
+            "y_normalized": 341.59511510365394
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-165",
+        "points": [
+          {
+            "x_normalized": 583.2245303517074,
+            "y_normalized": 339.6195585931692
+          },
+          {
+            "x_normalized": 581.9462008084544,
+            "y_normalized": 339.6195585931692
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-166",
+        "points": [
+          {
+            "x_normalized": 482.23649643470947,
+            "y_normalized": 290.23064583104855
+          },
+          {
+            "x_normalized": 483.51482597796263,
+            "y_normalized": 290.23064583104855
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-167",
+        "points": [
+          {
+            "x_normalized": 482.23649643470947,
+            "y_normalized": 290.23064583104855
+          },
+          {
+            "x_normalized": 482.23649643470947,
+            "y_normalized": 292.20620234153336
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-168",
+        "points": [
+          {
+            "x_normalized": 751.9640300611217,
+            "y_normalized": 304.0595414044423
+          },
+          {
+            "x_normalized": 753.2423596043749,
+            "y_normalized": 304.0595414044423
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-169",
+        "points": [
+          {
+            "x_normalized": 751.9640300611217,
+            "y_normalized": 304.0595414044423
+          },
+          {
+            "x_normalized": 753.2423596043749,
+            "y_normalized": 306.0350979149272
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-170",
+        "points": [
+          {
+            "x_normalized": 486.07148506446885,
+            "y_normalized": 282.32841978910926
+          },
+          {
+            "x_normalized": 487.349814607722,
+            "y_normalized": 284.3039762995941
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-171",
+        "points": [
+          {
+            "x_normalized": 486.07148506446885,
+            "y_normalized": 282.32841978910926
+          },
+          {
+            "x_normalized": 486.07148506446885,
+            "y_normalized": 284.3039762995941
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-172",
+        "points": [
+          {
+            "x_normalized": 442.6082805938622,
+            "y_normalized": 712.9997390748007
+          },
+          {
+            "x_normalized": 442.6082805938622,
+            "y_normalized": 711.0241825643158
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-173",
+        "points": [
+          {
+            "x_normalized": 442.6082805938622,
+            "y_normalized": 712.9997390748007
+          },
+          {
+            "x_normalized": 443.8866101371153,
+            "y_normalized": 711.0241825643158
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-174",
+        "points": [
+          {
+            "x_normalized": 442.6082805938622,
+            "y_normalized": 712.9997390748007
+          },
+          {
+            "x_normalized": 442.6082805938622,
+            "y_normalized": 821.6553471514659
+          },
+          {
+            "x_normalized": 450.27825785338104,
+            "y_normalized": 825.6064601724355
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-175",
+        "points": [
+          {
+            "x_normalized": 722.5624505662995,
+            "y_normalized": 317.8884369778361
+          },
+          {
+            "x_normalized": 723.8407801095527,
+            "y_normalized": 315.9128804673513
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-176",
+        "points": [
+          {
+            "x_normalized": 722.5624505662995,
+            "y_normalized": 317.8884369778361
+          },
+          {
+            "x_normalized": 723.8407801095527,
+            "y_normalized": 317.8884369778361
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-177",
+        "points": [
+          {
+            "x_normalized": 722.5624505662995,
+            "y_normalized": 317.8884369778361
+          },
+          {
+            "x_normalized": 722.5624505662995,
+            "y_normalized": 319.8639934883209
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-178",
+        "points": [
+          {
+            "x_normalized": 722.5624505662995,
+            "y_normalized": 317.8884369778361
+          },
+          {
+            "x_normalized": 721.2841210230463,
+            "y_normalized": 319.8639934883209
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-179",
+        "points": [
+          {
+            "x_normalized": 753.2423596043749,
+            "y_normalized": 306.0350979149272
+          },
+          {
+            "x_normalized": 753.2423596043749,
+            "y_normalized": 304.0595414044423
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-180",
+        "points": [
+          {
+            "x_normalized": 753.2423596043749,
+            "y_normalized": 306.0350979149272
+          },
+          {
+            "x_normalized": 754.5206891476279,
+            "y_normalized": 306.0350979149272
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-181",
+        "points": [
+          {
+            "x_normalized": 252.1371786491446,
+            "y_normalized": 300.10842838347276
+          },
+          {
+            "x_normalized": 253.4155081923977,
+            "y_normalized": 298.1328718729879
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-182",
+        "points": [
+          {
+            "x_normalized": 252.1371786491446,
+            "y_normalized": 300.10842838347276
+          },
+          {
+            "x_normalized": 253.4155081923977,
+            "y_normalized": 300.10842838347276
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-183",
+        "points": [
+          {
+            "x_normalized": 252.1371786491446,
+            "y_normalized": 300.10842838347276
+          },
+          {
+            "x_normalized": 245.74553093287884,
+            "y_normalized": 304.0595414044423
+          },
+          {
+            "x_normalized": 160.09745153491858,
+            "y_normalized": 304.0595414044423
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-184",
+        "points": [
+          {
+            "x_normalized": 253.4155081923977,
+            "y_normalized": 298.1328718729879
+          },
+          {
+            "x_normalized": 254.69383773565085,
+            "y_normalized": 298.1328718729879
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-185",
+        "points": [
+          {
+            "x_normalized": 253.4155081923977,
+            "y_normalized": 298.1328718729879
+          },
+          {
+            "x_normalized": 253.4155081923977,
+            "y_normalized": 300.10842838347276
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-186",
+        "points": [
+          {
+            "x_normalized": 385.08345114747095,
+            "y_normalized": 268.49952421571555
+          },
+          {
+            "x_normalized": 385.08345114747095,
+            "y_normalized": 266.5239677052307
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-187",
+        "points": [
+          {
+            "x_normalized": 578.111212178695,
+            "y_normalized": 349.4973411455933
+          },
+          {
+            "x_normalized": 579.389541721948,
+            "y_normalized": 347.5217846351084
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-188",
+        "points": [
+          {
+            "x_normalized": 578.111212178695,
+            "y_normalized": 349.4973411455933
+          },
+          {
+            "x_normalized": 579.389541721948,
+            "y_normalized": 349.4973411455933
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-189",
+        "points": [
+          {
+            "x_normalized": 579.389541721948,
+            "y_normalized": 347.5217846351084
+          },
+          {
+            "x_normalized": 580.6678712652011,
+            "y_normalized": 347.5217846351084
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-190",
+        "points": [
+          {
+            "x_normalized": 579.389541721948,
+            "y_normalized": 347.5217846351084
+          },
+          {
+            "x_normalized": 579.389541721948,
+            "y_normalized": 349.4973411455933
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-191",
+        "points": [
+          {
+            "x_normalized": 456.6699055696467,
+            "y_normalized": 874.9953729345561
+          },
+          {
+            "x_normalized": 456.6699055696467,
+            "y_normalized": 873.0198164240712
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-192",
+        "points": [
+          {
+            "x_normalized": 456.6699055696467,
+            "y_normalized": 874.9953729345561
+          },
+          {
+            "x_normalized": 457.9482351128999,
+            "y_normalized": 874.9953729345561
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-193",
+        "points": [
+          {
+            "x_normalized": 456.6699055696467,
+            "y_normalized": 874.9953729345561
+          },
+          {
+            "x_normalized": 455.3915760263936,
+            "y_normalized": 874.9953729345561
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-194",
+        "points": [
+          {
+            "x_normalized": 625.4094052790609,
+            "y_normalized": 296.1573153625031
+          },
+          {
+            "x_normalized": 624.1310757358078,
+            "y_normalized": 298.1328718729879
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-195",
+        "points": [
+          {
+            "x_normalized": 625.4094052790609,
+            "y_normalized": 296.1573153625031
+          },
+          {
+            "x_normalized": 624.1310757358078,
+            "y_normalized": 298.1328718729879
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-196",
+        "points": [
+          {
+            "x_normalized": 487.349814607722,
+            "y_normalized": 284.3039762995941
+          },
+          {
+            "x_normalized": 503.9680986700128,
+            "y_normalized": 284.3039762995941
+          },
+          {
+            "x_normalized": 510.3597463862786,
+            "y_normalized": 294.1817588520183
+          },
+          {
+            "x_normalized": 515.4730645592911,
+            "y_normalized": 311.96176744638166
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-197",
+        "points": [
+          {
+            "x_normalized": 487.349814607722,
+            "y_normalized": 284.3039762995941
+          },
+          {
+            "x_normalized": 486.07148506446885,
+            "y_normalized": 286.2795328100789
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-198",
+        "points": [
+          {
+            "x_normalized": 487.349814607722,
+            "y_normalized": 284.3039762995941
+          },
+          {
+            "x_normalized": 486.07148506446885,
+            "y_normalized": 284.3039762995941
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-199",
+        "points": [
+          {
+            "x_normalized": 622.8527461925548,
+            "y_normalized": 319.8639934883209
+          },
+          {
+            "x_normalized": 624.1310757358078,
+            "y_normalized": 317.8884369778361
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-200",
+        "points": [
+          {
+            "x_normalized": 622.8527461925548,
+            "y_normalized": 319.8639934883209
+          },
+          {
+            "x_normalized": 624.1310757358078,
+            "y_normalized": 319.8639934883209
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-201",
+        "points": [
+          {
+            "x_normalized": 622.8527461925548,
+            "y_normalized": 319.8639934883209
+          },
+          {
+            "x_normalized": 621.5744166493016,
+            "y_normalized": 321.83954999880575
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-202",
+        "points": [
+          {
+            "x_normalized": 386.3617806907241,
+            "y_normalized": 302.0839848939575
+          },
+          {
+            "x_normalized": 401.70173520976175,
+            "y_normalized": 308.010654425412
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-203",
+        "points": [
+          {
+            "x_normalized": 386.3617806907241,
+            "y_normalized": 302.0839848939575
+          },
+          {
+            "x_normalized": 385.08345114747095,
+            "y_normalized": 302.0839848939575
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-204",
+        "points": [
+          {
+            "x_normalized": 459.226564656153,
+            "y_normalized": 296.1573153625031
+          },
+          {
+            "x_normalized": 457.9482351128999,
+            "y_normalized": 298.1328718729879
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-205",
+        "points": [
+          {
+            "x_normalized": 581.9462008084544,
+            "y_normalized": 327.7662195302602
+          },
+          {
+            "x_normalized": 581.9462008084544,
+            "y_normalized": 325.7906630197753
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-206",
+        "points": [
+          {
+            "x_normalized": 581.9462008084544,
+            "y_normalized": 327.7662195302602
+          },
+          {
+            "x_normalized": 583.2245303517074,
+            "y_normalized": 329.741776040745
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-207",
+        "points": [
+          {
+            "x_normalized": 726.3974391960589,
+            "y_normalized": 302.0839848939575
+          },
+          {
+            "x_normalized": 726.3974391960589,
+            "y_normalized": 304.0595414044423
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-208",
+        "points": [
+          {
+            "x_normalized": 515.4730645592911,
+            "y_normalized": 313.9373239568664
+          },
+          {
+            "x_normalized": 515.4730645592911,
+            "y_normalized": 311.96176744638166
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-209",
+        "points": [
+          {
+            "x_normalized": 515.4730645592911,
+            "y_normalized": 313.9373239568664
+          },
+          {
+            "x_normalized": 516.7513941025443,
+            "y_normalized": 313.9373239568664
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-210",
+        "points": [
+          {
+            "x_normalized": 515.4730645592911,
+            "y_normalized": 313.9373239568664
+          },
+          {
+            "x_normalized": 514.194735016038,
+            "y_normalized": 313.9373239568664
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-211",
+        "points": [
+          {
+            "x_normalized": 486.07148506446885,
+            "y_normalized": 286.2795328100789
+          },
+          {
+            "x_normalized": 486.07148506446885,
+            "y_normalized": 284.3039762995941
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-212",
+        "points": [
+          {
+            "x_normalized": 486.07148506446885,
+            "y_normalized": 286.2795328100789
+          },
+          {
+            "x_normalized": 484.7931555212158,
+            "y_normalized": 288.25508932056374
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-213",
+        "points": [
+          {
+            "x_normalized": 694.4392006147305,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 694.4392006147305,
+            "y_normalized": 317.8884369778361
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-214",
+        "points": [
+          {
+            "x_normalized": 694.4392006147305,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 693.1608710714773,
+            "y_normalized": 317.8884369778361
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-215",
+        "points": [
+          {
+            "x_normalized": 698.2741892444898,
+            "y_normalized": 313.9373239568664
+          },
+          {
+            "x_normalized": 698.2741892444898,
+            "y_normalized": 311.96176744638166
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-216",
+        "points": [
+          {
+            "x_normalized": 698.2741892444898,
+            "y_normalized": 313.9373239568664
+          },
+          {
+            "x_normalized": 699.552518787743,
+            "y_normalized": 313.9373239568664
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-217",
+        "points": [
+          {
+            "x_normalized": 261.0854854519165,
+            "y_normalized": 207.25727239068604
+          },
+          {
+            "x_normalized": 305.8270194657764,
+            "y_normalized": 203.30615936971637
+          },
+          {
+            "x_normalized": 391.47509886373666,
+            "y_normalized": 205.2817158802012
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-218",
+        "points": [
+          {
+            "x_normalized": 261.0854854519165,
+            "y_normalized": 207.25727239068604
+          },
+          {
+            "x_normalized": 259.80715590866345,
+            "y_normalized": 209.23282890117085
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-219",
+        "points": [
+          {
+            "x_normalized": 261.0854854519165,
+            "y_normalized": 207.25727239068604
+          },
+          {
+            "x_normalized": 259.80715590866345,
+            "y_normalized": 207.25727239068604
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-220",
+        "points": [
+          {
+            "x_normalized": 452.83491693988725,
+            "y_normalized": 827.5820166829204
+          },
+          {
+            "x_normalized": 454.1132464831405,
+            "y_normalized": 827.5820166829204
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-221",
+        "points": [
+          {
+            "x_normalized": 452.83491693988725,
+            "y_normalized": 827.5820166829204
+          },
+          {
+            "x_normalized": 451.5565873966342,
+            "y_normalized": 827.5820166829204
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-222",
+        "points": [
+          {
+            "x_normalized": 452.83491693988725,
+            "y_normalized": 827.5820166829204
+          },
+          {
+            "x_normalized": 451.5565873966342,
+            "y_normalized": 825.6064601724355
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-223",
+        "points": [
+          {
+            "x_normalized": 440.0516215073559,
+            "y_normalized": 517.4196445368033
+          },
+          {
+            "x_normalized": 441.329951050609,
+            "y_normalized": 519.395201047288
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-224",
+        "points": [
+          {
+            "x_normalized": 255.97216727890398,
+            "y_normalized": 296.1573153625031
+          },
+          {
+            "x_normalized": 258.5288263654102,
+            "y_normalized": 211.20838541165568
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-225",
+        "points": [
+          {
+            "x_normalized": 255.97216727890398,
+            "y_normalized": 296.1573153625031
+          },
+          {
+            "x_normalized": 254.69383773565085,
+            "y_normalized": 298.1328718729879
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-226",
+        "points": [
+          {
+            "x_normalized": 418.3200192720526,
+            "y_normalized": 201.33060285923156
+          },
+          {
+            "x_normalized": 419.59834881530566,
+            "y_normalized": 203.30615936971637
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-227",
+        "points": [
+          {
+            "x_normalized": 418.3200192720526,
+            "y_normalized": 201.33060285923156
+          },
+          {
+            "x_normalized": 417.0416897287994,
+            "y_normalized": 203.30615936971637
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-228",
+        "points": [
+          {
+            "x_normalized": 469.45320100217816,
+            "y_normalized": 707.0730695433462
+          },
+          {
+            "x_normalized": 468.17487145892494,
+            "y_normalized": 709.048626053831
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-229",
+        "points": [
+          {
+            "x_normalized": 469.45320100217816,
+            "y_normalized": 707.0730695433462
+          },
+          {
+            "x_normalized": 468.17487145892494,
+            "y_normalized": 709.048626053831
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-230",
+        "points": [
+          {
+            "x_normalized": 681.6559051821991,
+            "y_normalized": 317.8884369778361
+          },
+          {
+            "x_normalized": 684.2125642687054,
+            "y_normalized": 315.9128804673513
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-231",
+        "points": [
+          {
+            "x_normalized": 681.6559051821991,
+            "y_normalized": 317.8884369778361
+          },
+          {
+            "x_normalized": 680.3775756389458,
+            "y_normalized": 319.8639934883209
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-232",
+        "points": [
+          {
+            "x_normalized": 583.2245303517074,
+            "y_normalized": 329.741776040745
+          },
+          {
+            "x_normalized": 584.5028598949606,
+            "y_normalized": 331.71733255122984
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-233",
+        "points": [
+          {
+            "x_normalized": 726.3974391960589,
+            "y_normalized": 306.0350979149272
+          },
+          {
+            "x_normalized": 726.3974391960589,
+            "y_normalized": 304.0595414044423
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-234",
+        "points": [
+          {
+            "x_normalized": 726.3974391960589,
+            "y_normalized": 306.0350979149272
+          },
+          {
+            "x_normalized": 723.8407801095527,
+            "y_normalized": 315.9128804673513
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-235",
+        "points": [
+          {
+            "x_normalized": 441.329951050609,
+            "y_normalized": 519.395201047288
+          },
+          {
+            "x_normalized": 442.6082805938622,
+            "y_normalized": 517.4196445368033
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-236",
+        "points": [
+          {
+            "x_normalized": 441.329951050609,
+            "y_normalized": 519.395201047288
+          },
+          {
+            "x_normalized": 442.6082805938622,
+            "y_normalized": 711.0241825643158
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-237",
+        "points": [
+          {
+            "x_normalized": 259.80715590866345,
+            "y_normalized": 209.23282890117085
+          },
+          {
+            "x_normalized": 259.80715590866345,
+            "y_normalized": 207.25727239068604
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-238",
+        "points": [
+          {
+            "x_normalized": 259.80715590866345,
+            "y_normalized": 209.23282890117085
+          },
+          {
+            "x_normalized": 258.5288263654102,
+            "y_normalized": 211.20838541165568
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-239",
+        "points": [
+          {
+            "x_normalized": 259.80715590866345,
+            "y_normalized": 209.23282890117085
+          },
+          {
+            "x_normalized": 258.5288263654102,
+            "y_normalized": 209.23282890117085
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-240",
+        "points": [
+          {
+            "x_normalized": 547.4313031406197,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 548.7096326838728,
+            "y_normalized": 313.9373239568664
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-241",
+        "points": [
+          {
+            "x_normalized": 547.4313031406197,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 546.1529735973663,
+            "y_normalized": 317.8884369778361
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-242",
+        "points": [
+          {
+            "x_normalized": 417.0416897287994,
+            "y_normalized": 203.30615936971637
+          },
+          {
+            "x_normalized": 394.031757950243,
+            "y_normalized": 205.2817158802012
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-243",
+        "points": [
+          {
+            "x_normalized": 405.5367238395212,
+            "y_normalized": 306.0350979149272
+          },
+          {
+            "x_normalized": 419.59834881530566,
+            "y_normalized": 298.1328718729879
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-244",
+        "points": [
+          {
+            "x_normalized": 405.5367238395212,
+            "y_normalized": 306.0350979149272
+          },
+          {
+            "x_normalized": 404.258394296268,
+            "y_normalized": 308.010654425412
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-245",
+        "points": [
+          {
+            "x_normalized": 792.8705754452221,
+            "y_normalized": 290.23064583104855
+          },
+          {
+            "x_normalized": 790.3139163587158,
+            "y_normalized": 302.0839848939575
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-246",
+        "points": [
+          {
+            "x_normalized": 792.8705754452221,
+            "y_normalized": 290.23064583104855
+          },
+          {
+            "x_normalized": 791.5922459019689,
+            "y_normalized": 146.01502056565653
+          },
+          {
+            "x_normalized": 789.0355868154627,
+            "y_normalized": 138.11279452371724
+          },
+          {
+            "x_normalized": 766.0256550369061,
+            "y_normalized": 138.11279452371724
+          },
+          {
+            "x_normalized": 759.6340073206405,
+            "y_normalized": 134.16168150274757
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-247",
+        "points": [
+          {
+            "x_normalized": 457.9482351128999,
+            "y_normalized": 507.5418619843791
+          },
+          {
+            "x_normalized": 457.9482351128999,
+            "y_normalized": 505.56630547389426
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-248",
+        "points": [
+          {
+            "x_normalized": 457.9482351128999,
+            "y_normalized": 507.5418619843791
+          },
+          {
+            "x_normalized": 459.226564656153,
+            "y_normalized": 507.5418619843791
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-249",
+        "points": [
+          {
+            "x_normalized": 578.111212178695,
+            "y_normalized": 304.0595414044423
+          },
+          {
+            "x_normalized": 578.111212178695,
+            "y_normalized": 302.0839848939575
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-250",
+        "points": [
+          {
+            "x_normalized": 578.111212178695,
+            "y_normalized": 304.0595414044423
+          },
+          {
+            "x_normalized": 576.8328826354417,
+            "y_normalized": 304.0595414044423
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-251",
+        "points": [
+          {
+            "x_normalized": 468.17487145892494,
+            "y_normalized": 709.048626053831
+          },
+          {
+            "x_normalized": 443.8866101371153,
+            "y_normalized": 711.0241825643158
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-252",
+        "points": [
+          {
+            "x_normalized": 401.70173520976175,
+            "y_normalized": 308.010654425412
+          },
+          {
+            "x_normalized": 402.9800647530149,
+            "y_normalized": 309.98621093589685
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-253",
+        "points": [
+          {
+            "x_normalized": 668.8726097496676,
+            "y_normalized": 313.9373239568664
+          },
+          {
+            "x_normalized": 670.1509392929208,
+            "y_normalized": 315.9128804673513
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-254",
+        "points": [
+          {
+            "x_normalized": 668.8726097496676,
+            "y_normalized": 313.9373239568664
+          },
+          {
+            "x_normalized": 667.5942802064146,
+            "y_normalized": 313.9373239568664
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-255",
+        "points": [
+          {
+            "x_normalized": 574.2762235489355,
+            "y_normalized": 306.0350979149272
+          },
+          {
+            "x_normalized": 575.5545530921885,
+            "y_normalized": 304.0595414044423
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-256",
+        "points": [
+          {
+            "x_normalized": 574.2762235489355,
+            "y_normalized": 306.0350979149272
+          },
+          {
+            "x_normalized": 572.9978940056824,
+            "y_normalized": 308.010654425412
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-257",
+        "points": [
+          {
+            "x_normalized": 258.5288263654102,
+            "y_normalized": 211.20838541165568
+          },
+          {
+            "x_normalized": 258.5288263654102,
+            "y_normalized": 209.23282890117085
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-258",
+        "points": [
+          {
+            "x_normalized": 546.1529735973663,
+            "y_normalized": 317.8884369778361
+          },
+          {
+            "x_normalized": 542.317984967607,
+            "y_normalized": 321.83954999880575
+          },
+          {
+            "x_normalized": 529.5346895350756,
+            "y_normalized": 321.83954999880575
+          },
+          {
+            "x_normalized": 516.7513941025443,
+            "y_normalized": 313.9373239568664
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-259",
+        "points": [
+          {
+            "x_normalized": 419.59834881530566,
+            "y_normalized": 203.30615936971637
+          },
+          {
+            "x_normalized": 420.87667835855893,
+            "y_normalized": 205.2817158802012
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-260",
+        "points": [
+          {
+            "x_normalized": 419.59834881530566,
+            "y_normalized": 203.30615936971637
+          },
+          {
+            "x_normalized": 419.59834881530566,
+            "y_normalized": 205.2817158802012
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-261",
+        "points": [
+          {
+            "x_normalized": 721.2841210230463,
+            "y_normalized": 134.16168150274757
+          },
+          {
+            "x_normalized": 722.5624505662995,
+            "y_normalized": 136.1372380132324
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-262",
+        "points": [
+          {
+            "x_normalized": 721.2841210230463,
+            "y_normalized": 134.16168150274757
+          },
+          {
+            "x_normalized": 720.0057914797933,
+            "y_normalized": 136.1372380132324
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-263",
+        "points": [
+          {
+            "x_normalized": 512.9164054727848,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 514.194735016038,
+            "y_normalized": 313.9373239568664
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-264",
+        "points": [
+          {
+            "x_normalized": 745.572382344856,
+            "y_normalized": 300.10842838347276
+          },
+          {
+            "x_normalized": 745.572382344856,
+            "y_normalized": 302.0839848939575
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-265",
+        "points": [
+          {
+            "x_normalized": 387.6401102339772,
+            "y_normalized": 240.84173306892802
+          },
+          {
+            "x_normalized": 388.9184397772304,
+            "y_normalized": 240.84173306892802
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-266",
+        "points": [
+          {
+            "x_normalized": 387.6401102339772,
+            "y_normalized": 240.84173306892802
+          },
+          {
+            "x_normalized": 387.6401102339772,
+            "y_normalized": 242.8172895794128
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-267",
+        "points": [
+          {
+            "x_normalized": 420.87667835855893,
+            "y_normalized": 296.1573153625031
+          },
+          {
+            "x_normalized": 422.1550079018119,
+            "y_normalized": 294.1817588520183
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-268",
+        "points": [
+          {
+            "x_normalized": 420.87667835855893,
+            "y_normalized": 296.1573153625031
+          },
+          {
+            "x_normalized": 422.1550079018119,
+            "y_normalized": 296.1573153625031
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-269",
+        "points": [
+          {
+            "x_normalized": 420.87667835855893,
+            "y_normalized": 296.1573153625031
+          },
+          {
+            "x_normalized": 420.87667835855893,
+            "y_normalized": 298.1328718729879
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-270",
+        "points": [
+          {
+            "x_normalized": 420.87667835855893,
+            "y_normalized": 296.1573153625031
+          },
+          {
+            "x_normalized": 419.59834881530566,
+            "y_normalized": 298.1328718729879
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-271",
+        "points": [
+          {
+            "x_normalized": 723.8407801095527,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 723.8407801095527,
+            "y_normalized": 317.8884369778361
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-272",
+        "points": [
+          {
+            "x_normalized": 757.0773482341343,
+            "y_normalized": 136.1372380132324
+          },
+          {
+            "x_normalized": 758.3556777773873,
+            "y_normalized": 136.1372380132324
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-273",
+        "points": [
+          {
+            "x_normalized": 757.0773482341343,
+            "y_normalized": 136.1372380132324
+          },
+          {
+            "x_normalized": 722.5624505662995,
+            "y_normalized": 136.1372380132324
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-274",
+        "points": [
+          {
+            "x_normalized": 420.87667835855893,
+            "y_normalized": 205.2817158802012
+          },
+          {
+            "x_normalized": 419.59834881530566,
+            "y_normalized": 207.25727239068604
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-275",
+        "points": [
+          {
+            "x_normalized": 420.87667835855893,
+            "y_normalized": 205.2817158802012
+          },
+          {
+            "x_normalized": 419.59834881530566,
+            "y_normalized": 205.2817158802012
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-276",
+        "points": [
+          {
+            "x_normalized": 581.9462008084544,
+            "y_normalized": 341.59511510365394
+          },
+          {
+            "x_normalized": 581.9462008084544,
+            "y_normalized": 339.6195585931692
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-277",
+        "points": [
+          {
+            "x_normalized": 581.9462008084544,
+            "y_normalized": 341.59511510365394
+          },
+          {
+            "x_normalized": 581.9462008084544,
+            "y_normalized": 343.5706716141388
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-278",
+        "points": [
+          {
+            "x_normalized": 581.9462008084544,
+            "y_normalized": 341.59511510365394
+          },
+          {
+            "x_normalized": 580.6678712652011,
+            "y_normalized": 343.5706716141388
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-279",
+        "points": [
+          {
+            "x_normalized": 391.47509886373666,
+            "y_normalized": 236.89062004795835
+          },
+          {
+            "x_normalized": 390.19676932048355,
+            "y_normalized": 238.8661765584432
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-280",
+        "points": [
+          {
+            "x_normalized": 721.2841210230463,
+            "y_normalized": 319.8639934883209
+          },
+          {
+            "x_normalized": 722.5624505662995,
+            "y_normalized": 319.8639934883209
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-281",
+        "points": [
+          {
+            "x_normalized": 721.2841210230463,
+            "y_normalized": 319.8639934883209
+          },
+          {
+            "x_normalized": 722.5624505662995,
+            "y_normalized": 321.83954999880575
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-282",
+        "points": [
+          {
+            "x_normalized": 721.2841210230463,
+            "y_normalized": 319.8639934883209
+          },
+          {
+            "x_normalized": 708.5008255905151,
+            "y_normalized": 315.9128804673513
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-283",
+        "points": [
+          {
+            "x_normalized": 670.1509392929208,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 671.4292688361741,
+            "y_normalized": 317.8884369778361
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-284",
+        "points": [
+          {
+            "x_normalized": 419.59834881530566,
+            "y_normalized": 298.1328718729879
+          },
+          {
+            "x_normalized": 420.87667835855893,
+            "y_normalized": 298.1328718729879
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-285",
+        "points": [
+          {
+            "x_normalized": 624.1310757358078,
+            "y_normalized": 317.8884369778361
+          },
+          {
+            "x_normalized": 624.1310757358078,
+            "y_normalized": 315.9128804673513
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-286",
+        "points": [
+          {
+            "x_normalized": 624.1310757358078,
+            "y_normalized": 317.8884369778361
+          },
+          {
+            "x_normalized": 625.4094052790609,
+            "y_normalized": 317.8884369778361
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-287",
+        "points": [
+          {
+            "x_normalized": 624.1310757358078,
+            "y_normalized": 317.8884369778361
+          },
+          {
+            "x_normalized": 624.1310757358078,
+            "y_normalized": 319.8639934883209
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-288",
+        "points": [
+          {
+            "x_normalized": 451.5565873966342,
+            "y_normalized": 825.6064601724355
+          },
+          {
+            "x_normalized": 451.5565873966342,
+            "y_normalized": 827.5820166829204
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-289",
+        "points": [
+          {
+            "x_normalized": 451.5565873966342,
+            "y_normalized": 825.6064601724355
+          },
+          {
+            "x_normalized": 450.27825785338104,
+            "y_normalized": 825.6064601724355
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-290",
+        "points": [
+          {
+            "x_normalized": 419.59834881530566,
+            "y_normalized": 207.25727239068604
+          },
+          {
+            "x_normalized": 419.59834881530566,
+            "y_normalized": 205.2817158802012
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-291",
+        "points": [
+          {
+            "x_normalized": 419.59834881530566,
+            "y_normalized": 207.25727239068604
+          },
+          {
+            "x_normalized": 418.3200192720526,
+            "y_normalized": 280.35286327862445
+          },
+          {
+            "x_normalized": 422.1550079018119,
+            "y_normalized": 294.1817588520183
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-292",
+        "points": [
+          {
+            "x_normalized": 459.226564656153,
+            "y_normalized": 507.5418619843791
+          },
+          {
+            "x_normalized": 457.9482351128999,
+            "y_normalized": 505.56630547389426
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-293",
+        "points": [
+          {
+            "x_normalized": 383.80512160421785,
+            "y_normalized": 302.0839848939575
+          },
+          {
+            "x_normalized": 385.08345114747095,
+            "y_normalized": 302.0839848939575
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-294",
+        "points": [
+          {
+            "x_normalized": 707.2224960472619,
+            "y_normalized": 313.9373239568664
+          },
+          {
+            "x_normalized": 708.5008255905151,
+            "y_normalized": 311.96176744638166
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-295",
+        "points": [
+          {
+            "x_normalized": 707.2224960472619,
+            "y_normalized": 313.9373239568664
+          },
+          {
+            "x_normalized": 708.5008255905151,
+            "y_normalized": 315.9128804673513
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-296",
+        "points": [
+          {
+            "x_normalized": 707.2224960472619,
+            "y_normalized": 313.9373239568664
+          },
+          {
+            "x_normalized": 699.552518787743,
+            "y_normalized": 313.9373239568664
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-297",
+        "points": [
+          {
+            "x_normalized": 663.7592915766553,
+            "y_normalized": 309.98621093589685
+          },
+          {
+            "x_normalized": 662.480962033402,
+            "y_normalized": 311.96176744638166
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-298",
+        "points": [
+          {
+            "x_normalized": 456.6699055696467,
+            "y_normalized": 296.1573153625031
+          },
+          {
+            "x_normalized": 457.9482351128999,
+            "y_normalized": 298.1328718729879
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-299",
+        "points": [
+          {
+            "x_normalized": 456.6699055696467,
+            "y_normalized": 296.1573153625031
+          },
+          {
+            "x_normalized": 423.4333374450651,
+            "y_normalized": 294.1817588520183
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-300",
+        "points": [
+          {
+            "x_normalized": 390.19676932048355,
+            "y_normalized": 238.8661765584432
+          },
+          {
+            "x_normalized": 388.9184397772304,
+            "y_normalized": 240.84173306892802
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-301",
+        "points": [
+          {
+            "x_normalized": 455.3915760263936,
+            "y_normalized": 509.5174184948639
+          },
+          {
+            "x_normalized": 454.1132464831405,
+            "y_normalized": 511.49297500534874
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-302",
+        "points": [
+          {
+            "x_normalized": 580.6678712652011,
+            "y_normalized": 343.5706716141388
+          },
+          {
+            "x_normalized": 581.9462008084544,
+            "y_normalized": 343.5706716141388
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-303",
+        "points": [
+          {
+            "x_normalized": 423.4333374450651,
+            "y_normalized": 294.1817588520183
+          },
+          {
+            "x_normalized": 422.1550079018119,
+            "y_normalized": 296.1573153625031
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-304",
+        "points": [
+          {
+            "x_normalized": 423.4333374450651,
+            "y_normalized": 294.1817588520183
+          },
+          {
+            "x_normalized": 422.1550079018119,
+            "y_normalized": 294.1817588520183
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-305",
+        "points": [
+          {
+            "x_normalized": 759.6340073206405,
+            "y_normalized": 134.16168150274757
+          },
+          {
+            "x_normalized": 758.3556777773873,
+            "y_normalized": 136.1372380132324
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-306",
+        "points": [
+          {
+            "x_normalized": 391.47509886373666,
+            "y_normalized": 205.2817158802012
+          },
+          {
+            "x_normalized": 392.75342840698977,
+            "y_normalized": 207.25727239068604
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-307",
+        "points": [
+          {
+            "x_normalized": 442.6082805938622,
+            "y_normalized": 711.0241825643158
+          },
+          {
+            "x_normalized": 443.8866101371153,
+            "y_normalized": 711.0241825643158
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-308",
+        "points": [
+          {
+            "x_normalized": 457.9482351128999,
+            "y_normalized": 298.1328718729879
+          },
+          {
+            "x_normalized": 457.9482351128999,
+            "y_normalized": 505.56630547389426
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-309",
+        "points": [
+          {
+            "x_normalized": 662.480962033402,
+            "y_normalized": 311.96176744638166
+          },
+          {
+            "x_normalized": 661.2026324901487,
+            "y_normalized": 313.9373239568664
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-310",
+        "points": [
+          {
+            "x_normalized": 753.2423596043749,
+            "y_normalized": 304.0595414044423
+          },
+          {
+            "x_normalized": 754.5206891476279,
+            "y_normalized": 306.0350979149272
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-311",
+        "points": [
+          {
+            "x_normalized": 385.08345114747095,
+            "y_normalized": 266.5239677052307
+          },
+          {
+            "x_normalized": 386.3617806907241,
+            "y_normalized": 264.5484111947459
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-312",
+        "points": [
+          {
+            "x_normalized": 722.5624505662995,
+            "y_normalized": 321.83954999880575
+          },
+          {
+            "x_normalized": 722.5624505662995,
+            "y_normalized": 319.8639934883209
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-313",
+        "points": [
+          {
+            "x_normalized": 422.1550079018119,
+            "y_normalized": 296.1573153625031
+          },
+          {
+            "x_normalized": 422.1550079018119,
+            "y_normalized": 294.1817588520183
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-314",
+        "points": [
+          {
+            "x_normalized": 422.1550079018119,
+            "y_normalized": 296.1573153625031
+          },
+          {
+            "x_normalized": 420.87667835855893,
+            "y_normalized": 298.1328718729879
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-315",
+        "points": [
+          {
+            "x_normalized": 386.3617806907241,
+            "y_normalized": 264.5484111947459
+          },
+          {
+            "x_normalized": 387.6401102339772,
+            "y_normalized": 242.8172895794128
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-316",
+        "points": [
+          {
+            "x_normalized": 484.7931555212158,
+            "y_normalized": 288.25508932056374
+          },
+          {
+            "x_normalized": 483.51482597796263,
+            "y_normalized": 290.23064583104855
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-317",
+        "points": [
+          {
+            "x_normalized": 394.031757950243,
+            "y_normalized": 205.2817158802012
+          },
+          {
+            "x_normalized": 392.75342840698977,
+            "y_normalized": 207.25727239068604
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-318",
+        "points": [
+          {
+            "x_normalized": 442.6082805938622,
+            "y_normalized": 517.4196445368033
+          },
+          {
+            "x_normalized": 454.1132464831405,
+            "y_normalized": 511.49297500534874
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-319",
+        "points": [
+          {
+            "x_normalized": 548.7096326838728,
+            "y_normalized": 313.9373239568664
+          },
+          {
+            "x_normalized": 549.9879622271258,
+            "y_normalized": 313.9373239568664
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-320",
+        "points": [
+          {
+            "x_normalized": 790.3139163587158,
+            "y_normalized": 302.0839848939575
+          },
+          {
+            "x_normalized": 789.0355868154627,
+            "y_normalized": 304.0595414044423
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-321",
+        "points": [
+          {
+            "x_normalized": 790.3139163587158,
+            "y_normalized": 302.0839848939575
+          },
+          {
+            "x_normalized": 789.0355868154627,
+            "y_normalized": 304.0595414044423
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-322",
+        "points": [
+          {
+            "x_normalized": 515.4730645592911,
+            "y_normalized": 311.96176744638166
+          },
+          {
+            "x_normalized": 516.7513941025443,
+            "y_normalized": 313.9373239568664
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-323",
+        "points": [
+          {
+            "x_normalized": 515.4730645592911,
+            "y_normalized": 311.96176744638166
+          },
+          {
+            "x_normalized": 514.194735016038,
+            "y_normalized": 313.9373239568664
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-324",
+        "points": [
+          {
+            "x_normalized": 625.4094052790609,
+            "y_normalized": 317.8884369778361
+          },
+          {
+            "x_normalized": 624.1310757358078,
+            "y_normalized": 319.8639934883209
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-325",
+        "points": [
+          {
+            "x_normalized": 625.4094052790609,
+            "y_normalized": 317.8884369778361
+          },
+          {
+            "x_normalized": 624.1310757358078,
+            "y_normalized": 315.9128804673513
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-326",
+        "points": [
+          {
+            "x_normalized": 455.3915760263936,
+            "y_normalized": 874.9953729345561
+          },
+          {
+            "x_normalized": 456.6699055696467,
+            "y_normalized": 873.0198164240712
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-327",
+        "points": [
+          {
+            "x_normalized": 575.5545530921885,
+            "y_normalized": 304.0595414044423
+          },
+          {
+            "x_normalized": 576.8328826354417,
+            "y_normalized": 304.0595414044423
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-328",
+        "points": [
+          {
+            "x_normalized": 482.23649643470947,
+            "y_normalized": 292.20620234153336
+          },
+          {
+            "x_normalized": 483.51482597796263,
+            "y_normalized": 290.23064583104855
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-329",
+        "points": [
+          {
+            "x_normalized": 579.389541721948,
+            "y_normalized": 349.4973411455933
+          },
+          {
+            "x_normalized": 580.6678712652011,
+            "y_normalized": 347.5217846351084
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-330",
+        "points": [
+          {
+            "x_normalized": 699.552518787743,
+            "y_normalized": 313.9373239568664
+          },
+          {
+            "x_normalized": 698.2741892444898,
+            "y_normalized": 311.96176744638166
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-331",
+        "points": [
+          {
+            "x_normalized": 572.9978940056824,
+            "y_normalized": 308.010654425412
+          },
+          {
+            "x_normalized": 574.2762235489355,
+            "y_normalized": 309.98621093589685
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-332",
+        "points": [
+          {
+            "x_normalized": 572.9978940056824,
+            "y_normalized": 308.010654425412
+          },
+          {
+            "x_normalized": 551.266291770379,
+            "y_normalized": 311.96176744638166
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-333",
+        "points": [
+          {
+            "x_normalized": 454.1132464831405,
+            "y_normalized": 827.5820166829204
+          },
+          {
+            "x_normalized": 455.3915760263936,
+            "y_normalized": 829.5575731934051
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-334",
+        "points": [
+          {
+            "x_normalized": 454.1132464831405,
+            "y_normalized": 827.5820166829204
+          },
+          {
+            "x_normalized": 455.3915760263936,
+            "y_normalized": 829.5575731934051
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-335",
+        "points": [
+          {
+            "x_normalized": 551.266291770379,
+            "y_normalized": 311.96176744638166
+          },
+          {
+            "x_normalized": 549.9879622271258,
+            "y_normalized": 313.9373239568664
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-336",
+        "points": [
+          {
+            "x_normalized": 259.80715590866345,
+            "y_normalized": 207.25727239068604
+          },
+          {
+            "x_normalized": 258.5288263654102,
+            "y_normalized": 209.23282890117085
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-337",
+        "points": [
+          {
+            "x_normalized": 402.9800647530149,
+            "y_normalized": 309.98621093589685
+          },
+          {
+            "x_normalized": 404.258394296268,
+            "y_normalized": 308.010654425412
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-338",
+        "points": [
+          {
+            "x_normalized": 578.111212178695,
+            "y_normalized": 302.0839848939575
+          },
+          {
+            "x_normalized": 576.8328826354417,
+            "y_normalized": 304.0595414044423
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-339",
+        "points": [
+          {
+            "x_normalized": 694.4392006147305,
+            "y_normalized": 317.8884369778361
+          },
+          {
+            "x_normalized": 693.1608710714773,
+            "y_normalized": 317.8884369778361
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-340",
+        "points": [
+          {
+            "x_normalized": 574.2762235489355,
+            "y_normalized": 309.98621093589685
+          },
+          {
+            "x_normalized": 579.389541721948,
+            "y_normalized": 321.83954999880575
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-341",
+        "points": [
+          {
+            "x_normalized": 621.5744166493016,
+            "y_normalized": 298.1328718729879
+          },
+          {
+            "x_normalized": 622.8527461925548,
+            "y_normalized": 300.10842838347276
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-342",
+        "points": [
+          {
+            "x_normalized": 455.3915760263936,
+            "y_normalized": 829.5575731934051
+          },
+          {
+            "x_normalized": 456.6699055696467,
+            "y_normalized": 873.0198164240712
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-343",
+        "points": [
+          {
+            "x_normalized": 581.9462008084544,
+            "y_normalized": 339.6195585931692
+          },
+          {
+            "x_normalized": 583.2245303517074,
+            "y_normalized": 337.6440020826844
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-344",
+        "points": [
+          {
+            "x_normalized": 671.4292688361741,
+            "y_normalized": 317.8884369778361
+          },
+          {
+            "x_normalized": 672.707598379427,
+            "y_normalized": 317.8884369778361
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-345",
+        "points": [
+          {
+            "x_normalized": 624.1310757358078,
+            "y_normalized": 298.1328718729879
+          },
+          {
+            "x_normalized": 622.8527461925548,
+            "y_normalized": 300.10842838347276
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-346",
+        "points": [
+          {
+            "x_normalized": 624.1310757358078,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 622.8527461925548,
+            "y_normalized": 300.10842838347276
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-347",
+        "points": [
+          {
+            "x_normalized": 456.6699055696467,
+            "y_normalized": 873.0198164240712
+          },
+          {
+            "x_normalized": 457.9482351128999,
+            "y_normalized": 874.9953729345561
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-348",
+        "points": [
+          {
+            "x_normalized": 387.6401102339772,
+            "y_normalized": 242.8172895794128
+          },
+          {
+            "x_normalized": 388.9184397772304,
+            "y_normalized": 240.84173306892802
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-349",
+        "points": [
+          {
+            "x_normalized": 723.8407801095527,
+            "y_normalized": 317.8884369778361
+          },
+          {
+            "x_normalized": 722.5624505662995,
+            "y_normalized": 319.8639934883209
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-350",
+        "points": [
+          {
+            "x_normalized": 754.5206891476279,
+            "y_normalized": 306.0350979149272
+          },
+          {
+            "x_normalized": 789.0355868154627,
+            "y_normalized": 304.0595414044423
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-351",
+        "points": [
+          {
+            "x_normalized": 450.27825785338104,
+            "y_normalized": 825.6064601724355
+          },
+          {
+            "x_normalized": 451.5565873966342,
+            "y_normalized": 827.5820166829204
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-352",
+        "points": [
+          {
+            "x_normalized": 254.69383773565085,
+            "y_normalized": 298.1328718729879
+          },
+          {
+            "x_normalized": 253.4155081923977,
+            "y_normalized": 300.10842838347276
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-353",
+        "points": [
+          {
+            "x_normalized": 659.9243029468958,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 661.2026324901487,
+            "y_normalized": 313.9373239568664
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-354",
+        "points": [
+          {
+            "x_normalized": 659.9243029468958,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 658.6459734036426,
+            "y_normalized": 317.8884369778361
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-355",
+        "points": [
+          {
+            "x_normalized": 659.9243029468958,
+            "y_normalized": 315.9128804673513
+          },
+          {
+            "x_normalized": 658.6459734036426,
+            "y_normalized": 317.8884369778361
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-356",
+        "points": [
+          {
+            "x_normalized": 472.0098600886844,
+            "y_normalized": 657.6841567812256
+          },
+          {
+            "x_normalized": 489.9064736942283,
+            "y_normalized": 651.7574872497711
+          },
+          {
+            "x_normalized": 488.6281441509752,
+            "y_normalized": 513.4685315158335
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  "accepted_for_routing": true
+}

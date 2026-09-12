@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+backend/.venv/
+*.egg-info/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Editor/OS
+.DS_Store
+
+# Backend runtime state: regeneratable binaries are ignored,
+# but *.json (extracted drafts + hand-built graphs) is tracked.
+backend/data/**/*.pdf
+backend/data/**/*.png
+
+# Secrets
+backend/.env
