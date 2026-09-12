@@ -3,6 +3,7 @@ import type { ChangeEvent, PointerEvent as ReactPointerEvent, WheelEvent as Reac
 
 import { renderFloorPlanFiles } from "./editor/import-floorplans.js";
 import { createEmptyProject, downloadProject, readProjectFile } from "./editor/project.js";
+import { acceptHallwaySuggestions, acceptRoomSuggestions, dismissSuggestions } from "./editor/suggestions.js";
 import { loadSavedProject, saveProject } from "./editor/storage.js";
 import type { FloorPlanAsset, MapAuthoringProject } from "./model/authoring.js";
 import { removeBuildingFromProject, removeFloorFromProject } from "./model/removal.js";
@@ -22,6 +23,7 @@ import type { IndoorRoute } from "./navigation/router.js";
 
 type Tool = "select" | "pan" | "node" | "hallway" | "room" | "stairs" | "elevator" | "building" | "access";
 type AppMode = "annotate" | "navigate";
+type AppSurface = "landing" | "workspace";
 type Selection = { kind: "node" | "segment" | "place"; id: string } | null;
 type DeleteRequest = { kind: "floor"; id: FloorId } | { kind: "building"; id: BuildingId };
 interface ViewBox { x: number; y: number; width: number; height: number }
@@ -70,6 +72,7 @@ function IconMark({ kind }: { kind: Place["kind"] }) {
 export default function App() {
   const [project, setProject] = useState<MapAuthoringProject>(createEmptyProject);
   const [ready, setReady] = useState(false);
+  const [surface, setSurface] = useState<AppSurface>("landing");
   const [saveState, setSaveState] = useState<"saved" | "saving" | "error">("saved");
   const [selectedBuildingId, setSelectedBuildingId] = useState<BuildingId | null>(null);
   const [selectedFloorId, setSelectedFloorId] = useState<FloorId | null>(null);
@@ -121,6 +124,7 @@ export default function App() {
   const activeBuildingId = activeFloor?.buildingId ?? selectedBuildingId ?? project.topology.buildings[0]?.id ?? null;
   const activeBuilding = project.topology.buildings.find(({ id }) => id === activeBuildingId);
   const activeAsset = project.floorPlans.find(({ floorId }) => floorId === selectedFloorId);
+  const activeSuggestions = activeAsset?.suggestions;
   const buildingFloors = useMemo(() => project.topology.floors.filter(({ buildingId }) => buildingId === activeBuildingId), [project, activeBuildingId]);
   const floorNodes = useMemo(() => project.topology.nodes.filter(({ floorId }) => floorId === selectedFloorId), [project, selectedFloorId]);
   const nodeMap = useMemo(() => new Map(project.topology.nodes.map((node) => [node.id, node])), [project]);
@@ -198,6 +202,7 @@ export default function App() {
             sourceMediaType: plan.sourceMediaType,
             ...(plan.sourcePage === undefined ? {} : { sourcePage: plan.sourcePage }),
             renderedImageDataUrl: plan.imageDataUrl, width: plan.width, height: plan.height,
+            ...(plan.suggestions ? { suggestions: plan.suggestions } : {}),
           } satisfies FloorPlanAsset,
         };
       });
@@ -215,6 +220,26 @@ export default function App() {
     } finally {
       setImporting(false);
     }
+  };
+
+  const acceptSuggestedRooms = () => {
+    if (!selectedFloorId || !activeSuggestions?.rooms.length) return;
+    const count = activeSuggestions.rooms.length;
+    setProject((current) => acceptRoomSuggestions(current, selectedFloorId));
+    setNotice(`${count} room suggestion${count === 1 ? "" : "s"} added. Move markers to doors and link them to hallways.`);
+  };
+
+  const acceptSuggestedHallways = () => {
+    if (!selectedFloorId || !activeSuggestions?.hallways.length) return;
+    const count = activeSuggestions.hallways.length;
+    setProject((current) => acceptHallwaySuggestions(current, selectedFloorId));
+    setNotice(`${count} hallway trace${count === 1 ? "" : "s"} added for review.`);
+  };
+
+  const dismissActiveSuggestions = () => {
+    if (!selectedFloorId) return;
+    setProject((current) => dismissSuggestions(current, selectedFloorId));
+    setNotice("Automatic suggestions dismissed for this sheet.");
   };
 
   const importProject = async (event: ChangeEvent<HTMLInputElement>) => {
@@ -596,14 +621,15 @@ export default function App() {
   };
 
   if (!ready) return <div className="loading-screen"><span className="contour-mark">C</span><p>Opening the field desk…</p></div>;
+  if (surface === "landing") return <LandingPage project={project} onEnter={() => setSurface("workspace")} />;
 
   return (
     <main className="app-shell">
       <header className="topbar">
-        <div className="brand-lockup">
+        <button className="brand-lockup brand-home" onClick={() => setSurface("landing")} aria-label="Return to Contour home">
           <span className="contour-mark">C</span>
           <div><strong>Contour</strong><small>indoor topology desk</small></div>
-        </div>
+        </button>
         <input
           className="project-name"
           aria-label="Project name"
@@ -664,6 +690,7 @@ export default function App() {
             <>
               <div className="stage-heading">
                 <div><span className="eyebrow">{activeBuilding?.name ?? "Active building"} / active sheet</span><h1>{activeFloor.name ?? `Floor ${activeFloor.level}`}</h1></div>
+                {activeSuggestions && (activeSuggestions.rooms.length > 0 || activeSuggestions.hallways.length > 0) && <span className="suggestion-count">AUTO TRACE · {activeSuggestions.rooms.length} ROOMS · {activeSuggestions.hallways.length} PATHS</span>}
                 <div className="sheet-meta"><span>{activeAsset.sourceFileName}</span>{activeAsset.sourcePage && <b>PAGE {activeAsset.sourcePage}</b>}</div>
               </div>
               <div className="canvas-frame">
@@ -680,6 +707,10 @@ export default function App() {
                   data-testid="map-canvas"
                 >
                   <image href={activeAsset.renderedImageDataUrl} width={activeAsset.width} height={activeAsset.height} className="plan-image" />
+                  {mode === "annotate" && activeSuggestions && <g className="suggestion-layer" aria-label="Automatic annotation suggestions">
+                    {activeSuggestions.hallways.map((hallway) => <polyline key={hallway.id} className="suggested-hallway" points={hallway.points.map((point) => `${point.x},${point.y}`).join(" ")} />)}
+                    {activeSuggestions.rooms.map((room) => <g key={room.id} className="suggested-room" transform={`translate(${room.position.x} ${room.position.y})`}><circle r="10" /><text x="15" y="4">{room.roomNumber}</text></g>)}
+                  </g>}
                   <g className="annotation-layer">
                     {floorSegments.map((segment) => {
                       const from = nodeMap.get(segment.fromNodeId);
@@ -760,6 +791,9 @@ export default function App() {
           patchSegment={patchSegment}
           patchEdge={patchEdge}
           beginHallwayFromNode={beginHallwayFromNode}
+          acceptSuggestedRooms={acceptSuggestedRooms}
+          acceptSuggestedHallways={acceptSuggestedHallways}
+          dismissActiveSuggestions={dismissActiveSuggestions}
           deleteSelection={() => deleteSelection(selection)}
           removeFloor={(id) => setDeleteRequest({ kind: "floor", id })}
           removeBuilding={(id) => setDeleteRequest({ kind: "building", id })}
@@ -789,11 +823,66 @@ export default function App() {
   );
 }
 
+function LandingPage({ project, onEnter }: { project: MapAuthoringProject; onEnter: () => void }) {
+  const floorCount = project.topology.floors.length;
+  const buildingCount = project.topology.buildings.length;
+  const hasSavedWork = floorCount > 0;
+
+  return (
+    <main className="landing-shell">
+      <header className="landing-header">
+        <div className="landing-brand">
+          <span className="contour-mark">C</span>
+          <div><strong>Contour</strong><small>Indoor topology desk</small></div>
+        </div>
+        <span className="landing-status"><i />Local-first authoring</span>
+      </header>
+
+      <section className="landing-hero">
+        <div className="landing-copy">
+          <span className="landing-kicker">Indoor wayfinding / human reviewed</span>
+          <h1>Draw the route.<br /><em>Keep the judgment.</em></h1>
+          <p>Contour turns one ESIM floorplan PDF into a routing draft. It proposes room labels and public corridors; you decide doors, stairs, elevators, and the connections between buildings.</p>
+          <div className="landing-actions">
+            <button className="landing-enter" onClick={onEnter}>
+              <span>{hasSavedWork ? "Open topology desk" : "Start a floorplan"}</span>
+              <b aria-hidden="true">↗</b>
+            </button>
+            <small>{hasSavedWork ? `${floorCount} saved floor${floorCount === 1 ? "" : "s"} across ${buildingCount} building${buildingCount === 1 ? "" : "s"}` : "Your work stays in this browser until you export it."}</small>
+          </div>
+        </div>
+
+        <div className="landing-field" aria-hidden="true">
+          <div className="landing-field-label"><span>ROUTE STUDY</span><b>01—03</b></div>
+          <svg viewBox="0 0 620 520" role="presentation">
+            <path className="field-outline field-outline-a" d="M75 85 H450 L548 185 V434 H193 L75 342 Z" />
+            <path className="field-outline field-outline-b" d="M123 130 H417 L493 207 V384 H218 L123 315 Z" />
+            <path className="field-route" d="M128 313 L218 313 L267 258 L363 258 L411 208 L493 208" />
+            <path className="field-route field-route-dash" d="M267 258 L267 164 L361 164" />
+            <circle className="field-node" cx="128" cy="313" r="9" />
+            <circle className="field-node" cx="267" cy="258" r="9" />
+            <circle className="field-node" cx="411" cy="208" r="9" />
+            <rect className="field-room" x="349" y="151" width="24" height="24" rx="3" />
+            <text x="109" y="350">IMPORT</text><text x="245" y="296">REVIEW</text><text x="389" y="246">CONNECT</text>
+          </svg>
+          <div className="landing-field-note"><span>Suggestions remain provisional</span><b>Human approval required</b></div>
+        </div>
+      </section>
+
+      <footer className="landing-workflow">
+        <article><span>01</span><div><b>Import once</b><p>The ESIM PDF is both the visible sheet and the parser source.</p></div></article>
+        <article><span>02</span><div><b>Review the trace</b><p>Accept, correct, or dismiss suggested rooms and hallways.</p></div></article>
+        <article><span>03</span><div><b>Complete the network</b><p>Add vertical and cross-building connections by hand.</p></div></article>
+      </footer>
+    </main>
+  );
+}
+
 function EmptyStage({ onImport, importing }: { onImport: () => void; importing: boolean }) {
   return (
     <div className="empty-stage">
       <div className="empty-grid" aria-hidden="true"><i /><i /><i /><i /><i /></div>
-      <div className="empty-copy"><span className="sheet-stamp">NEW SURVEY</span><h1>Turn floorplans into a navigable graph.</h1><p>Import up to ten—or a hundred—floorplan images. Multi-page PDFs become separate editable floors automatically.</p><button className="primary-button large" onClick={onImport} disabled={importing}>{importing ? "Rendering…" : "Choose floorplans"}</button><small>PDF, PNG, JPG, or WebP · select multiple files</small></div>
+      <div className="empty-copy"><span className="sheet-stamp">NEW SURVEY</span><h1>Turn floorplans into a navigable graph.</h1><p>Import the ESIM PDF once. The displayed sheet also supplies room and public-corridor suggestions; multi-page PDFs become separate floors.</p><button className="primary-button large" onClick={onImport} disabled={importing}>{importing ? "Rendering…" : "Choose floorplans"}</button><small>PDF for suggestions · PNG, JPG, and WebP remain supported</small></div>
       <div className="empty-legend"><span><b className="legend-node" />Routing node</span><span><b className="legend-path" />Directed hallway</span><span><b className="legend-room" />Terminal destination</span></div>
     </div>
   );
@@ -882,16 +971,21 @@ interface InspectorProps {
   patchSegment: (id: string, patch: Partial<PathSegment>) => void;
   patchEdge: (id: string, patch: Partial<DirectedEdge>) => void;
   beginHallwayFromNode: (nodeId: NodeId) => void;
+  acceptSuggestedRooms: () => void;
+  acceptSuggestedHallways: () => void;
+  dismissActiveSuggestions: () => void;
   deleteSelection: () => void;
   removeFloor: (id: FloorId) => void;
   removeBuilding: (id: BuildingId) => void;
   setProject: React.Dispatch<React.SetStateAction<MapAuthoringProject>>;
 }
 
-function Inspector({ project, buildingId, floorId, selection, tool, issues, patchNode, patchPlace, patchSegment, patchEdge, beginHallwayFromNode, deleteSelection, removeFloor, removeBuilding, setProject }: InspectorProps) {
+function Inspector({ project, buildingId, floorId, selection, tool, issues, patchNode, patchPlace, patchSegment, patchEdge, beginHallwayFromNode, acceptSuggestedRooms, acceptSuggestedHallways, dismissActiveSuggestions, deleteSelection, removeFloor, removeBuilding, setProject }: InspectorProps) {
   const topology = project.topology;
   const building = topology.buildings.find(({ id }) => id === buildingId);
   const floor = topology.floors.find(({ id }) => id === floorId);
+  const floorAsset = project.floorPlans.find((asset) => asset.floorId === floorId);
+  const suggestions = floorAsset?.suggestions;
   const node = selection?.kind === "node" ? topology.nodes.find(({ id }) => id === selection.id) : undefined;
   const segment = selection?.kind === "segment" ? topology.segments.find(({ id }) => id === selection.id) : undefined;
   const place = selection?.kind === "place" ? topology.places.find(({ id }) => id === selection.id) : undefined;
@@ -902,6 +996,7 @@ function Inspector({ project, buildingId, floorId, selection, tool, issues, patc
       .find((item) => item?.floorId === floorId)
     : undefined;
   const points = place ? topology.accessPoints.filter(({ placeId }) => placeId === place.id) : [];
+  const terminalPoint = points.find((point) => point.connection === "terminal");
   const links = topology.terminalAccessLinks.filter((link) => points.some(({ id }) => id === link.accessPointId));
   const networkNodeIds = new Set(points.flatMap((point) => point.connection === "network_node" ? [point.nodeId] : []));
   const connector = place ? topology.verticalConnectors.find((item) => item.stopNodeIds.some((nodeId) => networkNodeIds.has(nodeId))) : undefined;
@@ -948,6 +1043,7 @@ function Inspector({ project, buildingId, floorId, selection, tool, issues, patc
         <div className={`place-chip ${place.kind}`}>{place.kind}</div>
         <Field label="Destination name"><input value={place.name} onChange={(event) => patchPlace(place.id, { name: event.target.value })} autoFocus={place.kind === "room"} /></Field>
         {place.kind === "room" && <Field label="Room number"><input value={place.roomNumber} onChange={(event) => patchPlace(place.id, { roomNumber: event.target.value, name: event.target.value })} /></Field>}
+        {place.kind === "room" && terminalPoint?.connection === "terminal" && <div className="coordinate-pair"><Field label="Access X"><input type="number" step="0.1" value={Math.round(terminalPoint.position.x * 10) / 10} onChange={(event) => setProject((current) => updateTopology(current, (map) => ({ ...map, accessPoints: map.accessPoints.map((point) => point.id === terminalPoint.id && point.connection === "terminal" ? { ...point, position: { ...point.position, x: Number(event.target.value) } } : point) })))} /></Field><Field label="Access Y"><input type="number" step="0.1" value={Math.round(terminalPoint.position.y * 10) / 10} onChange={(event) => setProject((current) => updateTopology(current, (map) => ({ ...map, accessPoints: map.accessPoints.map((point) => point.id === terminalPoint.id && point.connection === "terminal" ? { ...point, position: { ...point.position, y: Number(event.target.value) } } : point) })))} /></Field></div>}
         <Field label="Search aliases"><input value={(place.aliases ?? []).join(", ")} onChange={(event) => patchPlace(place.id, { aliases: event.target.value.split(",").map((value) => value.trim()).filter(Boolean) })} placeholder="WEH 4707, 4707" /></Field>
         {place.kind === "room" && <div className="connection-panel"><h3>Terminal access</h3><p>{tool === "access" ? "Click hallway nodes to add or remove endpoint links." : "Choose Room link, then click reachable hallway nodes."}</p><strong>{links.length} endpoint{links.length === 1 ? "" : "s"} connected</strong>{links.map((link) => <details className="connection-detail" key={link.id}><summary><span>{topology.nodes.find(({ id }) => id === link.nodeId)?.label ?? link.nodeId}</span><b>{Math.round(link.cost)}</b></summary><Field label="Direction to room"><select value={link.directionToPlace ?? "east"} onChange={(event) => setProject((current) => updateTopology(current, (map) => ({ ...map, terminalAccessLinks: map.terminalAccessLinks.map((item) => item.id === link.id ? { ...item, directionToPlace: event.target.value as CardinalDirection } : item) })))}>{DIRECTIONS.map((direction) => <option key={direction}>{direction}</option>)}</select></Field><Field label="Arrival instruction"><textarea value={link.toPlaceInstruction} onChange={(event) => setProject((current) => updateTopology(current, (map) => ({ ...map, terminalAccessLinks: map.terminalAccessLinks.map((item) => item.id === link.id ? { ...item, toPlaceInstruction: event.target.value } : item) })))} /></Field><Field label="Cost"><input type="number" min="0.1" step="0.1" value={link.cost} onChange={(event) => setProject((current) => updateTopology(current, (map) => ({ ...map, terminalAccessLinks: map.terminalAccessLinks.map((item) => item.id === link.id ? { ...item, cost: Number(event.target.value) } : item) })))} /></Field><button className="unlink-button" onClick={() => setProject((current) => updateTopology(current, (map) => ({ ...map, terminalAccessLinks: map.terminalAccessLinks.filter(({ id }) => id !== link.id) })))}>Remove link</button></details>)}</div>}
         {connector && <ConnectorEditor connectorId={connector.id} project={project} activeFloorId={floorId} setProject={setProject} beginHallwayFromNode={beginHallwayFromNode} />}
@@ -958,6 +1054,15 @@ function Inspector({ project, buildingId, floorId, selection, tool, issues, patc
         <Field label="Building name"><input value={building?.name ?? ""} onChange={(event) => renameBuilding(event.target.value)} /></Field>
         <Field label="Floor name"><input value={floor.name ?? ""} onChange={(event) => renameFloor("name", event.target.value)} /></Field>
         <Field label="Level"><input value={floor.level} onChange={(event) => renameFloor("level", event.target.value)} /></Field>
+        {suggestions && (suggestions.rooms.length > 0 || suggestions.hallways.length > 0 || suggestions.warnings.length > 0) && <section className="suggestion-review" data-testid="suggestion-review">
+          <div className="suggestion-review-heading"><span>AUTO TRACE / REVIEW</span><b>PDF</b></div>
+          <p>The parser found lightweight starting points. Add either layer, then correct it with the normal annotation tools.</p>
+          <div className="suggestion-review-counts"><div><b>{suggestions.rooms.length}</b><span>room labels</span></div><div><b>{suggestions.hallways.length}</b><span>hallway traces</span></div></div>
+          {suggestions.warnings.map((warning) => <small key={warning}>{warning}</small>)}
+          <button className="suggestion-accept" onClick={acceptSuggestedRooms} disabled={!suggestions.rooms.length}>Add suggested rooms</button>
+          <button className="suggestion-accept" onClick={acceptSuggestedHallways} disabled={!suggestions.hallways.length}>Add suggested hallways</button>
+          <button className="suggestion-dismiss" onClick={dismissActiveSuggestions}>Dismiss remaining suggestions</button>
+        </section>}
         <div className="sheet-stats"><div><b>{topology.nodes.filter((item) => item.floorId === floorId).length}</b><span>nodes</span></div><div><b>{topology.segments.filter((item) => topology.nodes.find((nodeItem) => nodeItem.id === item.fromNodeId)?.floorId === floorId).length}</b><span>paths</span></div><div><b>{topology.accessPoints.filter((item) => item.floorId === floorId).length}</b><span>places</span></div></div>
         <section className="quick-guide"><h3>Fast annotation pass</h3><ol><li>Place or chain hallway nodes.</li><li>Add rooms at their doors.</li><li>Link each room to reachable endpoints.</li><li>Add and group vertical connectors.</li><li>Use Connector to join portal points in different buildings.</li></ol></section>
         <section className="removal-zone"><h3>Remove data</h3><p>These actions also remove attached annotations and routes.</p><button onClick={() => removeFloor(floor.id)}>Remove this floorplan</button><button onClick={() => building && removeBuilding(building.id)} disabled={!building || topology.buildings.length <= 1}>Remove {building?.name ?? "building"}</button>{topology.buildings.length <= 1 && <small>The project must keep one building.</small>}</section>

@@ -7,6 +7,12 @@ indoor routing graph.
 
 ```sh
 npm install
+npm run dev:api
+```
+
+In a second terminal:
+
+```sh
 npm run dev
 ```
 
@@ -14,29 +20,33 @@ Open `http://127.0.0.1:5173`.
 
 ## Authoring workflow
 
-1. Import several PNG, JPG, WebP, or PDF floorplans at once. Every page in a
-   multi-page PDF becomes a floor.
-2. Choose a building from the left rail, or add another building with **+**.
+1. Import an ESIM PDF. Every page in a multi-page PDF becomes a floor. The
+   optional local parser reads that same PDF—no separate base plan is needed—
+   and overlays room-label and public-corridor suggestions for review.
+2. In the sheet inspector, add the suggested rooms or hallways independently,
+   or dismiss them. Suggestions never create stairs, elevators, or building
+   connections and never enter the routing graph until accepted.
+3. Choose a building from the left rail, or add another building with **+**.
    Floorplans are imported into the selected building. Rename the building,
    floor, and level in the inspector.
-3. Use **Hallway** to click or reuse endpoints. Every drawn path starts with two
+4. Use **Hallway** to click or reuse endpoints. Every drawn path starts with two
    directed edges whose heading, instruction, type, and cost can be edited.
-4. Use **Room** to place a destination, then click all reachable hallway nodes.
+5. Use **Room** to place a destination, then click all reachable hallway nodes.
    These dashed terminal links can only begin or end a route; they can never be
    used as a shortcut through a room.
-5. Place a stair landing or elevator lobby. Its marker is already a routing
+6. Place a stair landing or elevator lobby. Its marker is already a routing
    node: use **Start hallway from this stop** in the inspector (or click the
    marker with the Hallway tool), then click the corridor node. Do not add a
    duplicate node over the connector. Stops representing the same physical
    connector can then be merged into one named group across floors.
-6. To join neighboring buildings, choose **Connector**, click the portal point
+7. To join neighboring buildings, choose **Connector**, click the portal point
    on one floorplan, switch to the other building and floor, and click the other
    portal point. Contour creates a two-way connector hallway and marks both
    portal endpoints on their respective sheets. A portal marker is already a
    routing node: with **Hallway** active, click the portal marker and then the
    local hallway node. You can also select the portal and choose **Start hallway
    from this portal** in the inspector.
-7. Export a self-contained `.contour.json` project. It includes the rendered
+8. Export a self-contained `.contour.json` project. It includes the rendered
    floorplan images and can be reopened from the header.
 
 Floor and building settings include a **Remove data** section. Removal first
@@ -90,5 +100,6 @@ The schema is in `src/model/topology.ts`; referential validation is in
 
 ```sh
 npm test
+npm run test:backend
 npm run build
 ```

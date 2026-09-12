@@ -5,9 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:api": "UV_CACHE_DIR=/tmp/contour-uv-cache uv run --project backend uvicorn app.main:app --reload --port 8000",
     "check": "tsc -p tsconfig.json --noEmit",
     "test": "npm run check && node --import tsx --test tests/*.test.ts",
     "build": "vite build",
+    "test:backend": "UV_CACHE_DIR=/tmp/contour-uv-cache uv run --project backend --extra dev pytest backend/tests",
     "preview": "vite preview"
   },
   "dependencies": {

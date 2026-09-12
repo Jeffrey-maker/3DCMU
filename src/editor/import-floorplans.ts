@@ -1,3 +1,6 @@
+import { extractPdfSuggestions } from "./extraction.js";
+import type { FloorPlanSuggestions } from "../model/authoring.js";
+
 export interface RenderedFloorPlan {
   readonly sourceFileName: string;
   readonly sourceMediaType: string;
@@ -6,6 +9,7 @@ export interface RenderedFloorPlan {
   readonly imageDataUrl: string;
   readonly width: number;
   readonly height: number;
+  readonly suggestions?: FloorPlanSuggestions;
 }
 
 function fileAsDataUrl(file: File): Promise<string> {
@@ -30,7 +34,8 @@ function guessLevel(fileName: string, fallback: number): string {
   const base = fileName.replace(/\.[^.]+$/, "");
   const explicit = base.match(/(?:floor|level|fl|f)[-_ ]?([a-z]?\d+[a-z]?)/i);
   const numericParts = [...base.matchAll(/(?:^|[-_ ])([a-z]?\d+[a-z]?)(?=$|[-_ ])/gi)];
-  const match = explicit ?? numericParts.at(-1);
+  const lettered = base.match(/[-_ ]([a-z])[-_ ](?:esim|floor|level)/i);
+  const match = explicit ?? numericParts.at(-1) ?? lettered;
   return match?.[1]?.toUpperCase() ?? String(fallback);
 }
 
@@ -61,14 +66,19 @@ async function renderPdf(file: File): Promise<RenderedFloorPlan[]> {
     const context = canvas.getContext("2d");
     if (!context) throw new Error("Canvas rendering is unavailable in this browser.");
     await page.render({ canvas, canvasContext: context, viewport }).promise;
+    const suggestedLevel = document.numPages === 1 ? guessLevel(file.name, pageNumber) : String(pageNumber);
+    const suggestions = await extractPdfSuggestions(
+      file, pageNumber, suggestedLevel, canvas.width, canvas.height,
+    );
     output.push({
       sourceFileName: file.name,
       sourceMediaType: file.type || "application/pdf",
       sourcePage: pageNumber,
-      suggestedLevel: document.numPages === 1 ? guessLevel(file.name, pageNumber) : String(pageNumber),
+      suggestedLevel,
       imageDataUrl: canvas.toDataURL("image/png"),
       width: canvas.width,
       height: canvas.height,
+      suggestions,
     });
   }
   return output;
