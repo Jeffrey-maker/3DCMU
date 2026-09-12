@@ -59,7 +59,8 @@ for(const [name,viewport] of Object.entries({phone:{width:390,height:844},deskto
   const directions=await page.locator(".directions").textContent();
   const facilityLabels=await page.locator("#scene div").allTextContents();
   if(standardMode!=="Stairs"||accessibleMode!=="Elevator")throw new Error("Route recommendation mode is incorrect");
-  if(!standard.includes("Use the stairs")||!accessibleRoute.includes("Take the elevator")||!facilityLabels.some(x=>x.includes("ESCALATOR")))throw new Error("Vertical circulation UI is incomplete");
+  if(!standard.includes("Use the stairs")||!accessibleRoute.includes("Take the elevator"))throw new Error("Vertical circulation UI is incomplete");
+  if(facilityLabels.some(text=>text.includes("ESCALATOR")))throw new Error("The map must not render escalators");
   const pixels=await page.locator("canvas").evaluate(canvas=>{
     const gl=canvas.getContext("webgl2")||canvas.getContext("webgl");
     const data=new Uint8Array(canvas.width*canvas.height*4);gl.readPixels(0,0,canvas.width,canvas.height,gl.RGBA,gl.UNSIGNED_BYTE,data);
