@@ -23,9 +23,10 @@ for(const [name,viewport] of Object.entries({phone:{width:390,height:844},deskto
   const canvas=await page.locator("canvas").boundingBox();
   const roomCount=await page.locator("#room-options option").count();
   if(roomCount!==1262)throw new Error(`Expected 1262 mapped spaces, found ${roomCount}`);
-  const initialStatus=await page.locator("#scene-status").textContent(),wallCount=Number(initialStatus.match(/([\d,]+) walls/)?.[1].replaceAll(",","")||0),spaceCount=Number(initialStatus.match(/([\d,]+) spaces/)?.[1].replaceAll(",","")||0);
+  const initialStatus=await page.locator("#scene-status").textContent(),wallCount=Number(initialStatus.match(/([\d,]+) walls/)?.[1].replaceAll(",","")||0),spaceCount=Number(initialStatus.match(/([\d,]+) spaces/)?.[1].replaceAll(",","")||0),referencePassageCount=Number(initialStatus.match(/([\d,]+) YBC passages/)?.[1].replaceAll(",","")||0);
   if(wallCount<100)throw new Error(`Expected recognized 3D walls, found ${wallCount}`);
   if(spaceCount<100)throw new Error(`Expected classified floor spaces, found ${spaceCount}`);
+  if(referencePassageCount!==818)throw new Error(`Expected 818 ybc reference passages, found ${referencePassageCount}`);
   if(name==="desktop"){
     await page.screenshot({path:"/tmp/campus-route-recognized-walls.png"});
     await page.selectOption("#floor-filter","WEH-4");
@@ -61,7 +62,7 @@ for(const [name,viewport] of Object.entries({phone:{width:390,height:844},deskto
   });
   if(!pixels.nonzero||pixels.sampledColors<4)throw new Error(`Blank 3D canvas at ${name} viewport`);
   await page.screenshot({path:`/tmp/campus-route-${name}-verified.png`,fullPage:true});
-  console.log(JSON.stringify({name,canvas,roomCount,wallCount,spaceCount,heading,standardMode,accessibleMode,pixels,errors}));
+  console.log(JSON.stringify({name,canvas,roomCount,wallCount,spaceCount,referencePassageCount,heading,standardMode,accessibleMode,pixels,errors}));
 }
 await browser.close();
 if(server)await new Promise(resolve=>server.close(resolve));
