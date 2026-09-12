@@ -62,7 +62,15 @@ for(const [name,viewport] of Object.entries({phone:{width:390,height:844},deskto
   if(await sheet.evaluate(element=>element.classList.contains("expanded")))throw new Error(`Directions sheet did not slide down at ${name} viewport`);
   const collapsedHandleBox=await handle.boundingBox();await page.mouse.move(collapsedHandleBox.x+collapsedHandleBox.width/2,collapsedHandleBox.y+collapsedHandleBox.height/2);await page.mouse.down();await page.mouse.move(collapsedHandleBox.x+collapsedHandleBox.width/2,collapsedHandleBox.y-sheetBox.height*.72,{steps:5});await page.mouse.up();await page.waitForTimeout(300);
   if(!await sheet.evaluate(element=>element.classList.contains("expanded")))throw new Error(`Directions sheet did not slide up at ${name} viewport`);
-  await page.waitForTimeout(500);
+  const stepCount=await page.locator(".direction-step").count(),nodeCount=await page.locator(".route-node-label").count();
+  if(stepCount<3||nodeCount!==stepCount)throw new Error(`Expected one 3D node per direction at ${name} viewport, found ${nodeCount} nodes for ${stepCount} steps`);
+  await page.locator(".direction-step").nth(2).click();await page.waitForTimeout(700);
+  if(await sheet.evaluate(element=>element.classList.contains("expanded")))throw new Error(`Directions sheet did not collapse after selecting a step at ${name} viewport`);
+  if(!await page.locator(".direction-step").nth(2).evaluate(element=>element.classList.contains("active")))throw new Error(`Selected direction was not highlighted at ${name} viewport`);
+  if(await page.locator("#floor-filter").inputValue()==="all")throw new Error(`Step selection did not reveal its floor at ${name} viewport`);
+  if(!(await page.locator("#scene-status").textContent()).startsWith("Step 3 ·"))throw new Error(`Step selection did not update map status at ${name} viewport`);
+  const beforeTurn=await page.locator("canvas").screenshot(),turnBox=await page.locator("canvas").boundingBox();await page.mouse.move(turnBox.x+turnBox.width*.55,turnBox.y+turnBox.height*.5);await page.mouse.down();await page.mouse.move(turnBox.x+turnBox.width*.72,turnBox.y+turnBox.height*.55,{steps:5});await page.mouse.up();await page.waitForTimeout(400);const afterTurn=await page.locator("canvas").screenshot();
+  if(Buffer.compare(beforeTurn,afterTurn)===0)throw new Error(`3D surroundings did not rotate after focusing a step at ${name} viewport`);
   const heading=await page.locator(".route-head h2").textContent();
   const directions=await page.locator(".directions").textContent();
   const facilityLabels=await page.locator("#scene div").allTextContents();
@@ -79,7 +87,7 @@ for(const [name,viewport] of Object.entries({phone:{width:390,height:844},deskto
   if(!pixels.nonzero||pixels.sampledColors<4)throw new Error(`Blank 3D canvas at ${name} viewport`);
   if(pixels.routePixels<50)throw new Error(`Expected a visible thick red route at ${name} viewport, found ${pixels.routePixels} red pixels`);
   await page.screenshot({path:`/tmp/campus-route-${name}-verified.png`,fullPage:true});
-  console.log(JSON.stringify({name,appFrame,canvas,roomCount,wallCount,spaceCount,referencePassageCount,heading,standardMode,accessibleMode,pixels,errors}));
+  console.log(JSON.stringify({name,appFrame,canvas,roomCount,wallCount,spaceCount,referencePassageCount,heading,stepCount,nodeCount,standardMode,accessibleMode,pixels,errors}));
 }
 await browser.close();
 if(server)await new Promise(resolve=>server.close(resolve));
