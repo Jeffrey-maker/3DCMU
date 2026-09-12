@@ -12,7 +12,11 @@ python3 -m http.server 8766 --directory ..
 
 Open `http://localhost:8766/campus_route_ui/`.
 
-The 3D map loads all 1,262 labeled spaces extracted from the 16 supplied Scott Hall and Wean Hall plans. Every room is represented by a visible 3D block on every floor, including the full stacked-building view. Selecting one floor also displays a high-contrast room-number label at every mapped position. Long horizontal and vertical wall strokes are detected from each rendered 2D plan, merged to remove line thickness, and extruded into instanced 3D wall segments. It supports rotation, zoom, floor filtering, animated routes, stairs, elevators, and escalators. For standard trips, the planner compares the connector alternatives that are reachable through the mapped floor walkspace and recommends the lowest-cost route. Accessible trips use elevators only.
+The 3D map loads all 1,262 labeled spaces extracted from the 16 supplied Scott Hall and Wean Hall plans. Every room is represented by a visible 3D block on every floor, including the full stacked-building view. Selecting one floor also displays a high-contrast room-number label at every mapped position. Long horizontal and vertical wall strokes are detected from each rendered 2D plan, merged to remove line thickness, and extruded into instanced 3D wall segments.
+
+The same wall raster is closed and flood-filled to identify enclosed spaces while preserving their irregular footprints. A region associated with an extracted room label is classified as a room, a large unlabeled region as corridor/circulation, and a smaller unresolved region as other/service space. These automated semantic classes are rendered as teal, yellow, and gray floor surfaces beneath the walls. Ambiguous source-plan regions remain explicitly classified as other rather than receiving an invented room identity.
+
+The interface supports rotation, zoom, floor filtering, animated routes, stairs, elevators, and escalators. For standard trips, the planner compares the connector alternatives that are reachable through the mapped floor walkspace and recommends the lowest-cost route. Accessible trips use elevators only.
 
 Same-floor route segments are found with A* over a raster derived from the corresponding floor plan. A route fails closed when its room, connector, or bridge portal cannot be reached without crossing a detected wall. Floor changes can only use a modeled vertical connector, and every Scott-Wean trip is forced through the labeled Level 4 bridge portals.
 
