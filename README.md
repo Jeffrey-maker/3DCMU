@@ -12,7 +12,19 @@ python3 -m http.server 8766 --directory ..
 
 Open `http://localhost:8766/campus_route_ui/`.
 
-The 3D map supports rotation, zoom, floor filtering, animated routes, stairs, an elevator, and an escalator. Standard cross-floor routes recommend stairs. Accessible routes use the elevator. Escalators are displayed but are not recommended until their operating direction is confirmed.
+The 3D map loads all 1,262 labeled spaces extracted from the 16 supplied Scott Hall and Wean Hall plans. It supports rotation, zoom, floor filtering, animated routes, stairs, elevators, and escalators. For standard trips, the planner compares the connector alternatives that are reachable through the mapped floor walkspace and recommends the lowest-cost route. Accessible trips use elevators only.
+
+Same-floor route segments are found with A* over a raster derived from the corresponding floor plan. A route fails closed when its room, connector, or bridge portal cannot be reached without crossing a detected wall. Floor changes can only use a modeled vertical connector, and every Scott-Wean trip is forced through the labeled Level 4 bridge portals.
+
+## Regenerate floor data
+
+Install the extraction dependency, then generate room coordinates and rendered floor images from the source PDF folders:
+
+```bash
+python3 -m pip install -r tools/requirements.txt
+python3 tools/extract_floor_data.py /path/to/scott_floors /path/to/wean_floors campus_route_ui/floor-data.js
+swift tools/render_floorplans.swift /path/to/scott_floors /path/to/wean_floors campus_route_ui/assets/floors
+```
 
 ## Run Python examples
 

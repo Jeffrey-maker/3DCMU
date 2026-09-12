@@ -32,6 +32,8 @@ for(const [name,viewport] of Object.entries({phone:{width:390,height:844},deskto
   const accessibleMode=await page.locator(".route-meta span").nth(1).textContent();
   const crossBuilding=await route("Scott 4N103","Wean 4325",true);
   if(!crossBuilding.includes("Bridge required"))throw new Error("Cross-building route did not use the Level 4 bridge");
+  const multiFloorCrossBuilding=await route("Scott 3101","Wean 5130",true);
+  if(!multiFloorCrossBuilding.includes("Bridge required")||!multiFloorCrossBuilding.includes("Take the elevator"))throw new Error("Multi-floor cross-building route bypassed a required connector");
   if(name==="phone")await route("Wean 5130","Wean 4325",true);await page.selectOption("#floor-filter","WEH-4");
   await page.waitForTimeout(500);
   const heading=await page.locator(".route-head h2").textContent();
