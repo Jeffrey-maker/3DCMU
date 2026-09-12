@@ -47,7 +47,11 @@ class FloorGraph(BaseModel):
     edges: list[Edge] = []
     auto_generated: bool = False
     routing_source: Literal[
-        "legacy", "anchors_only", "gemini_pathways", "space_type_centerlines"
+        "legacy",
+        "anchors_only",
+        "gemini_pathways",
+        "space_type_centerlines",
+        "classified_spaces",
     ] = "legacy"
     page_width: float = 1224.0
     page_height: float = 792.0

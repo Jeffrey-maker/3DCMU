@@ -132,6 +132,7 @@ export interface RoutePathNode {
   type: string;
   x: number;
   y: number;
+  building: string;
   floor: number;
 }
 

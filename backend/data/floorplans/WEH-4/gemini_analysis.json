@@ -8,7 +8,7 @@
     "floor": 4
   },
   "model": null,
-  "created_at": "2026-09-12T16:37:21.963161+00:00",
+  "created_at": "2026-09-12T17:23:01.371615+00:00",
   "raster_sha256": "3c2ecd744930fdcbb1278155c44532b4982ae7b141bc35e5b89c1ecdf18e3238",
   "space_type_sha256": "99016fbc228bc30a1584ccc52838778b2b35fcb3dc70518dcfe7cbc63c9dd84f",
   "coordinate_system": {
@@ -39,7 +39,7 @@
             "y_normalized": 138.1127945237175
           },
           {
-            "x_normalized": 720.0057914797933,
+            "x_normalized": 720.0057914797932,
             "y_normalized": 136.13723801323272
           }
         ],
@@ -69,7 +69,7 @@
             "y_normalized": 201.33060285923176
           },
           {
-            "x_normalized": 478.40150780495,
+            "x_normalized": 478.4015078049501,
             "y_normalized": 203.30615936971657
           }
         ],
@@ -84,7 +84,7 @@
             "y_normalized": 309.98621093589685
           },
           {
-            "x_normalized": 667.5942802064146,
+            "x_normalized": 667.5942802064144,
             "y_normalized": 313.9373239568665
           }
         ],
@@ -99,7 +99,7 @@
             "y_normalized": 309.98621093589685
           },
           {
-            "x_normalized": 663.7592915766553,
+            "x_normalized": 663.7592915766551,
             "y_normalized": 311.9617674463817
           }
         ],
@@ -114,7 +114,7 @@
             "y_normalized": 309.98621093589685
           },
           {
-            "x_normalized": 663.7592915766553,
+            "x_normalized": 663.7592915766551,
             "y_normalized": 309.98621093589685
           }
         ],
@@ -129,7 +129,7 @@
             "y_normalized": 309.98621093589685
           },
           {
-            "x_normalized": 663.7592915766553,
+            "x_normalized": 663.7592915766551,
             "y_normalized": 308.01065442541204
           }
         ],
@@ -140,7 +140,7 @@
         "id": "corridor-7",
         "points": [
           {
-            "x_normalized": 470.73153054543116,
+            "x_normalized": 470.73153054543127,
             "y_normalized": 659.6597132917099
           },
           {
@@ -155,7 +155,7 @@
         "id": "corridor-8",
         "points": [
           {
-            "x_normalized": 470.73153054543116,
+            "x_normalized": 470.73153054543127,
             "y_normalized": 659.6597132917099
           },
           {
@@ -170,7 +170,7 @@
         "id": "corridor-9",
         "points": [
           {
-            "x_normalized": 470.73153054543116,
+            "x_normalized": 470.73153054543127,
             "y_normalized": 659.6597132917099
           },
           {
@@ -185,11 +185,11 @@
         "id": "corridor-10",
         "points": [
           {
-            "x_normalized": 621.5744166493016,
+            "x_normalized": 621.5744166493015,
             "y_normalized": 323.8151065092906
           },
           {
-            "x_normalized": 621.5744166493016,
+            "x_normalized": 621.5744166493015,
             "y_normalized": 321.83954999880575
           }
         ],
@@ -200,11 +200,11 @@
         "id": "corridor-11",
         "points": [
           {
-            "x_normalized": 621.5744166493016,
+            "x_normalized": 621.5744166493015,
             "y_normalized": 323.8151065092906
           },
           {
-            "x_normalized": 622.8527461925548,
+            "x_normalized": 622.8527461925547,
             "y_normalized": 321.83954999880575
           }
         ],
@@ -215,7 +215,7 @@
         "id": "corridor-12",
         "points": [
           {
-            "x_normalized": 621.5744166493016,
+            "x_normalized": 621.5744166493015,
             "y_normalized": 323.8151065092906
           },
           {
@@ -223,7 +223,7 @@
             "y_normalized": 329.7417760407451
           },
           {
-            "x_normalized": 585.7811894382138,
+            "x_normalized": 585.7811894382137,
             "y_normalized": 331.71733255122984
           }
         ],
@@ -234,11 +234,11 @@
         "id": "corridor-13",
         "points": [
           {
-            "x_normalized": 622.8527461925548,
+            "x_normalized": 622.8527461925547,
             "y_normalized": 321.83954999880575
           },
           {
-            "x_normalized": 622.8527461925548,
+            "x_normalized": 622.8527461925547,
             "y_normalized": 319.86399348832094
           }
         ],
@@ -249,7 +249,7 @@
         "id": "corridor-14",
         "points": [
           {
-            "x_normalized": 622.8527461925548,
+            "x_normalized": 622.8527461925547,
             "y_normalized": 321.83954999880575
           },
           {
@@ -264,11 +264,11 @@
         "id": "corridor-15",
         "points": [
           {
-            "x_normalized": 622.8527461925548,
+            "x_normalized": 622.8527461925547,
             "y_normalized": 321.83954999880575
           },
           {
-            "x_normalized": 621.5744166493016,
+            "x_normalized": 621.5744166493015,
             "y_normalized": 321.83954999880575
           }
         ],
@@ -328,7 +328,7 @@
             "y_normalized": 288.25508932056385
           },
           {
-            "x_normalized": 484.7931555212158,
+            "x_normalized": 484.79315552121585,
             "y_normalized": 286.279532810079
           }
         ],
@@ -343,7 +343,7 @@
             "y_normalized": 288.25508932056385
           },
           {
-            "x_normalized": 484.7931555212158,
+            "x_normalized": 484.79315552121585,
             "y_normalized": 288.25508932056385
           }
         ],
@@ -373,7 +373,7 @@
             "y_normalized": 288.25508932056385
           },
           {
-            "x_normalized": 482.23649643470947,
+            "x_normalized": 482.2364964347095,
             "y_normalized": 290.23064583104866
           }
         ],
@@ -403,7 +403,7 @@
             "y_normalized": 327.7662195302602
           },
           {
-            "x_normalized": 581.9462008084544,
+            "x_normalized": 581.9462008084543,
             "y_normalized": 327.7662195302602
           }
         ],
@@ -418,7 +418,7 @@
             "y_normalized": 327.7662195302602
           },
           {
-            "x_normalized": 581.9462008084544,
+            "x_normalized": 581.9462008084543,
             "y_normalized": 325.7906630197754
           }
         ],
@@ -429,7 +429,7 @@
         "id": "corridor-26",
         "points": [
           {
-            "x_normalized": 441.329951050609,
+            "x_normalized": 441.3299510506091,
             "y_normalized": 517.419644536803
           },
           {
@@ -444,11 +444,11 @@
         "id": "corridor-27",
         "points": [
           {
-            "x_normalized": 441.329951050609,
+            "x_normalized": 441.3299510506091,
             "y_normalized": 517.419644536803
           },
           {
-            "x_normalized": 441.329951050609,
+            "x_normalized": 441.3299510506091,
             "y_normalized": 519.3952010472877
           }
         ],
@@ -459,11 +459,11 @@
         "id": "corridor-28",
         "points": [
           {
-            "x_normalized": 441.329951050609,
+            "x_normalized": 441.3299510506091,
             "y_normalized": 517.419644536803
           },
           {
-            "x_normalized": 440.0516215073559,
+            "x_normalized": 440.051621507356,
             "y_normalized": 517.419644536803
           }
         ],
@@ -474,7 +474,7 @@
         "id": "corridor-29",
         "points": [
           {
-            "x_normalized": 392.75342840698977,
+            "x_normalized": 392.7534284069899,
             "y_normalized": 205.2817158802014
           },
           {
@@ -489,11 +489,11 @@
         "id": "corridor-30",
         "points": [
           {
-            "x_normalized": 392.75342840698977,
+            "x_normalized": 392.7534284069899,
             "y_normalized": 205.2817158802014
           },
           {
-            "x_normalized": 392.75342840698977,
+            "x_normalized": 392.7534284069899,
             "y_normalized": 207.25727239068624
           }
         ],
@@ -504,11 +504,11 @@
         "id": "corridor-31",
         "points": [
           {
-            "x_normalized": 392.75342840698977,
+            "x_normalized": 392.7534284069899,
             "y_normalized": 205.2817158802014
           },
           {
-            "x_normalized": 391.47509886373666,
+            "x_normalized": 391.4750988637367,
             "y_normalized": 205.2817158802014
           }
         ],
@@ -519,11 +519,11 @@
         "id": "corridor-32",
         "points": [
           {
-            "x_normalized": 662.480962033402,
+            "x_normalized": 662.4809620334019,
             "y_normalized": 313.9373239568665
           },
           {
-            "x_normalized": 662.480962033402,
+            "x_normalized": 662.4809620334019,
             "y_normalized": 311.9617674463817
           }
         ],
@@ -534,11 +534,11 @@
         "id": "corridor-33",
         "points": [
           {
-            "x_normalized": 662.480962033402,
+            "x_normalized": 662.4809620334019,
             "y_normalized": 313.9373239568665
           },
           {
-            "x_normalized": 663.7592915766553,
+            "x_normalized": 663.7592915766551,
             "y_normalized": 311.9617674463817
           }
         ],
@@ -549,7 +549,7 @@
         "id": "corridor-34",
         "points": [
           {
-            "x_normalized": 662.480962033402,
+            "x_normalized": 662.4809620334019,
             "y_normalized": 313.9373239568665
           },
           {
@@ -564,11 +564,11 @@
         "id": "corridor-35",
         "points": [
           {
-            "x_normalized": 386.3617806907241,
+            "x_normalized": 386.3617806907242,
             "y_normalized": 266.5239677052308
           },
           {
-            "x_normalized": 386.3617806907241,
+            "x_normalized": 386.3617806907242,
             "y_normalized": 264.54841119474605
           }
         ],
@@ -579,11 +579,11 @@
         "id": "corridor-36",
         "points": [
           {
-            "x_normalized": 386.3617806907241,
+            "x_normalized": 386.3617806907242,
             "y_normalized": 266.5239677052308
           },
           {
-            "x_normalized": 385.08345114747095,
+            "x_normalized": 385.08345114747107,
             "y_normalized": 268.49952421571567
           }
         ],
@@ -594,11 +594,11 @@
         "id": "corridor-37",
         "points": [
           {
-            "x_normalized": 386.3617806907241,
+            "x_normalized": 386.3617806907242,
             "y_normalized": 266.5239677052308
           },
           {
-            "x_normalized": 385.08345114747095,
+            "x_normalized": 385.08345114747107,
             "y_normalized": 266.5239677052308
           }
         ],
@@ -609,7 +609,7 @@
         "id": "corridor-38",
         "points": [
           {
-            "x_normalized": 679.0992460956928,
+            "x_normalized": 679.0992460956927,
             "y_normalized": 319.86399348832094
           },
           {
@@ -624,7 +624,7 @@
         "id": "corridor-39",
         "points": [
           {
-            "x_normalized": 679.0992460956928,
+            "x_normalized": 679.0992460956927,
             "y_normalized": 319.86399348832094
           },
           {
@@ -639,11 +639,11 @@
         "id": "corridor-40",
         "points": [
           {
-            "x_normalized": 679.0992460956928,
+            "x_normalized": 679.0992460956927,
             "y_normalized": 319.86399348832094
           },
           {
-            "x_normalized": 672.707598379427,
+            "x_normalized": 672.7075983794269,
             "y_normalized": 317.88843697783614
           }
         ],
@@ -658,7 +658,7 @@
             "y_normalized": 317.88843697783614
           },
           {
-            "x_normalized": 681.6559051821991,
+            "x_normalized": 681.655905182199,
             "y_normalized": 317.88843697783614
           }
         ],
@@ -684,11 +684,11 @@
         "id": "corridor-43",
         "points": [
           {
-            "x_normalized": 841.4470980888414,
+            "x_normalized": 841.4470980888412,
             "y_normalized": 292.2062023415334
           },
           {
-            "x_normalized": 792.8705754452221,
+            "x_normalized": 792.8705754452219,
             "y_normalized": 290.23064583104866
           }
         ],
@@ -703,7 +703,7 @@
             "y_normalized": 292.2062023415334
           },
           {
-            "x_normalized": 482.23649643470947,
+            "x_normalized": 482.2364964347095,
             "y_normalized": 290.23064583104866
           }
         ],
@@ -718,7 +718,7 @@
             "y_normalized": 292.2062023415334
           },
           {
-            "x_normalized": 482.23649643470947,
+            "x_normalized": 482.2364964347095,
             "y_normalized": 292.2062023415334
           }
         ],
@@ -733,11 +733,11 @@
             "y_normalized": 292.2062023415334
           },
           {
-            "x_normalized": 478.40150780495,
+            "x_normalized": 478.4015078049501,
             "y_normalized": 296.15731536250314
           },
           {
-            "x_normalized": 459.226564656153,
+            "x_normalized": 459.2265646561531,
             "y_normalized": 296.15731536250314
           }
         ],
@@ -748,11 +748,11 @@
         "id": "corridor-47",
         "points": [
           {
-            "x_normalized": 255.97216727890398,
+            "x_normalized": 255.97216727890415,
             "y_normalized": 298.13287187298795
           },
           {
-            "x_normalized": 255.97216727890398,
+            "x_normalized": 255.97216727890415,
             "y_normalized": 296.15731536250314
           }
         ],
@@ -763,23 +763,23 @@
         "id": "corridor-48",
         "points": [
           {
-            "x_normalized": 255.97216727890398,
+            "x_normalized": 255.97216727890415,
             "y_normalized": 298.13287187298795
           },
           {
-            "x_normalized": 267.4771331681822,
+            "x_normalized": 267.4771331681823,
             "y_normalized": 306.03509791492723
           },
           {
-            "x_normalized": 317.33198535505466,
+            "x_normalized": 317.33198535505477,
             "y_normalized": 304.05954140444237
           },
           {
-            "x_normalized": 323.72363307132036,
+            "x_normalized": 323.7236330713205,
             "y_normalized": 300.1084283834728
           },
           {
-            "x_normalized": 341.62024667686427,
+            "x_normalized": 341.6202466768644,
             "y_normalized": 304.05954140444237
           },
           {
@@ -794,11 +794,11 @@
         "id": "corridor-49",
         "points": [
           {
-            "x_normalized": 255.97216727890398,
+            "x_normalized": 255.97216727890415,
             "y_normalized": 298.13287187298795
           },
           {
-            "x_normalized": 254.69383773565085,
+            "x_normalized": 254.69383773565096,
             "y_normalized": 298.13287187298795
           }
         ],
@@ -809,11 +809,11 @@
         "id": "corridor-50",
         "points": [
           {
-            "x_normalized": 746.850711888109,
+            "x_normalized": 746.8507118881089,
             "y_normalized": 302.0839848939576
           },
           {
-            "x_normalized": 751.9640300611217,
+            "x_normalized": 751.9640300611215,
             "y_normalized": 304.05954140444237
           }
         ],
@@ -824,11 +824,11 @@
         "id": "corridor-51",
         "points": [
           {
-            "x_normalized": 746.850711888109,
+            "x_normalized": 746.8507118881089,
             "y_normalized": 302.0839848939576
           },
           {
-            "x_normalized": 745.572382344856,
+            "x_normalized": 745.5723823448559,
             "y_normalized": 302.0839848939576
           }
         ],
@@ -839,11 +839,11 @@
         "id": "corridor-52",
         "points": [
           {
-            "x_normalized": 746.850711888109,
+            "x_normalized": 746.8507118881089,
             "y_normalized": 302.0839848939576
           },
           {
-            "x_normalized": 745.572382344856,
+            "x_normalized": 745.5723823448559,
             "y_normalized": 300.1084283834728
           }
         ],
@@ -952,7 +952,7 @@
             "y_normalized": 205.2817158802014
           },
           {
-            "x_normalized": 478.40150780495,
+            "x_normalized": 478.4015078049501,
             "y_normalized": 203.30615936971657
           }
         ],
@@ -963,11 +963,11 @@
         "id": "corridor-60",
         "points": [
           {
-            "x_normalized": 418.3200192720526,
+            "x_normalized": 418.3200192720527,
             "y_normalized": 203.30615936971657
           },
           {
-            "x_normalized": 418.3200192720526,
+            "x_normalized": 418.3200192720527,
             "y_normalized": 201.33060285923176
           }
         ],
@@ -978,11 +978,11 @@
         "id": "corridor-61",
         "points": [
           {
-            "x_normalized": 418.3200192720526,
+            "x_normalized": 418.3200192720527,
             "y_normalized": 203.30615936971657
           },
           {
-            "x_normalized": 419.59834881530566,
+            "x_normalized": 419.59834881530577,
             "y_normalized": 203.30615936971657
           }
         ],
@@ -993,11 +993,11 @@
         "id": "corridor-62",
         "points": [
           {
-            "x_normalized": 418.3200192720526,
+            "x_normalized": 418.3200192720527,
             "y_normalized": 203.30615936971657
           },
           {
-            "x_normalized": 419.59834881530566,
+            "x_normalized": 419.59834881530577,
             "y_normalized": 205.2817158802014
           }
         ],
@@ -1008,11 +1008,11 @@
         "id": "corridor-63",
         "points": [
           {
-            "x_normalized": 418.3200192720526,
+            "x_normalized": 418.3200192720527,
             "y_normalized": 203.30615936971657
           },
           {
-            "x_normalized": 417.0416897287994,
+            "x_normalized": 417.04168972879944,
             "y_normalized": 203.30615936971657
           }
         ],
@@ -1023,11 +1023,11 @@
         "id": "corridor-64",
         "points": [
           {
-            "x_normalized": 402.9800647530149,
+            "x_normalized": 402.98006475301503,
             "y_normalized": 308.01065442541204
           },
           {
-            "x_normalized": 404.258394296268,
+            "x_normalized": 404.2583942962681,
             "y_normalized": 306.03509791492723
           }
         ],
@@ -1038,11 +1038,11 @@
         "id": "corridor-65",
         "points": [
           {
-            "x_normalized": 402.9800647530149,
+            "x_normalized": 402.98006475301503,
             "y_normalized": 308.01065442541204
           },
           {
-            "x_normalized": 404.258394296268,
+            "x_normalized": 404.2583942962681,
             "y_normalized": 308.01065442541204
           }
         ],
@@ -1053,11 +1053,11 @@
         "id": "corridor-66",
         "points": [
           {
-            "x_normalized": 402.9800647530149,
+            "x_normalized": 402.98006475301503,
             "y_normalized": 308.01065442541204
           },
           {
-            "x_normalized": 402.9800647530149,
+            "x_normalized": 402.98006475301503,
             "y_normalized": 309.98621093589685
           }
         ],
@@ -1068,11 +1068,11 @@
         "id": "corridor-67",
         "points": [
           {
-            "x_normalized": 402.9800647530149,
+            "x_normalized": 402.98006475301503,
             "y_normalized": 308.01065442541204
           },
           {
-            "x_normalized": 401.70173520976175,
+            "x_normalized": 401.7017352097618,
             "y_normalized": 308.01065442541204
           }
         ],
@@ -1083,11 +1083,11 @@
         "id": "corridor-68",
         "points": [
           {
-            "x_normalized": 404.258394296268,
+            "x_normalized": 404.2583942962681,
             "y_normalized": 306.03509791492723
           },
           {
-            "x_normalized": 405.5367238395212,
+            "x_normalized": 405.5367238395213,
             "y_normalized": 306.03509791492723
           }
         ],
@@ -1098,11 +1098,11 @@
         "id": "corridor-69",
         "points": [
           {
-            "x_normalized": 404.258394296268,
+            "x_normalized": 404.2583942962681,
             "y_normalized": 306.03509791492723
           },
           {
-            "x_normalized": 404.258394296268,
+            "x_normalized": 404.2583942962681,
             "y_normalized": 308.01065442541204
           }
         ],
@@ -1113,11 +1113,11 @@
         "id": "corridor-70",
         "points": [
           {
-            "x_normalized": 684.2125642687054,
+            "x_normalized": 684.2125642687053,
             "y_normalized": 313.9373239568665
           },
           {
-            "x_normalized": 685.4908938119585,
+            "x_normalized": 685.4908938119584,
             "y_normalized": 315.9128804673513
           }
         ],
@@ -1128,11 +1128,11 @@
         "id": "corridor-71",
         "points": [
           {
-            "x_normalized": 684.2125642687054,
+            "x_normalized": 684.2125642687053,
             "y_normalized": 313.9373239568665
           },
           {
-            "x_normalized": 684.2125642687054,
+            "x_normalized": 684.2125642687053,
             "y_normalized": 315.9128804673513
           }
         ],
@@ -1162,7 +1162,7 @@
             "y_normalized": 306.03509791492723
           },
           {
-            "x_normalized": 576.8328826354417,
+            "x_normalized": 576.8328826354416,
             "y_normalized": 304.05954140444237
           }
         ],
@@ -1278,11 +1278,11 @@
         "id": "corridor-81",
         "points": [
           {
-            "x_normalized": 708.5008255905151,
+            "x_normalized": 708.5008255905149,
             "y_normalized": 309.98621093589685
           },
           {
-            "x_normalized": 709.7791551337681,
+            "x_normalized": 709.779155133768,
             "y_normalized": 308.01065442541204
           }
         ],
@@ -1293,11 +1293,11 @@
         "id": "corridor-82",
         "points": [
           {
-            "x_normalized": 708.5008255905151,
+            "x_normalized": 708.5008255905149,
             "y_normalized": 309.98621093589685
           },
           {
-            "x_normalized": 709.7791551337681,
+            "x_normalized": 709.779155133768,
             "y_normalized": 309.98621093589685
           }
         ],
@@ -1308,11 +1308,11 @@
         "id": "corridor-83",
         "points": [
           {
-            "x_normalized": 708.5008255905151,
+            "x_normalized": 708.5008255905149,
             "y_normalized": 309.98621093589685
           },
           {
-            "x_normalized": 708.5008255905151,
+            "x_normalized": 708.5008255905149,
             "y_normalized": 311.9617674463817
           }
         ],
@@ -1368,11 +1368,11 @@
         "id": "corridor-87",
         "points": [
           {
-            "x_normalized": 391.47509886373666,
+            "x_normalized": 391.4750988637367,
             "y_normalized": 234.9150635374737
           },
           {
-            "x_normalized": 392.75342840698977,
+            "x_normalized": 392.7534284069899,
             "y_normalized": 207.25727239068624
           }
         ],
@@ -1383,11 +1383,11 @@
         "id": "corridor-88",
         "points": [
           {
-            "x_normalized": 391.47509886373666,
+            "x_normalized": 391.4750988637367,
             "y_normalized": 234.9150635374737
           },
           {
-            "x_normalized": 391.47509886373666,
+            "x_normalized": 391.4750988637367,
             "y_normalized": 236.8906200479585
           }
         ],
@@ -1398,11 +1398,11 @@
         "id": "corridor-89",
         "points": [
           {
-            "x_normalized": 391.47509886373666,
+            "x_normalized": 391.4750988637367,
             "y_normalized": 234.9150635374737
           },
           {
-            "x_normalized": 390.19676932048355,
+            "x_normalized": 390.1967693204836,
             "y_normalized": 236.8906200479585
           }
         ],
@@ -1447,7 +1447,7 @@
             "y_normalized": 315.9128804673513
           },
           {
-            "x_normalized": 667.5942802064146,
+            "x_normalized": 667.5942802064144,
             "y_normalized": 313.9373239568665
           }
         ],
@@ -1522,7 +1522,7 @@
             "y_normalized": 333.6928890617147
           },
           {
-            "x_normalized": 585.7811894382138,
+            "x_normalized": 585.7811894382137,
             "y_normalized": 331.71733255122984
           }
         ],
@@ -1548,7 +1548,7 @@
         "id": "corridor-99",
         "points": [
           {
-            "x_normalized": 585.7811894382138,
+            "x_normalized": 585.7811894382137,
             "y_normalized": 331.71733255122984
           },
           {
@@ -1567,7 +1567,7 @@
             "y_normalized": 511.4929750053485
           },
           {
-            "x_normalized": 488.6281441509752,
+            "x_normalized": 488.6281441509753,
             "y_normalized": 513.4685315158333
           }
         ],
@@ -1582,7 +1582,7 @@
             "y_normalized": 511.4929750053485
           },
           {
-            "x_normalized": 488.6281441509752,
+            "x_normalized": 488.6281441509753,
             "y_normalized": 513.4685315158333
           }
         ],
@@ -1597,7 +1597,7 @@
             "y_normalized": 511.4929750053485
           },
           {
-            "x_normalized": 459.226564656153,
+            "x_normalized": 459.2265646561531,
             "y_normalized": 507.5418619843789
           }
         ],
@@ -1608,11 +1608,11 @@
         "id": "corridor-103",
         "points": [
           {
-            "x_normalized": 663.7592915766553,
+            "x_normalized": 663.7592915766551,
             "y_normalized": 308.01065442541204
           },
           {
-            "x_normalized": 663.7592915766553,
+            "x_normalized": 663.7592915766551,
             "y_normalized": 309.98621093589685
           }
         ],
@@ -1623,15 +1623,15 @@
         "id": "corridor-104",
         "points": [
           {
-            "x_normalized": 663.7592915766553,
+            "x_normalized": 663.7592915766551,
             "y_normalized": 308.01065442541204
           },
           {
-            "x_normalized": 658.6459734036426,
+            "x_normalized": 658.6459734036425,
             "y_normalized": 278.3773067681397
           },
           {
-            "x_normalized": 658.6459734036426,
+            "x_normalized": 658.6459734036425,
             "y_normalized": 254.67062864232187
           }
         ],
@@ -1642,11 +1642,11 @@
         "id": "corridor-105",
         "points": [
           {
-            "x_normalized": 721.2841210230463,
+            "x_normalized": 721.2841210230462,
             "y_normalized": 136.13723801323272
           },
           {
-            "x_normalized": 721.2841210230463,
+            "x_normalized": 721.2841210230462,
             "y_normalized": 134.16168150274788
           }
         ],
@@ -1657,11 +1657,11 @@
         "id": "corridor-106",
         "points": [
           {
-            "x_normalized": 721.2841210230463,
+            "x_normalized": 721.2841210230462,
             "y_normalized": 136.13723801323272
           },
           {
-            "x_normalized": 722.5624505662995,
+            "x_normalized": 722.5624505662993,
             "y_normalized": 136.13723801323272
           }
         ],
@@ -1672,11 +1672,11 @@
         "id": "corridor-107",
         "points": [
           {
-            "x_normalized": 721.2841210230463,
+            "x_normalized": 721.2841210230462,
             "y_normalized": 136.13723801323272
           },
           {
-            "x_normalized": 720.0057914797933,
+            "x_normalized": 720.0057914797932,
             "y_normalized": 136.13723801323272
           }
         ],
@@ -1687,11 +1687,11 @@
         "id": "corridor-108",
         "points": [
           {
-            "x_normalized": 727.6757687393122,
+            "x_normalized": 727.6757687393119,
             "y_normalized": 304.05954140444237
           },
           {
-            "x_normalized": 745.572382344856,
+            "x_normalized": 745.5723823448559,
             "y_normalized": 302.0839848939576
           }
         ],
@@ -1702,11 +1702,11 @@
         "id": "corridor-109",
         "points": [
           {
-            "x_normalized": 727.6757687393122,
+            "x_normalized": 727.6757687393119,
             "y_normalized": 304.05954140444237
           },
           {
-            "x_normalized": 726.3974391960589,
+            "x_normalized": 726.3974391960588,
             "y_normalized": 306.03509791492723
           }
         ],
@@ -1717,11 +1717,11 @@
         "id": "corridor-110",
         "points": [
           {
-            "x_normalized": 727.6757687393122,
+            "x_normalized": 727.6757687393119,
             "y_normalized": 304.05954140444237
           },
           {
-            "x_normalized": 726.3974391960589,
+            "x_normalized": 726.3974391960588,
             "y_normalized": 304.05954140444237
           }
         ],
@@ -1732,11 +1732,11 @@
         "id": "corridor-111",
         "points": [
           {
-            "x_normalized": 727.6757687393122,
+            "x_normalized": 727.6757687393119,
             "y_normalized": 304.05954140444237
           },
           {
-            "x_normalized": 726.3974391960589,
+            "x_normalized": 726.3974391960588,
             "y_normalized": 302.0839848939576
           }
         ],
@@ -1747,7 +1747,7 @@
         "id": "corridor-112",
         "points": [
           {
-            "x_normalized": 580.6678712652011,
+            "x_normalized": 580.667871265201,
             "y_normalized": 323.8151065092906
           },
           {
@@ -1762,11 +1762,11 @@
         "id": "corridor-113",
         "points": [
           {
-            "x_normalized": 580.6678712652011,
+            "x_normalized": 580.667871265201,
             "y_normalized": 323.8151065092906
           },
           {
-            "x_normalized": 581.9462008084544,
+            "x_normalized": 581.9462008084543,
             "y_normalized": 325.7906630197754
           }
         ],
@@ -1777,7 +1777,7 @@
         "id": "corridor-114",
         "points": [
           {
-            "x_normalized": 580.6678712652011,
+            "x_normalized": 580.667871265201,
             "y_normalized": 323.8151065092906
           },
           {
@@ -1792,11 +1792,11 @@
         "id": "corridor-115",
         "points": [
           {
-            "x_normalized": 390.19676932048355,
+            "x_normalized": 390.1967693204836,
             "y_normalized": 236.8906200479585
           },
           {
-            "x_normalized": 391.47509886373666,
+            "x_normalized": 391.4750988637367,
             "y_normalized": 236.8906200479585
           }
         ],
@@ -1807,11 +1807,11 @@
         "id": "corridor-116",
         "points": [
           {
-            "x_normalized": 390.19676932048355,
+            "x_normalized": 390.1967693204836,
             "y_normalized": 236.8906200479585
           },
           {
-            "x_normalized": 390.19676932048355,
+            "x_normalized": 390.1967693204836,
             "y_normalized": 238.86617655844333
           }
         ],
@@ -1822,11 +1822,11 @@
         "id": "corridor-117",
         "points": [
           {
-            "x_normalized": 390.19676932048355,
+            "x_normalized": 390.1967693204836,
             "y_normalized": 236.8906200479585
           },
           {
-            "x_normalized": 388.9184397772304,
+            "x_normalized": 388.91843977723045,
             "y_normalized": 238.86617655844333
           }
         ],
@@ -1837,11 +1837,11 @@
         "id": "corridor-118",
         "points": [
           {
-            "x_normalized": 671.4292688361741,
+            "x_normalized": 671.4292688361738,
             "y_normalized": 315.9128804673513
           },
           {
-            "x_normalized": 672.707598379427,
+            "x_normalized": 672.7075983794269,
             "y_normalized": 317.88843697783614
           }
         ],
@@ -1852,11 +1852,11 @@
         "id": "corridor-119",
         "points": [
           {
-            "x_normalized": 671.4292688361741,
+            "x_normalized": 671.4292688361738,
             "y_normalized": 315.9128804673513
           },
           {
-            "x_normalized": 671.4292688361741,
+            "x_normalized": 671.4292688361738,
             "y_normalized": 317.88843697783614
           }
         ],
@@ -1867,7 +1867,7 @@
         "id": "corridor-120",
         "points": [
           {
-            "x_normalized": 671.4292688361741,
+            "x_normalized": 671.4292688361738,
             "y_normalized": 315.9128804673513
           },
           {
@@ -1882,11 +1882,11 @@
         "id": "corridor-121",
         "points": [
           {
-            "x_normalized": 685.4908938119585,
+            "x_normalized": 685.4908938119584,
             "y_normalized": 315.9128804673513
           },
           {
-            "x_normalized": 693.1608710714773,
+            "x_normalized": 693.1608710714771,
             "y_normalized": 317.88843697783614
           }
         ],
@@ -1897,11 +1897,11 @@
         "id": "corridor-122",
         "points": [
           {
-            "x_normalized": 685.4908938119585,
+            "x_normalized": 685.4908938119584,
             "y_normalized": 315.9128804673513
           },
           {
-            "x_normalized": 684.2125642687054,
+            "x_normalized": 684.2125642687053,
             "y_normalized": 315.9128804673513
           }
         ],
@@ -1920,7 +1920,7 @@
             "y_normalized": 294.1817588520183
           },
           {
-            "x_normalized": 621.5744166493016,
+            "x_normalized": 621.5744166493015,
             "y_normalized": 298.13287187298795
           }
         ],
@@ -1935,7 +1935,7 @@
             "y_normalized": 302.0839848939576
           },
           {
-            "x_normalized": 578.111212178695,
+            "x_normalized": 578.1112121786949,
             "y_normalized": 304.05954140444237
           }
         ],
@@ -1950,7 +1950,7 @@
             "y_normalized": 302.0839848939576
           },
           {
-            "x_normalized": 578.111212178695,
+            "x_normalized": 578.1112121786949,
             "y_normalized": 302.0839848939576
           }
         ],
@@ -1961,11 +1961,11 @@
         "id": "corridor-126",
         "points": [
           {
-            "x_normalized": 708.5008255905151,
+            "x_normalized": 708.5008255905149,
             "y_normalized": 313.9373239568665
           },
           {
-            "x_normalized": 708.5008255905151,
+            "x_normalized": 708.5008255905149,
             "y_normalized": 311.9617674463817
           }
         ],
@@ -1976,11 +1976,11 @@
         "id": "corridor-127",
         "points": [
           {
-            "x_normalized": 708.5008255905151,
+            "x_normalized": 708.5008255905149,
             "y_normalized": 313.9373239568665
           },
           {
-            "x_normalized": 708.5008255905151,
+            "x_normalized": 708.5008255905149,
             "y_normalized": 315.9128804673513
           }
         ],
@@ -1991,11 +1991,11 @@
         "id": "corridor-128",
         "points": [
           {
-            "x_normalized": 708.5008255905151,
+            "x_normalized": 708.5008255905149,
             "y_normalized": 313.9373239568665
           },
           {
-            "x_normalized": 707.2224960472619,
+            "x_normalized": 707.2224960472618,
             "y_normalized": 313.9373239568665
           }
         ],
@@ -2010,7 +2010,7 @@
             "y_normalized": 296.15731536250314
           },
           {
-            "x_normalized": 459.226564656153,
+            "x_normalized": 459.2265646561531,
             "y_normalized": 296.15731536250314
           }
         ],
@@ -2070,7 +2070,7 @@
             "y_normalized": 509.51741849486376
           },
           {
-            "x_normalized": 455.3915760263936,
+            "x_normalized": 455.3915760263937,
             "y_normalized": 511.4929750053485
           }
         ],
@@ -2085,7 +2085,7 @@
             "y_normalized": 509.51741849486376
           },
           {
-            "x_normalized": 455.3915760263936,
+            "x_normalized": 455.3915760263937,
             "y_normalized": 509.51741849486376
           }
         ],
@@ -2096,7 +2096,7 @@
         "id": "corridor-135",
         "points": [
           {
-            "x_normalized": 622.8527461925548,
+            "x_normalized": 622.8527461925547,
             "y_normalized": 298.13287187298795
           },
           {
@@ -2111,11 +2111,11 @@
         "id": "corridor-136",
         "points": [
           {
-            "x_normalized": 622.8527461925548,
+            "x_normalized": 622.8527461925547,
             "y_normalized": 298.13287187298795
           },
           {
-            "x_normalized": 622.8527461925548,
+            "x_normalized": 622.8527461925547,
             "y_normalized": 300.1084283834728
           }
         ],
@@ -2126,11 +2126,11 @@
         "id": "corridor-137",
         "points": [
           {
-            "x_normalized": 622.8527461925548,
+            "x_normalized": 622.8527461925547,
             "y_normalized": 298.13287187298795
           },
           {
-            "x_normalized": 621.5744166493016,
+            "x_normalized": 621.5744166493015,
             "y_normalized": 298.13287187298795
           }
         ],
@@ -2141,7 +2141,7 @@
         "id": "corridor-138",
         "points": [
           {
-            "x_normalized": 484.7931555212158,
+            "x_normalized": 484.79315552121585,
             "y_normalized": 286.279532810079
           },
           {
@@ -2156,7 +2156,7 @@
         "id": "corridor-139",
         "points": [
           {
-            "x_normalized": 484.7931555212158,
+            "x_normalized": 484.79315552121585,
             "y_normalized": 286.279532810079
           },
           {
@@ -2171,11 +2171,11 @@
         "id": "corridor-140",
         "points": [
           {
-            "x_normalized": 484.7931555212158,
+            "x_normalized": 484.79315552121585,
             "y_normalized": 286.279532810079
           },
           {
-            "x_normalized": 484.7931555212158,
+            "x_normalized": 484.79315552121585,
             "y_normalized": 288.25508932056385
           }
         ],
@@ -2186,11 +2186,11 @@
         "id": "corridor-141",
         "points": [
           {
-            "x_normalized": 758.3556777773873,
+            "x_normalized": 758.3556777773872,
             "y_normalized": 134.16168150274788
           },
           {
-            "x_normalized": 759.6340073206405,
+            "x_normalized": 759.6340073206403,
             "y_normalized": 134.16168150274788
           }
         ],
@@ -2201,11 +2201,11 @@
         "id": "corridor-142",
         "points": [
           {
-            "x_normalized": 758.3556777773873,
+            "x_normalized": 758.3556777773872,
             "y_normalized": 134.16168150274788
           },
           {
-            "x_normalized": 758.3556777773873,
+            "x_normalized": 758.3556777773872,
             "y_normalized": 136.13723801323272
           }
         ],
@@ -2216,11 +2216,11 @@
         "id": "corridor-143",
         "points": [
           {
-            "x_normalized": 758.3556777773873,
+            "x_normalized": 758.3556777773872,
             "y_normalized": 134.16168150274788
           },
           {
-            "x_normalized": 757.0773482341343,
+            "x_normalized": 757.0773482341341,
             "y_normalized": 136.13723801323272
           }
         ],
@@ -2231,11 +2231,11 @@
         "id": "corridor-144",
         "points": [
           {
-            "x_normalized": 388.9184397772304,
+            "x_normalized": 388.91843977723045,
             "y_normalized": 238.86617655844333
           },
           {
-            "x_normalized": 390.19676932048355,
+            "x_normalized": 390.1967693204836,
             "y_normalized": 238.86617655844333
           }
         ],
@@ -2246,11 +2246,11 @@
         "id": "corridor-145",
         "points": [
           {
-            "x_normalized": 388.9184397772304,
+            "x_normalized": 388.91843977723045,
             "y_normalized": 238.86617655844333
           },
           {
-            "x_normalized": 388.9184397772304,
+            "x_normalized": 388.91843977723045,
             "y_normalized": 240.84173306892816
           }
         ],
@@ -2261,11 +2261,11 @@
         "id": "corridor-146",
         "points": [
           {
-            "x_normalized": 388.9184397772304,
+            "x_normalized": 388.91843977723045,
             "y_normalized": 238.86617655844333
           },
           {
-            "x_normalized": 387.6401102339772,
+            "x_normalized": 387.64011023397734,
             "y_normalized": 240.84173306892816
           }
         ],
@@ -2276,11 +2276,11 @@
         "id": "corridor-147",
         "points": [
           {
-            "x_normalized": 385.08345114747095,
+            "x_normalized": 385.08345114747107,
             "y_normalized": 300.1084283834728
           },
           {
-            "x_normalized": 385.08345114747095,
+            "x_normalized": 385.08345114747107,
             "y_normalized": 268.49952421571567
           }
         ],
@@ -2291,11 +2291,11 @@
         "id": "corridor-148",
         "points": [
           {
-            "x_normalized": 385.08345114747095,
+            "x_normalized": 385.08345114747107,
             "y_normalized": 300.1084283834728
           },
           {
-            "x_normalized": 386.3617806907241,
+            "x_normalized": 386.3617806907242,
             "y_normalized": 302.0839848939576
           }
         ],
@@ -2306,11 +2306,11 @@
         "id": "corridor-149",
         "points": [
           {
-            "x_normalized": 385.08345114747095,
+            "x_normalized": 385.08345114747107,
             "y_normalized": 300.1084283834728
           },
           {
-            "x_normalized": 385.08345114747095,
+            "x_normalized": 385.08345114747107,
             "y_normalized": 302.0839848939576
           }
         ],
@@ -2321,7 +2321,7 @@
         "id": "corridor-150",
         "points": [
           {
-            "x_normalized": 385.08345114747095,
+            "x_normalized": 385.08345114747107,
             "y_normalized": 300.1084283834728
           },
           {
@@ -2336,7 +2336,7 @@
         "id": "corridor-151",
         "points": [
           {
-            "x_normalized": 478.40150780495,
+            "x_normalized": 478.4015078049501,
             "y_normalized": 203.30615936971657
           },
           {
@@ -2351,7 +2351,7 @@
         "id": "corridor-152",
         "points": [
           {
-            "x_normalized": 478.40150780495,
+            "x_normalized": 478.4015078049501,
             "y_normalized": 203.30615936971657
           },
           {
@@ -2366,11 +2366,11 @@
         "id": "corridor-153",
         "points": [
           {
-            "x_normalized": 663.7592915766553,
+            "x_normalized": 663.7592915766551,
             "y_normalized": 311.9617674463817
           },
           {
-            "x_normalized": 663.7592915766553,
+            "x_normalized": 663.7592915766551,
             "y_normalized": 309.98621093589685
           }
         ],
@@ -2381,11 +2381,11 @@
         "id": "corridor-154",
         "points": [
           {
-            "x_normalized": 663.7592915766553,
+            "x_normalized": 663.7592915766551,
             "y_normalized": 311.9617674463817
           },
           {
-            "x_normalized": 662.480962033402,
+            "x_normalized": 662.4809620334019,
             "y_normalized": 311.9617674463817
           }
         ],
@@ -2396,11 +2396,11 @@
         "id": "corridor-155",
         "points": [
           {
-            "x_normalized": 709.7791551337681,
+            "x_normalized": 709.779155133768,
             "y_normalized": 309.98621093589685
           },
           {
-            "x_normalized": 709.7791551337681,
+            "x_normalized": 709.779155133768,
             "y_normalized": 308.01065442541204
           }
         ],
@@ -2411,11 +2411,11 @@
         "id": "corridor-156",
         "points": [
           {
-            "x_normalized": 709.7791551337681,
+            "x_normalized": 709.779155133768,
             "y_normalized": 309.98621093589685
           },
           {
-            "x_normalized": 708.5008255905151,
+            "x_normalized": 708.5008255905149,
             "y_normalized": 311.9617674463817
           }
         ],
@@ -2426,11 +2426,11 @@
         "id": "corridor-157",
         "points": [
           {
-            "x_normalized": 455.3915760263936,
+            "x_normalized": 455.3915760263937,
             "y_normalized": 511.4929750053485
           },
           {
-            "x_normalized": 455.3915760263936,
+            "x_normalized": 455.3915760263937,
             "y_normalized": 509.51741849486376
           }
         ],
@@ -2441,7 +2441,7 @@
         "id": "corridor-158",
         "points": [
           {
-            "x_normalized": 455.3915760263936,
+            "x_normalized": 455.3915760263937,
             "y_normalized": 511.4929750053485
           },
           {
@@ -2456,11 +2456,11 @@
         "id": "corridor-159",
         "points": [
           {
-            "x_normalized": 580.6678712652011,
+            "x_normalized": 580.667871265201,
             "y_normalized": 345.5462281246236
           },
           {
-            "x_normalized": 580.6678712652011,
+            "x_normalized": 580.667871265201,
             "y_normalized": 343.5706716141388
           }
         ],
@@ -2471,11 +2471,11 @@
         "id": "corridor-160",
         "points": [
           {
-            "x_normalized": 580.6678712652011,
+            "x_normalized": 580.667871265201,
             "y_normalized": 345.5462281246236
           },
           {
-            "x_normalized": 581.9462008084544,
+            "x_normalized": 581.9462008084543,
             "y_normalized": 343.5706716141388
           }
         ],
@@ -2486,11 +2486,11 @@
         "id": "corridor-161",
         "points": [
           {
-            "x_normalized": 580.6678712652011,
+            "x_normalized": 580.667871265201,
             "y_normalized": 345.5462281246236
           },
           {
-            "x_normalized": 580.6678712652011,
+            "x_normalized": 580.667871265201,
             "y_normalized": 347.5217846351085
           }
         ],
@@ -2501,7 +2501,7 @@
         "id": "corridor-162",
         "points": [
           {
-            "x_normalized": 580.6678712652011,
+            "x_normalized": 580.667871265201,
             "y_normalized": 345.5462281246236
           },
           {
@@ -2535,7 +2535,7 @@
             "y_normalized": 339.6195585931692
           },
           {
-            "x_normalized": 581.9462008084544,
+            "x_normalized": 581.9462008084543,
             "y_normalized": 341.59511510365405
           }
         ],
@@ -2550,7 +2550,7 @@
             "y_normalized": 339.6195585931692
           },
           {
-            "x_normalized": 581.9462008084544,
+            "x_normalized": 581.9462008084543,
             "y_normalized": 339.6195585931692
           }
         ],
@@ -2561,7 +2561,7 @@
         "id": "corridor-166",
         "points": [
           {
-            "x_normalized": 482.23649643470947,
+            "x_normalized": 482.2364964347095,
             "y_normalized": 290.23064583104866
           },
           {
@@ -2576,11 +2576,11 @@
         "id": "corridor-167",
         "points": [
           {
-            "x_normalized": 482.23649643470947,
+            "x_normalized": 482.2364964347095,
             "y_normalized": 290.23064583104866
           },
           {
-            "x_normalized": 482.23649643470947,
+            "x_normalized": 482.2364964347095,
             "y_normalized": 292.2062023415334
           }
         ],
@@ -2591,11 +2591,11 @@
         "id": "corridor-168",
         "points": [
           {
-            "x_normalized": 751.9640300611217,
+            "x_normalized": 751.9640300611215,
             "y_normalized": 304.05954140444237
           },
           {
-            "x_normalized": 753.2423596043749,
+            "x_normalized": 753.2423596043747,
             "y_normalized": 304.05954140444237
           }
         ],
@@ -2606,11 +2606,11 @@
         "id": "corridor-169",
         "points": [
           {
-            "x_normalized": 751.9640300611217,
+            "x_normalized": 751.9640300611215,
             "y_normalized": 304.05954140444237
           },
           {
-            "x_normalized": 753.2423596043749,
+            "x_normalized": 753.2423596043747,
             "y_normalized": 306.03509791492723
           }
         ],
@@ -2670,7 +2670,7 @@
             "y_normalized": 712.9997390748002
           },
           {
-            "x_normalized": 443.8866101371153,
+            "x_normalized": 443.8866101371154,
             "y_normalized": 711.0241825643153
           }
         ],
@@ -2700,11 +2700,11 @@
         "id": "corridor-175",
         "points": [
           {
-            "x_normalized": 722.5624505662995,
+            "x_normalized": 722.5624505662993,
             "y_normalized": 317.88843697783614
           },
           {
-            "x_normalized": 723.8407801095527,
+            "x_normalized": 723.8407801095525,
             "y_normalized": 315.9128804673513
           }
         ],
@@ -2715,11 +2715,11 @@
         "id": "corridor-176",
         "points": [
           {
-            "x_normalized": 722.5624505662995,
+            "x_normalized": 722.5624505662993,
             "y_normalized": 317.88843697783614
           },
           {
-            "x_normalized": 723.8407801095527,
+            "x_normalized": 723.8407801095525,
             "y_normalized": 317.88843697783614
           }
         ],
@@ -2730,11 +2730,11 @@
         "id": "corridor-177",
         "points": [
           {
-            "x_normalized": 722.5624505662995,
+            "x_normalized": 722.5624505662993,
             "y_normalized": 317.88843697783614
           },
           {
-            "x_normalized": 722.5624505662995,
+            "x_normalized": 722.5624505662993,
             "y_normalized": 319.86399348832094
           }
         ],
@@ -2745,11 +2745,11 @@
         "id": "corridor-178",
         "points": [
           {
-            "x_normalized": 722.5624505662995,
+            "x_normalized": 722.5624505662993,
             "y_normalized": 317.88843697783614
           },
           {
-            "x_normalized": 721.2841210230463,
+            "x_normalized": 721.2841210230462,
             "y_normalized": 319.86399348832094
           }
         ],
@@ -2760,11 +2760,11 @@
         "id": "corridor-179",
         "points": [
           {
-            "x_normalized": 753.2423596043749,
+            "x_normalized": 753.2423596043747,
             "y_normalized": 306.03509791492723
           },
           {
-            "x_normalized": 753.2423596043749,
+            "x_normalized": 753.2423596043747,
             "y_normalized": 304.05954140444237
           }
         ],
@@ -2775,7 +2775,7 @@
         "id": "corridor-180",
         "points": [
           {
-            "x_normalized": 753.2423596043749,
+            "x_normalized": 753.2423596043747,
             "y_normalized": 306.03509791492723
           },
           {
@@ -2790,11 +2790,11 @@
         "id": "corridor-181",
         "points": [
           {
-            "x_normalized": 252.1371786491446,
+            "x_normalized": 252.1371786491447,
             "y_normalized": 300.1084283834728
           },
           {
-            "x_normalized": 253.4155081923977,
+            "x_normalized": 253.41550819239788,
             "y_normalized": 298.13287187298795
           }
         ],
@@ -2805,11 +2805,11 @@
         "id": "corridor-182",
         "points": [
           {
-            "x_normalized": 252.1371786491446,
+            "x_normalized": 252.1371786491447,
             "y_normalized": 300.1084283834728
           },
           {
-            "x_normalized": 253.4155081923977,
+            "x_normalized": 253.41550819239788,
             "y_normalized": 300.1084283834728
           }
         ],
@@ -2820,15 +2820,15 @@
         "id": "corridor-183",
         "points": [
           {
-            "x_normalized": 252.1371786491446,
+            "x_normalized": 252.1371786491447,
             "y_normalized": 300.1084283834728
           },
           {
-            "x_normalized": 245.74553093287884,
+            "x_normalized": 245.74553093287903,
             "y_normalized": 304.05954140444237
           },
           {
-            "x_normalized": 160.09745153491858,
+            "x_normalized": 160.09745153491883,
             "y_normalized": 304.05954140444237
           }
         ],
@@ -2839,11 +2839,11 @@
         "id": "corridor-184",
         "points": [
           {
-            "x_normalized": 253.4155081923977,
+            "x_normalized": 253.41550819239788,
             "y_normalized": 298.13287187298795
           },
           {
-            "x_normalized": 254.69383773565085,
+            "x_normalized": 254.69383773565096,
             "y_normalized": 298.13287187298795
           }
         ],
@@ -2854,11 +2854,11 @@
         "id": "corridor-185",
         "points": [
           {
-            "x_normalized": 253.4155081923977,
+            "x_normalized": 253.41550819239788,
             "y_normalized": 298.13287187298795
           },
           {
-            "x_normalized": 253.4155081923977,
+            "x_normalized": 253.41550819239788,
             "y_normalized": 300.1084283834728
           }
         ],
@@ -2869,11 +2869,11 @@
         "id": "corridor-186",
         "points": [
           {
-            "x_normalized": 385.08345114747095,
+            "x_normalized": 385.08345114747107,
             "y_normalized": 268.49952421571567
           },
           {
-            "x_normalized": 385.08345114747095,
+            "x_normalized": 385.08345114747107,
             "y_normalized": 266.5239677052308
           }
         ],
@@ -2884,7 +2884,7 @@
         "id": "corridor-187",
         "points": [
           {
-            "x_normalized": 578.111212178695,
+            "x_normalized": 578.1112121786949,
             "y_normalized": 349.4973411455933
           },
           {
@@ -2899,7 +2899,7 @@
         "id": "corridor-188",
         "points": [
           {
-            "x_normalized": 578.111212178695,
+            "x_normalized": 578.1112121786949,
             "y_normalized": 349.4973411455933
           },
           {
@@ -2918,7 +2918,7 @@
             "y_normalized": 347.5217846351085
           },
           {
-            "x_normalized": 580.6678712652011,
+            "x_normalized": 580.667871265201,
             "y_normalized": 347.5217846351085
           }
         ],
@@ -2978,7 +2978,7 @@
             "y_normalized": 874.9953729345555
           },
           {
-            "x_normalized": 455.3915760263936,
+            "x_normalized": 455.3915760263937,
             "y_normalized": 874.9953729345555
           }
         ],
@@ -2989,7 +2989,7 @@
         "id": "corridor-194",
         "points": [
           {
-            "x_normalized": 625.4094052790609,
+            "x_normalized": 625.4094052790608,
             "y_normalized": 296.15731536250314
           },
           {
@@ -3004,7 +3004,7 @@
         "id": "corridor-195",
         "points": [
           {
-            "x_normalized": 625.4094052790609,
+            "x_normalized": 625.4094052790608,
             "y_normalized": 296.15731536250314
           },
           {
@@ -3068,7 +3068,7 @@
         "id": "corridor-199",
         "points": [
           {
-            "x_normalized": 622.8527461925548,
+            "x_normalized": 622.8527461925547,
             "y_normalized": 319.86399348832094
           },
           {
@@ -3083,7 +3083,7 @@
         "id": "corridor-200",
         "points": [
           {
-            "x_normalized": 622.8527461925548,
+            "x_normalized": 622.8527461925547,
             "y_normalized": 319.86399348832094
           },
           {
@@ -3098,11 +3098,11 @@
         "id": "corridor-201",
         "points": [
           {
-            "x_normalized": 622.8527461925548,
+            "x_normalized": 622.8527461925547,
             "y_normalized": 319.86399348832094
           },
           {
-            "x_normalized": 621.5744166493016,
+            "x_normalized": 621.5744166493015,
             "y_normalized": 321.83954999880575
           }
         ],
@@ -3113,11 +3113,11 @@
         "id": "corridor-202",
         "points": [
           {
-            "x_normalized": 386.3617806907241,
+            "x_normalized": 386.3617806907242,
             "y_normalized": 302.0839848939576
           },
           {
-            "x_normalized": 401.70173520976175,
+            "x_normalized": 401.7017352097618,
             "y_normalized": 308.01065442541204
           }
         ],
@@ -3128,11 +3128,11 @@
         "id": "corridor-203",
         "points": [
           {
-            "x_normalized": 386.3617806907241,
+            "x_normalized": 386.3617806907242,
             "y_normalized": 302.0839848939576
           },
           {
-            "x_normalized": 385.08345114747095,
+            "x_normalized": 385.08345114747107,
             "y_normalized": 302.0839848939576
           }
         ],
@@ -3143,7 +3143,7 @@
         "id": "corridor-204",
         "points": [
           {
-            "x_normalized": 459.226564656153,
+            "x_normalized": 459.2265646561531,
             "y_normalized": 296.15731536250314
           },
           {
@@ -3158,11 +3158,11 @@
         "id": "corridor-205",
         "points": [
           {
-            "x_normalized": 581.9462008084544,
+            "x_normalized": 581.9462008084543,
             "y_normalized": 327.7662195302602
           },
           {
-            "x_normalized": 581.9462008084544,
+            "x_normalized": 581.9462008084543,
             "y_normalized": 325.7906630197754
           }
         ],
@@ -3173,7 +3173,7 @@
         "id": "corridor-206",
         "points": [
           {
-            "x_normalized": 581.9462008084544,
+            "x_normalized": 581.9462008084543,
             "y_normalized": 327.7662195302602
           },
           {
@@ -3188,11 +3188,11 @@
         "id": "corridor-207",
         "points": [
           {
-            "x_normalized": 726.3974391960589,
+            "x_normalized": 726.3974391960588,
             "y_normalized": 302.0839848939576
           },
           {
-            "x_normalized": 726.3974391960589,
+            "x_normalized": 726.3974391960588,
             "y_normalized": 304.05954140444237
           }
         ],
@@ -3267,7 +3267,7 @@
             "y_normalized": 286.279532810079
           },
           {
-            "x_normalized": 484.7931555212158,
+            "x_normalized": 484.79315552121585,
             "y_normalized": 288.25508932056385
           }
         ],
@@ -3297,7 +3297,7 @@
             "y_normalized": 315.9128804673513
           },
           {
-            "x_normalized": 693.1608710714773,
+            "x_normalized": 693.1608710714771,
             "y_normalized": 317.88843697783614
           }
         ],
@@ -3327,7 +3327,7 @@
             "y_normalized": 313.9373239568665
           },
           {
-            "x_normalized": 699.552518787743,
+            "x_normalized": 699.5525187877429,
             "y_normalized": 313.9373239568665
           }
         ],
@@ -3338,15 +3338,15 @@
         "id": "corridor-217",
         "points": [
           {
-            "x_normalized": 261.0854854519165,
+            "x_normalized": 261.0854854519167,
             "y_normalized": 207.25727239068624
           },
           {
-            "x_normalized": 305.8270194657764,
+            "x_normalized": 305.8270194657765,
             "y_normalized": 203.30615936971657
           },
           {
-            "x_normalized": 391.47509886373666,
+            "x_normalized": 391.4750988637367,
             "y_normalized": 205.2817158802014
           }
         ],
@@ -3357,11 +3357,11 @@
         "id": "corridor-218",
         "points": [
           {
-            "x_normalized": 261.0854854519165,
+            "x_normalized": 261.0854854519167,
             "y_normalized": 207.25727239068624
           },
           {
-            "x_normalized": 259.80715590866345,
+            "x_normalized": 259.80715590866356,
             "y_normalized": 209.23282890117105
           }
         ],
@@ -3372,11 +3372,11 @@
         "id": "corridor-219",
         "points": [
           {
-            "x_normalized": 261.0854854519165,
+            "x_normalized": 261.0854854519167,
             "y_normalized": 207.25727239068624
           },
           {
-            "x_normalized": 259.80715590866345,
+            "x_normalized": 259.80715590866356,
             "y_normalized": 207.25727239068624
           }
         ],
@@ -3387,7 +3387,7 @@
         "id": "corridor-220",
         "points": [
           {
-            "x_normalized": 452.83491693988725,
+            "x_normalized": 452.83491693988736,
             "y_normalized": 827.5820166829196
           },
           {
@@ -3402,11 +3402,11 @@
         "id": "corridor-221",
         "points": [
           {
-            "x_normalized": 452.83491693988725,
+            "x_normalized": 452.83491693988736,
             "y_normalized": 827.5820166829196
           },
           {
-            "x_normalized": 451.5565873966342,
+            "x_normalized": 451.55658739663426,
             "y_normalized": 827.5820166829196
           }
         ],
@@ -3417,11 +3417,11 @@
         "id": "corridor-222",
         "points": [
           {
-            "x_normalized": 452.83491693988725,
+            "x_normalized": 452.83491693988736,
             "y_normalized": 827.5820166829196
           },
           {
-            "x_normalized": 451.5565873966342,
+            "x_normalized": 451.55658739663426,
             "y_normalized": 825.6064601724348
           }
         ],
@@ -3432,11 +3432,11 @@
         "id": "corridor-223",
         "points": [
           {
-            "x_normalized": 440.0516215073559,
+            "x_normalized": 440.051621507356,
             "y_normalized": 517.419644536803
           },
           {
-            "x_normalized": 441.329951050609,
+            "x_normalized": 441.3299510506091,
             "y_normalized": 519.3952010472877
           }
         ],
@@ -3447,11 +3447,11 @@
         "id": "corridor-224",
         "points": [
           {
-            "x_normalized": 255.97216727890398,
+            "x_normalized": 255.97216727890415,
             "y_normalized": 296.15731536250314
           },
           {
-            "x_normalized": 258.5288263654102,
+            "x_normalized": 258.5288263654104,
             "y_normalized": 211.20838541165588
           }
         ],
@@ -3462,11 +3462,11 @@
         "id": "corridor-225",
         "points": [
           {
-            "x_normalized": 255.97216727890398,
+            "x_normalized": 255.97216727890415,
             "y_normalized": 296.15731536250314
           },
           {
-            "x_normalized": 254.69383773565085,
+            "x_normalized": 254.69383773565096,
             "y_normalized": 298.13287187298795
           }
         ],
@@ -3477,11 +3477,11 @@
         "id": "corridor-226",
         "points": [
           {
-            "x_normalized": 418.3200192720526,
+            "x_normalized": 418.3200192720527,
             "y_normalized": 201.33060285923176
           },
           {
-            "x_normalized": 419.59834881530566,
+            "x_normalized": 419.59834881530577,
             "y_normalized": 203.30615936971657
           }
         ],
@@ -3492,11 +3492,11 @@
         "id": "corridor-227",
         "points": [
           {
-            "x_normalized": 418.3200192720526,
+            "x_normalized": 418.3200192720527,
             "y_normalized": 201.33060285923176
           },
           {
-            "x_normalized": 417.0416897287994,
+            "x_normalized": 417.04168972879944,
             "y_normalized": 203.30615936971657
           }
         ],
@@ -3537,11 +3537,11 @@
         "id": "corridor-230",
         "points": [
           {
-            "x_normalized": 681.6559051821991,
+            "x_normalized": 681.655905182199,
             "y_normalized": 317.88843697783614
           },
           {
-            "x_normalized": 684.2125642687054,
+            "x_normalized": 684.2125642687053,
             "y_normalized": 315.9128804673513
           }
         ],
@@ -3552,7 +3552,7 @@
         "id": "corridor-231",
         "points": [
           {
-            "x_normalized": 681.6559051821991,
+            "x_normalized": 681.655905182199,
             "y_normalized": 317.88843697783614
           },
           {
@@ -3582,11 +3582,11 @@
         "id": "corridor-233",
         "points": [
           {
-            "x_normalized": 726.3974391960589,
+            "x_normalized": 726.3974391960588,
             "y_normalized": 306.03509791492723
           },
           {
-            "x_normalized": 726.3974391960589,
+            "x_normalized": 726.3974391960588,
             "y_normalized": 304.05954140444237
           }
         ],
@@ -3597,11 +3597,11 @@
         "id": "corridor-234",
         "points": [
           {
-            "x_normalized": 726.3974391960589,
+            "x_normalized": 726.3974391960588,
             "y_normalized": 306.03509791492723
           },
           {
-            "x_normalized": 723.8407801095527,
+            "x_normalized": 723.8407801095525,
             "y_normalized": 315.9128804673513
           }
         ],
@@ -3612,7 +3612,7 @@
         "id": "corridor-235",
         "points": [
           {
-            "x_normalized": 441.329951050609,
+            "x_normalized": 441.3299510506091,
             "y_normalized": 519.3952010472877
           },
           {
@@ -3627,7 +3627,7 @@
         "id": "corridor-236",
         "points": [
           {
-            "x_normalized": 441.329951050609,
+            "x_normalized": 441.3299510506091,
             "y_normalized": 519.3952010472877
           },
           {
@@ -3642,11 +3642,11 @@
         "id": "corridor-237",
         "points": [
           {
-            "x_normalized": 259.80715590866345,
+            "x_normalized": 259.80715590866356,
             "y_normalized": 209.23282890117105
           },
           {
-            "x_normalized": 259.80715590866345,
+            "x_normalized": 259.80715590866356,
             "y_normalized": 207.25727239068624
           }
         ],
@@ -3657,11 +3657,11 @@
         "id": "corridor-238",
         "points": [
           {
-            "x_normalized": 259.80715590866345,
+            "x_normalized": 259.80715590866356,
             "y_normalized": 209.23282890117105
           },
           {
-            "x_normalized": 258.5288263654102,
+            "x_normalized": 258.5288263654104,
             "y_normalized": 211.20838541165588
           }
         ],
@@ -3672,11 +3672,11 @@
         "id": "corridor-239",
         "points": [
           {
-            "x_normalized": 259.80715590866345,
+            "x_normalized": 259.80715590866356,
             "y_normalized": 209.23282890117105
           },
           {
-            "x_normalized": 258.5288263654102,
+            "x_normalized": 258.5288263654104,
             "y_normalized": 209.23282890117105
           }
         ],
@@ -3717,7 +3717,7 @@
         "id": "corridor-242",
         "points": [
           {
-            "x_normalized": 417.0416897287994,
+            "x_normalized": 417.04168972879944,
             "y_normalized": 203.30615936971657
           },
           {
@@ -3732,11 +3732,11 @@
         "id": "corridor-243",
         "points": [
           {
-            "x_normalized": 405.5367238395212,
+            "x_normalized": 405.5367238395213,
             "y_normalized": 306.03509791492723
           },
           {
-            "x_normalized": 419.59834881530566,
+            "x_normalized": 419.59834881530577,
             "y_normalized": 298.13287187298795
           }
         ],
@@ -3747,11 +3747,11 @@
         "id": "corridor-244",
         "points": [
           {
-            "x_normalized": 405.5367238395212,
+            "x_normalized": 405.5367238395213,
             "y_normalized": 306.03509791492723
           },
           {
-            "x_normalized": 404.258394296268,
+            "x_normalized": 404.2583942962681,
             "y_normalized": 308.01065442541204
           }
         ],
@@ -3762,11 +3762,11 @@
         "id": "corridor-245",
         "points": [
           {
-            "x_normalized": 792.8705754452221,
+            "x_normalized": 792.8705754452219,
             "y_normalized": 290.23064583104866
           },
           {
-            "x_normalized": 790.3139163587158,
+            "x_normalized": 790.3139163587157,
             "y_normalized": 302.0839848939576
           }
         ],
@@ -3777,7 +3777,7 @@
         "id": "corridor-246",
         "points": [
           {
-            "x_normalized": 792.8705754452221,
+            "x_normalized": 792.8705754452219,
             "y_normalized": 290.23064583104866
           },
           {
@@ -3785,7 +3785,7 @@
             "y_normalized": 146.01502056565678
           },
           {
-            "x_normalized": 789.0355868154627,
+            "x_normalized": 789.0355868154625,
             "y_normalized": 138.1127945237175
           },
           {
@@ -3793,7 +3793,7 @@
             "y_normalized": 138.1127945237175
           },
           {
-            "x_normalized": 759.6340073206405,
+            "x_normalized": 759.6340073206403,
             "y_normalized": 134.16168150274788
           }
         ],
@@ -3823,7 +3823,7 @@
             "y_normalized": 507.5418619843789
           },
           {
-            "x_normalized": 459.226564656153,
+            "x_normalized": 459.2265646561531,
             "y_normalized": 507.5418619843789
           }
         ],
@@ -3834,11 +3834,11 @@
         "id": "corridor-249",
         "points": [
           {
-            "x_normalized": 578.111212178695,
+            "x_normalized": 578.1112121786949,
             "y_normalized": 304.05954140444237
           },
           {
-            "x_normalized": 578.111212178695,
+            "x_normalized": 578.1112121786949,
             "y_normalized": 302.0839848939576
           }
         ],
@@ -3849,11 +3849,11 @@
         "id": "corridor-250",
         "points": [
           {
-            "x_normalized": 578.111212178695,
+            "x_normalized": 578.1112121786949,
             "y_normalized": 304.05954140444237
           },
           {
-            "x_normalized": 576.8328826354417,
+            "x_normalized": 576.8328826354416,
             "y_normalized": 304.05954140444237
           }
         ],
@@ -3868,7 +3868,7 @@
             "y_normalized": 709.0486260538305
           },
           {
-            "x_normalized": 443.8866101371153,
+            "x_normalized": 443.8866101371154,
             "y_normalized": 711.0241825643153
           }
         ],
@@ -3879,11 +3879,11 @@
         "id": "corridor-252",
         "points": [
           {
-            "x_normalized": 401.70173520976175,
+            "x_normalized": 401.7017352097618,
             "y_normalized": 308.01065442541204
           },
           {
-            "x_normalized": 402.9800647530149,
+            "x_normalized": 402.98006475301503,
             "y_normalized": 309.98621093589685
           }
         ],
@@ -3913,7 +3913,7 @@
             "y_normalized": 313.9373239568665
           },
           {
-            "x_normalized": 667.5942802064146,
+            "x_normalized": 667.5942802064144,
             "y_normalized": 313.9373239568665
           }
         ],
@@ -3954,11 +3954,11 @@
         "id": "corridor-257",
         "points": [
           {
-            "x_normalized": 258.5288263654102,
+            "x_normalized": 258.5288263654104,
             "y_normalized": 211.20838541165588
           },
           {
-            "x_normalized": 258.5288263654102,
+            "x_normalized": 258.5288263654104,
             "y_normalized": 209.23282890117105
           }
         ],
@@ -3992,7 +3992,7 @@
         "id": "corridor-259",
         "points": [
           {
-            "x_normalized": 419.59834881530566,
+            "x_normalized": 419.59834881530577,
             "y_normalized": 203.30615936971657
           },
           {
@@ -4007,11 +4007,11 @@
         "id": "corridor-260",
         "points": [
           {
-            "x_normalized": 419.59834881530566,
+            "x_normalized": 419.59834881530577,
             "y_normalized": 203.30615936971657
           },
           {
-            "x_normalized": 419.59834881530566,
+            "x_normalized": 419.59834881530577,
             "y_normalized": 205.2817158802014
           }
         ],
@@ -4022,11 +4022,11 @@
         "id": "corridor-261",
         "points": [
           {
-            "x_normalized": 721.2841210230463,
+            "x_normalized": 721.2841210230462,
             "y_normalized": 134.16168150274788
           },
           {
-            "x_normalized": 722.5624505662995,
+            "x_normalized": 722.5624505662993,
             "y_normalized": 136.13723801323272
           }
         ],
@@ -4037,11 +4037,11 @@
         "id": "corridor-262",
         "points": [
           {
-            "x_normalized": 721.2841210230463,
+            "x_normalized": 721.2841210230462,
             "y_normalized": 134.16168150274788
           },
           {
-            "x_normalized": 720.0057914797933,
+            "x_normalized": 720.0057914797932,
             "y_normalized": 136.13723801323272
           }
         ],
@@ -4067,11 +4067,11 @@
         "id": "corridor-264",
         "points": [
           {
-            "x_normalized": 745.572382344856,
+            "x_normalized": 745.5723823448559,
             "y_normalized": 300.1084283834728
           },
           {
-            "x_normalized": 745.572382344856,
+            "x_normalized": 745.5723823448559,
             "y_normalized": 302.0839848939576
           }
         ],
@@ -4082,11 +4082,11 @@
         "id": "corridor-265",
         "points": [
           {
-            "x_normalized": 387.6401102339772,
+            "x_normalized": 387.64011023397734,
             "y_normalized": 240.84173306892816
           },
           {
-            "x_normalized": 388.9184397772304,
+            "x_normalized": 388.91843977723045,
             "y_normalized": 240.84173306892816
           }
         ],
@@ -4097,11 +4097,11 @@
         "id": "corridor-266",
         "points": [
           {
-            "x_normalized": 387.6401102339772,
+            "x_normalized": 387.64011023397734,
             "y_normalized": 240.84173306892816
           },
           {
-            "x_normalized": 387.6401102339772,
+            "x_normalized": 387.64011023397734,
             "y_normalized": 242.81728957941294
           }
         ],
@@ -4116,7 +4116,7 @@
             "y_normalized": 296.15731536250314
           },
           {
-            "x_normalized": 422.1550079018119,
+            "x_normalized": 422.1550079018121,
             "y_normalized": 294.1817588520183
           }
         ],
@@ -4131,7 +4131,7 @@
             "y_normalized": 296.15731536250314
           },
           {
-            "x_normalized": 422.1550079018119,
+            "x_normalized": 422.1550079018121,
             "y_normalized": 296.15731536250314
           }
         ],
@@ -4161,7 +4161,7 @@
             "y_normalized": 296.15731536250314
           },
           {
-            "x_normalized": 419.59834881530566,
+            "x_normalized": 419.59834881530577,
             "y_normalized": 298.13287187298795
           }
         ],
@@ -4172,11 +4172,11 @@
         "id": "corridor-271",
         "points": [
           {
-            "x_normalized": 723.8407801095527,
+            "x_normalized": 723.8407801095525,
             "y_normalized": 315.9128804673513
           },
           {
-            "x_normalized": 723.8407801095527,
+            "x_normalized": 723.8407801095525,
             "y_normalized": 317.88843697783614
           }
         ],
@@ -4187,11 +4187,11 @@
         "id": "corridor-272",
         "points": [
           {
-            "x_normalized": 757.0773482341343,
+            "x_normalized": 757.0773482341341,
             "y_normalized": 136.13723801323272
           },
           {
-            "x_normalized": 758.3556777773873,
+            "x_normalized": 758.3556777773872,
             "y_normalized": 136.13723801323272
           }
         ],
@@ -4202,11 +4202,11 @@
         "id": "corridor-273",
         "points": [
           {
-            "x_normalized": 757.0773482341343,
+            "x_normalized": 757.0773482341341,
             "y_normalized": 136.13723801323272
           },
           {
-            "x_normalized": 722.5624505662995,
+            "x_normalized": 722.5624505662993,
             "y_normalized": 136.13723801323272
           }
         ],
@@ -4221,7 +4221,7 @@
             "y_normalized": 205.2817158802014
           },
           {
-            "x_normalized": 419.59834881530566,
+            "x_normalized": 419.59834881530577,
             "y_normalized": 207.25727239068624
           }
         ],
@@ -4236,7 +4236,7 @@
             "y_normalized": 205.2817158802014
           },
           {
-            "x_normalized": 419.59834881530566,
+            "x_normalized": 419.59834881530577,
             "y_normalized": 205.2817158802014
           }
         ],
@@ -4247,11 +4247,11 @@
         "id": "corridor-276",
         "points": [
           {
-            "x_normalized": 581.9462008084544,
+            "x_normalized": 581.9462008084543,
             "y_normalized": 341.59511510365405
           },
           {
-            "x_normalized": 581.9462008084544,
+            "x_normalized": 581.9462008084543,
             "y_normalized": 339.6195585931692
           }
         ],
@@ -4262,11 +4262,11 @@
         "id": "corridor-277",
         "points": [
           {
-            "x_normalized": 581.9462008084544,
+            "x_normalized": 581.9462008084543,
             "y_normalized": 341.59511510365405
           },
           {
-            "x_normalized": 581.9462008084544,
+            "x_normalized": 581.9462008084543,
             "y_normalized": 343.5706716141388
           }
         ],
@@ -4277,11 +4277,11 @@
         "id": "corridor-278",
         "points": [
           {
-            "x_normalized": 581.9462008084544,
+            "x_normalized": 581.9462008084543,
             "y_normalized": 341.59511510365405
           },
           {
-            "x_normalized": 580.6678712652011,
+            "x_normalized": 580.667871265201,
             "y_normalized": 343.5706716141388
           }
         ],
@@ -4292,11 +4292,11 @@
         "id": "corridor-279",
         "points": [
           {
-            "x_normalized": 391.47509886373666,
+            "x_normalized": 391.4750988637367,
             "y_normalized": 236.8906200479585
           },
           {
-            "x_normalized": 390.19676932048355,
+            "x_normalized": 390.1967693204836,
             "y_normalized": 238.86617655844333
           }
         ],
@@ -4307,11 +4307,11 @@
         "id": "corridor-280",
         "points": [
           {
-            "x_normalized": 721.2841210230463,
+            "x_normalized": 721.2841210230462,
             "y_normalized": 319.86399348832094
           },
           {
-            "x_normalized": 722.5624505662995,
+            "x_normalized": 722.5624505662993,
             "y_normalized": 319.86399348832094
           }
         ],
@@ -4322,11 +4322,11 @@
         "id": "corridor-281",
         "points": [
           {
-            "x_normalized": 721.2841210230463,
+            "x_normalized": 721.2841210230462,
             "y_normalized": 319.86399348832094
           },
           {
-            "x_normalized": 722.5624505662995,
+            "x_normalized": 722.5624505662993,
             "y_normalized": 321.83954999880575
           }
         ],
@@ -4337,11 +4337,11 @@
         "id": "corridor-282",
         "points": [
           {
-            "x_normalized": 721.2841210230463,
+            "x_normalized": 721.2841210230462,
             "y_normalized": 319.86399348832094
           },
           {
-            "x_normalized": 708.5008255905151,
+            "x_normalized": 708.5008255905149,
             "y_normalized": 315.9128804673513
           }
         ],
@@ -4356,7 +4356,7 @@
             "y_normalized": 315.9128804673513
           },
           {
-            "x_normalized": 671.4292688361741,
+            "x_normalized": 671.4292688361738,
             "y_normalized": 317.88843697783614
           }
         ],
@@ -4367,7 +4367,7 @@
         "id": "corridor-284",
         "points": [
           {
-            "x_normalized": 419.59834881530566,
+            "x_normalized": 419.59834881530577,
             "y_normalized": 298.13287187298795
           },
           {
@@ -4401,7 +4401,7 @@
             "y_normalized": 317.88843697783614
           },
           {
-            "x_normalized": 625.4094052790609,
+            "x_normalized": 625.4094052790608,
             "y_normalized": 317.88843697783614
           }
         ],
@@ -4427,11 +4427,11 @@
         "id": "corridor-288",
         "points": [
           {
-            "x_normalized": 451.5565873966342,
+            "x_normalized": 451.55658739663426,
             "y_normalized": 825.6064601724348
           },
           {
-            "x_normalized": 451.5565873966342,
+            "x_normalized": 451.55658739663426,
             "y_normalized": 827.5820166829196
           }
         ],
@@ -4442,7 +4442,7 @@
         "id": "corridor-289",
         "points": [
           {
-            "x_normalized": 451.5565873966342,
+            "x_normalized": 451.55658739663426,
             "y_normalized": 825.6064601724348
           },
           {
@@ -4457,11 +4457,11 @@
         "id": "corridor-290",
         "points": [
           {
-            "x_normalized": 419.59834881530566,
+            "x_normalized": 419.59834881530577,
             "y_normalized": 207.25727239068624
           },
           {
-            "x_normalized": 419.59834881530566,
+            "x_normalized": 419.59834881530577,
             "y_normalized": 205.2817158802014
           }
         ],
@@ -4472,15 +4472,15 @@
         "id": "corridor-291",
         "points": [
           {
-            "x_normalized": 419.59834881530566,
+            "x_normalized": 419.59834881530577,
             "y_normalized": 207.25727239068624
           },
           {
-            "x_normalized": 418.3200192720526,
+            "x_normalized": 418.3200192720527,
             "y_normalized": 280.35286327862457
           },
           {
-            "x_normalized": 422.1550079018119,
+            "x_normalized": 422.1550079018121,
             "y_normalized": 294.1817588520183
           }
         ],
@@ -4491,7 +4491,7 @@
         "id": "corridor-292",
         "points": [
           {
-            "x_normalized": 459.226564656153,
+            "x_normalized": 459.2265646561531,
             "y_normalized": 507.5418619843789
           },
           {
@@ -4510,7 +4510,7 @@
             "y_normalized": 302.0839848939576
           },
           {
-            "x_normalized": 385.08345114747095,
+            "x_normalized": 385.08345114747107,
             "y_normalized": 302.0839848939576
           }
         ],
@@ -4521,11 +4521,11 @@
         "id": "corridor-294",
         "points": [
           {
-            "x_normalized": 707.2224960472619,
+            "x_normalized": 707.2224960472618,
             "y_normalized": 313.9373239568665
           },
           {
-            "x_normalized": 708.5008255905151,
+            "x_normalized": 708.5008255905149,
             "y_normalized": 311.9617674463817
           }
         ],
@@ -4536,11 +4536,11 @@
         "id": "corridor-295",
         "points": [
           {
-            "x_normalized": 707.2224960472619,
+            "x_normalized": 707.2224960472618,
             "y_normalized": 313.9373239568665
           },
           {
-            "x_normalized": 708.5008255905151,
+            "x_normalized": 708.5008255905149,
             "y_normalized": 315.9128804673513
           }
         ],
@@ -4551,11 +4551,11 @@
         "id": "corridor-296",
         "points": [
           {
-            "x_normalized": 707.2224960472619,
+            "x_normalized": 707.2224960472618,
             "y_normalized": 313.9373239568665
           },
           {
-            "x_normalized": 699.552518787743,
+            "x_normalized": 699.5525187877429,
             "y_normalized": 313.9373239568665
           }
         ],
@@ -4566,11 +4566,11 @@
         "id": "corridor-297",
         "points": [
           {
-            "x_normalized": 663.7592915766553,
+            "x_normalized": 663.7592915766551,
             "y_normalized": 309.98621093589685
           },
           {
-            "x_normalized": 662.480962033402,
+            "x_normalized": 662.4809620334019,
             "y_normalized": 311.9617674463817
           }
         ],
@@ -4611,11 +4611,11 @@
         "id": "corridor-300",
         "points": [
           {
-            "x_normalized": 390.19676932048355,
+            "x_normalized": 390.1967693204836,
             "y_normalized": 238.86617655844333
           },
           {
-            "x_normalized": 388.9184397772304,
+            "x_normalized": 388.91843977723045,
             "y_normalized": 240.84173306892816
           }
         ],
@@ -4626,7 +4626,7 @@
         "id": "corridor-301",
         "points": [
           {
-            "x_normalized": 455.3915760263936,
+            "x_normalized": 455.3915760263937,
             "y_normalized": 509.51741849486376
           },
           {
@@ -4641,11 +4641,11 @@
         "id": "corridor-302",
         "points": [
           {
-            "x_normalized": 580.6678712652011,
+            "x_normalized": 580.667871265201,
             "y_normalized": 343.5706716141388
           },
           {
-            "x_normalized": 581.9462008084544,
+            "x_normalized": 581.9462008084543,
             "y_normalized": 343.5706716141388
           }
         ],
@@ -4660,7 +4660,7 @@
             "y_normalized": 294.1817588520183
           },
           {
-            "x_normalized": 422.1550079018119,
+            "x_normalized": 422.1550079018121,
             "y_normalized": 296.15731536250314
           }
         ],
@@ -4675,7 +4675,7 @@
             "y_normalized": 294.1817588520183
           },
           {
-            "x_normalized": 422.1550079018119,
+            "x_normalized": 422.1550079018121,
             "y_normalized": 294.1817588520183
           }
         ],
@@ -4686,11 +4686,11 @@
         "id": "corridor-305",
         "points": [
           {
-            "x_normalized": 759.6340073206405,
+            "x_normalized": 759.6340073206403,
             "y_normalized": 134.16168150274788
           },
           {
-            "x_normalized": 758.3556777773873,
+            "x_normalized": 758.3556777773872,
             "y_normalized": 136.13723801323272
           }
         ],
@@ -4701,11 +4701,11 @@
         "id": "corridor-306",
         "points": [
           {
-            "x_normalized": 391.47509886373666,
+            "x_normalized": 391.4750988637367,
             "y_normalized": 205.2817158802014
           },
           {
-            "x_normalized": 392.75342840698977,
+            "x_normalized": 392.7534284069899,
             "y_normalized": 207.25727239068624
           }
         ],
@@ -4720,7 +4720,7 @@
             "y_normalized": 711.0241825643153
           },
           {
-            "x_normalized": 443.8866101371153,
+            "x_normalized": 443.8866101371154,
             "y_normalized": 711.0241825643153
           }
         ],
@@ -4746,7 +4746,7 @@
         "id": "corridor-309",
         "points": [
           {
-            "x_normalized": 662.480962033402,
+            "x_normalized": 662.4809620334019,
             "y_normalized": 311.9617674463817
           },
           {
@@ -4761,7 +4761,7 @@
         "id": "corridor-310",
         "points": [
           {
-            "x_normalized": 753.2423596043749,
+            "x_normalized": 753.2423596043747,
             "y_normalized": 304.05954140444237
           },
           {
@@ -4776,11 +4776,11 @@
         "id": "corridor-311",
         "points": [
           {
-            "x_normalized": 385.08345114747095,
+            "x_normalized": 385.08345114747107,
             "y_normalized": 266.5239677052308
           },
           {
-            "x_normalized": 386.3617806907241,
+            "x_normalized": 386.3617806907242,
             "y_normalized": 264.54841119474605
           }
         ],
@@ -4791,11 +4791,11 @@
         "id": "corridor-312",
         "points": [
           {
-            "x_normalized": 722.5624505662995,
+            "x_normalized": 722.5624505662993,
             "y_normalized": 321.83954999880575
           },
           {
-            "x_normalized": 722.5624505662995,
+            "x_normalized": 722.5624505662993,
             "y_normalized": 319.86399348832094
           }
         ],
@@ -4806,11 +4806,11 @@
         "id": "corridor-313",
         "points": [
           {
-            "x_normalized": 422.1550079018119,
+            "x_normalized": 422.1550079018121,
             "y_normalized": 296.15731536250314
           },
           {
-            "x_normalized": 422.1550079018119,
+            "x_normalized": 422.1550079018121,
             "y_normalized": 294.1817588520183
           }
         ],
@@ -4821,7 +4821,7 @@
         "id": "corridor-314",
         "points": [
           {
-            "x_normalized": 422.1550079018119,
+            "x_normalized": 422.1550079018121,
             "y_normalized": 296.15731536250314
           },
           {
@@ -4836,11 +4836,11 @@
         "id": "corridor-315",
         "points": [
           {
-            "x_normalized": 386.3617806907241,
+            "x_normalized": 386.3617806907242,
             "y_normalized": 264.54841119474605
           },
           {
-            "x_normalized": 387.6401102339772,
+            "x_normalized": 387.64011023397734,
             "y_normalized": 242.81728957941294
           }
         ],
@@ -4851,7 +4851,7 @@
         "id": "corridor-316",
         "points": [
           {
-            "x_normalized": 484.7931555212158,
+            "x_normalized": 484.79315552121585,
             "y_normalized": 288.25508932056385
           },
           {
@@ -4870,7 +4870,7 @@
             "y_normalized": 205.2817158802014
           },
           {
-            "x_normalized": 392.75342840698977,
+            "x_normalized": 392.7534284069899,
             "y_normalized": 207.25727239068624
           }
         ],
@@ -4911,11 +4911,11 @@
         "id": "corridor-320",
         "points": [
           {
-            "x_normalized": 790.3139163587158,
+            "x_normalized": 790.3139163587157,
             "y_normalized": 302.0839848939576
           },
           {
-            "x_normalized": 789.0355868154627,
+            "x_normalized": 789.0355868154625,
             "y_normalized": 304.05954140444237
           }
         ],
@@ -4926,11 +4926,11 @@
         "id": "corridor-321",
         "points": [
           {
-            "x_normalized": 790.3139163587158,
+            "x_normalized": 790.3139163587157,
             "y_normalized": 302.0839848939576
           },
           {
-            "x_normalized": 789.0355868154627,
+            "x_normalized": 789.0355868154625,
             "y_normalized": 304.05954140444237
           }
         ],
@@ -4971,7 +4971,7 @@
         "id": "corridor-324",
         "points": [
           {
-            "x_normalized": 625.4094052790609,
+            "x_normalized": 625.4094052790608,
             "y_normalized": 317.88843697783614
           },
           {
@@ -4986,7 +4986,7 @@
         "id": "corridor-325",
         "points": [
           {
-            "x_normalized": 625.4094052790609,
+            "x_normalized": 625.4094052790608,
             "y_normalized": 317.88843697783614
           },
           {
@@ -5001,7 +5001,7 @@
         "id": "corridor-326",
         "points": [
           {
-            "x_normalized": 455.3915760263936,
+            "x_normalized": 455.3915760263937,
             "y_normalized": 874.9953729345555
           },
           {
@@ -5020,7 +5020,7 @@
             "y_normalized": 304.05954140444237
           },
           {
-            "x_normalized": 576.8328826354417,
+            "x_normalized": 576.8328826354416,
             "y_normalized": 304.05954140444237
           }
         ],
@@ -5031,7 +5031,7 @@
         "id": "corridor-328",
         "points": [
           {
-            "x_normalized": 482.23649643470947,
+            "x_normalized": 482.2364964347095,
             "y_normalized": 292.2062023415334
           },
           {
@@ -5050,7 +5050,7 @@
             "y_normalized": 349.4973411455933
           },
           {
-            "x_normalized": 580.6678712652011,
+            "x_normalized": 580.667871265201,
             "y_normalized": 347.5217846351085
           }
         ],
@@ -5061,7 +5061,7 @@
         "id": "corridor-330",
         "points": [
           {
-            "x_normalized": 699.552518787743,
+            "x_normalized": 699.5525187877429,
             "y_normalized": 313.9373239568665
           },
           {
@@ -5110,7 +5110,7 @@
             "y_normalized": 827.5820166829196
           },
           {
-            "x_normalized": 455.3915760263936,
+            "x_normalized": 455.3915760263937,
             "y_normalized": 829.5575731934046
           }
         ],
@@ -5125,7 +5125,7 @@
             "y_normalized": 827.5820166829196
           },
           {
-            "x_normalized": 455.3915760263936,
+            "x_normalized": 455.3915760263937,
             "y_normalized": 829.5575731934046
           }
         ],
@@ -5151,11 +5151,11 @@
         "id": "corridor-336",
         "points": [
           {
-            "x_normalized": 259.80715590866345,
+            "x_normalized": 259.80715590866356,
             "y_normalized": 207.25727239068624
           },
           {
-            "x_normalized": 258.5288263654102,
+            "x_normalized": 258.5288263654104,
             "y_normalized": 209.23282890117105
           }
         ],
@@ -5166,11 +5166,11 @@
         "id": "corridor-337",
         "points": [
           {
-            "x_normalized": 402.9800647530149,
+            "x_normalized": 402.98006475301503,
             "y_normalized": 309.98621093589685
           },
           {
-            "x_normalized": 404.258394296268,
+            "x_normalized": 404.2583942962681,
             "y_normalized": 308.01065442541204
           }
         ],
@@ -5181,11 +5181,11 @@
         "id": "corridor-338",
         "points": [
           {
-            "x_normalized": 578.111212178695,
+            "x_normalized": 578.1112121786949,
             "y_normalized": 302.0839848939576
           },
           {
-            "x_normalized": 576.8328826354417,
+            "x_normalized": 576.8328826354416,
             "y_normalized": 304.05954140444237
           }
         ],
@@ -5200,7 +5200,7 @@
             "y_normalized": 317.88843697783614
           },
           {
-            "x_normalized": 693.1608710714773,
+            "x_normalized": 693.1608710714771,
             "y_normalized": 317.88843697783614
           }
         ],
@@ -5226,11 +5226,11 @@
         "id": "corridor-341",
         "points": [
           {
-            "x_normalized": 621.5744166493016,
+            "x_normalized": 621.5744166493015,
             "y_normalized": 298.13287187298795
           },
           {
-            "x_normalized": 622.8527461925548,
+            "x_normalized": 622.8527461925547,
             "y_normalized": 300.1084283834728
           }
         ],
@@ -5241,7 +5241,7 @@
         "id": "corridor-342",
         "points": [
           {
-            "x_normalized": 455.3915760263936,
+            "x_normalized": 455.3915760263937,
             "y_normalized": 829.5575731934046
           },
           {
@@ -5256,7 +5256,7 @@
         "id": "corridor-343",
         "points": [
           {
-            "x_normalized": 581.9462008084544,
+            "x_normalized": 581.9462008084543,
             "y_normalized": 339.6195585931692
           },
           {
@@ -5271,11 +5271,11 @@
         "id": "corridor-344",
         "points": [
           {
-            "x_normalized": 671.4292688361741,
+            "x_normalized": 671.4292688361738,
             "y_normalized": 317.88843697783614
           },
           {
-            "x_normalized": 672.707598379427,
+            "x_normalized": 672.7075983794269,
             "y_normalized": 317.88843697783614
           }
         ],
@@ -5290,7 +5290,7 @@
             "y_normalized": 298.13287187298795
           },
           {
-            "x_normalized": 622.8527461925548,
+            "x_normalized": 622.8527461925547,
             "y_normalized": 300.1084283834728
           }
         ],
@@ -5305,7 +5305,7 @@
             "y_normalized": 315.9128804673513
           },
           {
-            "x_normalized": 622.8527461925548,
+            "x_normalized": 622.8527461925547,
             "y_normalized": 300.1084283834728
           }
         ],
@@ -5331,11 +5331,11 @@
         "id": "corridor-348",
         "points": [
           {
-            "x_normalized": 387.6401102339772,
+            "x_normalized": 387.64011023397734,
             "y_normalized": 242.81728957941294
           },
           {
-            "x_normalized": 388.9184397772304,
+            "x_normalized": 388.91843977723045,
             "y_normalized": 240.84173306892816
           }
         ],
@@ -5346,11 +5346,11 @@
         "id": "corridor-349",
         "points": [
           {
-            "x_normalized": 723.8407801095527,
+            "x_normalized": 723.8407801095525,
             "y_normalized": 317.88843697783614
           },
           {
-            "x_normalized": 722.5624505662995,
+            "x_normalized": 722.5624505662993,
             "y_normalized": 319.86399348832094
           }
         ],
@@ -5365,7 +5365,7 @@
             "y_normalized": 306.03509791492723
           },
           {
-            "x_normalized": 789.0355868154627,
+            "x_normalized": 789.0355868154625,
             "y_normalized": 304.05954140444237
           }
         ],
@@ -5380,7 +5380,7 @@
             "y_normalized": 825.6064601724348
           },
           {
-            "x_normalized": 451.5565873966342,
+            "x_normalized": 451.55658739663426,
             "y_normalized": 827.5820166829196
           }
         ],
@@ -5391,11 +5391,11 @@
         "id": "corridor-352",
         "points": [
           {
-            "x_normalized": 254.69383773565085,
+            "x_normalized": 254.69383773565096,
             "y_normalized": 298.13287187298795
           },
           {
-            "x_normalized": 253.4155081923977,
+            "x_normalized": 253.41550819239788,
             "y_normalized": 300.1084283834728
           }
         ],
@@ -5406,7 +5406,7 @@
         "id": "corridor-353",
         "points": [
           {
-            "x_normalized": 659.9243029468958,
+            "x_normalized": 659.9243029468956,
             "y_normalized": 315.9128804673513
           },
           {
@@ -5421,11 +5421,11 @@
         "id": "corridor-354",
         "points": [
           {
-            "x_normalized": 659.9243029468958,
+            "x_normalized": 659.9243029468956,
             "y_normalized": 315.9128804673513
           },
           {
-            "x_normalized": 658.6459734036426,
+            "x_normalized": 658.6459734036425,
             "y_normalized": 317.88843697783614
           }
         ],
@@ -5436,11 +5436,11 @@
         "id": "corridor-355",
         "points": [
           {
-            "x_normalized": 659.9243029468958,
+            "x_normalized": 659.9243029468956,
             "y_normalized": 315.9128804673513
           },
           {
-            "x_normalized": 658.6459734036426,
+            "x_normalized": 658.6459734036425,
             "y_normalized": 317.88843697783614
           }
         ],
@@ -5459,7 +5459,7 @@
             "y_normalized": 651.7574872497706
           },
           {
-            "x_normalized": 488.6281441509752,
+            "x_normalized": 488.6281441509753,
             "y_normalized": 513.4685315158333
           }
         ],

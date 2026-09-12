@@ -181,6 +181,44 @@ def _category_label_candidates(page: fitz.Page) -> set[str]:
     return candidates
 
 
+def color_contributions(
+    page: fitz.Page, labels: set[str], drawings: list[dict]
+) -> dict[Color, dict[str, float]]:
+    """How much filled area each category name sits on, per colour.
+
+    Needed because "does any other label share this colour" is too strict a
+    test on real sheets: a long category name wraps onto a second line that
+    can overhang into the corridor beside it, so fragments like "Cluster" or
+    "Study" pick up the corridor's colour and look like a clash. Weighing the
+    contributions instead shows the difference plainly -- on one floor the
+    corridor accounted for 29k units of its colour against 11k for the next
+    name down, which is a wrapped label overlapping, not a shared colour.
+    """
+    positions: dict[str, list[tuple[float, float]]] = {}
+    for block in page.get_text("dict")["blocks"]:
+        for line in block.get("lines", []):
+            for span in line.get("spans", []):
+                text = span["text"].strip()
+                if text in labels:
+                    x0, y0, x1, y1 = span["bbox"]
+                    positions.setdefault(text, []).append(((x0 + x1) / 2, (y0 + y1) / 2))
+
+    radius = LABEL_SEARCH_RADII[-1]
+    totals: dict[Color, dict[str, float]] = {}
+    for label, points in positions.items():
+        for cx, cy in points:
+            for drawing in drawings:
+                rect = drawing["rect"]
+                mx, my = (rect.x0 + rect.x1) / 2, (rect.y0 + rect.y1) / 2
+                if (mx - cx) ** 2 + (my - cy) ** 2 > radius**2:
+                    continue
+                key = tuple(round(c, 3) for c in drawing["fill"])
+                area = max(1e-6, rect.x1 - rect.x0) * max(1e-6, rect.y1 - rect.y0)
+                totals.setdefault(key, {})
+                totals[key][label] = totals[key].get(label, 0.0) + area
+    return totals
+
+
 def _color_name(color: Color) -> str:
     r, g, b = color
     if r > 0.85 and g > 0.85 and b > 0.85:

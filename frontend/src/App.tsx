@@ -108,7 +108,9 @@ function App() {
           />
         )}
         {view === "editor" && floorplanId && <GraphEditorPage floorplanId={floorplanId} />}
-        {view === "route" && floorplanId && <RoutePage floorplanId={floorplanId} />}
+        {view === "route" && floorplanId && (
+          <RoutePage key={floorplanId} floorplanId={floorplanId} />
+        )}
       </main>
     </div>
   );

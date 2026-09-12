@@ -457,7 +457,11 @@ def build_passage_graph(
 
 # Graphs that store passages as polylines rather than as persisted corridor
 # nodes, and so need those vertices rebuilt in memory before Dijkstra runs.
-PASSAGE_ROUTING_SOURCES = {"gemini_pathways", "space_type_centerlines"}
+PASSAGE_ROUTING_SOURCES = {
+    "gemini_pathways",
+    "space_type_centerlines",
+    "classified_spaces",
+}
 
 
 def materialize_for_routing(graph: FloorGraph) -> FloorGraph:

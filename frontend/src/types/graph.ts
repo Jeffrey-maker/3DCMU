@@ -51,7 +51,8 @@ export type RoutingSource =
   | "legacy"
   | "anchors_only"
   | "gemini_pathways"
-  | "space_type_centerlines";
+  | "space_type_centerlines"
+  | "classified_spaces";
 
 /**
  * Whether a graph stores its corridors as passage polylines (rather than as
@@ -60,7 +61,11 @@ export type RoutingSource =
  * it draws passage lines and allows routing.
  */
 export function usesPassageLines(source: RoutingSource | null | undefined): boolean {
-  return source === "gemini_pathways" || source === "space_type_centerlines";
+  return (
+    source === "gemini_pathways" ||
+    source === "space_type_centerlines" ||
+    source === "classified_spaces"
+  );
 }
 
 export interface FloorGraph {

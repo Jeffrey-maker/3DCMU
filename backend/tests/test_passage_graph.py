@@ -139,6 +139,7 @@ def test_build_endpoint_applies_caches_and_routes_on_exact_passage_lines(tmp_pat
     route = client.get("/api/route", params={"from": "A", "to": "B"})
     assert route.status_code == 200
     assert [n["type"] for n in route.json()["path"]] == ["room", "door", "corridor", "corridor", "door", "room"]
+    assert {n["building"] for n in route.json()["path"]} == {"TEST"}
     repeated = client.post(f"/api/floorplans/{fp}/generate-pathways", json={})
     assert repeated.status_code == 200
     assert repeated.json()["used_cached_analysis"] is True

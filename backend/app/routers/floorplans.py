@@ -98,6 +98,68 @@ def _refresh_room_metadata(existing: FloorGraph, draft: FloorDraft) -> FloorGrap
     return existing.model_copy(update={"nodes": nodes})
 
 
+async def _classified_alternative(raster, draft, existing, width, height):
+    """Build the same floor from model-classified corridors, for comparison.
+
+    Returns None whenever that path is unavailable or no better formed, so
+    the caller can simply keep what it had.
+    """
+    categories = await space_classifier.classify(raster.read_bytes(), draft)
+    if not categories:
+        return None
+    polygons = space_classifier.corridor_polygons(draft, categories)
+    lines = await run_in_threadpool(
+        corridor_centerline.compute_from_polygons, draft, polygons
+    )
+    if not lines:
+        return None
+
+    def in_corridor(point, _polys=polygons):
+        return any(corridor_heuristic._point_in_polygon(point, p) for p in _polys)
+
+    lines, _ = await run_in_threadpool(network_repair.finalize, lines, draft, in_corridor)
+    result = await run_in_threadpool(
+        _build_and_reconnect, draft, existing, lines, width, height, "classified_spaces",
+    )
+    return result, "classified_spaces"
+
+
+def _build_and_reconnect(
+    draft: FloorDraft,
+    existing: FloorGraph,
+    centerlines: list,
+    width: float,
+    height: float,
+    source: str,
+):
+    """Build the graph, then repair any split the build itself introduced.
+
+    Repairing before the build is not enough on its own: the builder applies
+    a stricter check than the repair does and drops the odd segment, which
+    can cut the network in two after the fact -- one rejected segment left a
+    real floor split across a 12pt gap the grid could walk perfectly well.
+    So if the finished graph reports more than one network, bridge what the
+    builder actually kept and build once more, keeping that result only if
+    it really is better connected.
+    """
+    result = passage_graph.build_passage_graph(
+        draft, existing, corridor_centerline.as_suggestions(centerlines, width, height),
+        width, height, {"pdf_bounds": [0, 0, width, height]}, source,
+    )
+    if result.report["network_count"] <= 1:
+        return result
+
+    kept = [list(line.points) for line in result.graph.passageways]
+    reconnected, added = network_repair.bridge(kept, draft)
+    if not added:
+        return result
+    retried = passage_graph.build_passage_graph(
+        draft, existing, corridor_centerline.as_suggestions(reconnected, width, height),
+        width, height, {"pdf_bounds": [0, 0, width, height]}, source,
+    )
+    return retried if retried.report["network_count"] < result.report["network_count"] else result
+
+
 def _build_passages_on_upload(
     fp_id: str, draft: FloorDraft, base_pdf_path: str, type_pdf_path: Optional[str]
 ) -> Optional[FloorGraph]:
@@ -118,14 +180,10 @@ def _build_passages_on_upload(
         centerlines, _ = network_repair.finalize(centerlines, draft)
         with fitz.open(base_pdf_path) as pdf:
             width, height = pdf[0].rect.width, pdf[0].rect.height
-        result = passage_graph.build_passage_graph(
+        result = _build_and_reconnect(
             draft,
             FloorGraph(building=draft.building, floor=draft.floor, nodes=draft.nodes),
-            corridor_centerline.as_suggestions(centerlines, width, height),
-            width,
-            height,
-            {"pdf_bounds": [0, 0, width, height]},
-            "space_type_centerlines",
+            centerlines, width, height, "space_type_centerlines",
         )
         return result.graph
     except (ValueError, KeyError, OSError):
@@ -379,6 +437,13 @@ async def generate_pathways(floorplan_id: str, request: BuildPassagesRequest):
             centerlines, repair_report = await run_in_threadpool(
                 network_repair.finalize, centerlines, draft
             )
+        # A network in many pieces cannot route across the floor, so it is
+        # not automatically better than the alternative just because it was
+        # derived deterministically. Measured, not assumed: the classifier is
+        # tried as well when the deterministic result comes out badly split,
+        # and whichever actually connects better is kept.
+        FRAGMENTED = 3
+        deterministic_lines = centerlines
         classified_source = None
         if centerlines is None:
             # No space-type report for this floor. Ask the model the one
@@ -444,11 +509,29 @@ async def generate_pathways(floorplan_id: str, request: BuildPassagesRequest):
         if not unchanged():
             raise HTTPException(status_code=409, detail="Floorplan changed during tracing. Reload and retry.")
         try:
-            result = await run_in_threadpool(
-                passage_graph.build_passage_graph, draft, existing, analysis["suggestions"],
-                width, height, analysis.get("coordinate_system"),
-                "space_type_centerlines" if centerlines else "gemini_pathways",
-            )
+            source = analysis.get("routing_source", "gemini_pathways")
+            if centerlines:
+                result = await run_in_threadpool(
+                    _build_and_reconnect, draft, existing, centerlines, width, height, source,
+                )
+                if (
+                    deterministic_lines is not None
+                    and result.report["network_count"] > FRAGMENTED
+                    and space_type_pdf is not None
+                ):
+                    alternative = await _classified_alternative(
+                        raster, draft, existing, width, height
+                    )
+                    if alternative is not None and (
+                        alternative[0].report["network_count"] < result.report["network_count"]
+                    ):
+                        result, source = alternative[0], alternative[1]
+                        analysis = {**analysis, "routing_source": source}
+            else:
+                result = await run_in_threadpool(
+                    passage_graph.build_passage_graph, draft, existing, analysis["suggestions"],
+                    width, height, analysis.get("coordinate_system"), source,
+                )
         except ValueError as exc:
             raise HTTPException(status_code=422, detail=str(exc)) from exc
         room_count = len([node for node in existing.nodes if node.type == "room"])

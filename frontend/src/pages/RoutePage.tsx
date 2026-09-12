@@ -20,6 +20,7 @@ interface LoadedFloor {
 }
 
 interface RouteLeg {
+  building: string;
   floor: number;
   plan: LoadedFloor;
   points: RoutePathNode[];
@@ -106,21 +107,28 @@ export function RoutePage({ floorplanId }: RoutePageProps) {
    */
   const legs = useMemo<RouteLeg[]>(() => {
     if (!route) return [];
-    const byFloor = new Map(floors.map((f) => [f.graph.floor, f]));
-    const runs: { floor: number; points: RoutePathNode[] }[] = [];
+    const planKey = (building: string, floor: number) => `${building}:${floor}`;
+    const byPlan = new Map(
+      floors.map((f) => [planKey(f.graph.building, f.graph.floor), f]),
+    );
+    const runs: { building: string; floor: number; points: RoutePathNode[] }[] = [];
     for (const point of route.path) {
       const last = runs[runs.length - 1];
-      if (!last || last.floor !== point.floor) runs.push({ floor: point.floor, points: [point] });
+      if (!last || last.floor !== point.floor || last.building !== point.building) {
+        runs.push({ building: point.building, floor: point.floor, points: [point] });
+      }
       else last.points.push(point);
     }
     const marked = new Set(["room", "stair", "elevator"]);
     return runs.flatMap((run) => {
-      const floor = byFloor.get(run.floor) ?? (graph?.floor === run.floor && raster
+      const floor = byPlan.get(planKey(run.building, run.floor)) ?? (
+        graph?.building === run.building && graph.floor === run.floor && raster
         ? { graph, raster }
         : null);
       if (!floor) return [];
       const ids = new Set(run.points.filter((p) => marked.has(p.type)).map((p) => p.node_id));
       return [{
+        building: run.building,
         floor: run.floor,
         plan: floor,
         points: run.points,
@@ -132,7 +140,14 @@ export function RoutePage({ floorplanId }: RoutePageProps) {
   if (!graph || !raster) return <p>Loading floor plan...</p>;
 
   const highlightedPath = route?.path.map((p) => p.node_id) ?? [];
-  const routeFloors = [...new Set(route?.path.map((p) => p.floor) ?? [])];
+  const routePlans = [
+    ...new Map(
+      route?.path.map((p) => [
+        `${p.building}:${p.floor}`,
+        { building: p.building, floor: p.floor },
+      ]) ?? [],
+    ).values(),
+  ];
   const transfers =
     route?.path.filter((p) => p.type === "stair" || p.type === "elevator").map((p) => p.label) ?? [];
   const currentStepNodeId = route?.deterministic_directions[currentStepIndex]?.node_id ?? null;
@@ -185,9 +200,9 @@ export function RoutePage({ floorplanId }: RoutePageProps) {
             {route.directions_source}
           </p>
         )}
-        {route && routeFloors.length > 1 && (
+        {route && routePlans.length > 1 && (
           <p className="route-info">
-            Crosses floors {routeFloors.join(" \u2192 ")}
+            Crosses {routePlans.map((p) => `${p.building} floor ${p.floor}`).join(" \u2192 ")}
             {transfers.length > 0 && <> via {transfers.join(", ")}</>} — each floor is drawn below
             in walking order.
           </p>
@@ -216,14 +231,14 @@ export function RoutePage({ floorplanId }: RoutePageProps) {
             />
           ) : (
             legs.map((leg, index) => (
-              <figure className="route-floor" key={`${leg.floor}-${index}`}>
+              <figure className="route-floor" key={`${leg.building}-${leg.floor}-${index}`}>
                 {legs.length > 1 && (
                   <figcaption>
                     {index === 0
-                      ? `Floor ${leg.floor} — start`
+                      ? `${leg.building} floor ${leg.floor} — start`
                       : index === legs.length - 1
-                        ? `Floor ${leg.floor} — destination`
-                        : `Floor ${leg.floor}`}
+                        ? `${leg.building} floor ${leg.floor} — destination`
+                        : `${leg.building} floor ${leg.floor}`}
                   </figcaption>
                 )}
                 <FloorPlanCanvas

@@ -103,17 +103,16 @@ def _polygon_cells(polygon: list[Point], transform: Transform) -> set[Cell]:
     return cells
 
 
-def _barrier_cells(draft: FloorDraft, transform: Transform) -> set[Cell]:
-    """Furniture, columns and walls as mask cells, in the report's own space.
+def _structural_cells(draft: FloorDraft, transform: Transform) -> set[Cell]:
+    """Structural walls as mask cells, in the report's own space."""
+    return _segment_cells(
+        corridor_heuristic.structural_wall_segments(draft.raw_geometry), transform
+    )
 
-    A corridor is mostly empty, so obstacles there barely matter. A large
-    open room is not: its floor is covered in tables and stacks, and a spine
-    drawn straight down the middle would cross them and be thrown out by the
-    geometry check later. Removing the obstacles from the walkable area first
-    makes the thinning thread between them instead.
-    """
+
+def _segment_cells(segments, transform: Transform) -> set[Cell]:
     cells: set[Cell] = set()
-    for start, end in corridor_heuristic.wall_segments(draft.raw_geometry):
+    for start, end in segments:
         a = transform.invert(start)
         b = transform.invert(end)
         length = math.hypot(b[0] - a[0], b[1] - a[1]) / CELL_PT
@@ -126,6 +125,18 @@ def _barrier_cells(draft: FloorDraft, transform: Transform) -> set[Cell]:
                 )
             )
     return cells
+
+
+def _barrier_cells(draft: FloorDraft, transform: Transform) -> set[Cell]:
+    """Furniture, columns and walls as mask cells, in the report's own space.
+
+    A corridor is mostly empty, so obstacles there barely matter. A large
+    open room is not: its floor is covered in tables and stacks, and a spine
+    drawn straight down the middle would cross them and be thrown out by the
+    geometry check later. Removing the obstacles from the walkable area first
+    makes the thinning thread between them instead.
+    """
+    return _segment_cells(corridor_heuristic.wall_segments(draft.raw_geometry), transform)
 
 
 def walkable_room_cells(
@@ -372,10 +383,15 @@ def _simplify(points: list[Point], tolerance: float) -> list[Point]:
 
 
 def corridor_color(type_pdf_path: str) -> tuple[float, float, float] | None:
-    """The Public Corridor fill, but only when no other category on the page
-    shares it -- this export reuses colors across categories (see
-    space_type_overlay), and tracing a color that also means "Lounge" would
-    route people through private rooms."""
+    """The Public Corridor fill, when it can be trusted to mean that.
+
+    This export reuses colours across categories, so the colour is only
+    accepted when Public Corridor is its dominant owner. A plain "is it
+    shared" test rejected a floor whose corridor colour was in fact correct:
+    wrapped category labels overhanging the corridor made seven unrelated
+    names look like co-owners, and the floor silently fell back to asking a
+    model instead.
+    """
     doc = fitz.open(type_pdf_path)
     try:
         page = doc[0]
@@ -385,19 +401,17 @@ def corridor_color(type_pdf_path: str) -> tuple[float, float, float] | None:
             if d.get("layer") == space_type_overlay.CATEGORY_LAYER and d.get("fill")
         ]
         labels = space_type_overlay._category_label_candidates(page) | {CORRIDOR_LABEL}
-        colors = {
-            label: color
-            for label in labels
-            if (color := space_type_overlay._dominant_fill_for_label(page, label, drawings))
-            is not None
-        }
-        owners: dict[tuple[float, float, float], set[str]] = defaultdict(set)
-        for label, color in colors.items():
-            owners[color].add(label)
-        color = colors.get(CORRIDOR_LABEL)
-        if color is None or len(owners[color]) != 1:
-            return None
-        return color
+        contributions = space_type_overlay.color_contributions(page, labels, drawings)
+        best: tuple[float, tuple[float, float, float]] | None = None
+        for color, by_label in contributions.items():
+            share = by_label.get(CORRIDOR_LABEL, 0.0)
+            if share <= 0:
+                continue
+            if max(by_label.values()) > share:
+                continue  # some other category owns more of this colour
+            if best is None or share > best[0]:
+                best = (share, color)
+        return best[1] if best else None
     finally:
         doc.close()
 

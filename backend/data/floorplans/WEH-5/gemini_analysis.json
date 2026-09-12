@@ -8,7 +8,7 @@
     "floor": 5
   },
   "model": null,
-  "created_at": "2026-09-12T16:38:01.997979+00:00",
+  "created_at": "2026-09-12T17:23:13.592461+00:00",
   "raster_sha256": "9bf3e0398fcd98a0b2eed2c815446b972f7fb56aabf1e86032c39a18d2df5991",
   "space_type_sha256": "3e4fe8c67fd3dee5ed48dd19a5d23863d7aabd85b9f28b11964e4262181a5797",
   "coordinate_system": {
@@ -21,18 +21,18 @@
     ]
   },
   "suggestions": {
-    "summary": "278 public-corridor centerlines derived geometrically from the space-type report.",
+    "summary": "343 public-corridor centerlines derived geometrically from the space-type report.",
     "pathways": [
       {
         "id": "corridor-0",
         "points": [
           {
-            "x_normalized": 486.51960784313724,
-            "y_normalized": 643.9393939393939
+            "x_normalized": 404.8445300865835,
+            "y_normalized": 485.4131152446225
           },
           {
-            "x_normalized": 486.51960784313724,
-            "y_normalized": 642.0454545454546
+            "x_normalized": 404.8445300865835,
+            "y_normalized": 483.02091148513404
           }
         ],
         "confidence": 1.0,
@@ -42,12 +42,12 @@
         "id": "corridor-1",
         "points": [
           {
-            "x_normalized": 486.51960784313724,
-            "y_normalized": 643.9393939393939
+            "x_normalized": 404.8445300865835,
+            "y_normalized": 485.4131152446225
           },
           {
-            "x_normalized": 487.7450980392157,
-            "y_normalized": 642.0454545454546
+            "x_normalized": 406.4051347287627,
+            "y_normalized": 483.02091148513404
           }
         ],
         "confidence": 1.0,
@@ -57,12 +57,12 @@
         "id": "corridor-2",
         "points": [
           {
-            "x_normalized": 486.51960784313724,
-            "y_normalized": 643.9393939393939
+            "x_normalized": 404.8445300865835,
+            "y_normalized": 485.4131152446225
           },
           {
-            "x_normalized": 485.29411764705884,
-            "y_normalized": 645.8333333333334
+            "x_normalized": 403.28392544440436,
+            "y_normalized": 487.80531900411097
           }
         ],
         "confidence": 1.0,
@@ -72,12 +72,12 @@
         "id": "corridor-3",
         "points": [
           {
-            "x_normalized": 486.51960784313724,
-            "y_normalized": 643.9393939393939
+            "x_normalized": 404.8445300865835,
+            "y_normalized": 485.4131152446225
           },
           {
-            "x_normalized": 485.29411764705884,
-            "y_normalized": 643.9393939393939
+            "x_normalized": 403.28392544440436,
+            "y_normalized": 485.4131152446225
           }
         ],
         "confidence": 1.0,
@@ -87,12 +87,12 @@
         "id": "corridor-4",
         "points": [
           {
-            "x_normalized": 414.21568627450984,
-            "y_normalized": 376.8939393939394
+            "x_normalized": 407.96573937094183,
+            "y_normalized": 478.2365039661573
           },
           {
-            "x_normalized": 415.44117647058823,
-            "y_normalized": 375.0
+            "x_normalized": 407.96573937094183,
+            "y_normalized": 475.8443002066688
           }
         ],
         "confidence": 1.0,
@@ -102,12 +102,12 @@
         "id": "corridor-5",
         "points": [
           {
-            "x_normalized": 414.21568627450984,
-            "y_normalized": 376.8939393939394
+            "x_normalized": 431.3748090036294,
+            "y_normalized": 523.6883753964371
           },
           {
-            "x_normalized": 415.44117647058823,
-            "y_normalized": 376.8939393939394
+            "x_normalized": 431.3748090036294,
+            "y_normalized": 521.2961716369487
           }
         ],
         "confidence": 1.0,
@@ -117,12 +117,12 @@
         "id": "corridor-6",
         "points": [
           {
-            "x_normalized": 414.21568627450984,
-            "y_normalized": 376.8939393939394
+            "x_normalized": 431.3748090036294,
+            "y_normalized": 523.6883753964371
           },
           {
-            "x_normalized": 414.21568627450984,
-            "y_normalized": 378.7878787878788
+            "x_normalized": 432.9354136458086,
+            "y_normalized": 521.2961716369487
           }
         ],
         "confidence": 1.0,
@@ -132,12 +132,16 @@
         "id": "corridor-7",
         "points": [
           {
-            "x_normalized": 846.813725490196,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 431.3748090036294,
+            "y_normalized": 523.6883753964371
           },
           {
-            "x_normalized": 848.0392156862745,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 451.6626693519586,
+            "y_normalized": 528.4727829154139
+          },
+          {
+            "x_normalized": 464.147506489392,
+            "y_normalized": 542.8260054723443
           }
         ],
         "confidence": 1.0,
@@ -147,12 +151,12 @@
         "id": "corridor-8",
         "points": [
           {
-            "x_normalized": 846.813725490196,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 431.3748090036294,
+            "y_normalized": 523.6883753964371
           },
           {
-            "x_normalized": 846.813725490196,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 429.8142043614502,
+            "y_normalized": 523.6883753964371
           }
         ],
         "confidence": 1.0,
@@ -162,12 +166,12 @@
         "id": "corridor-9",
         "points": [
           {
-            "x_normalized": 846.813725490196,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 434.49601828798774,
+            "y_normalized": 516.5117641179719
           },
           {
-            "x_normalized": 845.5882352941177,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 436.0566229301669,
+            "y_normalized": 514.1195603584833
           }
         ],
         "confidence": 1.0,
@@ -177,12 +181,12 @@
         "id": "corridor-10",
         "points": [
           {
-            "x_normalized": 435.04901960784315,
-            "y_normalized": 528.409090909091
+            "x_normalized": 434.49601828798774,
+            "y_normalized": 516.5117641179719
           },
           {
-            "x_normalized": 436.27450980392155,
-            "y_normalized": 528.409090909091
+            "x_normalized": 436.0566229301669,
+            "y_normalized": 516.5117641179719
           }
         ],
         "confidence": 1.0,
@@ -192,12 +196,12 @@
         "id": "corridor-11",
         "points": [
           {
-            "x_normalized": 435.04901960784315,
-            "y_normalized": 528.409090909091
+            "x_normalized": 434.49601828798774,
+            "y_normalized": 516.5117641179719
           },
           {
-            "x_normalized": 436.27450980392155,
-            "y_normalized": 530.3030303030303
+            "x_normalized": 434.49601828798774,
+            "y_normalized": 518.9039678774603
           }
         ],
         "confidence": 1.0,
@@ -207,12 +211,12 @@
         "id": "corridor-12",
         "points": [
           {
-            "x_normalized": 435.04901960784315,
-            "y_normalized": 528.409090909091
+            "x_normalized": 434.49601828798774,
+            "y_normalized": 516.5117641179719
           },
           {
-            "x_normalized": 421.5686274509804,
-            "y_normalized": 530.3030303030303
+            "x_normalized": 432.9354136458086,
+            "y_normalized": 518.9039678774603
           }
         ],
         "confidence": 1.0,
@@ -222,12 +226,16 @@
         "id": "corridor-13",
         "points": [
           {
-            "x_normalized": 459.55882352941177,
-            "y_normalized": 590.909090909091
+            "x_normalized": 837.1320159702137,
+            "y_normalized": 332.3120746373642
           },
           {
-            "x_normalized": 459.55882352941177,
-            "y_normalized": 592.8030303030303
+            "x_normalized": 837.1320159702137,
+            "y_normalized": 303.60562952350335
+          },
+          {
+            "x_normalized": 832.4502020436761,
+            "y_normalized": 298.8212220045265
           }
         ],
         "confidence": 1.0,
@@ -237,12 +245,12 @@
         "id": "corridor-14",
         "points": [
           {
-            "x_normalized": 459.55882352941177,
-            "y_normalized": 590.909090909091
+            "x_normalized": 837.1320159702137,
+            "y_normalized": 332.3120746373642
           },
           {
-            "x_normalized": 458.3333333333333,
-            "y_normalized": 592.8030303030303
+            "x_normalized": 837.1320159702137,
+            "y_normalized": 334.70427839685266
           }
         ],
         "confidence": 1.0,
@@ -252,12 +260,12 @@
         "id": "corridor-15",
         "points": [
           {
-            "x_normalized": 319.85294117647055,
-            "y_normalized": 445.07575757575756
+            "x_normalized": 837.1320159702137,
+            "y_normalized": 332.3120746373642
           },
           {
-            "x_normalized": 319.85294117647055,
-            "y_normalized": 443.1818181818182
+            "x_normalized": 835.5714113280344,
+            "y_normalized": 334.70427839685266
           }
         ],
         "confidence": 1.0,
@@ -267,12 +275,12 @@
         "id": "corridor-16",
         "points": [
           {
-            "x_normalized": 319.85294117647055,
-            "y_normalized": 445.07575757575756
+            "x_normalized": 436.0566229301669,
+            "y_normalized": 514.1195603584833
           },
           {
-            "x_normalized": 321.07843137254906,
-            "y_normalized": 443.1818181818182
+            "x_normalized": 437.6172275723461,
+            "y_normalized": 511.727356598995
           }
         ],
         "confidence": 1.0,
@@ -282,12 +290,12 @@
         "id": "corridor-17",
         "points": [
           {
-            "x_normalized": 319.85294117647055,
-            "y_normalized": 445.07575757575756
+            "x_normalized": 436.0566229301669,
+            "y_normalized": 514.1195603584833
           },
           {
-            "x_normalized": 318.62745098039215,
-            "y_normalized": 446.96969696969694
+            "x_normalized": 437.6172275723461,
+            "y_normalized": 514.1195603584833
           }
         ],
         "confidence": 1.0,
@@ -297,12 +305,12 @@
         "id": "corridor-18",
         "points": [
           {
-            "x_normalized": 319.85294117647055,
-            "y_normalized": 445.07575757575756
+            "x_normalized": 436.0566229301669,
+            "y_normalized": 514.1195603584833
           },
           {
-            "x_normalized": 318.62745098039215,
-            "y_normalized": 445.07575757575756
+            "x_normalized": 436.0566229301669,
+            "y_normalized": 516.5117641179719
           }
         ],
         "confidence": 1.0,
@@ -312,12 +320,12 @@
         "id": "corridor-19",
         "points": [
           {
-            "x_normalized": 604.1666666666666,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 423.5717857927336,
+            "y_normalized": 423.21581749792387
           },
           {
-            "x_normalized": 605.3921568627451,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 423.5717857927336,
+            "y_normalized": 420.8236137384354
           }
         ],
         "confidence": 1.0,
@@ -327,12 +335,12 @@
         "id": "corridor-20",
         "points": [
           {
-            "x_normalized": 604.1666666666666,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 423.5717857927336,
+            "y_normalized": 423.21581749792387
           },
           {
-            "x_normalized": 604.1666666666666,
-            "y_normalized": 335.2272727272727
+            "x_normalized": 425.13239043491274,
+            "y_normalized": 420.8236137384354
           }
         ],
         "confidence": 1.0,
@@ -342,12 +350,12 @@
         "id": "corridor-21",
         "points": [
           {
-            "x_normalized": 604.1666666666666,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 423.5717857927336,
+            "y_normalized": 423.21581749792387
           },
           {
-            "x_normalized": 602.9411764705882,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 422.0111811505544,
+            "y_normalized": 423.21581749792387
           }
         ],
         "confidence": 1.0,
@@ -357,12 +365,12 @@
         "id": "corridor-22",
         "points": [
           {
-            "x_normalized": 321.07843137254906,
-            "y_normalized": 443.1818181818182
+            "x_normalized": 495.35959933297534,
+            "y_normalized": 344.2730934348063
           },
           {
-            "x_normalized": 400.7352941176471,
-            "y_normalized": 441.2878787878788
+            "x_normalized": 495.35959933297534,
+            "y_normalized": 341.8808896753179
           }
         ],
         "confidence": 1.0,
@@ -372,12 +380,12 @@
         "id": "corridor-23",
         "points": [
           {
-            "x_normalized": 321.07843137254906,
-            "y_normalized": 443.1818181818182
+            "x_normalized": 495.35959933297534,
+            "y_normalized": 344.2730934348063
           },
           {
-            "x_normalized": 319.85294117647055,
-            "y_normalized": 443.1818181818182
+            "x_normalized": 496.9202039751545,
+            "y_normalized": 341.8808896753179
           }
         ],
         "confidence": 1.0,
@@ -387,12 +395,12 @@
         "id": "corridor-24",
         "points": [
           {
-            "x_normalized": 685.0490196078431,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 495.35959933297534,
+            "y_normalized": 344.2730934348063
           },
           {
-            "x_normalized": 686.2745098039215,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 490.67778540643786,
+            "y_normalized": 418.43140997894704
           }
         ],
         "confidence": 1.0,
@@ -402,12 +410,12 @@
         "id": "corridor-25",
         "points": [
           {
-            "x_normalized": 685.0490196078431,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 882.3895505934097,
+            "y_normalized": 528.4727829154139
           },
           {
-            "x_normalized": 685.0490196078431,
-            "y_normalized": 335.2272727272727
+            "x_normalized": 883.9501552355888,
+            "y_normalized": 526.0805791559254
           }
         ],
         "confidence": 1.0,
@@ -417,12 +425,12 @@
         "id": "corridor-26",
         "points": [
           {
-            "x_normalized": 685.0490196078431,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 882.3895505934097,
+            "y_normalized": 528.4727829154139
           },
           {
-            "x_normalized": 683.8235294117648,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 883.9501552355888,
+            "y_normalized": 528.4727829154139
           }
         ],
         "confidence": 1.0,
@@ -432,12 +440,12 @@
         "id": "corridor-27",
         "points": [
           {
-            "x_normalized": 446.07843137254906,
-            "y_normalized": 376.8939393939394
+            "x_normalized": 882.3895505934097,
+            "y_normalized": 528.4727829154139
           },
           {
-            "x_normalized": 460.78431372549016,
-            "y_normalized": 378.7878787878788
+            "x_normalized": 882.3895505934097,
+            "y_normalized": 530.8649866749023
           }
         ],
         "confidence": 1.0,
@@ -447,12 +455,12 @@
         "id": "corridor-28",
         "points": [
           {
-            "x_normalized": 446.07843137254906,
-            "y_normalized": 376.8939393939394
+            "x_normalized": 882.3895505934097,
+            "y_normalized": 528.4727829154139
           },
           {
-            "x_normalized": 444.85294117647055,
-            "y_normalized": 376.8939393939394
+            "x_normalized": 880.8289459512303,
+            "y_normalized": 530.8649866749023
           }
         ],
         "confidence": 1.0,
@@ -462,12 +470,12 @@
         "id": "corridor-29",
         "points": [
           {
-            "x_normalized": 446.07843137254906,
-            "y_normalized": 376.8939393939394
+            "x_normalized": 467.26871577375033,
+            "y_normalized": 614.5921182569966
           },
           {
-            "x_normalized": 444.85294117647055,
-            "y_normalized": 375.0
+            "x_normalized": 468.8293204159295,
+            "y_normalized": 607.4155069785314
           }
         ],
         "confidence": 1.0,
@@ -477,12 +485,12 @@
         "id": "corridor-30",
         "points": [
           {
-            "x_normalized": 845.5882352941177,
-            "y_normalized": 335.2272727272727
+            "x_normalized": 114.57206664125786,
+            "y_normalized": 590.6700806621125
           },
           {
-            "x_normalized": 845.5882352941177,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 114.57206664125786,
+            "y_normalized": 588.2778769026241
           }
         ],
         "confidence": 1.0,
@@ -492,12 +500,12 @@
         "id": "corridor-31",
         "points": [
           {
-            "x_normalized": 845.5882352941177,
-            "y_normalized": 335.2272727272727
+            "x_normalized": 114.57206664125786,
+            "y_normalized": 590.6700806621125
           },
           {
-            "x_normalized": 846.813725490196,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 114.57206664125786,
+            "y_normalized": 593.0622844216009
           }
         ],
         "confidence": 1.0,
@@ -507,12 +515,12 @@
         "id": "corridor-32",
         "points": [
           {
-            "x_normalized": 876.2254901960785,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 114.57206664125786,
+            "y_normalized": 590.6700806621125
           },
           {
-            "x_normalized": 877.4509803921569,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 113.0114619990787,
+            "y_normalized": 590.6700806621125
           }
         ],
         "confidence": 1.0,
@@ -522,12 +530,12 @@
         "id": "corridor-33",
         "points": [
           {
-            "x_normalized": 876.2254901960785,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 887.071364519947,
+            "y_normalized": 518.9039678774603
           },
           {
-            "x_normalized": 876.2254901960785,
-            "y_normalized": 335.2272727272727
+            "x_normalized": 887.071364519947,
+            "y_normalized": 521.2961716369487
           }
         ],
         "confidence": 1.0,
@@ -537,12 +545,16 @@
         "id": "corridor-34",
         "points": [
           {
-            "x_normalized": 876.2254901960785,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 879.2683413090512,
+            "y_normalized": 506.94294908001825
           },
           {
-            "x_normalized": 875.0,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 876.1471320246927,
+            "y_normalized": 492.58972652308773
+          },
+          {
+            "x_normalized": 876.1471320246927,
+            "y_normalized": 351.4497047132715
           }
         ],
         "confidence": 1.0,
@@ -552,12 +564,12 @@
         "id": "corridor-35",
         "points": [
           {
-            "x_normalized": 487.7450980392157,
-            "y_normalized": 524.6212121212121
+            "x_normalized": 793.4350859891969,
+            "y_normalized": 337.09648215634104
           },
           {
-            "x_normalized": 488.9705882352941,
-            "y_normalized": 522.7272727272727
+            "x_normalized": 794.9956906313761,
+            "y_normalized": 339.4886859158295
           }
         ],
         "confidence": 1.0,
@@ -567,12 +579,12 @@
         "id": "corridor-36",
         "points": [
           {
-            "x_normalized": 487.7450980392157,
-            "y_normalized": 524.6212121212121
+            "x_normalized": 793.4350859891969,
+            "y_normalized": 337.09648215634104
           },
           {
-            "x_normalized": 488.9705882352941,
-            "y_normalized": 524.6212121212121
+            "x_normalized": 793.4350859891969,
+            "y_normalized": 339.4886859158295
           }
         ],
         "confidence": 1.0,
@@ -582,12 +594,12 @@
         "id": "corridor-37",
         "points": [
           {
-            "x_normalized": 487.7450980392157,
-            "y_normalized": 524.6212121212121
+            "x_normalized": 793.4350859891969,
+            "y_normalized": 337.09648215634104
           },
           {
-            "x_normalized": 487.7450980392157,
-            "y_normalized": 526.5151515151515
+            "x_normalized": 791.8744813470178,
+            "y_normalized": 337.09648215634104
           }
         ],
         "confidence": 1.0,
@@ -597,12 +609,12 @@
         "id": "corridor-38",
         "points": [
           {
-            "x_normalized": 487.7450980392157,
-            "y_normalized": 524.6212121212121
+            "x_normalized": 414.20815793965846,
+            "y_normalized": 428.0002250169007
           },
           {
-            "x_normalized": 486.51960784313724,
-            "y_normalized": 526.5151515151515
+            "x_normalized": 415.7687625818376,
+            "y_normalized": 428.0002250169007
           }
         ],
         "confidence": 1.0,
@@ -612,12 +624,12 @@
         "id": "corridor-39",
         "points": [
           {
-            "x_normalized": 737.7450980392157,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 414.20815793965846,
+            "y_normalized": 428.0002250169007
           },
           {
-            "x_normalized": 737.7450980392157,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 414.20815793965846,
+            "y_normalized": 430.39242877638907
           }
         ],
         "confidence": 1.0,
@@ -627,12 +639,12 @@
         "id": "corridor-40",
         "points": [
           {
-            "x_normalized": 737.7450980392157,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 414.20815793965846,
+            "y_normalized": 428.0002250169007
           },
           {
-            "x_normalized": 738.9705882352941,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 412.6475532974793,
+            "y_normalized": 430.39242877638907
           }
         ],
         "confidence": 1.0,
@@ -642,12 +654,12 @@
         "id": "corridor-41",
         "points": [
           {
-            "x_normalized": 737.7450980392157,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 860.5410856029014,
+            "y_normalized": 573.9246543456936
           },
           {
-            "x_normalized": 736.5196078431374,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 860.5410856029014,
+            "y_normalized": 571.5324505862053
           }
         ],
         "confidence": 1.0,
@@ -657,12 +669,12 @@
         "id": "corridor-42",
         "points": [
           {
-            "x_normalized": 466.9117647058824,
-            "y_normalized": 320.07575757575756
+            "x_normalized": 860.5410856029014,
+            "y_normalized": 573.9246543456936
           },
           {
-            "x_normalized": 468.1372549019608,
-            "y_normalized": 321.96969696969694
+            "x_normalized": 858.9804809607222,
+            "y_normalized": 576.3168581051821
           }
         ],
         "confidence": 1.0,
@@ -672,12 +684,12 @@
         "id": "corridor-43",
         "points": [
           {
-            "x_normalized": 466.9117647058824,
-            "y_normalized": 320.07575757575756
+            "x_normalized": 860.5410856029014,
+            "y_normalized": 573.9246543456936
           },
           {
-            "x_normalized": 468.1372549019608,
-            "y_normalized": 321.96969696969694
+            "x_normalized": 858.9804809607222,
+            "y_normalized": 573.9246543456936
           }
         ],
         "confidence": 1.0,
@@ -687,12 +699,12 @@
         "id": "corridor-44",
         "points": [
           {
-            "x_normalized": 683.8235294117648,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 446.9808554254211,
+            "y_normalized": 423.21581749792387
           },
           {
-            "x_normalized": 685.0490196078431,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 446.9808554254211,
+            "y_normalized": 420.8236137384354
           }
         ],
         "confidence": 1.0,
@@ -702,12 +714,12 @@
         "id": "corridor-45",
         "points": [
           {
-            "x_normalized": 683.8235294117648,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 446.9808554254211,
+            "y_normalized": 423.21581749792387
           },
           {
-            "x_normalized": 685.0490196078431,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 448.54146006760027,
+            "y_normalized": 420.8236137384354
           }
         ],
         "confidence": 1.0,
@@ -717,12 +729,16 @@
         "id": "corridor-46",
         "points": [
           {
-            "x_normalized": 683.8235294117648,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 446.9808554254211,
+            "y_normalized": 423.21581749792387
           },
           {
-            "x_normalized": 644.6078431372549,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 443.8596461410628,
+            "y_normalized": 444.74565133331953
+          },
+          {
+            "x_normalized": 445.42025078324195,
+            "y_normalized": 463.88328140922675
           }
         ],
         "confidence": 1.0,
@@ -732,12 +748,12 @@
         "id": "corridor-47",
         "points": [
           {
-            "x_normalized": 419.11764705882354,
-            "y_normalized": 532.1969696969697
+            "x_normalized": 401.72332080222515,
+            "y_normalized": 490.1975227635993
           },
           {
-            "x_normalized": 420.343137254902,
-            "y_normalized": 530.3030303030303
+            "x_normalized": 401.72332080222515,
+            "y_normalized": 487.80531900411097
           }
         ],
         "confidence": 1.0,
@@ -747,12 +763,12 @@
         "id": "corridor-48",
         "points": [
           {
-            "x_normalized": 419.11764705882354,
-            "y_normalized": 532.1969696969697
+            "x_normalized": 401.72332080222515,
+            "y_normalized": 490.1975227635993
           },
           {
-            "x_normalized": 420.343137254902,
-            "y_normalized": 532.1969696969697
+            "x_normalized": 403.28392544440436,
+            "y_normalized": 487.80531900411097
           }
         ],
         "confidence": 1.0,
@@ -762,12 +778,12 @@
         "id": "corridor-49",
         "points": [
           {
-            "x_normalized": 419.11764705882354,
-            "y_normalized": 532.1969696969697
+            "x_normalized": 401.72332080222515,
+            "y_normalized": 490.1975227635993
           },
           {
-            "x_normalized": 419.11764705882354,
-            "y_normalized": 534.090909090909
+            "x_normalized": 398.60211151786683,
+            "y_normalized": 499.76633780155294
           }
         ],
         "confidence": 1.0,
@@ -777,12 +793,12 @@
         "id": "corridor-50",
         "points": [
           {
-            "x_normalized": 419.11764705882354,
-            "y_normalized": 532.1969696969697
+            "x_normalized": 403.28392544440436,
+            "y_normalized": 487.80531900411097
           },
           {
-            "x_normalized": 417.89215686274514,
-            "y_normalized": 534.090909090909
+            "x_normalized": 403.28392544440436,
+            "y_normalized": 485.4131152446225
           }
         ],
         "confidence": 1.0,
@@ -792,12 +808,12 @@
         "id": "corridor-51",
         "points": [
           {
-            "x_normalized": 457.10784313725486,
-            "y_normalized": 594.6969696969697
+            "x_normalized": 403.28392544440436,
+            "y_normalized": 487.80531900411097
           },
           {
-            "x_normalized": 458.3333333333333,
-            "y_normalized": 592.8030303030303
+            "x_normalized": 401.72332080222515,
+            "y_normalized": 487.80531900411097
           }
         ],
         "confidence": 1.0,
@@ -807,12 +823,12 @@
         "id": "corridor-52",
         "points": [
           {
-            "x_normalized": 457.10784313725486,
-            "y_normalized": 594.6969696969697
+            "x_normalized": 432.9354136458086,
+            "y_normalized": 518.9039678774603
           },
           {
-            "x_normalized": 458.3333333333333,
-            "y_normalized": 594.6969696969697
+            "x_normalized": 434.49601828798774,
+            "y_normalized": 518.9039678774603
           }
         ],
         "confidence": 1.0,
@@ -822,12 +838,12 @@
         "id": "corridor-53",
         "points": [
           {
-            "x_normalized": 457.10784313725486,
-            "y_normalized": 594.6969696969697
+            "x_normalized": 432.9354136458086,
+            "y_normalized": 518.9039678774603
           },
           {
-            "x_normalized": 457.10784313725486,
-            "y_normalized": 596.590909090909
+            "x_normalized": 432.9354136458086,
+            "y_normalized": 521.2961716369487
           }
         ],
         "confidence": 1.0,
@@ -837,12 +853,12 @@
         "id": "corridor-54",
         "points": [
           {
-            "x_normalized": 457.10784313725486,
-            "y_normalized": 594.6969696969697
+            "x_normalized": 432.9354136458086,
+            "y_normalized": 518.9039678774603
           },
           {
-            "x_normalized": 455.88235294117646,
-            "y_normalized": 594.6969696969697
+            "x_normalized": 431.3748090036294,
+            "y_normalized": 521.2961716369487
           }
         ],
         "confidence": 1.0,
@@ -852,12 +868,12 @@
         "id": "corridor-55",
         "points": [
           {
-            "x_normalized": 420.343137254902,
-            "y_normalized": 530.3030303030303
+            "x_normalized": 446.9808554254211,
+            "y_normalized": 466.2754851687152
           },
           {
-            "x_normalized": 421.5686274509804,
-            "y_normalized": 530.3030303030303
+            "x_normalized": 456.34448327849606,
+            "y_normalized": 466.2754851687152
           }
         ],
         "confidence": 1.0,
@@ -867,12 +883,12 @@
         "id": "corridor-56",
         "points": [
           {
-            "x_normalized": 420.343137254902,
-            "y_normalized": 530.3030303030303
+            "x_normalized": 446.9808554254211,
+            "y_normalized": 466.2754851687152
           },
           {
-            "x_normalized": 420.343137254902,
-            "y_normalized": 532.1969696969697
+            "x_normalized": 445.42025078324195,
+            "y_normalized": 468.66768892820363
           }
         ],
         "confidence": 1.0,
@@ -882,12 +898,12 @@
         "id": "corridor-57",
         "points": [
           {
-            "x_normalized": 493.87254901960785,
-            "y_normalized": 331.43939393939394
+            "x_normalized": 446.9808554254211,
+            "y_normalized": 466.2754851687152
           },
           {
-            "x_normalized": 493.87254901960785,
-            "y_normalized": 329.5454545454545
+            "x_normalized": 445.42025078324195,
+            "y_normalized": 466.2754851687152
           }
         ],
         "confidence": 1.0,
@@ -897,12 +913,12 @@
         "id": "corridor-58",
         "points": [
           {
-            "x_normalized": 493.87254901960785,
-            "y_normalized": 331.43939393939394
+            "x_normalized": 446.9808554254211,
+            "y_normalized": 466.2754851687152
           },
           {
-            "x_normalized": 495.0980392156863,
-            "y_normalized": 331.43939393939394
+            "x_normalized": 445.42025078324195,
+            "y_normalized": 463.88328140922675
           }
         ],
         "confidence": 1.0,
@@ -912,12 +928,12 @@
         "id": "corridor-59",
         "points": [
           {
-            "x_normalized": 493.87254901960785,
-            "y_normalized": 331.43939393939394
+            "x_normalized": 879.2683413090512,
+            "y_normalized": 533.2571904343907
           },
           {
-            "x_normalized": 493.87254901960785,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 880.8289459512303,
+            "y_normalized": 530.8649866749023
           }
         ],
         "confidence": 1.0,
@@ -927,12 +943,12 @@
         "id": "corridor-60",
         "points": [
           {
-            "x_normalized": 318.62745098039215,
-            "y_normalized": 446.96969696969694
+            "x_normalized": 879.2683413090512,
+            "y_normalized": 533.2571904343907
           },
           {
-            "x_normalized": 318.62745098039215,
-            "y_normalized": 445.07575757575756
+            "x_normalized": 880.8289459512303,
+            "y_normalized": 533.2571904343907
           }
         ],
         "confidence": 1.0,
@@ -942,12 +958,12 @@
         "id": "corridor-61",
         "points": [
           {
-            "x_normalized": 318.62745098039215,
-            "y_normalized": 446.96969696969694
+            "x_normalized": 879.2683413090512,
+            "y_normalized": 533.2571904343907
           },
           {
-            "x_normalized": 317.4019607843137,
-            "y_normalized": 446.96969696969694
+            "x_normalized": 879.2683413090512,
+            "y_normalized": 535.6493941938792
           }
         ],
         "confidence": 1.0,
@@ -957,12 +973,12 @@
         "id": "corridor-62",
         "points": [
           {
-            "x_normalized": 458.3333333333333,
-            "y_normalized": 592.8030303030303
+            "x_normalized": 261.26890300609983,
+            "y_normalized": 533.2571904343907
           },
           {
-            "x_normalized": 459.55882352941177,
-            "y_normalized": 592.8030303030303
+            "x_normalized": 262.829507648279,
+            "y_normalized": 530.8649866749023
           }
         ],
         "confidence": 1.0,
@@ -972,12 +988,12 @@
         "id": "corridor-63",
         "points": [
           {
-            "x_normalized": 458.3333333333333,
-            "y_normalized": 592.8030303030303
+            "x_normalized": 261.26890300609983,
+            "y_normalized": 533.2571904343907
           },
           {
-            "x_normalized": 458.3333333333333,
-            "y_normalized": 594.6969696969697
+            "x_normalized": 262.829507648279,
+            "y_normalized": 533.2571904343907
           }
         ],
         "confidence": 1.0,
@@ -987,12 +1003,12 @@
         "id": "corridor-64",
         "points": [
           {
-            "x_normalized": 524.5098039215686,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 261.26890300609983,
+            "y_normalized": 533.2571904343907
           },
           {
-            "x_normalized": 561.2745098039215,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 261.26890300609983,
+            "y_normalized": 535.6493941938792
           }
         ],
         "confidence": 1.0,
@@ -1002,12 +1018,12 @@
         "id": "corridor-65",
         "points": [
           {
-            "x_normalized": 524.5098039215686,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 261.26890300609983,
+            "y_normalized": 533.2571904343907
           },
           {
-            "x_normalized": 523.2843137254903,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 259.70829836392073,
+            "y_normalized": 535.6493941938792
           }
         ],
         "confidence": 1.0,
@@ -1017,12 +1033,12 @@
         "id": "corridor-66",
         "points": [
           {
-            "x_normalized": 524.5098039215686,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 880.8289459512303,
+            "y_normalized": 530.8649866749023
           },
           {
-            "x_normalized": 523.2843137254903,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 882.3895505934097,
+            "y_normalized": 530.8649866749023
           }
         ],
         "confidence": 1.0,
@@ -1032,12 +1048,12 @@
         "id": "corridor-67",
         "points": [
           {
-            "x_normalized": 492.64705882352945,
-            "y_normalized": 414.7727272727273
+            "x_normalized": 880.8289459512303,
+            "y_normalized": 530.8649866749023
           },
           {
-            "x_normalized": 492.64705882352945,
-            "y_normalized": 412.8787878787879
+            "x_normalized": 880.8289459512303,
+            "y_normalized": 533.2571904343907
           }
         ],
         "confidence": 1.0,
@@ -1047,24 +1063,12 @@
         "id": "corridor-68",
         "points": [
           {
-            "x_normalized": 492.64705882352945,
-            "y_normalized": 414.7727272727273
+            "x_normalized": 471.95052970028786,
+            "y_normalized": 530.8649866749023
           },
           {
-            "x_normalized": 495.0980392156863,
-            "y_normalized": 431.8181818181818
-          },
-          {
-            "x_normalized": 492.64705882352945,
-            "y_normalized": 441.2878787878788
-          },
-          {
-            "x_normalized": 493.87254901960785,
-            "y_normalized": 513.2575757575758
-          },
-          {
-            "x_normalized": 491.42156862745094,
-            "y_normalized": 518.9393939393939
+            "x_normalized": 473.511134342467,
+            "y_normalized": 530.8649866749023
           }
         ],
         "confidence": 1.0,
@@ -1074,12 +1078,12 @@
         "id": "corridor-69",
         "points": [
           {
-            "x_normalized": 492.64705882352945,
-            "y_normalized": 414.7727272727273
+            "x_normalized": 471.95052970028786,
+            "y_normalized": 530.8649866749023
           },
           {
-            "x_normalized": 491.42156862745094,
-            "y_normalized": 412.8787878787879
+            "x_normalized": 471.95052970028786,
+            "y_normalized": 533.2571904343907
           }
         ],
         "confidence": 1.0,
@@ -1089,12 +1093,12 @@
         "id": "corridor-70",
         "points": [
           {
-            "x_normalized": 273.28431372549016,
-            "y_normalized": 445.07575757575756
+            "x_normalized": 471.95052970028786,
+            "y_normalized": 530.8649866749023
           },
           {
-            "x_normalized": 273.28431372549016,
-            "y_normalized": 443.1818181818182
+            "x_normalized": 470.38992505810864,
+            "y_normalized": 533.2571904343907
           }
         ],
         "confidence": 1.0,
@@ -1104,12 +1108,12 @@
         "id": "corridor-71",
         "points": [
           {
-            "x_normalized": 273.28431372549016,
-            "y_normalized": 445.07575757575756
+            "x_normalized": 273.7537401435332,
+            "y_normalized": 514.1195603584833
           },
           {
-            "x_normalized": 274.5098039215687,
-            "y_normalized": 443.1818181818182
+            "x_normalized": 275.31434478571236,
+            "y_normalized": 514.1195603584833
           }
         ],
         "confidence": 1.0,
@@ -1119,12 +1123,12 @@
         "id": "corridor-72",
         "points": [
           {
-            "x_normalized": 273.28431372549016,
-            "y_normalized": 445.07575757575756
+            "x_normalized": 273.7537401435332,
+            "y_normalized": 514.1195603584833
           },
           {
-            "x_normalized": 272.05882352941177,
-            "y_normalized": 467.80303030303025
+            "x_normalized": 273.7537401435332,
+            "y_normalized": 516.5117641179719
           }
         ],
         "confidence": 1.0,
@@ -1134,12 +1138,12 @@
         "id": "corridor-73",
         "points": [
           {
-            "x_normalized": 273.28431372549016,
-            "y_normalized": 445.07575757575756
+            "x_normalized": 273.7537401435332,
+            "y_normalized": 514.1195603584833
           },
           {
-            "x_normalized": 272.05882352941177,
-            "y_normalized": 443.1818181818182
+            "x_normalized": 272.19313550135405,
+            "y_normalized": 516.5117641179719
           }
         ],
         "confidence": 1.0,
@@ -1149,24 +1153,24 @@
         "id": "corridor-74",
         "points": [
           {
-            "x_normalized": 274.5098039215687,
-            "y_normalized": 443.1818181818182
+            "x_normalized": 273.7537401435332,
+            "y_normalized": 514.1195603584833
           },
           {
-            "x_normalized": 285.5392156862745,
-            "y_normalized": 441.2878787878788
+            "x_normalized": 267.5113215748165,
+            "y_normalized": 502.1585415610413
           },
           {
-            "x_normalized": 291.6666666666667,
-            "y_normalized": 452.6515151515151
+            "x_normalized": 265.9507169326373,
+            "y_normalized": 492.58972652308773
           },
           {
-            "x_normalized": 314.95098039215685,
-            "y_normalized": 450.75757575757575
+            "x_normalized": 255.02648443738317,
+            "y_normalized": 475.8443002066688
           },
           {
-            "x_normalized": 317.4019607843137,
-            "y_normalized": 446.96969696969694
+            "x_normalized": 251.90527515302486,
+            "y_normalized": 454.31446637127317
           }
         ],
         "confidence": 1.0,
@@ -1176,12 +1180,20 @@
         "id": "corridor-75",
         "points": [
           {
-            "x_normalized": 274.5098039215687,
-            "y_normalized": 443.1818181818182
+            "x_normalized": 212.89015909854558,
+            "y_normalized": 540.4338017128559
           },
           {
-            "x_normalized": 273.28431372549016,
-            "y_normalized": 443.1818181818182
+            "x_normalized": 212.89015909854558,
+            "y_normalized": 451.92226261178473
+          },
+          {
+            "x_normalized": 216.01136838290392,
+            "y_normalized": 447.1378550928079
+          },
+          {
+            "x_normalized": 242.5416472999498,
+            "y_normalized": 447.1378550928079
           }
         ],
         "confidence": 1.0,
@@ -1191,12 +1203,12 @@
         "id": "corridor-76",
         "points": [
           {
-            "x_normalized": 269.60784313725486,
-            "y_normalized": 498.1060606060606
+            "x_normalized": 212.89015909854558,
+            "y_normalized": 540.4338017128559
           },
           {
-            "x_normalized": 264.70588235294116,
-            "y_normalized": 482.9545454545455
+            "x_normalized": 214.45076374072474,
+            "y_normalized": 542.8260054723443
           }
         ],
         "confidence": 1.0,
@@ -1206,12 +1218,12 @@
         "id": "corridor-77",
         "points": [
           {
-            "x_normalized": 269.60784313725486,
-            "y_normalized": 534.090909090909
+            "x_normalized": 212.89015909854558,
+            "y_normalized": 540.4338017128559
           },
           {
-            "x_normalized": 270.8333333333333,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 212.89015909854558,
+            "y_normalized": 542.8260054723443
           }
         ],
         "confidence": 1.0,
@@ -1221,12 +1233,12 @@
         "id": "corridor-78",
         "points": [
           {
-            "x_normalized": 269.60784313725486,
-            "y_normalized": 534.090909090909
+            "x_normalized": 212.89015909854558,
+            "y_normalized": 540.4338017128559
           },
           {
-            "x_normalized": 269.60784313725486,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 211.32955445636642,
+            "y_normalized": 542.8260054723443
           }
         ],
         "confidence": 1.0,
@@ -1236,12 +1248,12 @@
         "id": "corridor-79",
         "points": [
           {
-            "x_normalized": 417.89215686274514,
-            "y_normalized": 534.090909090909
+            "x_normalized": 858.9804809607222,
+            "y_normalized": 576.3168581051821
           },
           {
-            "x_normalized": 419.11764705882354,
-            "y_normalized": 534.090909090909
+            "x_normalized": 858.9804809607222,
+            "y_normalized": 573.9246543456936
           }
         ],
         "confidence": 1.0,
@@ -1251,12 +1263,12 @@
         "id": "corridor-80",
         "points": [
           {
-            "x_normalized": 417.89215686274514,
-            "y_normalized": 534.090909090909
+            "x_normalized": 858.9804809607222,
+            "y_normalized": 576.3168581051821
           },
           {
-            "x_normalized": 417.89215686274514,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 854.2986670341846,
+            "y_normalized": 590.6700806621125
           }
         ],
         "confidence": 1.0,
@@ -1266,12 +1278,12 @@
         "id": "corridor-81",
         "points": [
           {
-            "x_normalized": 417.89215686274514,
-            "y_normalized": 534.090909090909
+            "x_normalized": 489.1171807642587,
+            "y_normalized": 420.8236137384354
           },
           {
-            "x_normalized": 416.6666666666667,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 490.67778540643786,
+            "y_normalized": 418.43140997894704
           }
         ],
         "confidence": 1.0,
@@ -1281,12 +1293,12 @@
         "id": "corridor-82",
         "points": [
           {
-            "x_normalized": 424.01960784313724,
-            "y_normalized": 630.6818181818182
+            "x_normalized": 489.1171807642587,
+            "y_normalized": 420.8236137384354
           },
           {
-            "x_normalized": 421.5686274509804,
-            "y_normalized": 575.7575757575758
+            "x_normalized": 490.67778540643786,
+            "y_normalized": 420.8236137384354
           }
         ],
         "confidence": 1.0,
@@ -1296,12 +1308,12 @@
         "id": "corridor-83",
         "points": [
           {
-            "x_normalized": 463.2352941176471,
-            "y_normalized": 378.7878787878788
+            "x_normalized": 489.1171807642587,
+            "y_normalized": 420.8236137384354
           },
           {
-            "x_normalized": 462.0098039215687,
-            "y_normalized": 378.7878787878788
+            "x_normalized": 490.67778540643786,
+            "y_normalized": 423.21581749792387
           }
         ],
         "confidence": 1.0,
@@ -1311,12 +1323,12 @@
         "id": "corridor-84",
         "points": [
           {
-            "x_normalized": 463.2352941176471,
-            "y_normalized": 378.7878787878788
+            "x_normalized": 489.1171807642587,
+            "y_normalized": 420.8236137384354
           },
           {
-            "x_normalized": 462.0098039215687,
-            "y_normalized": 376.8939393939394
+            "x_normalized": 448.54146006760027,
+            "y_normalized": 420.8236137384354
           }
         ],
         "confidence": 1.0,
@@ -1326,12 +1338,12 @@
         "id": "corridor-85",
         "points": [
           {
-            "x_normalized": 724.2647058823529,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 258.1476937217416,
+            "y_normalized": 538.0415979533675
           },
           {
-            "x_normalized": 725.4901960784314,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 259.70829836392073,
+            "y_normalized": 535.6493941938792
           }
         ],
         "confidence": 1.0,
@@ -1341,12 +1353,12 @@
         "id": "corridor-86",
         "points": [
           {
-            "x_normalized": 724.2647058823529,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 258.1476937217416,
+            "y_normalized": 538.0415979533675
           },
           {
-            "x_normalized": 724.2647058823529,
-            "y_normalized": 335.2272727272727
+            "x_normalized": 259.70829836392073,
+            "y_normalized": 538.0415979533675
           }
         ],
         "confidence": 1.0,
@@ -1356,12 +1368,16 @@
         "id": "corridor-87",
         "points": [
           {
-            "x_normalized": 724.2647058823529,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 258.1476937217416,
+            "y_normalized": 538.0415979533675
           },
           {
-            "x_normalized": 723.0392156862745,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 253.46587979520402,
+            "y_normalized": 542.8260054723443
+          },
+          {
+            "x_normalized": 214.45076374072474,
+            "y_normalized": 542.8260054723443
           }
         ],
         "confidence": 1.0,
@@ -1371,12 +1387,12 @@
         "id": "corridor-88",
         "points": [
           {
-            "x_normalized": 562.5,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 267.5113215748165,
+            "y_normalized": 526.0805791559254
           },
           {
-            "x_normalized": 563.7254901960785,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 265.9507169326373,
+            "y_normalized": 526.0805791559254
           }
         ],
         "confidence": 1.0,
@@ -1386,12 +1402,12 @@
         "id": "corridor-89",
         "points": [
           {
-            "x_normalized": 562.5,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 887.071364519947,
+            "y_normalized": 523.6883753964371
           },
           {
-            "x_normalized": 562.5,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 887.071364519947,
+            "y_normalized": 521.2961716369487
           }
         ],
         "confidence": 1.0,
@@ -1401,12 +1417,16 @@
         "id": "corridor-90",
         "points": [
           {
-            "x_normalized": 562.5,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 100.52662486164532,
+            "y_normalized": 588.2778769026241
           },
           {
-            "x_normalized": 561.2745098039215,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 108.32964807254118,
+            "y_normalized": 593.0622844216009
+          },
+          {
+            "x_normalized": 113.0114619990787,
+            "y_normalized": 590.6700806621125
           }
         ],
         "confidence": 1.0,
@@ -1416,12 +1436,12 @@
         "id": "corridor-91",
         "points": [
           {
-            "x_normalized": 642.1568627450981,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 100.52662486164532,
+            "y_normalized": 588.2778769026241
           },
           {
-            "x_normalized": 643.3823529411765,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 98.96602021946617,
+            "y_normalized": 588.2778769026241
           }
         ],
         "confidence": 1.0,
@@ -1431,12 +1451,12 @@
         "id": "corridor-92",
         "points": [
           {
-            "x_normalized": 642.1568627450981,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 100.52662486164532,
+            "y_normalized": 588.2778769026241
           },
           {
-            "x_normalized": 643.3823529411765,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 98.96602021946617,
+            "y_normalized": 585.8856731431357
           }
         ],
         "confidence": 1.0,
@@ -1446,12 +1466,12 @@
         "id": "corridor-93",
         "points": [
           {
-            "x_normalized": 642.1568627450981,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 468.8293204159295,
+            "y_normalized": 535.6493941938792
           },
           {
-            "x_normalized": 605.3921568627451,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 470.38992505810864,
+            "y_normalized": 533.2571904343907
           }
         ],
         "confidence": 1.0,
@@ -1461,12 +1481,12 @@
         "id": "corridor-94",
         "points": [
           {
-            "x_normalized": 643.3823529411765,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 468.8293204159295,
+            "y_normalized": 535.6493941938792
           },
           {
-            "x_normalized": 644.6078431372549,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 470.38992505810864,
+            "y_normalized": 535.6493941938792
           }
         ],
         "confidence": 1.0,
@@ -1476,12 +1496,12 @@
         "id": "corridor-95",
         "points": [
           {
-            "x_normalized": 643.3823529411765,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 468.8293204159295,
+            "y_normalized": 535.6493941938792
           },
           {
-            "x_normalized": 643.3823529411765,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 468.8293204159295,
+            "y_normalized": 538.0415979533675
           }
         ],
         "confidence": 1.0,
@@ -1491,12 +1511,12 @@
         "id": "corridor-96",
         "points": [
           {
-            "x_normalized": 875.0,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 468.8293204159295,
+            "y_normalized": 535.6493941938792
           },
           {
-            "x_normalized": 876.2254901960785,
-            "y_normalized": 534.090909090909
+            "x_normalized": 467.26871577375033,
+            "y_normalized": 538.0415979533675
           }
         ],
         "confidence": 1.0,
@@ -1506,12 +1526,12 @@
         "id": "corridor-97",
         "points": [
           {
-            "x_normalized": 875.0,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 270.6325308591749,
+            "y_normalized": 518.9039678774603
           },
           {
-            "x_normalized": 876.2254901960785,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 272.19313550135405,
+            "y_normalized": 516.5117641179719
           }
         ],
         "confidence": 1.0,
@@ -1521,12 +1541,12 @@
         "id": "corridor-98",
         "points": [
           {
-            "x_normalized": 875.0,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 270.6325308591749,
+            "y_normalized": 518.9039678774603
           },
           {
-            "x_normalized": 875.0,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 272.19313550135405,
+            "y_normalized": 518.9039678774603
           }
         ],
         "confidence": 1.0,
@@ -1536,12 +1556,12 @@
         "id": "corridor-99",
         "points": [
           {
-            "x_normalized": 875.0,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 270.6325308591749,
+            "y_normalized": 518.9039678774603
           },
           {
-            "x_normalized": 873.7745098039215,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 270.6325308591749,
+            "y_normalized": 521.2961716369487
           }
         ],
         "confidence": 1.0,
@@ -1551,12 +1571,12 @@
         "id": "corridor-100",
         "points": [
           {
-            "x_normalized": 524.5098039215686,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 270.6325308591749,
+            "y_normalized": 518.9039678774603
           },
           {
-            "x_normalized": 602.9411764705882,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 269.07192621699573,
+            "y_normalized": 521.2961716369487
           }
         ],
         "confidence": 1.0,
@@ -1566,12 +1586,12 @@
         "id": "corridor-101",
         "points": [
           {
-            "x_normalized": 524.5098039215686,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 794.9956906313761,
+            "y_normalized": 339.4886859158295
           },
           {
-            "x_normalized": 523.2843137254903,
-            "y_normalized": 335.2272727272727
+            "x_normalized": 834.0108066858554,
+            "y_normalized": 337.09648215634104
           }
         ],
         "confidence": 1.0,
@@ -1581,12 +1601,12 @@
         "id": "corridor-102",
         "points": [
           {
-            "x_normalized": 524.5098039215686,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 794.9956906313761,
+            "y_normalized": 339.4886859158295
           },
           {
-            "x_normalized": 523.2843137254903,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 793.4350859891969,
+            "y_normalized": 339.4886859158295
           }
         ],
         "confidence": 1.0,
@@ -1596,12 +1616,12 @@
         "id": "corridor-103",
         "points": [
           {
-            "x_normalized": 605.3921568627451,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 879.2683413090512,
+            "y_normalized": 341.8808896753179
           },
           {
-            "x_normalized": 642.1568627450981,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 879.2683413090512,
+            "y_normalized": 344.2730934348063
           }
         ],
         "confidence": 1.0,
@@ -1611,12 +1631,12 @@
         "id": "corridor-104",
         "points": [
           {
-            "x_normalized": 605.3921568627451,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 879.2683413090512,
+            "y_normalized": 341.8808896753179
           },
           {
-            "x_normalized": 604.1666666666666,
-            "y_normalized": 335.2272727272727
+            "x_normalized": 877.7077366668722,
+            "y_normalized": 344.2730934348063
           }
         ],
         "confidence": 1.0,
@@ -1626,12 +1646,12 @@
         "id": "corridor-105",
         "points": [
           {
-            "x_normalized": 644.6078431372549,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 398.60211151786683,
+            "y_normalized": 502.1585415610413
           },
           {
-            "x_normalized": 643.3823529411765,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 398.60211151786683,
+            "y_normalized": 499.76633780155294
           }
         ],
         "confidence": 1.0,
@@ -1641,12 +1661,12 @@
         "id": "corridor-106",
         "points": [
           {
-            "x_normalized": 264.70588235294116,
-            "y_normalized": 479.1666666666667
+            "x_normalized": 398.60211151786683,
+            "y_normalized": 502.1585415610413
           },
           {
-            "x_normalized": 265.9313725490196,
-            "y_normalized": 477.2727272727273
+            "x_normalized": 397.0415068756877,
+            "y_normalized": 504.5507453205298
           }
         ],
         "confidence": 1.0,
@@ -1656,12 +1676,12 @@
         "id": "corridor-107",
         "points": [
           {
-            "x_normalized": 264.70588235294116,
-            "y_normalized": 479.1666666666667
+            "x_normalized": 398.60211151786683,
+            "y_normalized": 502.1585415610413
           },
           {
-            "x_normalized": 265.9313725490196,
-            "y_normalized": 479.1666666666667
+            "x_normalized": 397.0415068756877,
+            "y_normalized": 502.1585415610413
           }
         ],
         "confidence": 1.0,
@@ -1671,12 +1691,12 @@
         "id": "corridor-108",
         "points": [
           {
-            "x_normalized": 264.70588235294116,
-            "y_normalized": 479.1666666666667
+            "x_normalized": 457.9050879206754,
+            "y_normalized": 463.88328140922675
           },
           {
-            "x_normalized": 264.70588235294116,
-            "y_normalized": 481.06060606060606
+            "x_normalized": 459.46569256285454,
+            "y_normalized": 463.88328140922675
           }
         ],
         "confidence": 1.0,
@@ -1686,12 +1706,12 @@
         "id": "corridor-109",
         "points": [
           {
-            "x_normalized": 264.70588235294116,
-            "y_normalized": 479.1666666666667
+            "x_normalized": 457.9050879206754,
+            "y_normalized": 463.88328140922675
           },
           {
-            "x_normalized": 263.48039215686276,
-            "y_normalized": 481.06060606060606
+            "x_normalized": 457.9050879206754,
+            "y_normalized": 466.2754851687152
           }
         ],
         "confidence": 1.0,
@@ -1701,12 +1721,12 @@
         "id": "corridor-110",
         "points": [
           {
-            "x_normalized": 738.9705882352941,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 457.9050879206754,
+            "y_normalized": 463.88328140922675
           },
           {
-            "x_normalized": 791.6666666666666,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 456.34448327849606,
+            "y_normalized": 466.2754851687152
           }
         ],
         "confidence": 1.0,
@@ -1716,12 +1736,12 @@
         "id": "corridor-111",
         "points": [
           {
-            "x_normalized": 738.9705882352941,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 404.8445300865835,
+            "y_normalized": 430.39242877638907
           },
           {
-            "x_normalized": 737.7450980392157,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 404.8445300865835,
+            "y_normalized": 428.0002250169007
           }
         ],
         "confidence": 1.0,
@@ -1731,12 +1751,12 @@
         "id": "corridor-112",
         "points": [
           {
-            "x_normalized": 270.8333333333333,
-            "y_normalized": 471.5909090909091
+            "x_normalized": 404.8445300865835,
+            "y_normalized": 430.39242877638907
           },
           {
-            "x_normalized": 270.8333333333333,
-            "y_normalized": 469.69696969696975
+            "x_normalized": 406.4051347287627,
+            "y_normalized": 430.39242877638907
           }
         ],
         "confidence": 1.0,
@@ -1746,12 +1766,12 @@
         "id": "corridor-113",
         "points": [
           {
-            "x_normalized": 270.8333333333333,
-            "y_normalized": 471.5909090909091
+            "x_normalized": 264.39011229045815,
+            "y_normalized": 530.8649866749023
           },
           {
-            "x_normalized": 272.05882352941177,
-            "y_normalized": 469.69696969696975
+            "x_normalized": 264.39011229045815,
+            "y_normalized": 528.4727829154139
           }
         ],
         "confidence": 1.0,
@@ -1761,12 +1781,12 @@
         "id": "corridor-114",
         "points": [
           {
-            "x_normalized": 270.8333333333333,
-            "y_normalized": 471.5909090909091
+            "x_normalized": 264.39011229045815,
+            "y_normalized": 530.8649866749023
           },
           {
-            "x_normalized": 269.60784313725486,
-            "y_normalized": 473.4848484848485
+            "x_normalized": 265.9507169326373,
+            "y_normalized": 528.4727829154139
           }
         ],
         "confidence": 1.0,
@@ -1776,12 +1796,12 @@
         "id": "corridor-115",
         "points": [
           {
-            "x_normalized": 270.8333333333333,
-            "y_normalized": 471.5909090909091
+            "x_normalized": 264.39011229045815,
+            "y_normalized": 530.8649866749023
           },
           {
-            "x_normalized": 269.60784313725486,
-            "y_normalized": 471.5909090909091
+            "x_normalized": 262.829507648279,
+            "y_normalized": 533.2571904343907
           }
         ],
         "confidence": 1.0,
@@ -1791,12 +1811,12 @@
         "id": "corridor-116",
         "points": [
           {
-            "x_normalized": 792.8921568627451,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 264.39011229045815,
+            "y_normalized": 530.8649866749023
           },
           {
-            "x_normalized": 792.8921568627451,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 262.829507648279,
+            "y_normalized": 530.8649866749023
           }
         ],
         "confidence": 1.0,
@@ -1806,12 +1826,12 @@
         "id": "corridor-117",
         "points": [
           {
-            "x_normalized": 792.8921568627451,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 883.9501552355888,
+            "y_normalized": 528.4727829154139
           },
           {
-            "x_normalized": 794.1176470588235,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 883.9501552355888,
+            "y_normalized": 526.0805791559254
           }
         ],
         "confidence": 1.0,
@@ -1821,12 +1841,12 @@
         "id": "corridor-118",
         "points": [
           {
-            "x_normalized": 792.8921568627451,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 883.9501552355888,
+            "y_normalized": 528.4727829154139
           },
           {
-            "x_normalized": 791.6666666666666,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 885.5107598777679,
+            "y_normalized": 526.0805791559254
           }
         ],
         "confidence": 1.0,
@@ -1836,12 +1856,12 @@
         "id": "corridor-119",
         "points": [
           {
-            "x_normalized": 873.7745098039215,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 883.9501552355888,
+            "y_normalized": 528.4727829154139
           },
           {
-            "x_normalized": 875.0,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 882.3895505934097,
+            "y_normalized": 530.8649866749023
           }
         ],
         "confidence": 1.0,
@@ -1851,12 +1871,12 @@
         "id": "corridor-120",
         "points": [
           {
-            "x_normalized": 873.7745098039215,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 830.889597401497,
+            "y_normalized": 545.2182092318327
           },
           {
-            "x_normalized": 848.0392156862745,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 832.4502020436761,
+            "y_normalized": 545.2182092318327
           }
         ],
         "confidence": 1.0,
@@ -1866,12 +1886,12 @@
         "id": "corridor-121",
         "points": [
           {
-            "x_normalized": 417.89215686274514,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 830.889597401497,
+            "y_normalized": 545.2182092318327
           },
           {
-            "x_normalized": 417.89215686274514,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 832.4502020436761,
+            "y_normalized": 547.6104129913211
           }
         ],
         "confidence": 1.0,
@@ -1881,12 +1901,20 @@
         "id": "corridor-122",
         "points": [
           {
-            "x_normalized": 417.89215686274514,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 830.889597401497,
+            "y_normalized": 545.2182092318327
           },
           {
-            "x_normalized": 416.6666666666667,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 504.72322718605045,
+            "y_normalized": 545.2182092318327
+          },
+          {
+            "x_normalized": 482.874762195542,
+            "y_normalized": 540.4338017128559
+          },
+          {
+            "x_normalized": 476.63234362682533,
+            "y_normalized": 530.8649866749023
           }
         ],
         "confidence": 1.0,
@@ -1896,12 +1924,12 @@
         "id": "corridor-123",
         "points": [
           {
-            "x_normalized": 268.38235294117646,
-            "y_normalized": 475.3787878787879
+            "x_normalized": 877.7077366668722,
+            "y_normalized": 344.2730934348063
           },
           {
-            "x_normalized": 268.38235294117646,
-            "y_normalized": 473.4848484848485
+            "x_normalized": 879.2683413090512,
+            "y_normalized": 344.2730934348063
           }
         ],
         "confidence": 1.0,
@@ -1911,12 +1939,12 @@
         "id": "corridor-124",
         "points": [
           {
-            "x_normalized": 268.38235294117646,
-            "y_normalized": 475.3787878787879
+            "x_normalized": 877.7077366668722,
+            "y_normalized": 344.2730934348063
           },
           {
-            "x_normalized": 269.60784313725486,
-            "y_normalized": 473.4848484848485
+            "x_normalized": 877.7077366668722,
+            "y_normalized": 346.66529719429474
           }
         ],
         "confidence": 1.0,
@@ -1926,12 +1954,12 @@
         "id": "corridor-125",
         "points": [
           {
-            "x_normalized": 268.38235294117646,
-            "y_normalized": 475.3787878787879
+            "x_normalized": 397.0415068756877,
+            "y_normalized": 504.5507453205298
           },
           {
-            "x_normalized": 267.156862745098,
-            "y_normalized": 477.2727272727273
+            "x_normalized": 397.0415068756877,
+            "y_normalized": 502.1585415610413
           }
         ],
         "confidence": 1.0,
@@ -1941,12 +1969,12 @@
         "id": "corridor-126",
         "points": [
           {
-            "x_normalized": 268.38235294117646,
-            "y_normalized": 475.3787878787879
+            "x_normalized": 397.0415068756877,
+            "y_normalized": 504.5507453205298
           },
           {
-            "x_normalized": 267.156862745098,
-            "y_normalized": 475.3787878787879
+            "x_normalized": 395.48090223350846,
+            "y_normalized": 506.94294908001825
           }
         ],
         "confidence": 1.0,
@@ -1956,12 +1984,12 @@
         "id": "corridor-127",
         "points": [
           {
-            "x_normalized": 269.60784313725486,
-            "y_normalized": 473.4848484848485
+            "x_normalized": 397.0415068756877,
+            "y_normalized": 504.5507453205298
           },
           {
-            "x_normalized": 269.60784313725486,
-            "y_normalized": 471.5909090909091
+            "x_normalized": 395.48090223350846,
+            "y_normalized": 504.5507453205298
           }
         ],
         "confidence": 1.0,
@@ -1971,12 +1999,12 @@
         "id": "corridor-128",
         "points": [
           {
-            "x_normalized": 269.60784313725486,
-            "y_normalized": 473.4848484848485
+            "x_normalized": 843.3744345389304,
+            "y_normalized": 337.09648215634104
           },
           {
-            "x_normalized": 268.38235294117646,
-            "y_normalized": 473.4848484848485
+            "x_normalized": 844.9350391811095,
+            "y_normalized": 339.4886859158295
           }
         ],
         "confidence": 1.0,
@@ -1986,12 +2014,12 @@
         "id": "corridor-129",
         "points": [
           {
-            "x_normalized": 272.05882352941177,
-            "y_normalized": 467.80303030303025
+            "x_normalized": 843.3744345389304,
+            "y_normalized": 337.09648215634104
           },
           {
-            "x_normalized": 272.05882352941177,
-            "y_normalized": 469.69696969696975
+            "x_normalized": 843.3744345389304,
+            "y_normalized": 339.4886859158295
           }
         ],
         "confidence": 1.0,
@@ -2001,12 +2029,12 @@
         "id": "corridor-130",
         "points": [
           {
-            "x_normalized": 272.05882352941177,
-            "y_normalized": 467.80303030303025
+            "x_normalized": 843.3744345389304,
+            "y_normalized": 337.09648215634104
           },
           {
-            "x_normalized": 270.8333333333333,
-            "y_normalized": 469.69696969696975
+            "x_normalized": 841.8138298967514,
+            "y_normalized": 337.09648215634104
           }
         ],
         "confidence": 1.0,
@@ -2016,12 +2044,12 @@
         "id": "corridor-131",
         "points": [
           {
-            "x_normalized": 444.85294117647055,
-            "y_normalized": 375.0
+            "x_normalized": 439.17783221452527,
+            "y_normalized": 509.3351528395066
           },
           {
-            "x_normalized": 444.85294117647055,
-            "y_normalized": 376.8939393939394
+            "x_normalized": 440.7384368567044,
+            "y_normalized": 509.3351528395066
           }
         ],
         "confidence": 1.0,
@@ -2031,12 +2059,12 @@
         "id": "corridor-132",
         "points": [
           {
-            "x_normalized": 444.85294117647055,
-            "y_normalized": 375.0
+            "x_normalized": 439.17783221452527,
+            "y_normalized": 509.3351528395066
           },
           {
-            "x_normalized": 443.62745098039215,
-            "y_normalized": 375.0
+            "x_normalized": 439.17783221452527,
+            "y_normalized": 511.727356598995
           }
         ],
         "confidence": 1.0,
@@ -2046,12 +2074,12 @@
         "id": "corridor-133",
         "points": [
           {
-            "x_normalized": 458.3333333333333,
-            "y_normalized": 634.469696969697
+            "x_normalized": 439.17783221452527,
+            "y_normalized": 509.3351528395066
           },
           {
-            "x_normalized": 457.10784313725486,
-            "y_normalized": 596.590909090909
+            "x_normalized": 437.6172275723461,
+            "y_normalized": 511.727356598995
           }
         ],
         "confidence": 1.0,
@@ -2061,12 +2089,12 @@
         "id": "corridor-134",
         "points": [
           {
-            "x_normalized": 458.3333333333333,
-            "y_normalized": 634.469696969697
+            "x_normalized": 473.511134342467,
+            "y_normalized": 530.8649866749023
           },
           {
-            "x_normalized": 459.55882352941177,
-            "y_normalized": 636.3636363636364
+            "x_normalized": 475.0717389846462,
+            "y_normalized": 530.8649866749023
           }
         ],
         "confidence": 1.0,
@@ -2076,12 +2104,12 @@
         "id": "corridor-135",
         "points": [
           {
-            "x_normalized": 458.3333333333333,
-            "y_normalized": 634.469696969697
+            "x_normalized": 473.511134342467,
+            "y_normalized": 530.8649866749023
           },
           {
-            "x_normalized": 458.3333333333333,
-            "y_normalized": 636.3636363636364
+            "x_normalized": 471.95052970028786,
+            "y_normalized": 533.2571904343907
           }
         ],
         "confidence": 1.0,
@@ -2091,12 +2119,12 @@
         "id": "corridor-136",
         "points": [
           {
-            "x_normalized": 264.70588235294116,
-            "y_normalized": 482.9545454545455
+            "x_normalized": 852.7380623920052,
+            "y_normalized": 593.0622844216009
           },
           {
-            "x_normalized": 264.70588235294116,
-            "y_normalized": 481.06060606060606
+            "x_normalized": 854.2986670341846,
+            "y_normalized": 590.6700806621125
           }
         ],
         "confidence": 1.0,
@@ -2106,12 +2134,12 @@
         "id": "corridor-137",
         "points": [
           {
-            "x_normalized": 264.70588235294116,
-            "y_normalized": 482.9545454545455
+            "x_normalized": 852.7380623920052,
+            "y_normalized": 593.0622844216009
           },
           {
-            "x_normalized": 263.48039215686276,
-            "y_normalized": 481.06060606060606
+            "x_normalized": 854.2986670341846,
+            "y_normalized": 593.0622844216009
           }
         ],
         "confidence": 1.0,
@@ -2121,12 +2149,12 @@
         "id": "corridor-138",
         "points": [
           {
-            "x_normalized": 267.156862745098,
-            "y_normalized": 477.2727272727273
+            "x_normalized": 852.7380623920052,
+            "y_normalized": 593.0622844216009
           },
           {
-            "x_normalized": 267.156862745098,
-            "y_normalized": 475.3787878787879
+            "x_normalized": 835.5714113280344,
+            "y_normalized": 590.6700806621125
           }
         ],
         "confidence": 1.0,
@@ -2136,12 +2164,12 @@
         "id": "corridor-139",
         "points": [
           {
-            "x_normalized": 267.156862745098,
-            "y_normalized": 477.2727272727273
+            "x_normalized": 844.9350391811095,
+            "y_normalized": 339.4886859158295
           },
           {
-            "x_normalized": 265.9313725490196,
-            "y_normalized": 479.1666666666667
+            "x_normalized": 857.4198763185427,
+            "y_normalized": 339.4886859158295
           }
         ],
         "confidence": 1.0,
@@ -2151,12 +2179,12 @@
         "id": "corridor-140",
         "points": [
           {
-            "x_normalized": 267.156862745098,
-            "y_normalized": 477.2727272727273
+            "x_normalized": 844.9350391811095,
+            "y_normalized": 339.4886859158295
           },
           {
-            "x_normalized": 265.9313725490196,
-            "y_normalized": 477.2727272727273
+            "x_normalized": 843.3744345389304,
+            "y_normalized": 339.4886859158295
           }
         ],
         "confidence": 1.0,
@@ -2166,12 +2194,12 @@
         "id": "corridor-141",
         "points": [
           {
-            "x_normalized": 212.00980392156862,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 393.92029759132936,
+            "y_normalized": 509.3351528395066
           },
           {
-            "x_normalized": 269.60784313725486,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 393.92029759132936,
+            "y_normalized": 506.94294908001825
           }
         ],
         "confidence": 1.0,
@@ -2181,12 +2209,12 @@
         "id": "corridor-142",
         "points": [
           {
-            "x_normalized": 212.00980392156862,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 393.92029759132936,
+            "y_normalized": 509.3351528395066
           },
           {
-            "x_normalized": 210.7843137254902,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 395.48090223350846,
+            "y_normalized": 506.94294908001825
           }
         ],
         "confidence": 1.0,
@@ -2196,12 +2224,12 @@
         "id": "corridor-143",
         "points": [
           {
-            "x_normalized": 212.00980392156862,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 393.92029759132936,
+            "y_normalized": 509.3351528395066
           },
           {
-            "x_normalized": 210.7843137254902,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 392.3596929491502,
+            "y_normalized": 511.727356598995
           }
         ],
         "confidence": 1.0,
@@ -2211,12 +2239,12 @@
         "id": "corridor-144",
         "points": [
           {
-            "x_normalized": 604.1666666666666,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 393.92029759132936,
+            "y_normalized": 509.3351528395066
           },
           {
-            "x_normalized": 605.3921568627451,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 392.3596929491502,
+            "y_normalized": 509.3351528395066
           }
         ],
         "confidence": 1.0,
@@ -2226,12 +2254,12 @@
         "id": "corridor-145",
         "points": [
           {
-            "x_normalized": 604.1666666666666,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 826.2077834749593,
+            "y_normalized": 291.6446107260613
           },
           {
-            "x_normalized": 604.1666666666666,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 826.2077834749593,
+            "y_normalized": 294.0368144855497
           }
         ],
         "confidence": 1.0,
@@ -2241,12 +2269,12 @@
         "id": "corridor-146",
         "points": [
           {
-            "x_normalized": 604.1666666666666,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 457.9050879206754,
+            "y_normalized": 468.66768892820363
           },
           {
-            "x_normalized": 602.9411764705882,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 457.9050879206754,
+            "y_normalized": 466.2754851687152
           }
         ],
         "confidence": 1.0,
@@ -2256,12 +2284,12 @@
         "id": "corridor-147",
         "points": [
           {
-            "x_normalized": 685.0490196078431,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 457.9050879206754,
+            "y_normalized": 468.66768892820363
           },
           {
-            "x_normalized": 686.2745098039215,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 456.34448327849606,
+            "y_normalized": 466.2754851687152
           }
         ],
         "confidence": 1.0,
@@ -2271,12 +2299,12 @@
         "id": "corridor-148",
         "points": [
           {
-            "x_normalized": 685.0490196078431,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 834.0108066858554,
+            "y_normalized": 545.2182092318327
           },
           {
-            "x_normalized": 685.0490196078431,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 860.5410856029014,
+            "y_normalized": 542.8260054723443
           }
         ],
         "confidence": 1.0,
@@ -2286,12 +2314,12 @@
         "id": "corridor-149",
         "points": [
           {
-            "x_normalized": 485.29411764705884,
-            "y_normalized": 645.8333333333334
+            "x_normalized": 834.0108066858554,
+            "y_normalized": 545.2182092318327
           },
           {
-            "x_normalized": 485.29411764705884,
-            "y_normalized": 643.9393939393939
+            "x_normalized": 832.4502020436761,
+            "y_normalized": 547.6104129913211
           }
         ],
         "confidence": 1.0,
@@ -2301,12 +2329,12 @@
         "id": "corridor-150",
         "points": [
           {
-            "x_normalized": 485.29411764705884,
-            "y_normalized": 645.8333333333334
+            "x_normalized": 834.0108066858554,
+            "y_normalized": 545.2182092318327
           },
           {
-            "x_normalized": 484.0686274509804,
-            "y_normalized": 645.8333333333334
+            "x_normalized": 832.4502020436761,
+            "y_normalized": 545.2182092318327
           }
         ],
         "confidence": 1.0,
@@ -2316,12 +2344,12 @@
         "id": "corridor-151",
         "points": [
           {
-            "x_normalized": 876.2254901960785,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 492.238390048617,
+            "y_normalized": 337.09648215634104
           },
           {
-            "x_normalized": 876.2254901960785,
-            "y_normalized": 534.090909090909
+            "x_normalized": 493.7989946907962,
+            "y_normalized": 339.4886859158295
           }
         ],
         "confidence": 1.0,
@@ -2331,12 +2359,12 @@
         "id": "corridor-152",
         "points": [
           {
-            "x_normalized": 876.2254901960785,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 492.238390048617,
+            "y_normalized": 337.09648215634104
           },
           {
-            "x_normalized": 875.0,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 493.7989946907962,
+            "y_normalized": 339.4886859158295
           }
         ],
         "confidence": 1.0,
@@ -2346,12 +2374,12 @@
         "id": "corridor-153",
         "points": [
           {
-            "x_normalized": 487.7450980392157,
-            "y_normalized": 640.1515151515151
+            "x_normalized": 788.7532720626594,
+            "y_normalized": 334.70427839685266
           },
           {
-            "x_normalized": 488.9705882352941,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 790.3138767048385,
+            "y_normalized": 294.0368144855497
           }
         ],
         "confidence": 1.0,
@@ -2361,12 +2389,12 @@
         "id": "corridor-154",
         "points": [
           {
-            "x_normalized": 487.7450980392157,
-            "y_normalized": 640.1515151515151
+            "x_normalized": 788.7532720626594,
+            "y_normalized": 334.70427839685266
           },
           {
-            "x_normalized": 487.7450980392157,
-            "y_normalized": 642.0454545454546
+            "x_normalized": 791.8744813470178,
+            "y_normalized": 337.09648215634104
           }
         ],
         "confidence": 1.0,
@@ -2376,12 +2404,16 @@
         "id": "corridor-155",
         "points": [
           {
-            "x_normalized": 487.7450980392157,
-            "y_normalized": 640.1515151515151
+            "x_normalized": 788.7532720626594,
+            "y_normalized": 334.70427839685266
           },
           {
-            "x_normalized": 486.51960784313724,
-            "y_normalized": 642.0454545454546
+            "x_normalized": 776.268434925226,
+            "y_normalized": 339.4886859158295
+          },
+          {
+            "x_normalized": 599.9201103589797,
+            "y_normalized": 339.4886859158295
           }
         ],
         "confidence": 1.0,
@@ -2391,12 +2423,12 @@
         "id": "corridor-156",
         "points": [
           {
-            "x_normalized": 845.5882352941177,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 877.7077366668722,
+            "y_normalized": 349.05750095378306
           },
           {
-            "x_normalized": 846.813725490196,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 877.7077366668722,
+            "y_normalized": 346.66529719429474
           }
         ],
         "confidence": 1.0,
@@ -2406,12 +2438,12 @@
         "id": "corridor-157",
         "points": [
           {
-            "x_normalized": 845.5882352941177,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 877.7077366668722,
+            "y_normalized": 349.05750095378306
           },
           {
-            "x_normalized": 794.1176470588235,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 876.1471320246927,
+            "y_normalized": 351.4497047132715
           }
         ],
         "confidence": 1.0,
@@ -2421,12 +2453,12 @@
         "id": "corridor-158",
         "points": [
           {
-            "x_normalized": 462.0098039215687,
-            "y_normalized": 376.8939393939394
+            "x_normalized": 877.7077366668722,
+            "y_normalized": 349.05750095378306
           },
           {
-            "x_normalized": 462.0098039215687,
-            "y_normalized": 378.7878787878788
+            "x_normalized": 876.1471320246927,
+            "y_normalized": 349.05750095378306
           }
         ],
         "confidence": 1.0,
@@ -2436,12 +2468,12 @@
         "id": "corridor-159",
         "points": [
           {
-            "x_normalized": 462.0098039215687,
-            "y_normalized": 376.8939393939394
+            "x_normalized": 832.4502020436761,
+            "y_normalized": 547.6104129913211
           },
           {
-            "x_normalized": 460.78431372549016,
-            "y_normalized": 378.7878787878788
+            "x_normalized": 832.4502020436761,
+            "y_normalized": 545.2182092318327
           }
         ],
         "confidence": 1.0,
@@ -2451,12 +2483,12 @@
         "id": "corridor-160",
         "points": [
           {
-            "x_normalized": 522.0588235294118,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 832.4502020436761,
+            "y_normalized": 547.6104129913211
           },
           {
-            "x_normalized": 523.2843137254903,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 834.0108066858554,
+            "y_normalized": 588.2778769026241
           }
         ],
         "confidence": 1.0,
@@ -2466,12 +2498,12 @@
         "id": "corridor-161",
         "points": [
           {
-            "x_normalized": 522.0588235294118,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 790.3138767048385,
+            "y_normalized": 294.0368144855497
           },
           {
-            "x_normalized": 523.2843137254903,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 791.8744813470178,
+            "y_normalized": 291.6446107260613
           }
         ],
         "confidence": 1.0,
@@ -2481,12 +2513,12 @@
         "id": "corridor-162",
         "points": [
           {
-            "x_normalized": 522.0588235294118,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 790.3138767048385,
+            "y_normalized": 294.0368144855497
           },
           {
-            "x_normalized": 490.19607843137254,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 791.8744813470178,
+            "y_normalized": 291.6446107260613
           }
         ],
         "confidence": 1.0,
@@ -2496,12 +2528,12 @@
         "id": "corridor-163",
         "points": [
           {
-            "x_normalized": 602.9411764705882,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 493.7989946907962,
+            "y_normalized": 339.4886859158295
           },
           {
-            "x_normalized": 604.1666666666666,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 495.35959933297534,
+            "y_normalized": 341.8808896753179
           }
         ],
         "confidence": 1.0,
@@ -2511,12 +2543,12 @@
         "id": "corridor-164",
         "points": [
           {
-            "x_normalized": 602.9411764705882,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 459.46569256285454,
+            "y_normalized": 463.88328140922675
           },
           {
-            "x_normalized": 563.7254901960785,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 457.9050879206754,
+            "y_normalized": 466.2754851687152
           }
         ],
         "confidence": 1.0,
@@ -2526,12 +2558,12 @@
         "id": "corridor-165",
         "points": [
           {
-            "x_normalized": 686.2745098039215,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 117.6932759256162,
+            "y_normalized": 547.6104129913211
           },
           {
-            "x_normalized": 736.5196078431374,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 119.25388056779538,
+            "y_normalized": 547.6104129913211
           }
         ],
         "confidence": 1.0,
@@ -2541,12 +2573,12 @@
         "id": "corridor-166",
         "points": [
           {
-            "x_normalized": 686.2745098039215,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 117.6932759256162,
+            "y_normalized": 547.6104129913211
           },
           {
-            "x_normalized": 685.0490196078431,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 117.6932759256162,
+            "y_normalized": 550.0026167508096
           }
         ],
         "confidence": 1.0,
@@ -2556,12 +2588,12 @@
         "id": "corridor-167",
         "points": [
           {
-            "x_normalized": 794.1176470588235,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 117.6932759256162,
+            "y_normalized": 547.6104129913211
           },
           {
-            "x_normalized": 792.8921568627451,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 116.13267128343703,
+            "y_normalized": 547.6104129913211
           }
         ],
         "confidence": 1.0,
@@ -2571,12 +2603,12 @@
         "id": "corridor-168",
         "points": [
           {
-            "x_normalized": 848.0392156862745,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 392.3596929491502,
+            "y_normalized": 511.727356598995
           },
           {
-            "x_normalized": 846.813725490196,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 392.3596929491502,
+            "y_normalized": 509.3351528395066
           }
         ],
         "confidence": 1.0,
@@ -2586,12 +2618,12 @@
         "id": "corridor-169",
         "points": [
           {
-            "x_normalized": 490.19607843137254,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 392.3596929491502,
+            "y_normalized": 511.727356598995
           },
           {
-            "x_normalized": 488.9705882352941,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 397.0415068756877,
+            "y_normalized": 518.9039678774603
           }
         ],
         "confidence": 1.0,
@@ -2601,12 +2633,12 @@
         "id": "corridor-170",
         "points": [
           {
-            "x_normalized": 490.19607843137254,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 392.3596929491502,
+            "y_normalized": 511.727356598995
           },
           {
-            "x_normalized": 488.9705882352941,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 390.79908830697104,
+            "y_normalized": 511.727356598995
           }
         ],
         "confidence": 1.0,
@@ -2616,12 +2648,12 @@
         "id": "corridor-171",
         "points": [
           {
-            "x_normalized": 490.19607843137254,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 862.1016902450804,
+            "y_normalized": 542.8260054723443
           },
           {
-            "x_normalized": 488.9705882352941,
-            "y_normalized": 534.090909090909
+            "x_normalized": 863.6622948872595,
+            "y_normalized": 542.8260054723443
           }
         ],
         "confidence": 1.0,
@@ -2631,12 +2663,12 @@
         "id": "corridor-172",
         "points": [
           {
-            "x_normalized": 485.29411764705884,
-            "y_normalized": 528.409090909091
+            "x_normalized": 862.1016902450804,
+            "y_normalized": 542.8260054723443
           },
           {
-            "x_normalized": 486.51960784313724,
-            "y_normalized": 526.5151515151515
+            "x_normalized": 862.1016902450804,
+            "y_normalized": 545.2182092318327
           }
         ],
         "confidence": 1.0,
@@ -2646,12 +2678,12 @@
         "id": "corridor-173",
         "points": [
           {
-            "x_normalized": 485.29411764705884,
-            "y_normalized": 528.409090909091
+            "x_normalized": 862.1016902450804,
+            "y_normalized": 542.8260054723443
           },
           {
-            "x_normalized": 486.51960784313724,
-            "y_normalized": 528.409090909091
+            "x_normalized": 860.5410856029014,
+            "y_normalized": 542.8260054723443
           }
         ],
         "confidence": 1.0,
@@ -2661,12 +2693,12 @@
         "id": "corridor-174",
         "points": [
           {
-            "x_normalized": 485.29411764705884,
-            "y_normalized": 528.409090909091
+            "x_normalized": 481.31415755336286,
+            "y_normalized": 504.5507453205298
           },
           {
-            "x_normalized": 437.5,
-            "y_normalized": 528.409090909091
+            "x_normalized": 482.874762195542,
+            "y_normalized": 502.1585415610413
           }
         ],
         "confidence": 1.0,
@@ -2676,12 +2708,12 @@
         "id": "corridor-175",
         "points": [
           {
-            "x_normalized": 319.85294117647055,
-            "y_normalized": 443.1818181818182
+            "x_normalized": 481.31415755336286,
+            "y_normalized": 504.5507453205298
           },
           {
-            "x_normalized": 318.62745098039215,
-            "y_normalized": 445.07575757575756
+            "x_normalized": 482.874762195542,
+            "y_normalized": 504.5507453205298
           }
         ],
         "confidence": 1.0,
@@ -2691,12 +2723,12 @@
         "id": "corridor-176",
         "points": [
           {
-            "x_normalized": 486.51960784313724,
-            "y_normalized": 526.5151515151515
+            "x_normalized": 876.1471320246927,
+            "y_normalized": 351.4497047132715
           },
           {
-            "x_normalized": 487.7450980392157,
-            "y_normalized": 526.5151515151515
+            "x_normalized": 876.1471320246927,
+            "y_normalized": 349.05750095378306
           }
         ],
         "confidence": 1.0,
@@ -2706,12 +2738,12 @@
         "id": "corridor-177",
         "points": [
           {
-            "x_normalized": 486.51960784313724,
-            "y_normalized": 526.5151515151515
+            "x_normalized": 876.1471320246927,
+            "y_normalized": 351.4497047132715
           },
           {
-            "x_normalized": 486.51960784313724,
-            "y_normalized": 528.409090909091
+            "x_normalized": 874.5865273825136,
+            "y_normalized": 349.05750095378306
           }
         ],
         "confidence": 1.0,
@@ -2721,12 +2753,12 @@
         "id": "corridor-178",
         "points": [
           {
-            "x_normalized": 415.44117647058823,
-            "y_normalized": 376.8939393939394
+            "x_normalized": 418.8899718661961,
+            "y_normalized": 425.6080212574122
           },
           {
-            "x_normalized": 415.44117647058823,
-            "y_normalized": 375.0
+            "x_normalized": 420.45057650837526,
+            "y_normalized": 423.21581749792387
           }
         ],
         "confidence": 1.0,
@@ -2736,12 +2768,12 @@
         "id": "corridor-179",
         "points": [
           {
-            "x_normalized": 415.44117647058823,
-            "y_normalized": 376.8939393939394
+            "x_normalized": 418.8899718661961,
+            "y_normalized": 425.6080212574122
           },
           {
-            "x_normalized": 414.21568627450984,
-            "y_normalized": 378.7878787878788
+            "x_normalized": 420.45057650837526,
+            "y_normalized": 425.6080212574122
           }
         ],
         "confidence": 1.0,
@@ -2751,12 +2783,12 @@
         "id": "corridor-180",
         "points": [
           {
-            "x_normalized": 845.5882352941177,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 418.8899718661961,
+            "y_normalized": 425.6080212574122
           },
           {
-            "x_normalized": 846.813725490196,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 415.7687625818376,
+            "y_normalized": 428.0002250169007
           }
         ],
         "confidence": 1.0,
@@ -2766,16 +2798,12 @@
         "id": "corridor-181",
         "points": [
           {
-            "x_normalized": 845.5882352941177,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 445.42025078324195,
+            "y_normalized": 463.88328140922675
           },
           {
-            "x_normalized": 839.4607843137255,
-            "y_normalized": 327.6515151515151
-          },
-          {
-            "x_normalized": 807.5980392156863,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 445.42025078324195,
+            "y_normalized": 466.2754851687152
           }
         ],
         "confidence": 1.0,
@@ -2785,12 +2813,12 @@
         "id": "corridor-182",
         "points": [
           {
-            "x_normalized": 436.27450980392155,
-            "y_normalized": 528.409090909091
+            "x_normalized": 599.9201103589797,
+            "y_normalized": 339.4886859158295
           },
           {
-            "x_normalized": 437.5,
-            "y_normalized": 528.409090909091
+            "x_normalized": 598.3595057168006,
+            "y_normalized": 341.8808896753179
           }
         ],
         "confidence": 1.0,
@@ -2800,12 +2828,12 @@
         "id": "corridor-183",
         "points": [
           {
-            "x_normalized": 436.27450980392155,
-            "y_normalized": 528.409090909091
+            "x_normalized": 599.9201103589797,
+            "y_normalized": 339.4886859158295
           },
           {
-            "x_normalized": 436.27450980392155,
-            "y_normalized": 530.3030303030303
+            "x_normalized": 598.3595057168006,
+            "y_normalized": 339.4886859158295
           }
         ],
         "confidence": 1.0,
@@ -2815,12 +2843,12 @@
         "id": "corridor-184",
         "points": [
           {
-            "x_normalized": 561.2745098039215,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 490.67778540643786,
+            "y_normalized": 418.43140997894704
           },
           {
-            "x_normalized": 562.5,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 490.67778540643786,
+            "y_normalized": 420.8236137384354
           }
         ],
         "confidence": 1.0,
@@ -2830,12 +2858,12 @@
         "id": "corridor-185",
         "points": [
           {
-            "x_normalized": 522.0588235294118,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 407.96573937094183,
+            "y_normalized": 432.78463253587745
           },
           {
-            "x_normalized": 523.2843137254903,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 409.526344013121,
+            "y_normalized": 432.78463253587745
           }
         ],
         "confidence": 1.0,
@@ -2845,12 +2873,12 @@
         "id": "corridor-186",
         "points": [
           {
-            "x_normalized": 522.0588235294118,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 407.96573937094183,
+            "y_normalized": 432.78463253587745
           },
           {
-            "x_normalized": 523.2843137254903,
-            "y_normalized": 335.2272727272727
+            "x_normalized": 409.526344013121,
+            "y_normalized": 435.1768362953659
           }
         ],
         "confidence": 1.0,
@@ -2860,12 +2888,12 @@
         "id": "corridor-187",
         "points": [
           {
-            "x_normalized": 522.0588235294118,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 440.7384368567044,
+            "y_normalized": 509.3351528395066
           },
           {
-            "x_normalized": 495.0980392156863,
-            "y_normalized": 331.43939393939394
+            "x_normalized": 439.17783221452527,
+            "y_normalized": 511.727356598995
           }
         ],
         "confidence": 1.0,
@@ -2875,12 +2903,12 @@
         "id": "corridor-188",
         "points": [
           {
-            "x_normalized": 490.19607843137254,
-            "y_normalized": 522.7272727272727
+            "x_normalized": 269.07192621699573,
+            "y_normalized": 523.6883753964371
           },
           {
-            "x_normalized": 490.19607843137254,
-            "y_normalized": 520.8333333333334
+            "x_normalized": 269.07192621699573,
+            "y_normalized": 521.2961716369487
           }
         ],
         "confidence": 1.0,
@@ -2890,12 +2918,12 @@
         "id": "corridor-189",
         "points": [
           {
-            "x_normalized": 490.19607843137254,
-            "y_normalized": 522.7272727272727
+            "x_normalized": 269.07192621699573,
+            "y_normalized": 523.6883753964371
           },
           {
-            "x_normalized": 491.42156862745094,
-            "y_normalized": 520.8333333333334
+            "x_normalized": 270.6325308591749,
+            "y_normalized": 521.2961716369487
           }
         ],
         "confidence": 1.0,
@@ -2905,12 +2933,12 @@
         "id": "corridor-190",
         "points": [
           {
-            "x_normalized": 490.19607843137254,
-            "y_normalized": 522.7272727272727
+            "x_normalized": 269.07192621699573,
+            "y_normalized": 523.6883753964371
           },
           {
-            "x_normalized": 488.9705882352941,
-            "y_normalized": 524.6212121212121
+            "x_normalized": 267.5113215748165,
+            "y_normalized": 523.6883753964371
           }
         ],
         "confidence": 1.0,
@@ -2920,12 +2948,12 @@
         "id": "corridor-191",
         "points": [
           {
-            "x_normalized": 490.19607843137254,
-            "y_normalized": 522.7272727272727
+            "x_normalized": 272.19313550135405,
+            "y_normalized": 516.5117641179719
           },
           {
-            "x_normalized": 488.9705882352941,
-            "y_normalized": 522.7272727272727
+            "x_normalized": 273.7537401435332,
+            "y_normalized": 516.5117641179719
           }
         ],
         "confidence": 1.0,
@@ -2935,12 +2963,12 @@
         "id": "corridor-192",
         "points": [
           {
-            "x_normalized": 493.87254901960785,
-            "y_normalized": 329.5454545454545
+            "x_normalized": 272.19313550135405,
+            "y_normalized": 516.5117641179719
           },
           {
-            "x_normalized": 495.0980392156863,
-            "y_normalized": 331.43939393939394
+            "x_normalized": 272.19313550135405,
+            "y_normalized": 518.9039678774603
           }
         ],
         "confidence": 1.0,
@@ -2950,12 +2978,12 @@
         "id": "corridor-193",
         "points": [
           {
-            "x_normalized": 270.8333333333333,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 404.8445300865835,
+            "y_normalized": 483.02091148513404
           },
           {
-            "x_normalized": 416.6666666666667,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 406.4051347287627,
+            "y_normalized": 480.6287077256457
           }
         ],
         "confidence": 1.0,
@@ -2965,12 +2993,12 @@
         "id": "corridor-194",
         "points": [
           {
-            "x_normalized": 270.8333333333333,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 404.8445300865835,
+            "y_normalized": 483.02091148513404
           },
           {
-            "x_normalized": 269.60784313725486,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 406.4051347287627,
+            "y_normalized": 483.02091148513404
           }
         ],
         "confidence": 1.0,
@@ -2980,12 +3008,12 @@
         "id": "corridor-195",
         "points": [
           {
-            "x_normalized": 683.8235294117648,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 404.8445300865835,
+            "y_normalized": 483.02091148513404
           },
           {
-            "x_normalized": 685.0490196078431,
-            "y_normalized": 335.2272727272727
+            "x_normalized": 403.28392544440436,
+            "y_normalized": 485.4131152446225
           }
         ],
         "confidence": 1.0,
@@ -2995,12 +3023,12 @@
         "id": "corridor-196",
         "points": [
           {
-            "x_normalized": 683.8235294117648,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 834.0108066858554,
+            "y_normalized": 337.09648215634104
           },
           {
-            "x_normalized": 644.6078431372549,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 835.5714113280344,
+            "y_normalized": 334.70427839685266
           }
         ],
         "confidence": 1.0,
@@ -3010,12 +3038,12 @@
         "id": "corridor-197",
         "points": [
           {
-            "x_normalized": 318.62745098039215,
-            "y_normalized": 445.07575757575756
+            "x_normalized": 834.0108066858554,
+            "y_normalized": 337.09648215634104
           },
           {
-            "x_normalized": 317.4019607843137,
-            "y_normalized": 446.96969696969694
+            "x_normalized": 835.5714113280344,
+            "y_normalized": 337.09648215634104
           }
         ],
         "confidence": 1.0,
@@ -3025,12 +3053,12 @@
         "id": "corridor-198",
         "points": [
           {
-            "x_normalized": 602.9411764705882,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 829.3289927593177,
+            "y_normalized": 296.42901824503815
           },
           {
-            "x_normalized": 604.1666666666666,
-            "y_normalized": 335.2272727272727
+            "x_normalized": 829.3289927593177,
+            "y_normalized": 294.0368144855497
           }
         ],
         "confidence": 1.0,
@@ -3040,12 +3068,12 @@
         "id": "corridor-199",
         "points": [
           {
-            "x_normalized": 421.5686274509804,
-            "y_normalized": 530.3030303030303
+            "x_normalized": 829.3289927593177,
+            "y_normalized": 296.42901824503815
           },
           {
-            "x_normalized": 420.343137254902,
-            "y_normalized": 532.1969696969697
+            "x_normalized": 830.889597401497,
+            "y_normalized": 296.42901824503815
           }
         ],
         "confidence": 1.0,
@@ -3055,12 +3083,12 @@
         "id": "corridor-200",
         "points": [
           {
-            "x_normalized": 523.2843137254903,
-            "y_normalized": 335.2272727272727
+            "x_normalized": 829.3289927593177,
+            "y_normalized": 296.42901824503815
           },
           {
-            "x_normalized": 523.2843137254903,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 830.889597401497,
+            "y_normalized": 298.8212220045265
           }
         ],
         "confidence": 1.0,
@@ -3070,12 +3098,12 @@
         "id": "corridor-201",
         "points": [
           {
-            "x_normalized": 273.28431372549016,
-            "y_normalized": 443.1818181818182
+            "x_normalized": 829.3289927593177,
+            "y_normalized": 296.42901824503815
           },
           {
-            "x_normalized": 272.05882352941177,
-            "y_normalized": 443.1818181818182
+            "x_normalized": 827.7683881171387,
+            "y_normalized": 294.0368144855497
           }
         ],
         "confidence": 1.0,
@@ -3085,12 +3113,12 @@
         "id": "corridor-202",
         "points": [
           {
-            "x_normalized": 736.5196078431374,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 835.5714113280344,
+            "y_normalized": 334.70427839685266
           },
           {
-            "x_normalized": 737.7450980392157,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 837.1320159702137,
+            "y_normalized": 334.70427839685266
           }
         ],
         "confidence": 1.0,
@@ -3100,16 +3128,12 @@
         "id": "corridor-203",
         "points": [
           {
-            "x_normalized": 421.5686274509804,
-            "y_normalized": 668.5606060606061
+            "x_normalized": 835.5714113280344,
+            "y_normalized": 334.70427839685266
           },
           {
-            "x_normalized": 449.7549019607843,
-            "y_normalized": 668.5606060606061
-          },
-          {
-            "x_normalized": 458.3333333333333,
-            "y_normalized": 636.3636363636364
+            "x_normalized": 835.5714113280344,
+            "y_normalized": 337.09648215634104
           }
         ],
         "confidence": 1.0,
@@ -3119,12 +3143,12 @@
         "id": "corridor-204",
         "points": [
           {
-            "x_normalized": 487.7450980392157,
-            "y_normalized": 526.5151515151515
+            "x_normalized": 423.5717857927336,
+            "y_normalized": 420.8236137384354
           },
           {
-            "x_normalized": 488.9705882352941,
-            "y_normalized": 524.6212121212121
+            "x_normalized": 425.13239043491274,
+            "y_normalized": 418.43140997894704
           }
         ],
         "confidence": 1.0,
@@ -3134,12 +3158,12 @@
         "id": "corridor-205",
         "points": [
           {
-            "x_normalized": 487.7450980392157,
-            "y_normalized": 526.5151515151515
+            "x_normalized": 423.5717857927336,
+            "y_normalized": 420.8236137384354
           },
           {
-            "x_normalized": 486.51960784313724,
-            "y_normalized": 528.409090909091
+            "x_normalized": 425.13239043491274,
+            "y_normalized": 420.8236137384354
           }
         ],
         "confidence": 1.0,
@@ -3149,12 +3173,12 @@
         "id": "corridor-206",
         "points": [
           {
-            "x_normalized": 563.7254901960785,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 423.5717857927336,
+            "y_normalized": 420.8236137384354
           },
           {
-            "x_normalized": 562.5,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 422.0111811505544,
+            "y_normalized": 423.21581749792387
           }
         ],
         "confidence": 1.0,
@@ -3164,12 +3188,12 @@
         "id": "corridor-207",
         "points": [
           {
-            "x_normalized": 685.0490196078431,
-            "y_normalized": 335.2272727272727
+            "x_normalized": 495.35959933297534,
+            "y_normalized": 341.8808896753179
           },
           {
-            "x_normalized": 686.2745098039215,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 496.9202039751545,
+            "y_normalized": 341.8808896753179
           }
         ],
         "confidence": 1.0,
@@ -3179,12 +3203,12 @@
         "id": "corridor-208",
         "points": [
           {
-            "x_normalized": 420.343137254902,
-            "y_normalized": 532.1969696969697
+            "x_normalized": 425.13239043491274,
+            "y_normalized": 418.43140997894704
           },
           {
-            "x_normalized": 419.11764705882354,
-            "y_normalized": 534.090909090909
+            "x_normalized": 426.6929950770919,
+            "y_normalized": 418.43140997894704
           }
         ],
         "confidence": 1.0,
@@ -3194,12 +3218,12 @@
         "id": "corridor-209",
         "points": [
           {
-            "x_normalized": 458.3333333333333,
-            "y_normalized": 594.6969696969697
+            "x_normalized": 425.13239043491274,
+            "y_normalized": 418.43140997894704
           },
           {
-            "x_normalized": 459.55882352941177,
-            "y_normalized": 592.8030303030303
+            "x_normalized": 425.13239043491274,
+            "y_normalized": 420.8236137384354
           }
         ],
         "confidence": 1.0,
@@ -3209,12 +3233,12 @@
         "id": "corridor-210",
         "points": [
           {
-            "x_normalized": 458.3333333333333,
-            "y_normalized": 594.6969696969697
+            "x_normalized": 114.57206664125786,
+            "y_normalized": 588.2778769026241
           },
           {
-            "x_normalized": 457.10784313725486,
-            "y_normalized": 596.590909090909
+            "x_normalized": 116.13267128343703,
+            "y_normalized": 585.8856731431357
           }
         ],
         "confidence": 1.0,
@@ -3224,12 +3248,12 @@
         "id": "corridor-211",
         "points": [
           {
-            "x_normalized": 493.87254901960785,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 114.57206664125786,
+            "y_normalized": 588.2778769026241
           },
           {
-            "x_normalized": 495.0980392156863,
-            "y_normalized": 331.43939393939394
+            "x_normalized": 116.13267128343703,
+            "y_normalized": 585.8856731431357
           }
         ],
         "confidence": 1.0,
@@ -3239,12 +3263,12 @@
         "id": "corridor-212",
         "points": [
           {
-            "x_normalized": 493.87254901960785,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 114.57206664125786,
+            "y_normalized": 588.2778769026241
           },
           {
-            "x_normalized": 492.64705882352945,
-            "y_normalized": 410.9848484848485
+            "x_normalized": 113.0114619990787,
+            "y_normalized": 590.6700806621125
           }
         ],
         "confidence": 1.0,
@@ -3254,12 +3278,12 @@
         "id": "corridor-213",
         "points": [
           {
-            "x_normalized": 642.1568627450981,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 830.889597401497,
+            "y_normalized": 298.8212220045265
           },
           {
-            "x_normalized": 643.3823529411765,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 830.889597401497,
+            "y_normalized": 296.42901824503815
           }
         ],
         "confidence": 1.0,
@@ -3269,12 +3293,12 @@
         "id": "corridor-214",
         "points": [
           {
-            "x_normalized": 642.1568627450981,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 830.889597401497,
+            "y_normalized": 298.8212220045265
           },
           {
-            "x_normalized": 643.3823529411765,
-            "y_normalized": 335.2272727272727
+            "x_normalized": 832.4502020436761,
+            "y_normalized": 298.8212220045265
           }
         ],
         "confidence": 1.0,
@@ -3284,12 +3308,12 @@
         "id": "corridor-215",
         "points": [
           {
-            "x_normalized": 723.0392156862745,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 411.08694865530015,
+            "y_normalized": 432.78463253587745
           },
           {
-            "x_normalized": 724.2647058823529,
-            "y_normalized": 335.2272727272727
+            "x_normalized": 412.6475532974793,
+            "y_normalized": 430.39242877638907
           }
         ],
         "confidence": 1.0,
@@ -3299,12 +3323,12 @@
         "id": "corridor-216",
         "points": [
           {
-            "x_normalized": 723.0392156862745,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 411.08694865530015,
+            "y_normalized": 432.78463253587745
           },
           {
-            "x_normalized": 686.2745098039215,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 412.6475532974793,
+            "y_normalized": 432.78463253587745
           }
         ],
         "confidence": 1.0,
@@ -3314,12 +3338,12 @@
         "id": "corridor-217",
         "points": [
           {
-            "x_normalized": 488.9705882352941,
-            "y_normalized": 534.090909090909
+            "x_normalized": 411.08694865530015,
+            "y_normalized": 432.78463253587745
           },
           {
-            "x_normalized": 488.9705882352941,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 409.526344013121,
+            "y_normalized": 435.1768362953659
           }
         ],
         "confidence": 1.0,
@@ -3329,12 +3353,12 @@
         "id": "corridor-218",
         "points": [
           {
-            "x_normalized": 488.9705882352941,
-            "y_normalized": 534.090909090909
+            "x_normalized": 411.08694865530015,
+            "y_normalized": 432.78463253587745
           },
           {
-            "x_normalized": 486.51960784313724,
-            "y_normalized": 528.409090909091
+            "x_normalized": 409.526344013121,
+            "y_normalized": 432.78463253587745
           }
         ],
         "confidence": 1.0,
@@ -3344,12 +3368,12 @@
         "id": "corridor-219",
         "points": [
           {
-            "x_normalized": 209.55882352941177,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 446.9808554254211,
+            "y_normalized": 420.8236137384354
           },
           {
-            "x_normalized": 210.7843137254902,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 448.54146006760027,
+            "y_normalized": 420.8236137384354
           }
         ],
         "confidence": 1.0,
@@ -3359,12 +3383,12 @@
         "id": "corridor-220",
         "points": [
           {
-            "x_normalized": 209.55882352941177,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 446.9808554254211,
+            "y_normalized": 420.8236137384354
           },
           {
-            "x_normalized": 210.7843137254902,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 426.6929950770919,
+            "y_normalized": 418.43140997894704
           }
         ],
         "confidence": 1.0,
@@ -3374,12 +3398,12 @@
         "id": "corridor-221",
         "points": [
           {
-            "x_normalized": 209.55882352941177,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 265.9507169326373,
+            "y_normalized": 528.4727829154139
           },
           {
-            "x_normalized": 93.13725490196079,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 264.39011229045815,
+            "y_normalized": 528.4727829154139
           }
         ],
         "confidence": 1.0,
@@ -3389,12 +3413,12 @@
         "id": "corridor-222",
         "points": [
           {
-            "x_normalized": 792.8921568627451,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 401.72332080222515,
+            "y_normalized": 487.80531900411097
           },
           {
-            "x_normalized": 791.6666666666666,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 403.28392544440436,
+            "y_normalized": 485.4131152446225
           }
         ],
         "confidence": 1.0,
@@ -3404,12 +3428,12 @@
         "id": "corridor-223",
         "points": [
           {
-            "x_normalized": 417.89215686274514,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 885.5107598777679,
+            "y_normalized": 526.0805791559254
           },
           {
-            "x_normalized": 419.11764705882354,
-            "y_normalized": 534.090909090909
+            "x_normalized": 885.5107598777679,
+            "y_normalized": 523.6883753964371
           }
         ],
         "confidence": 1.0,
@@ -3419,12 +3443,12 @@
         "id": "corridor-224",
         "points": [
           {
-            "x_normalized": 417.89215686274514,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 885.5107598777679,
+            "y_normalized": 526.0805791559254
           },
           {
-            "x_normalized": 416.6666666666667,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 883.9501552355888,
+            "y_normalized": 526.0805791559254
           }
         ],
         "confidence": 1.0,
@@ -3434,12 +3458,12 @@
         "id": "corridor-225",
         "points": [
           {
-            "x_normalized": 724.2647058823529,
-            "y_normalized": 335.2272727272727
+            "x_normalized": 429.8142043614502,
+            "y_normalized": 523.6883753964371
           },
           {
-            "x_normalized": 725.4901960784314,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 431.3748090036294,
+            "y_normalized": 521.2961716369487
           }
         ],
         "confidence": 1.0,
@@ -3449,12 +3473,12 @@
         "id": "corridor-226",
         "points": [
           {
-            "x_normalized": 644.6078431372549,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 420.45057650837526,
+            "y_normalized": 425.6080212574122
           },
           {
-            "x_normalized": 643.3823529411765,
-            "y_normalized": 335.2272727272727
+            "x_normalized": 420.45057650837526,
+            "y_normalized": 423.21581749792387
           }
         ],
         "confidence": 1.0,
@@ -3464,12 +3488,12 @@
         "id": "corridor-227",
         "points": [
           {
-            "x_normalized": 644.6078431372549,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 420.45057650837526,
+            "y_normalized": 425.6080212574122
           },
           {
-            "x_normalized": 643.3823529411765,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 422.0111811505544,
+            "y_normalized": 423.21581749792387
           }
         ],
         "confidence": 1.0,
@@ -3479,20 +3503,12 @@
         "id": "corridor-228",
         "points": [
           {
-            "x_normalized": 725.4901960784314,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 445.42025078324195,
+            "y_normalized": 468.66768892820363
           },
           {
-            "x_normalized": 767.1568627450981,
-            "y_normalized": 333.3333333333333
-          },
-          {
-            "x_normalized": 773.2843137254903,
-            "y_normalized": 329.5454545454545
-          },
-          {
-            "x_normalized": 805.1470588235294,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 445.42025078324195,
+            "y_normalized": 466.2754851687152
           }
         ],
         "confidence": 1.0,
@@ -3502,12 +3518,12 @@
         "id": "corridor-229",
         "points": [
           {
-            "x_normalized": 491.42156862745094,
-            "y_normalized": 412.8787878787879
+            "x_normalized": 422.0111811505544,
+            "y_normalized": 423.21581749792387
           },
           {
-            "x_normalized": 492.64705882352945,
-            "y_normalized": 410.9848484848485
+            "x_normalized": 420.45057650837526,
+            "y_normalized": 423.21581749792387
           }
         ],
         "confidence": 1.0,
@@ -3517,12 +3533,12 @@
         "id": "corridor-230",
         "points": [
           {
-            "x_normalized": 491.42156862745094,
-            "y_normalized": 412.8787878787879
+            "x_normalized": 490.67778540643786,
+            "y_normalized": 423.21581749792387
           },
           {
-            "x_normalized": 492.64705882352945,
-            "y_normalized": 412.8787878787879
+            "x_normalized": 490.67778540643786,
+            "y_normalized": 420.8236137384354
           }
         ],
         "confidence": 1.0,
@@ -3532,12 +3548,20 @@
         "id": "corridor-231",
         "points": [
           {
-            "x_normalized": 491.42156862745094,
-            "y_normalized": 412.8787878787879
+            "x_normalized": 490.67778540643786,
+            "y_normalized": 423.21581749792387
           },
           {
-            "x_normalized": 427.69607843137254,
-            "y_normalized": 412.8787878787879
+            "x_normalized": 490.67778540643786,
+            "y_normalized": 463.88328140922675
+          },
+          {
+            "x_normalized": 485.9959714799004,
+            "y_normalized": 478.2365039661573
+          },
+          {
+            "x_normalized": 485.9959714799004,
+            "y_normalized": 494.9819302825761
           }
         ],
         "confidence": 1.0,
@@ -3547,12 +3571,12 @@
         "id": "corridor-232",
         "points": [
           {
-            "x_normalized": 806.3725490196078,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 791.8744813470178,
+            "y_normalized": 337.09648215634104
           },
           {
-            "x_normalized": 807.5980392156863,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 793.4350859891969,
+            "y_normalized": 339.4886859158295
           }
         ],
         "confidence": 1.0,
@@ -3562,12 +3586,12 @@
         "id": "corridor-233",
         "points": [
           {
-            "x_normalized": 806.3725490196078,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 858.9804809607222,
+            "y_normalized": 573.9246543456936
           },
           {
-            "x_normalized": 806.3725490196078,
-            "y_normalized": 335.2272727272727
+            "x_normalized": 860.5410856029014,
+            "y_normalized": 571.5324505862053
           }
         ],
         "confidence": 1.0,
@@ -3577,12 +3601,12 @@
         "id": "corridor-234",
         "points": [
           {
-            "x_normalized": 806.3725490196078,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 436.0566229301669,
+            "y_normalized": 516.5117641179719
           },
           {
-            "x_normalized": 805.1470588235294,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 437.6172275723461,
+            "y_normalized": 514.1195603584833
           }
         ],
         "confidence": 1.0,
@@ -3592,12 +3616,12 @@
         "id": "corridor-235",
         "points": [
           {
-            "x_normalized": 269.60784313725486,
-            "y_normalized": 471.5909090909091
+            "x_normalized": 436.0566229301669,
+            "y_normalized": 516.5117641179719
           },
           {
-            "x_normalized": 270.8333333333333,
-            "y_normalized": 469.69696969696975
+            "x_normalized": 434.49601828798774,
+            "y_normalized": 518.9039678774603
           }
         ],
         "confidence": 1.0,
@@ -3607,12 +3631,12 @@
         "id": "corridor-236",
         "points": [
           {
-            "x_normalized": 269.60784313725486,
-            "y_normalized": 471.5909090909091
+            "x_normalized": 837.1320159702137,
+            "y_normalized": 334.70427839685266
           },
           {
-            "x_normalized": 268.38235294117646,
-            "y_normalized": 473.4848484848485
+            "x_normalized": 841.8138298967514,
+            "y_normalized": 337.09648215634104
           }
         ],
         "confidence": 1.0,
@@ -3622,16 +3646,12 @@
         "id": "corridor-237",
         "points": [
           {
-            "x_normalized": 459.55882352941177,
-            "y_normalized": 636.3636363636364
+            "x_normalized": 837.1320159702137,
+            "y_normalized": 334.70427839685266
           },
           {
-            "x_normalized": 463.2352941176471,
-            "y_normalized": 642.0454545454546
-          },
-          {
-            "x_normalized": 484.0686274509804,
-            "y_normalized": 645.8333333333334
+            "x_normalized": 835.5714113280344,
+            "y_normalized": 337.09648215634104
           }
         ],
         "confidence": 1.0,
@@ -3641,12 +3661,12 @@
         "id": "corridor-238",
         "points": [
           {
-            "x_normalized": 459.55882352941177,
-            "y_normalized": 636.3636363636364
+            "x_normalized": 398.60211151786683,
+            "y_normalized": 499.76633780155294
           },
           {
-            "x_normalized": 458.3333333333333,
-            "y_normalized": 636.3636363636364
+            "x_normalized": 397.0415068756877,
+            "y_normalized": 502.1585415610413
           }
         ],
         "confidence": 1.0,
@@ -3656,12 +3676,12 @@
         "id": "corridor-239",
         "points": [
           {
-            "x_normalized": 643.3823529411765,
-            "y_normalized": 335.2272727272727
+            "x_normalized": 476.63234362682533,
+            "y_normalized": 530.8649866749023
           },
           {
-            "x_normalized": 643.3823529411765,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 476.63234362682533,
+            "y_normalized": 528.4727829154139
           }
         ],
         "confidence": 1.0,
@@ -3671,12 +3691,12 @@
         "id": "corridor-240",
         "points": [
           {
-            "x_normalized": 488.9705882352941,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 476.63234362682533,
+            "y_normalized": 530.8649866749023
           },
           {
-            "x_normalized": 488.9705882352941,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 475.0717389846462,
+            "y_normalized": 530.8649866749023
           }
         ],
         "confidence": 1.0,
@@ -3686,12 +3706,12 @@
         "id": "corridor-241",
         "points": [
           {
-            "x_normalized": 264.70588235294116,
-            "y_normalized": 481.06060606060606
+            "x_normalized": 347.1021583259542,
+            "y_normalized": 514.1195603584833
           },
           {
-            "x_normalized": 265.9313725490196,
-            "y_normalized": 479.1666666666667
+            "x_normalized": 348.6627629681334,
+            "y_normalized": 511.727356598995
           }
         ],
         "confidence": 1.0,
@@ -3701,12 +3721,12 @@
         "id": "corridor-242",
         "points": [
           {
-            "x_normalized": 264.70588235294116,
-            "y_normalized": 481.06060606060606
+            "x_normalized": 347.1021583259542,
+            "y_normalized": 514.1195603584833
           },
           {
-            "x_normalized": 263.48039215686276,
-            "y_normalized": 481.06060606060606
+            "x_normalized": 348.6627629681334,
+            "y_normalized": 514.1195603584833
           }
         ],
         "confidence": 1.0,
@@ -3716,12 +3736,12 @@
         "id": "corridor-243",
         "points": [
           {
-            "x_normalized": 267.156862745098,
-            "y_normalized": 475.3787878787879
+            "x_normalized": 404.8445300865835,
+            "y_normalized": 428.0002250169007
           },
           {
-            "x_normalized": 268.38235294117646,
-            "y_normalized": 473.4848484848485
+            "x_normalized": 406.4051347287627,
+            "y_normalized": 430.39242877638907
           }
         ],
         "confidence": 1.0,
@@ -3731,12 +3751,12 @@
         "id": "corridor-244",
         "points": [
           {
-            "x_normalized": 267.156862745098,
-            "y_normalized": 475.3787878787879
+            "x_normalized": 261.26890300609983,
+            "y_normalized": 535.6493941938792
           },
           {
-            "x_normalized": 265.9313725490196,
-            "y_normalized": 477.2727272727273
+            "x_normalized": 262.829507648279,
+            "y_normalized": 533.2571904343907
           }
         ],
         "confidence": 1.0,
@@ -3746,12 +3766,12 @@
         "id": "corridor-245",
         "points": [
           {
-            "x_normalized": 265.9313725490196,
-            "y_normalized": 479.1666666666667
+            "x_normalized": 261.26890300609983,
+            "y_normalized": 535.6493941938792
           },
           {
-            "x_normalized": 265.9313725490196,
-            "y_normalized": 477.2727272727273
+            "x_normalized": 259.70829836392073,
+            "y_normalized": 538.0415979533675
           }
         ],
         "confidence": 1.0,
@@ -3761,12 +3781,12 @@
         "id": "corridor-246",
         "points": [
           {
-            "x_normalized": 485.29411764705884,
-            "y_normalized": 643.9393939393939
+            "x_normalized": 261.26890300609983,
+            "y_normalized": 535.6493941938792
           },
           {
-            "x_normalized": 486.51960784313724,
-            "y_normalized": 642.0454545454546
+            "x_normalized": 259.70829836392073,
+            "y_normalized": 535.6493941938792
           }
         ],
         "confidence": 1.0,
@@ -3776,12 +3796,12 @@
         "id": "corridor-247",
         "points": [
           {
-            "x_normalized": 485.29411764705884,
-            "y_normalized": 643.9393939393939
+            "x_normalized": 262.829507648279,
+            "y_normalized": 533.2571904343907
           },
           {
-            "x_normalized": 484.0686274509804,
-            "y_normalized": 645.8333333333334
+            "x_normalized": 262.829507648279,
+            "y_normalized": 530.8649866749023
           }
         ],
         "confidence": 1.0,
@@ -3791,12 +3811,12 @@
         "id": "corridor-248",
         "points": [
           {
-            "x_normalized": 876.2254901960785,
-            "y_normalized": 534.090909090909
+            "x_normalized": 464.147506489392,
+            "y_normalized": 542.8260054723443
           },
           {
-            "x_normalized": 876.2254901960785,
-            "y_normalized": 335.2272727272727
+            "x_normalized": 465.7081111315712,
+            "y_normalized": 540.4338017128559
           }
         ],
         "confidence": 1.0,
@@ -3806,12 +3826,12 @@
         "id": "corridor-249",
         "points": [
           {
-            "x_normalized": 486.51960784313724,
-            "y_normalized": 642.0454545454546
+            "x_normalized": 464.147506489392,
+            "y_normalized": 542.8260054723443
           },
           {
-            "x_normalized": 487.7450980392157,
-            "y_normalized": 642.0454545454546
+            "x_normalized": 465.7081111315712,
+            "y_normalized": 542.8260054723443
           }
         ],
         "confidence": 1.0,
@@ -3821,12 +3841,12 @@
         "id": "corridor-250",
         "points": [
           {
-            "x_normalized": 443.62745098039215,
-            "y_normalized": 375.0
+            "x_normalized": 464.147506489392,
+            "y_normalized": 542.8260054723443
           },
           {
-            "x_normalized": 444.85294117647055,
-            "y_normalized": 376.8939393939394
+            "x_normalized": 464.147506489392,
+            "y_normalized": 545.2182092318327
           }
         ],
         "confidence": 1.0,
@@ -3836,12 +3856,12 @@
         "id": "corridor-251",
         "points": [
           {
-            "x_normalized": 93.13725490196079,
-            "y_normalized": 558.7121212121212
+            "x_normalized": 471.95052970028786,
+            "y_normalized": 533.2571904343907
           },
           {
-            "x_normalized": 91.91176470588236,
-            "y_normalized": 560.6060606060605
+            "x_normalized": 470.38992505810864,
+            "y_normalized": 535.6493941938792
           }
         ],
         "confidence": 1.0,
@@ -3851,12 +3871,12 @@
         "id": "corridor-252",
         "points": [
           {
-            "x_normalized": 93.13725490196079,
-            "y_normalized": 558.7121212121212
+            "x_normalized": 471.95052970028786,
+            "y_normalized": 533.2571904343907
           },
           {
-            "x_normalized": 91.91176470588236,
-            "y_normalized": 560.6060606060605
+            "x_normalized": 470.38992505810864,
+            "y_normalized": 533.2571904343907
           }
         ],
         "confidence": 1.0,
@@ -3866,12 +3886,12 @@
         "id": "corridor-253",
         "points": [
           {
-            "x_normalized": 491.42156862745094,
-            "y_normalized": 520.8333333333334
+            "x_normalized": 874.5865273825136,
+            "y_normalized": 349.05750095378306
           },
           {
-            "x_normalized": 491.42156862745094,
-            "y_normalized": 518.9393939393939
+            "x_normalized": 876.1471320246927,
+            "y_normalized": 349.05750095378306
           }
         ],
         "confidence": 1.0,
@@ -3881,12 +3901,12 @@
         "id": "corridor-254",
         "points": [
           {
-            "x_normalized": 491.42156862745094,
-            "y_normalized": 520.8333333333334
+            "x_normalized": 212.89015909854558,
+            "y_normalized": 542.8260054723443
           },
           {
-            "x_normalized": 490.19607843137254,
-            "y_normalized": 520.8333333333334
+            "x_normalized": 214.45076374072474,
+            "y_normalized": 542.8260054723443
           }
         ],
         "confidence": 1.0,
@@ -3896,12 +3916,12 @@
         "id": "corridor-255",
         "points": [
           {
-            "x_normalized": 460.78431372549016,
-            "y_normalized": 378.7878787878788
+            "x_normalized": 212.89015909854558,
+            "y_normalized": 542.8260054723443
           },
           {
-            "x_normalized": 462.0098039215687,
-            "y_normalized": 378.7878787878788
+            "x_normalized": 211.32955445636642,
+            "y_normalized": 542.8260054723443
           }
         ],
         "confidence": 1.0,
@@ -3911,12 +3931,12 @@
         "id": "corridor-256",
         "points": [
           {
-            "x_normalized": 210.7843137254902,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 834.0108066858554,
+            "y_normalized": 588.2778769026241
           },
           {
-            "x_normalized": 210.7843137254902,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 835.5714113280344,
+            "y_normalized": 590.6700806621125
           }
         ],
         "confidence": 1.0,
@@ -3926,12 +3946,12 @@
         "id": "corridor-257",
         "points": [
           {
-            "x_normalized": 523.2843137254903,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 834.0108066858554,
+            "y_normalized": 588.2778769026241
           },
           {
-            "x_normalized": 523.2843137254903,
-            "y_normalized": 535.9848484848485
+            "x_normalized": 835.5714113280344,
+            "y_normalized": 590.6700806621125
           }
         ],
         "confidence": 1.0,
@@ -3941,12 +3961,12 @@
         "id": "corridor-258",
         "points": [
           {
-            "x_normalized": 488.9705882352941,
-            "y_normalized": 524.6212121212121
+            "x_normalized": 397.0415068756877,
+            "y_normalized": 502.1585415610413
           },
           {
-            "x_normalized": 488.9705882352941,
-            "y_normalized": 522.7272727272727
+            "x_normalized": 395.48090223350846,
+            "y_normalized": 504.5507453205298
           }
         ],
         "confidence": 1.0,
@@ -3956,12 +3976,12 @@
         "id": "corridor-259",
         "points": [
           {
-            "x_normalized": 492.64705882352945,
-            "y_normalized": 412.8787878787879
+            "x_normalized": 482.874762195542,
+            "y_normalized": 502.1585415610413
           },
           {
-            "x_normalized": 492.64705882352945,
-            "y_normalized": 410.9848484848485
+            "x_normalized": 482.874762195542,
+            "y_normalized": 504.5507453205298
           }
         ],
         "confidence": 1.0,
@@ -3971,12 +3991,12 @@
         "id": "corridor-260",
         "points": [
           {
-            "x_normalized": 877.4509803921569,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 827.7683881171387,
+            "y_normalized": 294.0368144855497
           },
           {
-            "x_normalized": 876.2254901960785,
-            "y_normalized": 335.2272727272727
+            "x_normalized": 829.3289927593177,
+            "y_normalized": 294.0368144855497
           }
         ],
         "confidence": 1.0,
@@ -3986,12 +4006,12 @@
         "id": "corridor-261",
         "points": [
           {
-            "x_normalized": 876.2254901960785,
-            "y_normalized": 335.2272727272727
+            "x_normalized": 259.70829836392073,
+            "y_normalized": 538.0415979533675
           },
           {
-            "x_normalized": 875.0,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 259.70829836392073,
+            "y_normalized": 535.6493941938792
           }
         ],
         "confidence": 1.0,
@@ -4001,12 +4021,12 @@
         "id": "corridor-262",
         "points": [
           {
-            "x_normalized": 455.88235294117646,
-            "y_normalized": 594.6969696969697
+            "x_normalized": 468.8293204159295,
+            "y_normalized": 538.0415979533675
           },
           {
-            "x_normalized": 457.10784313725486,
-            "y_normalized": 596.590909090909
+            "x_normalized": 470.38992505810864,
+            "y_normalized": 535.6493941938792
           }
         ],
         "confidence": 1.0,
@@ -4016,20 +4036,12 @@
         "id": "corridor-263",
         "points": [
           {
-            "x_normalized": 455.88235294117646,
-            "y_normalized": 594.6969696969697
+            "x_normalized": 468.8293204159295,
+            "y_normalized": 538.0415979533675
           },
           {
-            "x_normalized": 444.85294117647055,
-            "y_normalized": 583.3333333333334
-          },
-          {
-            "x_normalized": 437.5,
-            "y_normalized": 568.1818181818182
-          },
-          {
-            "x_normalized": 436.27450980392155,
-            "y_normalized": 530.3030303030303
+            "x_normalized": 467.26871577375033,
+            "y_normalized": 540.4338017128559
           }
         ],
         "confidence": 1.0,
@@ -4039,12 +4051,12 @@
         "id": "corridor-264",
         "points": [
           {
-            "x_normalized": 270.8333333333333,
-            "y_normalized": 469.69696969696975
+            "x_normalized": 468.8293204159295,
+            "y_normalized": 538.0415979533675
           },
           {
-            "x_normalized": 272.05882352941177,
-            "y_normalized": 469.69696969696975
+            "x_normalized": 467.26871577375033,
+            "y_normalized": 538.0415979533675
           }
         ],
         "confidence": 1.0,
@@ -4054,12 +4066,12 @@
         "id": "corridor-265",
         "points": [
           {
-            "x_normalized": 846.813725490196,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 470.38992505810864,
+            "y_normalized": 535.6493941938792
           },
           {
-            "x_normalized": 875.0,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 470.38992505810864,
+            "y_normalized": 533.2571904343907
           }
         ],
         "confidence": 1.0,
@@ -4069,12 +4081,12 @@
         "id": "corridor-266",
         "points": [
           {
-            "x_normalized": 436.27450980392155,
-            "y_normalized": 530.3030303030303
+            "x_normalized": 393.92029759132936,
+            "y_normalized": 506.94294908001825
           },
           {
-            "x_normalized": 437.5,
-            "y_normalized": 528.409090909091
+            "x_normalized": 395.48090223350846,
+            "y_normalized": 504.5507453205298
           }
         ],
         "confidence": 1.0,
@@ -4084,12 +4096,12 @@
         "id": "corridor-267",
         "points": [
           {
-            "x_normalized": 605.3921568627451,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 393.92029759132936,
+            "y_normalized": 506.94294908001825
           },
           {
-            "x_normalized": 604.1666666666666,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 395.48090223350846,
+            "y_normalized": 506.94294908001825
           }
         ],
         "confidence": 1.0,
@@ -4099,12 +4111,12 @@
         "id": "corridor-268",
         "points": [
           {
-            "x_normalized": 805.1470588235294,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 393.92029759132936,
+            "y_normalized": 506.94294908001825
           },
           {
-            "x_normalized": 806.3725490196078,
-            "y_normalized": 335.2272727272727
+            "x_normalized": 392.3596929491502,
+            "y_normalized": 509.3351528395066
           }
         ],
         "confidence": 1.0,
@@ -4114,12 +4126,12 @@
         "id": "corridor-269",
         "points": [
           {
-            "x_normalized": 807.5980392156863,
-            "y_normalized": 333.3333333333333
+            "x_normalized": 395.48090223350846,
+            "y_normalized": 504.5507453205298
           },
           {
-            "x_normalized": 806.3725490196078,
-            "y_normalized": 335.2272727272727
+            "x_normalized": 395.48090223350846,
+            "y_normalized": 506.94294908001825
           }
         ],
         "confidence": 1.0,
@@ -4129,12 +4141,12 @@
         "id": "corridor-270",
         "points": [
           {
-            "x_normalized": 491.42156862745094,
-            "y_normalized": 518.9393939393939
+            "x_normalized": 479.7535529111837,
+            "y_normalized": 506.94294908001825
           },
           {
-            "x_normalized": 490.19607843137254,
-            "y_normalized": 520.8333333333334
+            "x_normalized": 481.31415755336286,
+            "y_normalized": 506.94294908001825
           }
         ],
         "confidence": 1.0,
@@ -4144,12 +4156,12 @@
         "id": "corridor-271",
         "points": [
           {
-            "x_normalized": 488.9705882352941,
-            "y_normalized": 522.7272727272727
+            "x_normalized": 457.9050879206754,
+            "y_normalized": 466.2754851687152
           },
           {
-            "x_normalized": 490.19607843137254,
-            "y_normalized": 520.8333333333334
+            "x_normalized": 456.34448327849606,
+            "y_normalized": 466.2754851687152
           }
         ],
         "confidence": 1.0,
@@ -4159,12 +4171,12 @@
         "id": "corridor-272",
         "points": [
           {
-            "x_normalized": 93.13725490196079,
-            "y_normalized": 537.8787878787879
+            "x_normalized": 406.4051347287627,
+            "y_normalized": 480.6287077256457
           },
           {
-            "x_normalized": 93.13725490196079,
-            "y_normalized": 558.7121212121212
+            "x_normalized": 406.4051347287627,
+            "y_normalized": 478.2365039661573
           }
         ],
         "confidence": 1.0,
@@ -4174,24 +4186,12 @@
         "id": "corridor-273",
         "points": [
           {
-            "x_normalized": 437.5,
-            "y_normalized": 568.1818181818182
+            "x_normalized": 406.4051347287627,
+            "y_normalized": 480.6287077256457
           },
           {
-            "x_normalized": 446.07843137254906,
-            "y_normalized": 651.5151515151515
-          },
-          {
-            "x_normalized": 441.1764705882353,
-            "y_normalized": 659.090909090909
-          },
-          {
-            "x_normalized": 421.5686274509804,
-            "y_normalized": 659.090909090909
-          },
-          {
-            "x_normalized": 421.5686274509804,
-            "y_normalized": 575.7575757575758
+            "x_normalized": 406.4051347287627,
+            "y_normalized": 483.02091148513404
           }
         ],
         "confidence": 1.0,
@@ -4201,20 +4201,12 @@
         "id": "corridor-274",
         "points": [
           {
-            "x_normalized": 269.60784313725486,
-            "y_normalized": 534.090909090909
+            "x_normalized": 350.2233676103126,
+            "y_normalized": 511.727356598995
           },
           {
-            "x_normalized": 254.9019607843137,
-            "y_normalized": 530.3030303030303
-          },
-          {
-            "x_normalized": 254.9019607843137,
-            "y_normalized": 515.1515151515151
-          },
-          {
-            "x_normalized": 269.60784313725486,
-            "y_normalized": 498.1060606060606
+            "x_normalized": 390.79908830697104,
+            "y_normalized": 511.727356598995
           }
         ],
         "confidence": 1.0,
@@ -4224,16 +4216,12 @@
         "id": "corridor-275",
         "points": [
           {
-            "x_normalized": 427.69607843137254,
-            "y_normalized": 412.8787878787879
+            "x_normalized": 350.2233676103126,
+            "y_normalized": 511.727356598995
           },
           {
-            "x_normalized": 416.6666666666667,
-            "y_normalized": 393.93939393939394
-          },
-          {
-            "x_normalized": 414.21568627450984,
-            "y_normalized": 378.7878787878788
+            "x_normalized": 348.6627629681334,
+            "y_normalized": 514.1195603584833
           }
         ],
         "confidence": 1.0,
@@ -4243,12 +4231,12 @@
         "id": "corridor-276",
         "points": [
           {
-            "x_normalized": 493.87254901960785,
-            "y_normalized": 329.5454545454545
+            "x_normalized": 350.2233676103126,
+            "y_normalized": 511.727356598995
           },
           {
-            "x_normalized": 468.1372549019608,
-            "y_normalized": 321.96969696969694
+            "x_normalized": 348.6627629681334,
+            "y_normalized": 511.727356598995
           }
         ],
         "confidence": 1.0,
@@ -4258,12 +4246,1067 @@
         "id": "corridor-277",
         "points": [
           {
-            "x_normalized": 415.44117647058823,
-            "y_normalized": 375.0
+            "x_normalized": 876.1471320246927,
+            "y_normalized": 540.4338017128559
           },
           {
-            "x_normalized": 443.62745098039215,
-            "y_normalized": 375.0
+            "x_normalized": 877.7077366668722,
+            "y_normalized": 538.0415979533675
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-278",
+        "points": [
+          {
+            "x_normalized": 876.1471320246927,
+            "y_normalized": 540.4338017128559
+          },
+          {
+            "x_normalized": 877.7077366668722,
+            "y_normalized": 538.0415979533675
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-279",
+        "points": [
+          {
+            "x_normalized": 876.1471320246927,
+            "y_normalized": 540.4338017128559
+          },
+          {
+            "x_normalized": 863.6622948872595,
+            "y_normalized": 542.8260054723443
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-280",
+        "points": [
+          {
+            "x_normalized": 467.26871577375033,
+            "y_normalized": 540.4338017128559
+          },
+          {
+            "x_normalized": 467.26871577375033,
+            "y_normalized": 538.0415979533675
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-281",
+        "points": [
+          {
+            "x_normalized": 467.26871577375033,
+            "y_normalized": 540.4338017128559
+          },
+          {
+            "x_normalized": 465.7081111315712,
+            "y_normalized": 542.8260054723443
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-282",
+        "points": [
+          {
+            "x_normalized": 467.26871577375033,
+            "y_normalized": 540.4338017128559
+          },
+          {
+            "x_normalized": 465.7081111315712,
+            "y_normalized": 540.4338017128559
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-283",
+        "points": [
+          {
+            "x_normalized": 598.3595057168006,
+            "y_normalized": 341.8808896753179
+          },
+          {
+            "x_normalized": 598.3595057168006,
+            "y_normalized": 339.4886859158295
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-284",
+        "points": [
+          {
+            "x_normalized": 598.3595057168006,
+            "y_normalized": 341.8808896753179
+          },
+          {
+            "x_normalized": 596.7989010746214,
+            "y_normalized": 341.8808896753179
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-285",
+        "points": [
+          {
+            "x_normalized": 877.7077366668722,
+            "y_normalized": 346.66529719429474
+          },
+          {
+            "x_normalized": 879.2683413090512,
+            "y_normalized": 344.2730934348063
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-286",
+        "points": [
+          {
+            "x_normalized": 877.7077366668722,
+            "y_normalized": 346.66529719429474
+          },
+          {
+            "x_normalized": 876.1471320246927,
+            "y_normalized": 349.05750095378306
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-287",
+        "points": [
+          {
+            "x_normalized": 98.96602021946617,
+            "y_normalized": 585.8856731431357
+          },
+          {
+            "x_normalized": 98.96602021946617,
+            "y_normalized": 588.2778769026241
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-288",
+        "points": [
+          {
+            "x_normalized": 98.96602021946617,
+            "y_normalized": 585.8856731431357
+          },
+          {
+            "x_normalized": 97.405415577287,
+            "y_normalized": 585.8856731431357
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-289",
+        "points": [
+          {
+            "x_normalized": 412.6475532974793,
+            "y_normalized": 430.39242877638907
+          },
+          {
+            "x_normalized": 414.20815793965846,
+            "y_normalized": 430.39242877638907
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-290",
+        "points": [
+          {
+            "x_normalized": 412.6475532974793,
+            "y_normalized": 430.39242877638907
+          },
+          {
+            "x_normalized": 412.6475532974793,
+            "y_normalized": 432.78463253587745
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-291",
+        "points": [
+          {
+            "x_normalized": 116.13267128343703,
+            "y_normalized": 585.8856731431357
+          },
+          {
+            "x_normalized": 117.6932759256162,
+            "y_normalized": 550.0026167508096
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-292",
+        "points": [
+          {
+            "x_normalized": 824.6471788327804,
+            "y_normalized": 291.6446107260613
+          },
+          {
+            "x_normalized": 791.8744813470178,
+            "y_normalized": 291.6446107260613
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-293",
+        "points": [
+          {
+            "x_normalized": 348.6627629681334,
+            "y_normalized": 514.1195603584833
+          },
+          {
+            "x_normalized": 348.6627629681334,
+            "y_normalized": 511.727356598995
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-294",
+        "points": [
+          {
+            "x_normalized": 431.3748090036294,
+            "y_normalized": 521.2961716369487
+          },
+          {
+            "x_normalized": 432.9354136458086,
+            "y_normalized": 521.2961716369487
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-295",
+        "points": [
+          {
+            "x_normalized": 407.96573937094183,
+            "y_normalized": 475.8443002066688
+          },
+          {
+            "x_normalized": 409.526344013121,
+            "y_normalized": 435.1768362953659
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-296",
+        "points": [
+          {
+            "x_normalized": 439.17783221452527,
+            "y_normalized": 511.727356598995
+          },
+          {
+            "x_normalized": 437.6172275723461,
+            "y_normalized": 514.1195603584833
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-297",
+        "points": [
+          {
+            "x_normalized": 439.17783221452527,
+            "y_normalized": 511.727356598995
+          },
+          {
+            "x_normalized": 437.6172275723461,
+            "y_normalized": 511.727356598995
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-298",
+        "points": [
+          {
+            "x_normalized": 465.7081111315712,
+            "y_normalized": 542.8260054723443
+          },
+          {
+            "x_normalized": 465.7081111315712,
+            "y_normalized": 540.4338017128559
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-299",
+        "points": [
+          {
+            "x_normalized": 465.7081111315712,
+            "y_normalized": 542.8260054723443
+          },
+          {
+            "x_normalized": 464.147506489392,
+            "y_normalized": 545.2182092318327
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-300",
+        "points": [
+          {
+            "x_normalized": 854.2986670341846,
+            "y_normalized": 593.0622844216009
+          },
+          {
+            "x_normalized": 854.2986670341846,
+            "y_normalized": 590.6700806621125
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-301",
+        "points": [
+          {
+            "x_normalized": 409.526344013121,
+            "y_normalized": 435.1768362953659
+          },
+          {
+            "x_normalized": 409.526344013121,
+            "y_normalized": 432.78463253587745
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-302",
+        "points": [
+          {
+            "x_normalized": 863.6622948872595,
+            "y_normalized": 542.8260054723443
+          },
+          {
+            "x_normalized": 862.1016902450804,
+            "y_normalized": 545.2182092318327
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-303",
+        "points": [
+          {
+            "x_normalized": 116.13267128343703,
+            "y_normalized": 547.6104129913211
+          },
+          {
+            "x_normalized": 117.6932759256162,
+            "y_normalized": 550.0026167508096
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-304",
+        "points": [
+          {
+            "x_normalized": 437.6172275723461,
+            "y_normalized": 514.1195603584833
+          },
+          {
+            "x_normalized": 437.6172275723461,
+            "y_normalized": 511.727356598995
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-305",
+        "points": [
+          {
+            "x_normalized": 269.07192621699573,
+            "y_normalized": 521.2961716369487
+          },
+          {
+            "x_normalized": 270.6325308591749,
+            "y_normalized": 521.2961716369487
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-306",
+        "points": [
+          {
+            "x_normalized": 269.07192621699573,
+            "y_normalized": 521.2961716369487
+          },
+          {
+            "x_normalized": 267.5113215748165,
+            "y_normalized": 523.6883753964371
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-307",
+        "points": [
+          {
+            "x_normalized": 415.7687625818376,
+            "y_normalized": 428.0002250169007
+          },
+          {
+            "x_normalized": 414.20815793965846,
+            "y_normalized": 430.39242877638907
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-308",
+        "points": [
+          {
+            "x_normalized": 117.6932759256162,
+            "y_normalized": 550.0026167508096
+          },
+          {
+            "x_normalized": 119.25388056779538,
+            "y_normalized": 547.6104129913211
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-309",
+        "points": [
+          {
+            "x_normalized": 119.25388056779538,
+            "y_normalized": 547.6104129913211
+          },
+          {
+            "x_normalized": 130.17811306304958,
+            "y_normalized": 542.8260054723443
+          },
+          {
+            "x_normalized": 211.32955445636642,
+            "y_normalized": 542.8260054723443
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-310",
+        "points": [
+          {
+            "x_normalized": 830.889597401497,
+            "y_normalized": 296.42901824503815
+          },
+          {
+            "x_normalized": 832.4502020436761,
+            "y_normalized": 298.8212220045265
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-311",
+        "points": [
+          {
+            "x_normalized": 830.889597401497,
+            "y_normalized": 296.42901824503815
+          },
+          {
+            "x_normalized": 829.3289927593177,
+            "y_normalized": 294.0368144855497
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-312",
+        "points": [
+          {
+            "x_normalized": 434.49601828798774,
+            "y_normalized": 518.9039678774603
+          },
+          {
+            "x_normalized": 432.9354136458086,
+            "y_normalized": 521.2961716369487
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-313",
+        "points": [
+          {
+            "x_normalized": 426.6929950770919,
+            "y_normalized": 418.43140997894704
+          },
+          {
+            "x_normalized": 425.13239043491274,
+            "y_normalized": 420.8236137384354
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-314",
+        "points": [
+          {
+            "x_normalized": 885.5107598777679,
+            "y_normalized": 523.6883753964371
+          },
+          {
+            "x_normalized": 883.9501552355888,
+            "y_normalized": 526.0805791559254
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-315",
+        "points": [
+          {
+            "x_normalized": 275.31434478571236,
+            "y_normalized": 514.1195603584833
+          },
+          {
+            "x_normalized": 273.7537401435332,
+            "y_normalized": 516.5117641179719
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-316",
+        "points": [
+          {
+            "x_normalized": 414.20815793965846,
+            "y_normalized": 430.39242877638907
+          },
+          {
+            "x_normalized": 412.6475532974793,
+            "y_normalized": 432.78463253587745
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-317",
+        "points": [
+          {
+            "x_normalized": 882.3895505934097,
+            "y_normalized": 530.8649866749023
+          },
+          {
+            "x_normalized": 880.8289459512303,
+            "y_normalized": 533.2571904343907
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-318",
+        "points": [
+          {
+            "x_normalized": 114.57206664125786,
+            "y_normalized": 593.0622844216009
+          },
+          {
+            "x_normalized": 113.0114619990787,
+            "y_normalized": 590.6700806621125
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-319",
+        "points": [
+          {
+            "x_normalized": 879.2683413090512,
+            "y_normalized": 535.6493941938792
+          },
+          {
+            "x_normalized": 880.8289459512303,
+            "y_normalized": 533.2571904343907
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-320",
+        "points": [
+          {
+            "x_normalized": 879.2683413090512,
+            "y_normalized": 535.6493941938792
+          },
+          {
+            "x_normalized": 877.7077366668722,
+            "y_normalized": 538.0415979533675
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-321",
+        "points": [
+          {
+            "x_normalized": 264.39011229045815,
+            "y_normalized": 528.4727829154139
+          },
+          {
+            "x_normalized": 262.829507648279,
+            "y_normalized": 530.8649866749023
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-322",
+        "points": [
+          {
+            "x_normalized": 272.19313550135405,
+            "y_normalized": 518.9039678774603
+          },
+          {
+            "x_normalized": 273.7537401435332,
+            "y_normalized": 516.5117641179719
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-323",
+        "points": [
+          {
+            "x_normalized": 272.19313550135405,
+            "y_normalized": 518.9039678774603
+          },
+          {
+            "x_normalized": 270.6325308591749,
+            "y_normalized": 521.2961716369487
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-324",
+        "points": [
+          {
+            "x_normalized": 333.05671654634165,
+            "y_normalized": 389.72496486508606
+          },
+          {
+            "x_normalized": 345.541553683775,
+            "y_normalized": 396.9015761435513
+          },
+          {
+            "x_normalized": 379.87485581171677,
+            "y_normalized": 396.9015761435513
+          },
+          {
+            "x_normalized": 393.92029759132936,
+            "y_normalized": 420.8236137384354
+          },
+          {
+            "x_normalized": 403.28392544440436,
+            "y_normalized": 428.0002250169007
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-325",
+        "points": [
+          {
+            "x_normalized": 841.8138298967514,
+            "y_normalized": 337.09648215634104
+          },
+          {
+            "x_normalized": 843.3744345389304,
+            "y_normalized": 339.4886859158295
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-326",
+        "points": [
+          {
+            "x_normalized": 476.63234362682533,
+            "y_normalized": 528.4727829154139
+          },
+          {
+            "x_normalized": 479.7535529111837,
+            "y_normalized": 521.2961716369487
+          },
+          {
+            "x_normalized": 479.7535529111837,
+            "y_normalized": 509.3351528395066
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-327",
+        "points": [
+          {
+            "x_normalized": 476.63234362682533,
+            "y_normalized": 528.4727829154139
+          },
+          {
+            "x_normalized": 475.0717389846462,
+            "y_normalized": 530.8649866749023
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-328",
+        "points": [
+          {
+            "x_normalized": 390.79908830697104,
+            "y_normalized": 511.727356598995
+          },
+          {
+            "x_normalized": 392.3596929491502,
+            "y_normalized": 509.3351528395066
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-329",
+        "points": [
+          {
+            "x_normalized": 860.5410856029014,
+            "y_normalized": 542.8260054723443
+          },
+          {
+            "x_normalized": 862.1016902450804,
+            "y_normalized": 545.2182092318327
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-330",
+        "points": [
+          {
+            "x_normalized": 467.26871577375033,
+            "y_normalized": 538.0415979533675
+          },
+          {
+            "x_normalized": 465.7081111315712,
+            "y_normalized": 540.4338017128559
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-331",
+        "points": [
+          {
+            "x_normalized": 598.3595057168006,
+            "y_normalized": 339.4886859158295
+          },
+          {
+            "x_normalized": 596.7989010746214,
+            "y_normalized": 341.8808896753179
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-332",
+        "points": [
+          {
+            "x_normalized": 596.7989010746214,
+            "y_normalized": 341.8808896753179
+          },
+          {
+            "x_normalized": 496.9202039751545,
+            "y_normalized": 341.8808896753179
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-333",
+        "points": [
+          {
+            "x_normalized": 97.405415577287,
+            "y_normalized": 585.8856731431357
+          },
+          {
+            "x_normalized": 98.96602021946617,
+            "y_normalized": 588.2778769026241
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-334",
+        "points": [
+          {
+            "x_normalized": 265.9507169326373,
+            "y_normalized": 528.4727829154139
+          },
+          {
+            "x_normalized": 264.70588235294116,
+            "y_normalized": 530.3030303030303
+          },
+          {
+            "x_normalized": 265.9507169326373,
+            "y_normalized": 526.0805791559254
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-335",
+        "points": [
+          {
+            "x_normalized": 404.8445300865835,
+            "y_normalized": 428.0002250169007
+          },
+          {
+            "x_normalized": 403.28392544440436,
+            "y_normalized": 428.0002250169007
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-336",
+        "points": [
+          {
+            "x_normalized": 406.4051347287627,
+            "y_normalized": 478.2365039661573
+          },
+          {
+            "x_normalized": 401.9607843137255,
+            "y_normalized": 477.2727272727273
+          },
+          {
+            "x_normalized": 406.8627450980392,
+            "y_normalized": 462.1212121212121
+          },
+          {
+            "x_normalized": 411.7647058823529,
+            "y_normalized": 469.69696969696975
+          },
+          {
+            "x_normalized": 407.96573937094183,
+            "y_normalized": 478.2365039661573
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-337",
+        "points": [
+          {
+            "x_normalized": 407.96573937094183,
+            "y_normalized": 432.78463253587745
+          },
+          {
+            "x_normalized": 406.4051347287627,
+            "y_normalized": 430.39242877638907
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-338",
+        "points": [
+          {
+            "x_normalized": 479.7535529111837,
+            "y_normalized": 509.3351528395066
+          },
+          {
+            "x_normalized": 475.4901960784313,
+            "y_normalized": 507.57575757575756
+          },
+          {
+            "x_normalized": 480.39215686274514,
+            "y_normalized": 500.0
+          },
+          {
+            "x_normalized": 481.31415755336286,
+            "y_normalized": 504.5507453205298
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-339",
+        "points": [
+          {
+            "x_normalized": 485.9959714799004,
+            "y_normalized": 494.9819302825761
+          },
+          {
+            "x_normalized": 490.19607843137254,
+            "y_normalized": 500.0
+          },
+          {
+            "x_normalized": 490.19607843137254,
+            "y_normalized": 507.57575757575756
+          },
+          {
+            "x_normalized": 475.4901960784313,
+            "y_normalized": 507.57575757575756
+          },
+          {
+            "x_normalized": 480.39215686274514,
+            "y_normalized": 500.0
+          },
+          {
+            "x_normalized": 482.874762195542,
+            "y_normalized": 502.1585415610413
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-340",
+        "points": [
+          {
+            "x_normalized": 885.5107598777679,
+            "y_normalized": 523.6883753964371
+          },
+          {
+            "x_normalized": 879.2683413090512,
+            "y_normalized": 506.94294908001825
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-341",
+        "points": [
+          {
+            "x_normalized": 464.147506489392,
+            "y_normalized": 545.2182092318327
+          },
+          {
+            "x_normalized": 446.07843137254906,
+            "y_normalized": 545.4545454545454
+          },
+          {
+            "x_normalized": 441.1764705882353,
+            "y_normalized": 553.030303030303
+          },
+          {
+            "x_normalized": 441.1764705882353,
+            "y_normalized": 568.1818181818182
+          },
+          {
+            "x_normalized": 468.8293204159295,
+            "y_normalized": 607.4155069785314
+          }
+        ],
+        "confidence": 1.0,
+        "barrier_notes": ""
+      },
+      {
+        "id": "corridor-342",
+        "points": [
+          {
+            "x_normalized": 333.05671654634165,
+            "y_normalized": 389.72496486508606
+          },
+          {
+            "x_normalized": 294.11764705882354,
+            "y_normalized": 439.3939393939394
+          },
+          {
+            "x_normalized": 269.60784313725486,
+            "y_normalized": 439.3939393939394
+          },
+          {
+            "x_normalized": 251.90527515302486,
+            "y_normalized": 454.31446637127317
           }
         ],
         "confidence": 1.0,

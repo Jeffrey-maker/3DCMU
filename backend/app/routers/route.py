@@ -108,6 +108,7 @@ def get_route(from_: str = Query(..., alias="from"), to: str = Query(...)):
                 "type": s.node.type,
                 "x": s.node.x,
                 "y": s.node.y,
+                "building": s.node.building,
                 "floor": s.node.floor,
             }
             for s in steps
