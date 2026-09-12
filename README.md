@@ -18,7 +18,7 @@ The same wall raster is closed and flood-filled to identify enclosed spaces whil
 
 Wean Level 4 additionally renders the validated passage model from the repository's `ybc` branch as a read-only reference snapshot. Its 818 passage segments, 142 doors, 136 door attachments, and exact stair/elevator nodes are layered into the 3D scene. The source branch is never modified; run `python3 tools/import_ybc_reference.py` while on `lyd` to refresh the derived snapshot from the local `origin/ybc` reference.
 
-The interface supports rotation, zoom, floor filtering, animated routes, stairs, elevators, and escalators. For standard trips, the planner compares the connector alternatives that are reachable through the mapped floor walkspace and recommends the lowest-cost route. Accessible trips use elevators only.
+The interface supports rotation, zoom, floor filtering, optional room-number overlays, animated routes, stairs, elevators, and escalators. The `Room numbers` checkbox shows or hides labels on the selected floor without hiding its room geometry. For standard trips, the planner compares the connector alternatives that are reachable through the mapped floor walkspace and recommends the lowest-cost route. Accessible trips use elevators only.
 
 Same-floor route segments are found with A* over a raster derived from the corresponding floor plan. A route fails closed when its room, connector, or bridge portal cannot be reached without crossing a detected wall. Floor changes can only use a modeled vertical connector, and every Scott-Wean trip is forced through the labeled Level 4 bridge portals.
 

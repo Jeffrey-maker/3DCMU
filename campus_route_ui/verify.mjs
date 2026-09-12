@@ -27,6 +27,12 @@ for(const [name,viewport] of Object.entries({phone:{width:390,height:844},deskto
   if(wallCount<100)throw new Error(`Expected recognized 3D walls, found ${wallCount}`);
   if(spaceCount<100)throw new Error(`Expected classified floor spaces, found ${spaceCount}`);
   if(referencePassageCount!==818)throw new Error(`Expected 818 ybc reference passages, found ${referencePassageCount}`);
+  await page.selectOption("#floor-filter","WEH-4");await page.waitForTimeout(100);
+  const visibleRoomLabels=()=>page.locator(".room-label").evaluateAll(elements=>elements.filter(element=>getComputedStyle(element).display!=="none").length);
+  if(await visibleRoomLabels()===0)throw new Error("Room numbers were not shown when enabled");
+  await page.setChecked("#room-numbers",false);await page.waitForTimeout(100);
+  if(await visibleRoomLabels()!==0)throw new Error("Room numbers remained visible after disabling them");
+  await page.setChecked("#room-numbers",true);await page.selectOption("#floor-filter","all");
   if(name==="desktop"){
     await page.screenshot({path:"/tmp/campus-route-recognized-walls.png"});
     await page.selectOption("#floor-filter","WEH-4");
