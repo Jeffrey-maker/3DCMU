@@ -46,7 +46,14 @@
         <div class="examples"><button data-from="WEH-5222" data-to="WEH-5434">Wean L5</button><button data-from="SH-4N103" data-to="WEH-4325">Scott → Wean</button><button data-from="WEH-5130" data-to="WEH-4325">Level 5 → 4</button></div>
       </section>
 
-      <section id="result" class="directions" aria-live="polite"></section>
+      <section id="result" class="directions" aria-hidden="true">
+        <button id="sheet-handle" class="sheet-handle" type="button" aria-label="Expand route directions" aria-expanded="false">
+          <span class="sheet-grip" aria-hidden="true"></span>
+          <span>Route directions</span>
+          <span class="sheet-chevron" aria-hidden="true">⌃</span>
+        </button>
+        <div id="direction-content" class="direction-content" aria-live="polite"></div>
+      </section>
     </main>
   </div>
   <script type="module" src="./app.js"></script>

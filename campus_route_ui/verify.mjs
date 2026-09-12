@@ -20,6 +20,9 @@ for(const [name,viewport] of Object.entries({phone:{width:390,height:844},deskto
   await page.waitForSelector("canvas");
   await page.waitForTimeout(200);
   if(errors.length)throw new Error(`Browser initialization failed: ${errors.join("; ")}`);
+  const appFrame=await page.locator(".app").boundingBox();
+  if(Math.round(appFrame.width)!==390)throw new Error(`Expected a 390px phone frame, found ${appFrame.width}px at ${name} viewport`);
+  if(name==="desktop"&&Math.round(appFrame.height)!==844)throw new Error(`Expected an 844px phone frame on desktop, found ${appFrame.height}px`);
   const canvas=await page.locator("canvas").boundingBox();
   const roomCount=await page.locator("#room-options option").count();
   if(roomCount!==1262)throw new Error(`Expected 1262 mapped spaces, found ${roomCount}`);
@@ -42,7 +45,7 @@ for(const [name,viewport] of Object.entries({phone:{width:390,height:844},deskto
     await inspectionStyle.evaluate(element=>element.remove());
     await page.selectOption("#floor-filter","all");
   }
-  async function route(start,end,isAccessible=false){await page.fill("#from",start);await page.fill("#to",end);await page.setChecked("#accessible",isAccessible);await page.click("#go");await page.waitForFunction(()=>!document.querySelector("#go").disabled);return page.locator(".directions").textContent()}
+  async function route(start,end,isAccessible=false){if(await page.locator("#result.expanded").count())await page.click("#sheet-handle");await page.fill("#from",start);await page.fill("#to",end);await page.setChecked("#accessible",isAccessible);await page.click("#go");await page.waitForFunction(()=>!document.querySelector("#go").disabled);return page.locator(".directions").textContent()}
   const sameFloor=await route("Wean 5130","Wean 5434");
   if(!sameFloor.includes("Map walkspace"))throw new Error("Same-floor path did not use the plan raster");
   const standard=await route("Wean 5130","Wean 4325");
@@ -54,6 +57,11 @@ for(const [name,viewport] of Object.entries({phone:{width:390,height:844},deskto
   const multiFloorCrossBuilding=await route("Scott 3101","Wean 5130",true);
   if(!multiFloorCrossBuilding.includes("Bridge required")||!multiFloorCrossBuilding.includes("Take the elevator"))throw new Error("Multi-floor cross-building route bypassed a required connector");
   if(name==="phone")await route("Wean 5130","Wean 4325",true);await page.selectOption("#floor-filter","WEH-4");
+  await page.waitForTimeout(300);const sheet=page.locator("#result"),handle=page.locator("#sheet-handle"),sheetBox=await sheet.boundingBox(),handleBox=await handle.boundingBox();
+  await page.mouse.move(handleBox.x+handleBox.width/2,handleBox.y+handleBox.height/2);await page.mouse.down();await page.mouse.move(handleBox.x+handleBox.width/2,handleBox.y+sheetBox.height*.72,{steps:5});await page.mouse.up();await page.waitForTimeout(300);
+  if(await sheet.evaluate(element=>element.classList.contains("expanded")))throw new Error(`Directions sheet did not slide down at ${name} viewport`);
+  const collapsedHandleBox=await handle.boundingBox();await page.mouse.move(collapsedHandleBox.x+collapsedHandleBox.width/2,collapsedHandleBox.y+collapsedHandleBox.height/2);await page.mouse.down();await page.mouse.move(collapsedHandleBox.x+collapsedHandleBox.width/2,collapsedHandleBox.y-sheetBox.height*.72,{steps:5});await page.mouse.up();await page.waitForTimeout(300);
+  if(!await sheet.evaluate(element=>element.classList.contains("expanded")))throw new Error(`Directions sheet did not slide up at ${name} viewport`);
   await page.waitForTimeout(500);
   const heading=await page.locator(".route-head h2").textContent();
   const directions=await page.locator(".directions").textContent();
@@ -71,7 +79,7 @@ for(const [name,viewport] of Object.entries({phone:{width:390,height:844},deskto
   if(!pixels.nonzero||pixels.sampledColors<4)throw new Error(`Blank 3D canvas at ${name} viewport`);
   if(pixels.routePixels<50)throw new Error(`Expected a visible thick red route at ${name} viewport, found ${pixels.routePixels} red pixels`);
   await page.screenshot({path:`/tmp/campus-route-${name}-verified.png`,fullPage:true});
-  console.log(JSON.stringify({name,canvas,roomCount,wallCount,spaceCount,referencePassageCount,heading,standardMode,accessibleMode,pixels,errors}));
+  console.log(JSON.stringify({name,appFrame,canvas,roomCount,wallCount,spaceCount,referencePassageCount,heading,standardMode,accessibleMode,pixels,errors}));
 }
 await browser.close();
 if(server)await new Promise(resolve=>server.close(resolve));
